@@ -1,0 +1,27 @@
+# Mahdi
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = visigothic
+religion = shiite
+clear_scripted_personalities = yes
+capital = 1747
+1411.12.18 = {
+	monarch = {
+		name = "Mahdi"
+		birth_date = 1392.9.16
+		dynasty = "Mahdi"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = intricate_web_weaver_personality
+}
+1444.11.11 = {
+	capital = 1747
+	add_treasury = 55
+	add_prestige = 49
+}

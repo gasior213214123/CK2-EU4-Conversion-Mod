@@ -1,0 +1,151 @@
+# Warriors of Perun
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 100 140 100 }
+
+
+
+
+leader_names = {
+
+	"Utyayka" "Terentiy" "Ulyana" "Volodar" "Tatyana" "Olena" "Fedot" "Viacheslava" "Yaroslav" "Yaroslava" 
+	"Voislav" "Igor" "Pereyaslava" "Gradislava" "Yekaterina" "Ruslan" "Vladislav" "Trifon" "Vsevolod" "Dobrynia" 
+	"Veleslava" "Vyshata" "Dobroslava" "Sofia" "Fevronia" "Darya" "Sbyslava" "Sudislav" "Yaropolk" "Rostislava" 
+	"Yeremey" "Iliya" "Svetozar" "Zabava" "Radoslav" "Olga" "Yefimia" "Sviatoslav" "Sviatopolk" "Boleslava" 
+	"Malusha" "Nikita" "Vseslava" "Ulita" "Rostislav" "Vseslav" "Stanislav" "Pribislava" "Varvara" "Vladimir" 
+	"Lev" "Briachislav" "Putiata" "Premyslava" "Gorislava" "Praskovya" "Praxida" "Marina" "Jan" "Yefrosinia" 
+	"Mitrofan" "Malfrida" "Sviatoslava" "Zvenislava" "Markéta" "Predslava" "Mstislav" "Yevstafiy" "Viacheslav" "Rogneda" 
+	"Liubava" "Xenia" "Rodislav" "Yelisey" "Kirill" "Rassinus" "Wincenty" "Comes" "Vita" "Bavor" 
+	"Calenda" "Boleslaw" "Krzeslaw" "Afanasiy" "Borzywoj" "Rajmund" "Jauguttis" "Budo" "Andre" "Andreas" 
+	"Bisti" "Blaxius" "Clime" "Domagna" "Gaucoli" "Gauzoli" "Gervasius" "Giuco" "Give" "Jugno" 
+	"Juliano" "Junius" "Laurenzo" "Leonardus" "Loncho" "Lucarus" "Mare" "Marco" "Maroe" "Marinus" 
+	"Matheus" "Nale" "Nichiforus" "Nicola" "Pascalis" "Pasqualis" "Petragna" "Petrus" "Piero" "Perue" 
+	"Rusco" "Stane" "Thoma" "Tuone" "Vallius" }
+monarch_names = {
+	"Utyayka #0" = -1
+	"Terentiy #2" = 24
+	"Ulyana #0" = -1
+	"Volodar #0" = 1
+	"Tatyana #0" = -1
+	"Olena #0" = -1
+	"Fedot #0" = 1
+	"Viacheslava #0" = -1
+	"Yaroslav #0" = 1
+	"Yaroslava #0" = -1
+	"Voislav #0" = 1
+	"Igor #1" = 24
+	"Pereyaslava #0" = -1
+	"Gradislava #0" = -1
+	"Yekaterina #0" = -1
+	"Ruslan #0" = 1
+	"Vladislav #1" = 24
+	"Trifon #0" = 1
+	"Vsevolod #0" = 1
+	"Dobrynia #0" = 1
+	"Veleslava #0" = -1
+	"Vyshata #0" = 1
+	"Dobroslava #0" = -1
+	"Sofia #0" = -1
+	"Fevronia #0" = -1
+	"Darya #0" = -1
+	"Sbyslava #0" = -1
+	"Sudislav #0" = 1
+	"Yaropolk #0" = 1
+	"Rostislava #0" = -1
+	"Yeremey #0" = 1
+	"Iliya #0" = 1
+	"Svetozar #0" = 1
+	"Zabava #0" = -1
+	"Radoslav #0" = 1
+	"Olga #0" = -1
+	"Yefimia #0" = -1
+	"Sviatoslav #1" = 30
+	"Sviatopolk #1" = 27
+	"Boleslava #0" = -1
+	"Malusha #0" = -1
+	"Nikita #0" = 1
+	"Vseslava #0" = -1
+	"Ulita #0" = -1
+	"Rostislav #0" = 1
+	"Vseslav #0" = 1
+	"Stanislav #0" = 1
+	"Pribislava #0" = -1
+	"Varvara #0" = -1
+	"Vladimir #0" = 1
+	"Lev #1" = 21
+	"Briachislav #1" = 18
+	"Putiata #0" = 1
+	"Premyslava #0" = -1
+	"Gorislava #0" = -1
+	"Praskovya #0" = -1
+	"Praxida #0" = -1
+	"Marina #0" = -1
+	"Jan #0" = 1
+	"Yefrosinia #0" = -1
+	"Mitrofan #0" = 1
+	"Malfrida #0" = -1
+	"Sviatoslava #0" = -1
+	"Zvenislava #0" = -1
+	"Markéta #0" = -1
+	"Predslava #0" = -1
+	"Mstislav #0" = 1
+	"Yevstafiy #0" = 1
+	"Viacheslav #0" = 1
+	"Rogneda #0" = -1
+	"Liubava #0" = -1
+	"Xenia #0" = -1
+	"Rodislav #0" = 1
+	"Yelisey #0" = 1
+	"Kirill #1" = 0
+	"Rassinus #1" = 0
+	"Wincenty #1" = 0
+	"Comes #1" = 0
+	"Vita #1" = 0
+	"Bavor #1" = 0
+	"Calenda #1" = 0
+	"Boleslaw #1" = 0
+	"Krzeslaw #1" = 0
+	"Afanasiy #1" = 0
+	"Borzywoj #1" = 0
+	"Rajmund #1" = 0
+	"Jauguttis #1" = 0
+	"Budo #1" = 0
+	"Andre #0" = 0
+	"Andreas #0" = 0
+	"Bisti #0" = 0
+	"Blaxius #0" = 0
+	"Clime #0" = 0
+	"Domagna #0" = 0
+	"Gaucoli #0" = 0
+	"Gauzoli #0" = 0
+	"Gervasius #0" = 0
+	"Giuco #0" = 0
+	"Give #0" = 0
+	"Jugno #0" = 0
+	"Juliano #0" = 0
+	"Junius #0" = 0
+	"Laurenzo #0" = 0
+	"Leonardus #0" = 0
+	"Loncho #0" = 0
+	"Lucarus #0" = 0
+	"Mare #0" = 0
+	"Marco #0" = 0
+	"Maroe #0" = 0
+	"Marinus #0" = 0
+	"Matheus #0" = 0
+	"Nale #0" = 0
+	"Nichiforus #0" = 0
+	"Nicola #0" = 0
+	"Pascalis #0" = 0
+	"Pasqualis #0" = 0
+	"Petragna #0" = 0
+	"Petrus #0" = 0
+	"Piero #0" = 0
+	"Perue #0" = 0
+	"Rusco #0" = 0
+	"Stane #0" = 0
+	"Thoma #0" = 0
+	"Tuone #0" = 0
+	"Vallius #0" = 0
+}
+

@@ -1,0 +1,26 @@
+# Andhra
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = indian
+primary_culture = telegu
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 4423
+1440.3.5 = {
+	monarch = {
+		name = "Kontân"
+		birth_date = 1412.1.2
+		dynasty = "Matyineni"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = tactical_genius_personality
+}
+1444.11.11 = {
+	capital = 4423
+	add_treasury = 6
+	add_prestige = 614
+}

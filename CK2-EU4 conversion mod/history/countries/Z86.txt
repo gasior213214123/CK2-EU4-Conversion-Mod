@@ -1,0 +1,27 @@
+# Pereyaslavl
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = khazar
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 290
+1416.11.11 = {
+	monarch = {
+		name = "Viacheslav II"
+		birth_date = 1392.8.26
+		dynasty = "Lubicz"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = secretive_personality
+	add_ruler_personality = fierce_negotiator_personality
+}
+1444.11.11 = {
+	capital = 290
+	add_treasury = 16
+	add_prestige = 299
+}

@@ -1,0 +1,18 @@
+latin = {
+	italian = {
+		primary = ITA
+		dynasty_names = { "di Castalnasetta" "de Lacon Serra" "de Lauria" "d'Amalfi" "di Loritello" "Tocco" "de Larsa" "Pepoli" "da Egna" "de Lacon" "de Machierato" "di Maltraversi" "di Ponzone" "Gerra" "Guercio" "Mandelli" "Monticelli" "Navigajoso" "Turchi" "Pettiti" "Antenoreo" "di Tulmaytath" "di Petersberg" "di Klosterneuburg" "di Korneuburg" "di Kaiserslautern" "di Hersfeld" "di Zähringen" "di Bistrica" "di Fiume" "di Amsterdam" "di Baden" "di Schwyz" "di Battenberg" "di Linz" "di Stams" "di Battenberg" "Romano" "di Montélimar" "di Regensburg" "di Hradec Kralove" "di Jena" "di Henneberg" "di Salizzolo" "di Stazone" "d'Este" "Sfondrati" "di Pitigliano" "di Hersfeld" "di Münster" "di Heilbronn" "di Schweinfurt" "di Lechtgemünd" "di Straubing" "di Jüterbog" }
+	}
+	roman = {
+		primary = ITA
+		dynasty_names = { }
+	}
+	dalmatian = {
+		primary = ITA
+		dynasty_names = { "Dersie" "diCoconi" "Sorgo" "diVenezia" "diVenezia" "Palmotta" "Resti" "Benessa" "Prodanelli" "Caboga" "Dersie" }
+	}
+	outremer = {
+		primary = KOJ
+		dynasty_names = { }
+	}
+}

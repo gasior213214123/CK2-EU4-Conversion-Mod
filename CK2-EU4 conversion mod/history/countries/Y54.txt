@@ -1,0 +1,27 @@
+# Abydos
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 2296
+1437.2.18 = {
+	monarch = {
+		name = "Evanthia"
+		birth_date = 1401.3.18
+		dynasty = "Mouzalon"
+		female = yes
+		adm = 2
+		dip = 0
+		mil = 2
+	}
+	add_ruler_personality = benevolent_personality
+}
+1444.11.11 = {
+	capital = 2296
+	add_treasury = 176
+	add_prestige = 58
+}

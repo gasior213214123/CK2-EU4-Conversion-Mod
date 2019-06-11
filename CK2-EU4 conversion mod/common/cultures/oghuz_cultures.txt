@@ -1,0 +1,26 @@
+oghuz = {
+	pecheneg = {
+		primary = KAZ
+		dynasty_names = { "Kuerçi" "Udabno" }
+	}
+	cuman = {
+		primary = KAZ
+		dynasty_names = { "Könçekid" "Kuntuvdi" "Asepid" }
+	}
+	bolghar = {
+		primary = KAZ
+		dynasty_names = { "Ezgil" "Oq" }
+	}
+	avar = {
+		primary = KAZ
+		dynasty_names = { "Otokarid" }
+	}
+	khazar = {
+		primary = KAZ
+		dynasty_names = { "Papaçyzid" "Simsamid" "Kundaçiqid" }
+	}
+	karluk = {
+		primary = UZB
+		dynasty_names = { }
+	}
+}

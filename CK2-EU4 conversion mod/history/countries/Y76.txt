@@ -1,0 +1,27 @@
+# Bhar
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = kurdish
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 4290
+1429.2.7 = {
+	monarch = {
+		name = "Dilipapala"
+		birth_date = 1398.6.3
+		dynasty = "Bhar"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = cruel_personality
+}
+1444.11.11 = {
+	capital = 4290
+	add_treasury = 0
+	add_prestige = 296
+}

@@ -1,0 +1,27 @@
+# Adrianopolis
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 149
+1427.12.10 = {
+	monarch = {
+		name = "Gennadios II"
+		birth_date = 1425.1.19
+		dynasty = "of Debar"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = cruel_personality
+}
+1444.11.11 = {
+	capital = 149
+	add_treasury = 113
+	add_prestige = 93
+}

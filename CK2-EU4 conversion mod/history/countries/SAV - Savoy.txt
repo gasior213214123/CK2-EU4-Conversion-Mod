@@ -1,0 +1,27 @@
+# Savoy
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = normand
+religion = catholic
+clear_scripted_personalities = yes
+capital = 1867
+1433.8.21 = {
+	monarch = {
+		name = "Agathon"
+		birth_date = 1429.8.20
+		dynasty = "d'Amalfi"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = silver_tongue_personality
+	add_ruler_personality = secretive_personality
+}
+1444.11.11 = {
+	capital = 1867
+	add_treasury = 2143
+	add_prestige = 97
+}

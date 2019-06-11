@@ -1,0 +1,27 @@
+# Venice
+government = republic
+add_government_reform = republic
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = italian
+religion = hellenic_pagan
+clear_scripted_personalities = yes
+capital = 112
+1427.6.19 = {
+	monarch = {
+		name = "Gualtiero"
+		birth_date = 1381.3.21
+		dynasty = "Sorgo"
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = kind_hearted_personality
+}
+1444.11.11 = {
+	capital = 112
+	add_treasury = 1159
+	add_prestige = 216
+}

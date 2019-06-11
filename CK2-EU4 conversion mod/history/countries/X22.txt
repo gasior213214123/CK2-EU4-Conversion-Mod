@@ -1,0 +1,26 @@
+# Tagant
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = sub_saharan
+primary_culture = soninke
+religion = mazdaki
+clear_scripted_personalities = yes
+capital = 2244
+1439.7.26 = {
+	monarch = {
+		name = "Sakho"
+		birth_date = 1403.7.21
+		dynasty = "Kiffa"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = malevolent_personality
+}
+1444.11.11 = {
+	capital = 2244
+	add_treasury = 45
+	add_prestige = 107
+}

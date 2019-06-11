@@ -1,0 +1,27 @@
+# Jharkand
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = indian
+primary_culture = bengali
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 560
+1414.3.15 = {
+	monarch = {
+		name = "Donald IV"
+		birth_date = 1388.7.2
+		dynasty = "Matyineni"
+		adm = 2
+		dip = 5
+		mil = 4
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = lawgiver_personality
+}
+1444.11.11 = {
+	capital = 560
+	add_treasury = 34
+	add_prestige = 832
+}

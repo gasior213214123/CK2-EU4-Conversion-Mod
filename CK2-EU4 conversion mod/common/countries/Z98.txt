@@ -1,0 +1,117 @@
+# Viken
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 80 120 215 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	#New Ideas
+	innovativeness_ideas
+	naval_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	dutch_maurician
+	swedish_gallop
+	swedish_gustavian
+	swedish_caroline
+	swedish_arme_blanche
+	prussian_frederickian
+	prussian_uhlan
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Sviatopolk" "Yevdokia" "Agafya" "Vladimir" "Rostislava" "Svetozar" "Feodosia" "Lev" "Girdenis" "Prebrana" 
+	"Halfdan" "Cyprian" "Altfrid" "Reginlint" "Irmgard" "Erdenis" "Gorm" "Helgi" "Rögnvaldr" "Anundr" 
+	"Anders" "Arnfast" "Valdemar" "Frirek" "Iliya" "Trifon" "Rogvolod" "Briachislav" "Demid" "Dobrynia" 
+	"Fedot" "Gleb" "Igor" "Iziaslav" "Mitrofan" "Mstislav" "Nikita" "Putiata" "Radoslav" "Rodislav" 
+	"Rostislav" "Ruslan" "Stanislav" "Sudislav" "Sviatoslav" "Terentiy" "Viacheslav" "Vladislav" "Voislav" "Volodar" 
+	"Vseslav" "Vsevolod" "Vyshata" "Vysheslav" "Yaropolk" "Yaroslav" "Yefimiy" "Yelisey" "Yeremey" "Yevstafiy" }
+monarch_names = {
+	"Sviatopolk #1" = 18
+	"Yevdokia #0" = -1
+	"Agafya #0" = -1
+	"Vladimir #1" = 18
+	"Rostislava #0" = -1
+	"Svetozar #1" = 18
+	"Feodosia #0" = -1
+	"Lev #0" = 1
+	"Girdenis #0" = 1
+	"Prebrana #0" = -1
+	"Halfdan #1" = 0
+	"Cyprian #1" = 0
+	"Altfrid #1" = 0
+	"Reginlint #1" = -1
+	"Irmgard #1" = -1
+	"Erdenis #1" = 0
+	"Gorm #1" = 0
+	"Helgi #1" = 0
+	"Rögnvaldr #1" = 0
+	"Anundr #1" = 0
+	"Anders #1" = 0
+	"Arnfast #1" = 0
+	"Valdemar #1" = 0
+	"Frirek #1" = 0
+	"Iliya #1" = 0
+	"Trifon #1" = 0
+	"Rogvolod #1" = 0
+	"Briachislav #0" = 0
+	"Demid #0" = 0
+	"Dobrynia #0" = 0
+	"Fedot #0" = 0
+	"Gleb #0" = 0
+	"Igor #0" = 0
+	"Iziaslav #0" = 0
+	"Mitrofan #0" = 0
+	"Mstislav #0" = 0
+	"Nikita #0" = 0
+	"Putiata #0" = 0
+	"Radoslav #0" = 0
+	"Rodislav #0" = 0
+	"Rostislav #0" = 0
+	"Ruslan #0" = 0
+	"Stanislav #0" = 0
+	"Sudislav #0" = 0
+	"Sviatoslav #0" = 0
+	"Terentiy #0" = 0
+	"Viacheslav #0" = 0
+	"Vladislav #0" = 0
+	"Voislav #0" = 0
+	"Volodar #0" = 0
+	"Vseslav #0" = 0
+	"Vsevolod #0" = 0
+	"Vyshata #0" = 0
+	"Vysheslav #0" = 0
+	"Yaropolk #0" = 0
+	"Yaroslav #0" = 0
+	"Yefimiy #0" = 0
+	"Yelisey #0" = 0
+	"Yeremey #0" = 0
+	"Yevstafiy #0" = 0
+}
+ship_names = {
+	Ålvik
+	Bergen
+	Engan
+	Kristiansund
+	Molde
+	Oslo
+	Roan
+	Stavanger Sula
+	Trondheim
+}
+

@@ -1,0 +1,27 @@
+# Sadaddin
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = berber
+religion = sunni
+clear_scripted_personalities = yes
+capital = 348
+1421.9.21 = {
+	monarch = {
+		name = "Husam"
+		birth_date = 1384.11.28
+		dynasty = "Sadaddin"
+		adm = 2
+		dip = 0
+		mil = 4
+	}
+	add_ruler_personality = pious_personality
+	add_ruler_personality = intricate_web_weaver_personality
+}
+1444.11.11 = {
+	capital = 348
+	add_treasury = 1191
+	add_prestige = 241
+}

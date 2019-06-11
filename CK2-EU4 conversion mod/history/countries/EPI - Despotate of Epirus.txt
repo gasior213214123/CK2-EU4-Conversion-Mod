@@ -1,0 +1,26 @@
+# Epirus
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = serbian
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 4175
+1442.6.27 = {
+	monarch = {
+		name = "Philotheos"
+		birth_date = 1399.6.11
+		dynasty = "Barbaros"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+	add_ruler_personality = kind_hearted_personality
+}
+1444.11.11 = {
+	capital = 4175
+	add_treasury = 68
+	add_prestige = 174
+}

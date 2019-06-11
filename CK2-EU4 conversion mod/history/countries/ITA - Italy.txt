@@ -1,0 +1,40 @@
+# Italy
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = italian
+religion = hellenic_pagan
+clear_scripted_personalities = yes
+capital = 104
+1394.11.26 = {
+	monarch = {
+		name = "Ausilio"
+		birth_date = 1392.3.18
+		dynasty = "Varbertingi"
+		adm = 1
+		dip = 5
+		mil = 5
+	}
+	add_ruler_personality = loose_lips_personality
+	add_ruler_personality = tactical_genius_personality
+}
+1433.4.27 = {
+	heir = {
+		name = "Ausilio"
+		monarch_name = "Ausilio II"
+		dynasty = "Varbertingi"
+		birth_date = 1433.4.27
+		death_date = 1513.4.27
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_heir_personality = bold_fighter_personality
+}
+1444.11.11 = {
+	capital = 104
+	add_treasury = 1120
+	add_prestige = 1660
+}

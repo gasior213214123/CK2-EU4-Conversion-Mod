@@ -1,0 +1,27 @@
+# Dandakaranya
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = indian
+primary_culture = oriya
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 547
+1398.3.18 = {
+	monarch = {
+		name = "Zacharria"
+		birth_date = 1388.12.8
+		dynasty = "Chera"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = bold_fighter_personality
+}
+1444.11.11 = {
+	capital = 547
+	add_treasury = 21
+	add_prestige = 475
+}

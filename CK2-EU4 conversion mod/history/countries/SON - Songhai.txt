@@ -1,0 +1,26 @@
+# Songhay
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = sub_saharan
+primary_culture = soninke
+religion = shiite
+clear_scripted_personalities = yes
+capital = 1130
+1444.2.10 = {
+	monarch = {
+		name = "Murad"
+		birth_date = 1418.1.15
+		dynasty = "Abdullahid"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+}
+1444.11.11 = {
+	capital = 1130
+	add_treasury = 22
+	add_prestige = 55
+}

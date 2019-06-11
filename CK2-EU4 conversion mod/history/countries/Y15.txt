@@ -1,0 +1,26 @@
+# Alexandria
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 363
+1442.3.1 = {
+	monarch = {
+		name = "Laurentios"
+		birth_date = 1429.11.14
+		dynasty = "Areobindenos"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = careful_personality
+}
+1444.11.11 = {
+	capital = 363
+	add_treasury = 103
+	add_prestige = 17
+}

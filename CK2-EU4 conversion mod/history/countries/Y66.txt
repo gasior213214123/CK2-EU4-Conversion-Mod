@@ -1,0 +1,26 @@
+# Telingana
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = indian
+primary_culture = telegu
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 2037
+1435.5.8 = {
+	monarch = {
+		name = "Parânkucan"
+		birth_date = 1418.5.19
+		dynasty = "Matyineni"
+		adm = 1
+		dip = 1
+		mil = 6
+	}
+	add_ruler_personality = bold_fighter_personality
+}
+1444.11.11 = {
+	capital = 2037
+	add_treasury = 35
+	add_prestige = 601
+}

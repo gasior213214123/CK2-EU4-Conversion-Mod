@@ -1,0 +1,23 @@
+germanic = {
+	german = {
+		primary = GER
+		dynasty_names = { "von Holstein" "von Sulzbach" "von Versfleth" "von Th�ringen" "von Veldenz" "von Nassau" "Welf" "Ludolfinger" "Babenberger" "Unruochinger" "von Losenstein" "von Wippra" }
+	}
+	frankish = {
+		primary = FRA
+		dynasty_names = { "de Bessa" "de Vendome" "Rorgonides" "de Buchan" "de Battenberg" "de Bamberg" "de Nidaros" "de Martel" "de Comborn" }
+	}
+	suebi = {
+		primary = POR
+		dynasty_names = { }
+	}
+	frisian = {
+		primary = NED
+		dynasty_names = { }
+	}
+	old_lombard = {
+		primary = ITA
+		dynast_names = §old_lombard§
+	}
+
+}

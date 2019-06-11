@@ -1,0 +1,27 @@
+# Shirgugetu
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 1
+mercantilism = 0.1
+technology_group = nomad_group
+primary_culture = mongol
+religion = tengri_pagan_reformed
+clear_scripted_personalities = yes
+capital = 1075
+1418.12.21 = {
+	monarch = {
+		name = "Shirgugetu"
+		birth_date = 1382.1.16
+		dynasty = "Shirgugetu"
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = strict_personality
+}
+1444.11.11 = {
+	capital = 1075
+	add_treasury = 58
+	add_prestige = 76
+}

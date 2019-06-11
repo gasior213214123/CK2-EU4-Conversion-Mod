@@ -1,0 +1,40 @@
+# Tamimi
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = bedouin_arabic
+religion = sunni
+clear_scripted_personalities = yes
+capital = 412
+1427.1.13 = {
+	monarch = {
+		name = "Zeyd III"
+		birth_date = 1411.12.15
+		dynasty = "Tamimi"
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+	add_ruler_personality = secretive_personality
+	add_ruler_personality = intricate_web_weaver_personality
+}
+1431.2.22 = {
+	heir = {
+		name = "Shahab"
+		monarch_name = "Shahab II"
+		dynasty = "Tamimi"
+		birth_date = 1431.2.22
+		death_date = 1511.2.22
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+	add_heir_personality = obsessive_perfectionist_personality
+}
+1444.11.11 = {
+	capital = 412
+	add_treasury = 720
+	add_prestige = 226
+}

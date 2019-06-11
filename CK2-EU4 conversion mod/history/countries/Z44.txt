@@ -1,0 +1,28 @@
+# Corsica
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = italian
+religion = hellenic_pagan
+clear_scripted_personalities = yes
+capital = 1247
+1413.12.22 = {
+	monarch = {
+		name = "Constanza"
+		birth_date = 1388.7.17
+		dynasty = "Antenoreo"
+		female = yes
+		adm = 2
+		dip = 4
+		mil = 1
+	}
+	add_ruler_personality = benevolent_personality
+	add_ruler_personality = kind_hearted_personality
+}
+1444.11.11 = {
+	capital = 1247
+	add_treasury = 541
+	add_prestige = 136
+}

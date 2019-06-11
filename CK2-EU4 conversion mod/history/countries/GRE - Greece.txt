@@ -1,0 +1,27 @@
+# Greece
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 1853
+1433.9.3 = {
+	monarch = {
+		name = "Adrianos"
+		birth_date = 1388.3.18
+		dynasty = "Agiad"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+	add_ruler_personality = pious_personality
+	add_ruler_personality = zealot_personality
+}
+1444.11.11 = {
+	capital = 1853
+	add_treasury = 3625
+	add_prestige = 428
+}

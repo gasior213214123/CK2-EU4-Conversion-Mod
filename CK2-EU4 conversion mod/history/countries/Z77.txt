@@ -1,0 +1,40 @@
+# Nájera
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = bedouin_arabic
+religion = manichean
+clear_scripted_personalities = yes
+capital = 2989
+1401.2.26 = {
+	monarch = {
+		name = "Burhanaddin"
+		birth_date = 1400.7.27
+		dynasty = "Nájerid"
+		adm = 2
+		dip = 5
+		mil = 3
+	}
+	add_ruler_personality = scholar_personality
+	add_ruler_personality = lawgiver_personality
+}
+1424.10.25 = {
+	heir = {
+		name = "Husam"
+		monarch_name = "Husam"
+		dynasty = "Nájerid"
+		birth_date = 1424.10.25
+		death_date = 1504.10.25
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+	add_heir_personality = fierce_negotiator_personality
+}
+1444.11.11 = {
+	capital = 2989
+	add_treasury = 537
+	add_prestige = 169
+}

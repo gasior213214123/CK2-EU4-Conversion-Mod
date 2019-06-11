@@ -1,0 +1,252 @@
+# Silesia
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 84 166 93 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	administrative_ideas
+	religious_ideas
+}
+
+historical_units = {
+	bardiche_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	hungarian_hussar
+	polish_musketeer
+	polish_hussar
+	polish_tercio
+	polish_winged_hussar
+	russian_lancer
+	russian_cuirassier
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
+}
+
+
+
+leader_names = {
+
+	"Sedziej" "Samur" "Stojana" "Danuta" "Zwinislawa" "Aldona" "Savilay" "Gierolt" "Snowid" "Parsbit" 
+	"Miroslaw" "Dobronega" "Rycheza" "Samboja" "Bugha" "Katarzyna" "Smiechna" "Konstancja" "Oshi" "Scholastyka" 
+	"Wszebor" "Lambert" "Przybor" "Zygmunt" "Malowuj" "Eufrozyna" "Jadwiga" "Sedzimir" "Zofia" "Nawoja" 
+	"Dobromir" "Henryk" "Wojslawa" "Siemowit" "Lucja" "Ludmila" "Dobieslaw" "Konrad" "Milosz" "Krzeslaw" 
+	"Bozydar" "Milena" "Malgorzata" "Gniewomir" "Eufemia" "Stoigniew" "Jolanta" "Beata" "Izbor" "Wolislawa" 
+	"Wit" "Jauguttis" "Adelajda" "Budziwuj" "Sulistryj" "Maslaw" "Jaroslaw" "Grzymislawa" "Swietopelk" "Pelka" 
+	"Borzyslaw" "Milobrat" "Domawuj" "Boncza" "Imram" "Salomea" "Szczesny" "Dytryk" "Spytko" "Bozena" 
+	"Zelibrat" "Pechna" "Sabin" "Odon" "Piskla" "Anezka" "Nadbor" "Zegota" "Wislawa" "Krystyna" 
+	"Swietoslawa" "Helena" "Stanislawa" "Ernakh" "Adleta" "Inko" "Czyrzniech" "Svetoslava" "Ikalay" "Savintik" 
+	"Judyta" "Sarikel" "Alp" "Apskhih" "Kunegunda" "Swietoslaw" "Bars" "Vasoj" "Ipek" "Matylda" 
+	"Tähtaman" "Borzywoj" "Sati" "Witosz" "Maciej Eclipse" "Anna SI" "Bohumir" "Radoslava" "Jaromar" "Jacek" 
+	"Zbyszko" "Doman" "EcX" "Macio" "Jan" "Aleksander" "Andrzej" "Bartosz" "Bezprym" "Boguchwal" 
+	"Bogumil" "Boleslaw" "Czcibor" "Dalimir" "Dobrogost" "Eustachy" "Gaudenty" "Gniewosz" "Gosciwuj" "Goszczon" 
+	"Józef" "Jaksa" "Jakub" "Jakusz" "Janislaw" "Janko" "Janusz" "Jerzy" "Karol" "Kazimierz" 
+	"Krystyn" "Leszek" "Maciej" "Macko" "Marcin" "Mateusz" "Mieszko" "Mikolaj" "Msciwoj" "Mszczuj" 
+	"Niezamysl" "Pawel" "Piotr" "Prendota" "Przemyslaw" "Sambor" "Sieciech" "Siemomysl" "Skarbimir" "Stanislaw" 
+	"Stefan" "Strasz" "Sulislaw" "Tomasz" "Trojden" "Twardomir" "Usciech" "Waclaw" "Wanko" "Wawrzyniec" 
+	"Wielislaw" "Wieslaw" "Wincenty" "Wladyslaw" "Wojciech" "Wojuta" "Zbigniew" }
+monarch_names = {
+	"Sedziej #0" = 1
+	"Samur #0" = -1
+	"Stojana #0" = -1
+	"Danuta #0" = -1
+	"Zwinislawa #0" = -1
+	"Aldona #0" = -1
+	"Savilay #0" = -1
+	"Gierolt #1" = 30
+	"Snowid #0" = 1
+	"Parsbit #0" = -1
+	"Miroslaw #1" = 24
+	"Dobronega #0" = -1
+	"Rycheza #0" = -1
+	"Samboja #0" = -1
+	"Bugha #0" = 1
+	"Katarzyna #0" = -1
+	"Smiechna #0" = -1
+	"Konstancja #0" = -1
+	"Oshi #0" = 1
+	"Scholastyka #0" = -1
+	"Wszebor #0" = 1
+	"Lambert #0" = 1
+	"Przybor #0" = 1
+	"Zygmunt #0" = 1
+	"Malowuj #0" = 1
+	"Eufrozyna #0" = -1
+	"Jadwiga #0" = -1
+	"Sedzimir #0" = 1
+	"Zofia #0" = -1
+	"Nawoja #0" = -1
+	"Dobromir #0" = 1
+	"Henryk #0" = 1
+	"Wojslawa #0" = -1
+	"Siemowit #0" = 1
+	"Lucja #0" = -1
+	"Ludmila #0" = -1
+	"Dobieslaw #0" = 1
+	"Konrad #0" = 1
+	"Milosz #0" = 1
+	"Krzeslaw #0" = 1
+	"Bozydar #0" = 1
+	"Milena #0" = -1
+	"Malgorzata #0" = -1
+	"Gniewomir #0" = 1
+	"Eufemia #0" = -1
+	"Stoigniew #0" = 1
+	"Jolanta #0" = -1
+	"Beata #0" = -1
+	"Izbor #1" = 21
+	"Wolislawa #0" = -1
+	"Wit #0" = 1
+	"Jauguttis #1" = 30
+	"Adelajda #0" = -1
+	"Budziwuj #0" = 1
+	"Sulistryj #0" = 1
+	"Maslaw #0" = 1
+	"Jaroslaw #0" = 1
+	"Grzymislawa #0" = -1
+	"Swietopelk #0" = 1
+	"Pelka #0" = 1
+	"Borzyslaw #1" = 18
+	"Milobrat #0" = 1
+	"Domawuj #0" = 1
+	"Boncza #0" = 1
+	"Imram #0" = 1
+	"Salomea #0" = -1
+	"Szczesny #0" = 1
+	"Dytryk #0" = 1
+	"Spytko #0" = 1
+	"Bozena #0" = -1
+	"Zelibrat #0" = 1
+	"Pechna #0" = -1
+	"Sabin #0" = 1
+	"Odon #1" = 21
+	"Piskla #0" = 1
+	"Anezka #0" = -1
+	"Nadbor #2" = 21
+	"Zegota #0" = 1
+	"Wislawa #0" = -1
+	"Krystyna #0" = -1
+	"Swietoslawa #0" = -1
+	"Helena #0" = -1
+	"Stanislawa #0" = -1
+	"Ernakh #0" = 1
+	"Adleta #0" = -1
+	"Inko #0" = 1
+	"Czyrzniech #0" = 1
+	"Svetoslava #0" = -1
+	"Ikalay #0" = -1
+	"Savintik #0" = -1
+	"Judyta #0" = -1
+	"Sarikel #0" = -1
+	"Alp #0" = 1
+	"Apskhih #0" = 1
+	"Kunegunda #0" = -1
+	"Swietoslaw #0" = 1
+	"Bars #0" = 1
+	"Vasoj #0" = 1
+	"Ipek #0" = -1
+	"Matylda #0" = -1
+	"Tähtaman #0" = 1
+	"Borzywoj #0" = 1
+	"Sati #0" = -1
+	"Witosz #3" = 0
+	"Maciej Eclipse #1" = 0
+	"Anna SI #1" = -1
+	"Bohumir #1" = 0
+	"Radoslava #1" = -1
+	"Jaromar #1" = 0
+	"Jacek #1" = 0
+	"Zbyszko #1" = 0
+	"Doman #1" = 0
+	"EcX #1" = 0
+	"Macio #1" = 0
+	"Jan #1" = 0
+	"Aleksander #0" = 0
+	"Andrzej #0" = 0
+	"Bartosz #0" = 0
+	"Bezprym #0" = 0
+	"Boguchwal #0" = 0
+	"Bogumil #0" = 0
+	"Boleslaw #0" = 0
+	"Czcibor #0" = 0
+	"Dalimir #0" = 0
+	"Dobrogost #0" = 0
+	"Eustachy #0" = 0
+	"Gaudenty #0" = 0
+	"Gniewosz #0" = 0
+	"Gosciwuj #0" = 0
+	"Goszczon #0" = 0
+	"Józef #0" = 0
+	"Jaksa #0" = 0
+	"Jakub #0" = 0
+	"Jakusz #0" = 0
+	"Janislaw #0" = 0
+	"Janko #0" = 0
+	"Janusz #0" = 0
+	"Jerzy #0" = 0
+	"Karol #0" = 0
+	"Kazimierz #0" = 0
+	"Krystyn #0" = 0
+	"Leszek #0" = 0
+	"Maciej #0" = 0
+	"Macko #0" = 0
+	"Marcin #0" = 0
+	"Mateusz #0" = 0
+	"Mieszko #0" = 0
+	"Mikolaj #0" = 0
+	"Msciwoj #0" = 0
+	"Mszczuj #0" = 0
+	"Niezamysl #0" = 0
+	"Pawel #0" = 0
+	"Piotr #0" = 0
+	"Prendota #0" = 0
+	"Przemyslaw #0" = 0
+	"Sambor #0" = 0
+	"Sieciech #0" = 0
+	"Siemomysl #0" = 0
+	"Skarbimir #0" = 0
+	"Stanislaw #0" = 0
+	"Stefan #0" = 0
+	"Strasz #0" = 0
+	"Sulislaw #0" = 0
+	"Tomasz #0" = 0
+	"Trojden #0" = 0
+	"Twardomir #0" = 0
+	"Usciech #0" = 0
+	"Waclaw #0" = 0
+	"Wanko #0" = 0
+	"Wawrzyniec #0" = 0
+	"Wielislaw #0" = 0
+	"Wieslaw #0" = 0
+	"Wincenty #0" = 0
+	"Wladyslaw #0" = 0
+	"Wojciech #0" = 0
+	"Wojuta #0" = 0
+	"Zbigniew #0" = 0
+}
+ship_names = {
+	"Arka Noego"
+        "Bialy Orzel" Burza "Bialy Lew" "Brzesko-Kujawskie" Belzkie Braclawskie
+        Charitas "Czarny Orzel" "Czarny Kruk" Chelminskie Czernichowskie
+        Fortuna
+        Gryf Gwiazda Gnieznienskie
+	Inoworclawskie
+	"Król Dawid" Kaliskie Krakowskie Kijowskie Kraków
+        Lublin "Latajacy Jelen" Lwów Leczyckie Lubelskie
+        "Maly Bialy Orzel" Malborskie Mazowieckie
+        Niewrazliwy "Nowy Czarny Orzel"
+        "Prorok Samuel" "Panna Wodna" Plomien Poznanskie Plockie Podlaskie Podolskie
+	"Rycerz Swiety Jerzy" Rawskie Ruskie
+        Strzelec Suwerenny "Swiety Piotr" Sieradzkie Sandomierskie "Swiety Kazimierz"
+        "Wielkie Slonce" Wodnik Warminskie Wolynskie Warszawa
+        Zwyciestwo "Zólty Lew"
+}
+

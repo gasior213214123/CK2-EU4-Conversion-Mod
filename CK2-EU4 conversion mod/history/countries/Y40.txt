@@ -1,0 +1,26 @@
+# Said
+government = republic
+add_government_reform = oligarchy_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = berber
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 2448
+1442.8.22 = {
+	monarch = {
+		name = "Sa'id"
+		birth_date = 1387.9.20
+		dynasty = "Said"
+		adm = 0
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = conqueror_personality
+}
+1444.11.11 = {
+	capital = 2448
+	add_treasury = 17
+	add_prestige = 58
+}

@@ -1,0 +1,40 @@
+# Trebizond
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 330
+1422.5.8 = {
+	monarch = {
+		name = "Romanos III"
+		birth_date = 1414.7.8
+		dynasty = "Prospeios"
+		adm = 5
+		dip = 2
+		mil = 4
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = lawgiver_personality
+}
+1438.6.18 = {
+	heir = {
+		name = "Antiochos"
+		monarch_name = "Antiochos"
+		dynasty = "Prospeios"
+		birth_date = 1438.6.18
+		death_date = 1518.6.18
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_heir_personality = babbling_buffoon_personality
+}
+1444.11.11 = {
+	capital = 330
+	add_treasury = 706
+	add_prestige = 979
+}

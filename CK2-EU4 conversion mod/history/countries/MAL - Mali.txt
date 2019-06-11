@@ -1,0 +1,27 @@
+# Mali
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = sub_saharan
+primary_culture = soninke
+religion = manichean
+clear_scripted_personalities = yes
+capital = 1122
+1409.3.26 = {
+	monarch = {
+		name = "Bassi"
+		birth_date = 1378.10.17
+		dynasty = "Sibi"
+		adm = 3
+		dip = 1
+		mil = 6
+	}
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = bold_fighter_personality
+}
+1444.11.11 = {
+	capital = 1122
+	add_treasury = 28
+	add_prestige = -2
+}

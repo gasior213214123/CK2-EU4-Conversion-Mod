@@ -1,0 +1,40 @@
+# Homs
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = bedouin_arabic
+religion = shiite
+clear_scripted_personalities = yes
+capital = 4297
+1433.11.28 = {
+	monarch = {
+		name = "Uways"
+		birth_date = 1429.6.16
+		dynasty = "Taid"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = craven_personality
+	add_ruler_personality = obsessive_perfectionist_personality
+}
+1434.5.28 = {
+	heir = {
+		name = "Is'mail"
+		monarch_name = "Is'mail"
+		dynasty = "Taid"
+		birth_date = 1434.5.28
+		death_date = 1514.5.28
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+	add_heir_personality = obsessive_perfectionist_personality
+}
+1444.11.11 = {
+	capital = 4297
+	add_treasury = 1706
+	add_prestige = 184
+}

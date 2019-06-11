@@ -1,0 +1,26 @@
+# Hellas
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 146
+1442.1.17 = {
+	monarch = {
+		name = "Phokas"
+		birth_date = 1409.2.20
+		dynasty = "Agiad"
+		adm = 6
+		dip = 1
+		mil = 5
+	}
+	add_ruler_personality = midas_touched_personality
+}
+1444.11.11 = {
+	capital = 146
+	add_treasury = 51
+	add_prestige = 259
+}

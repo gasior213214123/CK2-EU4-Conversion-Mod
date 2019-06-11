@@ -1,0 +1,254 @@
+# Krete
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 205 110 35 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	eastern_medieval_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	ottoman_spahi
+	ottoman_sekban
+	ottoman_reformed_spahi
+	ottoman_reformed_janissary
+	ottoman_toprakli_hit_and_run
+	ottoman_nizami_cedid
+	ottoman_toprakli_dragoon
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	ottoman_new_model
+	ottoman_lancer
+}
+
+army_names = {
+	"Legio I Herculia" "Legio II Rapax" "Legio III Liberatrix" "Legio IV Apollonaris" "Legio V Alaudae"
+	"Legio VI Victrix" "Legio VII Ferrata" "Legio VIII Augusta" "Legio IX Triumphalis" "Legio X Italica" 
+	"Legio XI Macedonica" "Legio XII Minervia" "Legio XIII Fulminata" "Legio XIV Fretensis" "Legio XV Primigenia"
+	"Legio XVI Claudia" "Legio XVII Galatia" "Legio XVIII Pannonia" "Legio XIX Traiana" "Legio XX Scythica"
+}
+
+fleet_names = {
+	"Classis Alexandrina" "Classis Seleucena" "Classis Carpathia" "Classis Venetum" "Classis Constantinopolis"
+	"Classis Roma" "Classis Adrianopolis" "Classis Atlanticum" "Classis Mediterraneus" "Classis Euxeinos Pontos"
+}
+
+leader_names = {
+
+	"Stane" "Herakleios" "Theochariste" "Eudokia" "Zenobios" "Belisarios" "Manuel" "Eugenios" "Euphrasia" "Sabas" 
+	"Yahya" "Valeria" "Dionysia" "Eudoxios" "Nikarete" "Leontios" "Ansia" "Theophanes" "Konstantia" "Eirenaios" 
+	"Damianos" "Pulcheria" "Giva" "Marinus" "Jugno" "Maria" "Micha" "Tuone" "Tryphon" "Deussa" 
+	"Nixa" "Anna" "Ascanio" "Gauzoli" "Eudoxia" "Clara" "Bisti" "Cornelio" "Gerasimos" "Prokopios" 
+	"Eugenia" "Ercole" "Isaias" "Nikoletta" "Augusta" "Athanasios" "Claudia" "Galeazzo" "Lazaros" "Maximos" 
+	"Margarita" "Eupraxia" "Felicia" "Theoktistos" "Bosporios" "Sergia" "Orestes" "Kaisarios" "Agathe" "Pankratios" 
+	"Eulalia" "Evanthia" "Parthena" "Helene" "Sergios" "Immel" "Simonis" "Garyphallia" "Anthousa" "Eusebios" 
+	"Petronia" "Innokentios" "Kale" "Evangelos" "Birinus" "Xene" "Zacharias" "Adriane" "Hippolytos" "Pamphilios" 
+	"Phyllis" "Isidoros" "Adelgrima" "Euphrosyne" "Eirene" "Kosmas" "Theoktiste" "Niphon" "Ioannes" "Aetios" 
+	"Demetrios" "Alexeia" "Buriberdi" "Theodotos" "Konstantinos" "Anatolios" "Sakhir" "Bæqætar" "Paschalis" "Wulfhere" 
+	"Wulfnoth" "Theophylaktos" "Sibylla" "Isa" "Maurikios" "Rochus" "Alighiero" "Antonios" "Alexios" "Kyriakos" 
+	"Gortyn" "Juliano" "Give" "Chrysanthos" "Leonidas" "Polykarpos" "Phokas" "Daniel" "Antiochos" "Eunike" 
+	"Aarif" "Abdul-Gafur" "Abdul-Jaleel" "Abdul-Qadir" "Abdul-Wahab" "Aghlab" "Akin" "Alim" "Aram" "Azam" 
+	"Bahir" "Burhanaddin" "Fadil" "Fadl" "Faruk" "Ghalib" "Hafiz" "Halil" "Husam" "Ibrahim" 
+	"Idris" "Is'mail" "Jabir" "Jalil" "Jibril" "Khaireddin" "Khalil" "Mahdi" "Mansur" "Mirza" 
+	"Mubarak" "Mukhtar" "Murad" "Musa" "Muslihiddin" "Muzaffaraddin" "Najib" "Nasr" "Nizam" "Qawurd" 
+	"Ramadan" "Sa'daddin" "Sadiq" "Sami" "Samir" "Shaiban" "Shamir" "Shujah" "Sulayman" "Talib" 
+	"Ubayd" "Uways" "Ya'qub" "Youkhanna" "Yusuf" "Zeyd" }
+monarch_names = {
+	"Stane #0" = 1
+	"Herakleios #1" = 21
+	"Theochariste #0" = -1
+	"Eudokia #0" = -1
+	"Zenobios #0" = 1
+	"Belisarios #1" = 18
+	"Manuel #1" = 18
+	"Eugenios #0" = 1
+	"Euphrasia #0" = -1
+	"Sabas #0" = 1
+	"Yahya #0" = 1
+	"Valeria #0" = -1
+	"Dionysia #0" = -1
+	"Eudoxios #0" = 1
+	"Nikarete #0" = -1
+	"Leontios #0" = 1
+	"Ansia #0" = -1
+	"Theophanes #0" = 1
+	"Konstantia #0" = -1
+	"Eirenaios #0" = 1
+	"Damianos #0" = 1
+	"Pulcheria #0" = -1
+	"Giva #0" = -1
+	"Marinus #0" = 1
+	"Jugno #1" = 24
+	"Maria #0" = -1
+	"Micha #0" = -1
+	"Tuone #0" = 1
+	"Tryphon #0" = 1
+	"Deussa #0" = -1
+	"Nixa #0" = -1
+	"Anna #0" = -1
+	"Ascanio #0" = 1
+	"Gauzoli #0" = 1
+	"Eudoxia #0" = -1
+	"Clara #0" = -1
+	"Bisti #0" = 1
+	"Cornelio #0" = 1
+	"Gerasimos #0" = 1
+	"Prokopios #0" = 1
+	"Eugenia #0" = -1
+	"Ercole #0" = 1
+	"Isaias #0" = 1
+	"Nikoletta #0" = -1
+	"Augusta #0" = -1
+	"Athanasios #0" = 1
+	"Claudia #0" = -1
+	"Galeazzo #0" = 1
+	"Lazaros #0" = 1
+	"Maximos #0" = 1
+	"Margarita #0" = -1
+	"Eupraxia #0" = -1
+	"Felicia #0" = -1
+	"Theoktistos #0" = 1
+	"Bosporios #0" = 1
+	"Sergia #0" = -1
+	"Orestes #0" = 1
+	"Kaisarios #0" = 1
+	"Agathe #0" = -1
+	"Pankratios #0" = 1
+	"Eulalia #0" = -1
+	"Evanthia #0" = -1
+	"Parthena #0" = -1
+	"Helene #0" = -1
+	"Sergios #0" = 1
+	"Immel #0" = 1
+	"Simonis #0" = -1
+	"Garyphallia #0" = -1
+	"Anthousa #0" = -1
+	"Eusebios #0" = 1
+	"Petronia #0" = -1
+	"Innokentios #0" = 1
+	"Kale #0" = -1
+	"Evangelos #0" = 1
+	"Birinus #0" = 1
+	"Xene #0" = -1
+	"Zacharias #0" = 1
+	"Adriane #0" = -1
+	"Hippolytos #1" = 18
+	"Pamphilios #0" = 1
+	"Phyllis #0" = -1
+	"Isidoros #0" = 1
+	"Adelgrima #0" = -1
+	"Euphrosyne #0" = -1
+	"Eirene #0" = -1
+	"Kosmas #0" = 1
+	"Theoktiste #0" = -1
+	"Niphon #0" = 1
+	"Ioannes #1" = 0
+	"Aetios #1" = 0
+	"Demetrios #1" = 0
+	"Alexeia #1" = -1
+	"Buriberdi #1" = 0
+	"Theodotos #1" = 0
+	"Konstantinos #1" = 0
+	"Anatolios #1" = 0
+	"Sakhir #1" = 0
+	"Bæqætar #1" = 0
+	"Paschalis #1" = 0
+	"Wulfhere #1" = 0
+	"Wulfnoth #1" = 0
+	"Theophylaktos #1" = 0
+	"Sibylla #1" = -1
+	"Isa #1" = 0
+	"Maurikios #1" = 0
+	"Rochus #1" = 0
+	"Alighiero #1" = 0
+	"Antonios #1" = 0
+	"Alexios #1" = 0
+	"Kyriakos #1" = 0
+	"Gortyn #1" = 0
+	"Juliano #1" = 0
+	"Give #2" = 0
+	"Chrysanthos #1" = 0
+	"Leonidas #1" = 0
+	"Polykarpos #1" = 0
+	"Phokas #1" = 0
+	"Daniel #1" = 0
+	"Antiochos #1" = 0
+	"Eunike #1" = -1
+	"Aarif #0" = 0
+	"Abdul-Gafur #0" = 0
+	"Abdul-Jaleel #0" = 0
+	"Abdul-Qadir #0" = 0
+	"Abdul-Wahab #0" = 0
+	"Aghlab #0" = 0
+	"Akin #0" = 0
+	"Alim #0" = 0
+	"Aram #0" = 0
+	"Azam #0" = 0
+	"Bahir #0" = 0
+	"Burhanaddin #0" = 0
+	"Fadil #0" = 0
+	"Fadl #0" = 0
+	"Faruk #0" = 0
+	"Ghalib #0" = 0
+	"Hafiz #0" = 0
+	"Halil #0" = 0
+	"Husam #0" = 0
+	"Ibrahim #0" = 0
+	"Idris #0" = 0
+	"Is'mail #0" = 0
+	"Jabir #0" = 0
+	"Jalil #0" = 0
+	"Jibril #0" = 0
+	"Khaireddin #0" = 0
+	"Khalil #0" = 0
+	"Mahdi #0" = 0
+	"Mansur #0" = 0
+	"Mirza #0" = 0
+	"Mubarak #0" = 0
+	"Mukhtar #0" = 0
+	"Murad #0" = 0
+	"Musa #0" = 0
+	"Muslihiddin #0" = 0
+	"Muzaffaraddin #0" = 0
+	"Najib #0" = 0
+	"Nasr #0" = 0
+	"Nizam #0" = 0
+	"Qawurd #0" = 0
+	"Ramadan #0" = 0
+	"Sa'daddin #0" = 0
+	"Sadiq #0" = 0
+	"Sami #0" = 0
+	"Samir #0" = 0
+	"Shaiban #0" = 0
+	"Shamir #0" = 0
+	"Shujah #0" = 0
+	"Sulayman #0" = 0
+	"Talib #0" = 0
+	"Ubayd #0" = 0
+	"Uways #0" = 0
+	"Ya'qub #0" = 0
+	"Youkhanna #0" = 0
+	"Yusuf #0" = 0
+	"Zeyd #0" = 0
+}
+ship_names = {
+	Hydra
+	Lesbos Limnos
+	Mikonios
+	Pezopoulos
+	Salamis Samos Simitzopoulos
+	Themistoklis
+	Votsis
+}
+

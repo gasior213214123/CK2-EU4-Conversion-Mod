@@ -1,0 +1,38 @@
+# Baqubahid
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = al_suryah_arabic
+religion = sunni
+clear_scripted_personalities = yes
+capital = 407
+1435.5.10 = {
+	monarch = {
+		name = "Muzaffaraddin"
+		birth_date = 1434.5.8
+		dynasty = "Baqubahid"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = kind_hearted_personality
+}
+1435.11.8 = {
+	heir = {
+		name = "Jahan"
+		monarch_name = "Jahan II"
+		dynasty = "Baqubahid"
+		birth_date = 1435.11.8
+		death_date = 1515.11.8
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+1444.11.11 = {
+	capital = 407
+	add_treasury = 1147
+	add_prestige = 49
+}

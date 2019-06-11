@@ -1,0 +1,27 @@
+# Persia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = persian
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 429
+1425.6.27 = {
+	monarch = {
+		name = "Ranatitta II"
+		birth_date = 1386.8.25
+		dynasty = "Matyineni"
+		adm = 1
+		dip = 4
+		mil = 6
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = fierce_negotiator_personality
+}
+1444.11.11 = {
+	capital = 429
+	add_treasury = 325
+	add_prestige = 1048
+}

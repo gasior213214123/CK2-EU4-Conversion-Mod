@@ -1,0 +1,38 @@
+# Addauid
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = bedouin_arabic
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 379
+1442.2.21 = {
+	monarch = {
+		name = "Sami"
+		birth_date = 1419.8.3
+		dynasty = "Addauid"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = tactical_genius_personality
+}
+1442.3.4 = {
+	heir = {
+		name = "Mukhtar"
+		monarch_name = "Mukhtar"
+		dynasty = "Addauid"
+		birth_date = 1442.3.4
+		death_date = 1522.3.4
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+1444.11.11 = {
+	capital = 379
+	add_treasury = 1677
+	add_prestige = 64
+}

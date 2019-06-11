@@ -1,0 +1,26 @@
+# Damascus
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = al_suryah_arabic
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 4271
+1444.2.15 = {
+	monarch = {
+		name = "Thomas"
+		birth_date = 1437.1.10
+		dynasty = "Chrysouchos"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = kind_hearted_personality
+}
+1444.11.11 = {
+	capital = 4271
+	add_treasury = 0
+	add_prestige = 2
+}

@@ -1,0 +1,129 @@
+# Agder
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 40 85 255 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	#New Ideas
+	innovativeness_ideas
+	naval_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	dutch_maurician
+	swedish_gallop
+	swedish_gustavian
+	swedish_caroline
+	swedish_arme_blanche
+	prussian_frederickian
+	prussian_uhlan
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Haldor" "Halkjell" "Alv" "Arne" "Arnfinn" "Arnkjell" "Arnmod" "Arnvid" "Bård" "Bjørn" 
+	"Eigil" "Eilif" "Einar" "Eirik" "Erlend" "Erling" "Eystein" "Finn" "Grim" "Gudbrand" 
+	"Gudleik" "Gudrød" "Gunnar" "Guttorm" "Halfdan" "Harald" "Håkon" "Håvard" "Inge" "Ivar" 
+	"Jon" "Kåre" "Kolbein" "Lodin" "Magne" "Magnus" "Ogmund" "Olav" "Ossor" "Pål" 
+	"Ragnar" "Ragnvald" "Rolf" "Sigurd" "Skjalg" "Skofte" "Skule" "Svein" "Sverre" "Torbjørn" 
+	"Tord" "Tore" "Torgil" "Tormod" "Torolf" "Torstein" "Trond" "Tryggve" "Ulv" "Vigleik" 
+	"Åle" "Åmund" "Ølver" "Øystein" }
+monarch_names = {
+	"Haldor #0" = 1
+	"Halkjell #0" = 1
+	"Alv #0" = 0
+	"Arne #0" = 0
+	"Arnfinn #0" = 0
+	"Arnkjell #0" = 0
+	"Arnmod #0" = 0
+	"Arnvid #0" = 0
+	"Bård #0" = 0
+	"Bjørn #0" = 0
+	"Eigil #0" = 0
+	"Eilif #0" = 0
+	"Einar #0" = 0
+	"Eirik #0" = 0
+	"Erlend #0" = 0
+	"Erling #0" = 0
+	"Eystein #0" = 0
+	"Finn #0" = 0
+	"Grim #0" = 0
+	"Gudbrand #0" = 0
+	"Gudleik #0" = 0
+	"Gudrød #0" = 0
+	"Gunnar #0" = 0
+	"Guttorm #0" = 0
+	"Halfdan #0" = 0
+	"Harald #0" = 0
+	"Håkon #0" = 0
+	"Håvard #0" = 0
+	"Inge #0" = 0
+	"Ivar #0" = 0
+	"Jon #0" = 0
+	"Kåre #0" = 0
+	"Kolbein #0" = 0
+	"Lodin #0" = 0
+	"Magne #0" = 0
+	"Magnus #0" = 0
+	"Ogmund #0" = 0
+	"Olav #0" = 0
+	"Ossor #0" = 0
+	"Pål #0" = 0
+	"Ragnar #0" = 0
+	"Ragnvald #0" = 0
+	"Rolf #0" = 0
+	"Sigurd #0" = 0
+	"Skjalg #0" = 0
+	"Skofte #0" = 0
+	"Skule #0" = 0
+	"Svein #0" = 0
+	"Sverre #0" = 0
+	"Torbjørn #0" = 0
+	"Tord #0" = 0
+	"Tore #0" = 0
+	"Torgil #0" = 0
+	"Tormod #0" = 0
+	"Torolf #0" = 0
+	"Torstein #0" = 0
+	"Trond #0" = 0
+	"Tryggve #0" = 0
+	"Ulv #0" = 0
+	"Vigleik #0" = 0
+	"Åle #0" = 0
+	"Åmund #0" = 0
+	"Ølver #0" = 0
+	"Øystein #0" = 0
+
+
+	"Astrid #0" = -1
+	"Gudrid #0" = -1
+	"Ingebjørg #0" = -1
+	"Ragnhild #0" = -1
+	"Gyrid #0" = -1
+}
+ship_names = {
+	Ålvik
+	Bergen
+	Engan
+	Kristiansund
+	Molde
+	Oslo
+	Roan
+	Stavanger Sula
+	Trondheim
+}
+

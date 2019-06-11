@@ -1,0 +1,26 @@
+# Dauphiné
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = occitain
+religion = hellenic_pagan
+clear_scripted_personalities = yes
+capital = 4391
+1436.3.8 = {
+	monarch = {
+		name = "Michelangelo"
+		birth_date = 1409.12.6
+		dynasty = "di Montélimar"
+		adm = 4
+		dip = 1
+		mil = 3
+	}
+	add_ruler_personality = midas_touched_personality
+}
+1444.11.11 = {
+	capital = 4391
+	add_treasury = 198
+	add_prestige = 128
+}

@@ -1,0 +1,27 @@
+# Tripoli
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = al_suryah_arabic
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 378
+1431.7.28 = {
+	monarch = {
+		name = "Song II"
+		birth_date = 1427.11.10
+		dynasty = "Fei"
+		adm = 1
+		dip = 2
+		mil = 0
+	}
+	add_ruler_personality = free_thinker_personality
+	add_ruler_personality = babbling_buffoon_personality
+}
+1444.11.11 = {
+	capital = 378
+	add_treasury = 97
+	add_prestige = 21
+}

@@ -1,0 +1,27 @@
+# Rostov
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = mordvin
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 308
+1425.8.24 = {
+	monarch = {
+		name = "Kardaz IV"
+		birth_date = 1421.11.5
+		dynasty = "of Bryansk"
+		adm = 1
+		dip = 1
+		mil = 3
+	}
+	add_ruler_personality = secretive_personality
+	add_ruler_personality = intricate_web_weaver_personality
+}
+1444.11.11 = {
+	capital = 308
+	add_treasury = 48
+	add_prestige = 71
+}

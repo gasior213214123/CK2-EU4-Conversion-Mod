@@ -1,0 +1,2079 @@
+#####################################
+#		WHOLESOME GAEM              
+#####################################
+
+namespace = wholesome_culture
+
+#Silesian culture
+province_event = {
+	id = wholesome_culture.1
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = silesian_culture_flip }
+		OR = {
+			culture = polish
+			culture = czech
+			culture_group = germanic
+		}
+
+		area = silesia_area
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.1.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = schlesian }
+			}
+			change_culture = schlesian
+		}
+		set_province_flag = silesian_culture_flip
+	}
+}
+
+#Ruthenian culture
+province_event = {
+	id = wholesome_culture.2
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = ruthenian_culture_flip }
+		OR = {
+			culture_group = east_slavic
+		}
+
+		OR = {
+			area = west_dniepr_area
+			area = east_dniepr_area
+			area = zaporizhia_area
+			area = sloboda_ukraine_area
+			area = yedisan_area
+			area = volhynia_area
+			area = podolia_volhynia_area
+			area = red_ruthenia_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.2.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = ruthenian }
+			}
+			change_culture = ruthenian
+		}
+		set_province_flag = ruthenian_culture_flip
+	}
+}
+
+#Novogrodian culture
+province_event = {
+	id = wholesome_culture.3
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = novogrodian_culture_flip }
+		OR = {
+			culture_group = east_slavic
+		}
+
+		OR = {
+			area = novgorod_area
+			area = pskov_area
+			area = beloozero_area
+			area = pomor_area
+			area = arkhangelsk_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.3.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = novgorodian }
+			}
+			change_culture = novgorodian
+		}
+		set_province_flag = novogrodian_culture_flip
+	}
+}
+
+#Muscovite culture
+province_event = {
+	id = wholesome_culture.4
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = muscovite_culture_flip }
+		OR = {
+			culture_group = east_slavic
+		}
+
+		OR = {
+			area = tver_area
+			area = yaroslavl_area
+			area = moscow_area
+			area = vladimir_area
+			area = suzdal_area
+			area = vologda_area
+			area = galich_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.4.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = russian }
+			}
+			change_culture = russian
+		}
+		set_province_flag = muscovite_culture_flip
+	}
+}
+
+#Karelian culture
+province_event = {
+	id = wholesome_culture.5
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = karelian_culture_flip }
+		OR = {
+			culture_group = east_slavic
+		}
+
+		OR = {
+			area = karelia_area
+			area = north_karelia
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.5.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = karelian }
+			}
+			change_culture = karelian
+		}
+		set_province_flag = karelian_culture_flip
+	}
+}
+
+#Ryazanian culture
+province_event = {
+	id = wholesome_culture.6
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = ryazanian_culture_flip }
+		OR = {
+			culture_group = east_slavic
+		}
+
+		OR = {
+			area = chernigov_area
+			area = smolensk_area
+			area = oka_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.6.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = ryazanian }
+			}
+			change_culture = ryazanian
+		}
+		set_province_flag = ryazanian_culture_flip
+	}
+}
+
+#Belarusian
+province_event = {
+	id = wholesome_culture.7
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = byelorussian_culture_flip }
+		OR = {
+			culture_group = east_slavic
+		}
+
+		OR = {
+			area = pripyat_area
+			area = podlasie_area
+			area = minsk_area
+			area = white_ruthenia_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.7.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = byelorussian }
+			}
+			change_culture = byelorussian
+		}
+		set_province_flag = byelorussian_culture_flip
+	}
+}
+
+#Prussian
+province_event = {
+	id = wholesome_culture.8
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = prussian_culture_flip }
+		OR = {
+			culture_group = germanic
+		}
+
+		OR = {
+			area = west_prussia_area
+			area = east_prussia_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.8.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = prussian }
+			}
+			change_culture = prussian
+		}
+		set_province_flag = prussian_culture_flip
+	}
+}
+
+#Saxon
+province_event = {
+	id = wholesome_culture.9
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = saxon_culture_flip }
+		OR = {
+			culture_group = germanic
+		}
+
+		OR = {
+			area = neumark_area
+			area = mittelmark_area
+			area = thuringia_area
+			area = northern_saxony_area
+			area = south_saxony_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.9.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = saxon }
+			}
+			change_culture = saxon
+		}
+		set_province_flag = saxon_culture_flip
+	}
+}
+
+#Bavarian
+province_event = {
+	id = wholesome_culture.10
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = bavarian_culture_flip }
+		OR = {
+			culture_group = germanic
+		}
+
+		OR = {
+			area = upper_bavaria_area	
+			area = lower_bavaria_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.10.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = bavarian }
+			}
+			change_culture = bavarian
+		}
+		set_province_flag = bavarian_culture_flip
+	}
+}
+
+#Austrian
+province_event = {
+	id = wholesome_culture.11
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = austrian_culture_flip }
+		OR = {
+			culture_group = germanic
+		}
+
+		OR = {
+			area = tirol_area
+			area = austria_proper_area
+			area = inner_austria_area
+			area = carinthia_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.11.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = austrian }
+			}
+			change_culture = austrian
+		}
+		set_province_flag = austrian_culture_flip
+	}
+}
+
+#Swabian
+province_event = {
+	id = wholesome_culture.12
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = swabian_culture_flip }
+		OR = {
+			culture_group = germanic
+		}
+
+		OR = {
+			area = lower_swabia_area	
+			area = upper_swabia_area
+			area = upper_rhineland_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.12.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = swabian }
+			}
+			change_culture = swabian
+		}
+		set_province_flag = swabian_culture_flip
+	}
+}
+
+#Swiss
+province_event = {
+	id = wholesome_culture.13
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = swiss_culture_flip }
+		OR = {
+			culture_group = germanic
+			culture_group = latin
+			culture_group = french
+		}
+
+		OR = {
+			area = romandie_area	
+			area = switzerland_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.13.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = swiss }
+			}
+			change_culture = swiss
+		}
+		set_province_flag = swiss_culture_flip
+	}
+}
+
+#Frankonian
+province_event = {
+	id = wholesome_culture.14
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = franconian_culture_flip }
+		OR = {
+			culture_group = germanic
+		}
+
+		OR = {
+			area = franconia_area	
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.14.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = franconian }
+			}
+			change_culture = franconian
+		}
+		set_province_flag = franconian_culture_flip
+	}
+}
+
+#Rhenish
+province_event = {
+	id = wholesome_culture.15
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = hessian_culture_flip }
+		OR = {
+			culture_group = germanic
+		}
+
+		OR = {
+			area = hesse_area	
+			area = north_rhine_area
+			area = palatinate_area
+			area = lower_rhineland_area
+			area = westphalia_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.15.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = hessian }
+			}
+			change_culture = hessian
+		}
+		set_province_flag = hessian_culture_flip
+	}
+}
+
+#Tuscan
+province_event = {
+	id = wholesome_culture.16
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = tuscan_culture_flip }
+		OR = {
+			culture_group = latin
+		}
+
+		OR = {
+			area = tuscany_area	
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.16.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = tuscan }
+			}
+			change_culture = tuscan
+		}
+		set_province_flag = tuscan_culture_flip
+	}
+}
+
+#Venetian
+province_event = {
+	id = wholesome_culture.17
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = venetian_culture_flip }
+		OR = {
+			culture_group = latin
+		}
+
+		OR = {
+			area = venetia_area	
+			area = tirol_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.17.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = venetian }
+			}
+			change_culture = venetian
+		}
+		set_province_flag = venetian_culture_flip
+	}
+}
+
+#Ligurian
+province_event = {
+	id = wholesome_culture.18
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = ligurian_culture_flip }
+		OR = {
+			culture_group = latin
+		}
+
+		OR = {
+			area = liguria_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.18.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = ligurian }
+			}
+			change_culture = ligurian
+		}
+		set_province_flag = ligurian_culture_flip
+	}
+}
+
+#Lombard
+province_event = {
+	id = wholesome_culture.19
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = lombard_culture_flip }
+		OR = {
+			culture_group = latin
+		}
+
+		OR = {
+			area = lombardy_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.19.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = lombard }
+			}
+			change_culture = lombard
+		}
+		set_province_flag = lombard_culture_flip
+	}
+}
+
+#Piedmontese
+province_event = {
+	id = wholesome_culture.20
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = piedmontese_culture_flip }
+		OR = {
+			culture_group = latin
+		}
+
+		OR = {
+			area = piedmont_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.20.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = piedmontese }
+			}
+			change_culture = piedmontese
+		}
+		set_province_flag = piedmontese_culture_flip
+	}
+}
+
+#romagnan
+province_event = {
+	id = wholesome_culture.21
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = romagnan_culture_flip }
+		OR = {
+			culture_group = latin
+		}
+
+		OR = {
+			area = emilia_romagna_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.21.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = romagnan }
+			}
+			change_culture = romagnan
+		}
+		set_province_flag = romagnan_culture_flip
+	}
+}
+
+#Umbrian
+province_event = {
+	id = wholesome_culture.22
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = umbrian_culture_flip }
+		OR = {
+			culture_group = latin
+		}
+
+		OR = {
+			area = central_italy_area
+			province_id = 118
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.22.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = umbrian }
+			}
+			change_culture = umbrian
+		}
+		set_province_flag = umbrian_culture_flip
+	}
+}
+
+#Sardinian
+province_event = {
+	id = wholesome_culture.23
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = sardinian_culture_flip }
+		OR = {
+			culture_group = latin
+		}
+
+		OR = {
+			area = corsica_sardinia_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.23.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = sardinian }
+			}
+			change_culture = sardinian
+		}
+		set_province_flag = sardinian_culture_flip
+	}
+}
+
+#Sicilian
+province_event = {
+	id = wholesome_culture.24
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = sicilian_culture_flip }
+		OR = {
+			culture_group = latin
+		}
+
+		OR = {
+			area = sicily_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.24.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = sicilian }
+			}
+			change_culture = sicilian
+		}
+		set_province_flag = sicilian_culture_flip
+	}
+}
+
+#Napoli
+province_event = {
+	id = wholesome_culture.25
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = neapolitan_culture_flip }
+		OR = {
+			culture_group = latin
+		}
+
+		OR = {
+			area = calabria_area
+			area = apulia_area
+			area = naples_area
+		}
+		NOT = {
+			province_id = 118
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.25.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = neapolitan }
+			}
+			change_culture = neapolitan
+		}
+		set_province_flag = neapolitan_culture_flip
+	}
+}
+
+#Crimean
+province_event = {
+	id = wholesome_culture.26
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = crimean_culture_flip }
+		OR = {
+			culture_group = altaic
+		}
+
+		OR = {
+			area = crimea_area
+			area = azov_area
+			area = zaporizhia_area
+			area = yedisan_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.26.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = crimean }
+			}
+			change_culture = crimean
+		}
+		set_province_flag = crimean_culture_flip
+	}
+}
+
+#astrakhani
+province_event = {
+	id = wholesome_culture.27
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = astrakhani_culture_flip }
+		OR = {
+			culture_group = altaic
+		}
+
+		OR = {
+			area = astrakhan_area
+			area = circassia_area
+			area = dagestan_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.27.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = astrakhani }
+			}
+			change_culture = astrakhani
+		}
+		set_province_flag = astrakhani_culture_flip
+	}
+}
+
+#mishary
+province_event = {
+	id = wholesome_culture.28
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = mishary_culture_flip }
+		OR = {
+			culture_group = altaic
+		}
+
+		OR = {
+			area = tambov_area
+			area = saratov_area
+			area = lower_don_area
+			area = sloboda_ukraine_area
+			area = ryazan_area
+			area = oka_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.28.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = mishary }
+			}
+			change_culture = mishary
+		}
+		set_province_flag = mishary_culture_flip
+	}
+}
+
+#kazani
+province_event = {
+	id = wholesome_culture.29
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = kazani_culture_flip }
+		OR = {
+			culture_group = altaic
+		}
+
+		OR = {
+			area = kazan_area
+			area = samara_area
+			area = volga_area
+			area = galich_area
+			area = kama_area
+			area = perm_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.29.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = kazani }
+			}
+			change_culture = kazani
+		}
+		set_province_flag = kazani_culture_flip
+	}
+}
+
+#nogaybak
+province_event = {
+	id = wholesome_culture.30
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = nogaybak_culture_flip }
+		OR = {
+			culture_group = altaic
+		}
+
+		OR = {
+			area = nogai_area
+			area = lower_yik_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.30.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = nogaybak }
+			}
+			change_culture = nogaybak
+		}
+		set_province_flag = nogaybak_culture_flip
+	}
+}
+
+#bashkir
+province_event = {
+	id = wholesome_culture.31
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = bashkir_culture_flip }
+		OR = {
+			culture_group = altaic
+		}
+
+		OR = {
+			area = bashkiria_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.31.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = bashkir }
+			}
+			change_culture = bashkir
+		}
+		set_province_flag = bashkir_culture_flip
+	}
+}
+
+#siberian
+province_event = {
+	id = wholesome_culture.32
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = siberian_culture_flip }
+		OR = {
+			culture_group = altaic
+		}
+
+		OR = {
+			area = yrtesh_area
+			area = ishim_area
+			area = ural_area
+			area = central_siberia_area	
+			area = ob_area	
+			area = kara_area
+		}
+		NOT = {
+			province_id = 2357
+			province_id = 2354
+			province_id = 479
+			province_id = 2369   
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.32.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = siberian }
+			}
+			change_culture = siberian
+		}
+		set_province_flag = siberian_culture_flip
+	}
+}
+
+#turkmeni
+province_event = {
+	id = wholesome_culture.33
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = turkmeni_culture_flip }
+		OR = {
+			culture_group = altaic
+		}
+
+		OR = {
+			area = khiva_area
+			area = transcaspia_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.33.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = turkmeni }
+			}
+			change_culture = turkmeni
+		}
+		set_province_flag = turkmeni_culture_flip
+	}
+}
+
+#uzbehk
+province_event = {
+	id = wholesome_culture.34
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = uzbehk_culture_flip }
+		OR = {
+			culture_group = altaic
+		}
+
+		OR = {
+			area = merv_area
+			area = ferghana_area
+			area = transoxiana_area
+			area = arys_area
+			area = termez_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.34.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = uzbehk }
+			}
+			change_culture = uzbehk
+		}
+		set_province_flag = uzbehk_culture_flip
+	}
+}
+
+#Khazakh	
+province_event = {
+	id = wholesome_culture.35
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = khazak_culture_flip }
+		OR = {
+			culture_group = altaic
+		}
+
+		OR = {
+			area = kazakhstan_area
+			area = balchasj_area
+			area = syr_darya_area	
+			area = kyzylkum_area
+			area = termez_area
+			province_id = 2357
+			province_id = 2354
+			province_id = 479
+			province_id = 2369  
+			province_id = 459   
+			province_id = 2368    
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.35.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = khazak }
+			}
+			change_culture = khazak
+		}
+		set_province_flag = khazak_culture_flip
+	}
+}
+
+#kirgiz
+province_event = {
+	id = wholesome_culture.36
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = kirgiz_culture_flip }
+		OR = {
+			culture_group = altaic
+		}
+
+		OR = {
+			province_id = 2125  
+			province_id = 2126   
+			province_id = 461   
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.36.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = kirgiz }
+			}
+			change_culture = kirgiz
+		}
+		set_province_flag = kirgiz_culture_flip
+	}
+}
+
+#uyghur
+province_event = {
+	id = wholesome_culture.37
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = uyghur_culture_flip }
+		OR = {
+			culture_group = altaic
+		}
+
+		OR = {
+			area = shanshan_area
+			area = kashgaria_area
+			area = zungaria_area
+			area = tarim_basin_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.37.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = uyghur }
+			}
+			change_culture = uyghur
+		}
+		set_province_flag = uyghur_culture_flip
+	}
+}
+
+#oirats
+province_event = {
+	id = wholesome_culture.38
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = oirats_culture_flip }
+		OR = {
+			culture_group = altaic
+		}
+
+		OR = {
+			area = north_zungaria
+			area = tannu_uriankhai_area
+			area = turpan_kumul_area
+			area = altai_sayan_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.38.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = oirats }
+			}
+			change_culture = oirats
+		}
+		set_province_flag = oirats_culture_flip
+	}
+}
+
+#moroccan
+province_event = {
+	id = wholesome_culture.39
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = moroccan_culture_flip }
+		OR = {
+			culture_group = maghrebi
+		}
+
+		OR = {
+			area = northern_morocco_area
+			area = sus_area
+			area = tafilalt_area
+			area = western_morocco_area
+			area = marrekesh_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.39.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = moroccan }
+			}
+			change_culture = moroccan
+		}
+		set_province_flag = moroccan_culture_flip
+	}
+}
+
+#algerian
+province_event = {
+	id = wholesome_culture.40
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = algerian_culture_flip }
+		OR = {
+			culture_group = maghrebi
+		}
+
+		OR = {
+			area = algiers_area
+			area = barbary_coast_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.40.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = algerian }
+			}
+			change_culture = algerian
+		}
+		set_province_flag = algerian_culture_flip
+	}
+}
+
+#tunisian
+province_event = {
+	id = wholesome_culture.41
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = tunisian_culture_flip }
+		OR = {
+			culture_group = maghrebi
+		}
+
+		OR = {
+			area = tunisia_area
+			area = djerba_area
+			area = fezzan_area
+			area = tripolitania_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.41.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = tunisian }
+			}
+			change_culture = tunisian
+		}
+		set_province_flag = tunisian_culture_flip
+	}
+}
+
+#goths
+province_event = {
+	id = wholesome_culture.43
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = goths_culture_flip }
+		OR = {
+			culture_group = byzantine
+		}
+
+		OR = {
+			area = crimea_area
+			area = circassia_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.43.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = goths }
+			}
+			change_culture = goths
+		}
+		set_province_flag = goths_culture_flip
+	}
+}
+
+#pontic_greek
+province_event = {
+	id = wholesome_culture.44
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = pontic_greek_culture_flip }
+		OR = {
+			culture_group = byzantine
+		}
+
+		OR = {
+			area = erzurum_area
+			area = imereti_area
+			area = samtskhe_area
+			area = kastamonu_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.44.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = pontic_greek }
+			}
+			change_culture = pontic_greek
+		}
+		set_province_flag = pontic_greek_culture_flip
+	}
+}
+
+#burgundian
+province_event = {
+	id = wholesome_culture.45
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = burgundian_culture_flip }
+		OR = {
+			culture_group = french
+		}
+
+		OR = {
+			area = lorraine_area
+			area = bourgogne_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.45.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = burgundian }
+			}
+			change_culture = burgundian
+		}
+		set_province_flag = burgundian_culture_flip
+	}
+}
+
+#greko_anatolian
+province_event = {
+	id = wholesome_culture.46
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = pontic_greek_culture_flip }
+		OR = {
+			culture_group = byzantine
+		}
+
+		OR = {
+			area = rum_area
+			area = hudavendigar_area
+			area = germiyan_area
+			area = aydin_area
+			area = ankara_area
+			area = karaman_area
+			area = cukurova_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.46.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = greko_anatolian }
+			}
+			change_culture = greko_anatolian
+		}
+		set_province_flag = greko_anatolian_culture_flip
+	}
+}
+
+#German Italian
+province_event = {
+	id = wholesome_culture.47
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = german_italian_culture_flip }
+		OR = {
+			culture_group = latin
+		}
+
+		OR = {
+			region = north_german_region
+			region = south_german_region
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.47.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = german_italian }
+			}
+			change_culture = german_italian
+		}
+		set_province_flag = german_italian_culture_flip
+	}
+}
+
+#Omani
+province_event = {
+	id = wholesome_culture.48
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = omani_culture_culture_flip }
+		OR = {
+			culture = bedouin_arabic
+		}
+
+		OR = {
+			area = mascat_area
+			area = oman_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.48.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = omani_culture }
+			}
+			change_culture = omani_culture
+		}
+		set_province_flag = omani_culture_culture_flip
+	}
+}
+
+#Yemeni
+province_event = {
+	id = wholesome_culture.49
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = yemeni_culture_culture_flip }
+		OR = {
+			culture = bedouin_arabic
+		}
+
+		OR = {
+			area = yemen_area
+			area = upper_yemen_area
+			area = tihama_al_yemen_area
+			area = asir_area
+			area = hadramut_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.49.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = yemeni_culture }
+			}
+			change_culture = yemeni_culture
+		}
+		set_province_flag = yemeni_culture_culture_flip
+	}
+}
+
+#hedjazi
+province_event = {
+	id = wholesome_culture.50
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = hejazi_culture_culture_flip }
+		OR = {
+			culture = bedouin_arabic
+		}
+
+		OR = {
+			area = mecca_area
+			area = medina_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.50.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = hejazi_culture }
+			}
+			change_culture = hejazi_culture
+		}
+		set_province_flag = hejazi_culture_culture_flip
+	}
+}
+
+#mahri_culture
+province_event = {
+	id = wholesome_culture.51
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = mahri_culture_culture_flip }
+		OR = {
+			culture = bedouin_arabic
+		}
+
+		OR = {
+			area = mahra_area
+			area = dhofar_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.51.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = mahri_culture }
+			}
+			change_culture = mahri_culture
+		}
+		set_province_flag = mahri_culture_culture_flip
+	}
+}
+
+#gulf_arabic
+province_event = {
+	id = wholesome_culture.52
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = gulf_arabic_culture_flip }
+		OR = {
+			culture = bedouin_arabic
+		}
+
+		OR = {
+			area = bahrain_area
+			area = pirate_coast_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.52.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = gulf_arabic }
+			}
+			change_culture = gulf_arabic
+		}
+		set_province_flag = gulf_arabic_culture_flip
+	}
+}
+
+#greko_egyptian
+province_event = {
+	id = wholesome_culture.53
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = greko_egyptian_culture_flip }
+		OR = {
+			culture_group = byzantine
+		}
+
+		OR = {
+			region = egypt_region
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.53.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = greko_egyptian }
+			}
+			change_culture = greko_egyptian
+		}
+		set_province_flag = greko_egyptian_culture_flip
+	}
+}
+
+#slavic_moldavian
+province_event = {
+	id = wholesome_culture.54
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = slavic_moldavian_culture_flip }
+		OR = {
+			culture_group = east_slavic
+		}
+
+		OR = {
+			area = moldavia_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.54.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = slavic_moldavian }
+			}
+			change_culture = slavic_moldavian
+		}
+		set_province_flag = slavic_moldavian_culture_flip
+	}
+}
+
+#greko_italian
+province_event = {
+	id = wholesome_culture.55
+	title = wholesome_culture.t
+	desc = wholesome_culture.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		NOT = { has_province_flag = greko_italian_culture_flip }
+		OR = {
+			culture_group = byzantine
+		}
+
+		OR = {
+			region = italy_region
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = wholesome_culture.55.a	#
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { culture = greko_italian }
+			}
+			change_culture = greko_italian
+		}
+		set_province_flag = greko_italian_culture_flip
+	}
+}
+
+
+
+

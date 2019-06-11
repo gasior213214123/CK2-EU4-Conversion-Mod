@@ -1,0 +1,27 @@
+# Raccoon Mongol Empire
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 2
+mercantilism = 0.1
+technology_group = nomad_group
+primary_culture = mongol
+religion = tengri_pagan_reformed
+clear_scripted_personalities = yes
+capital = 142
+1432.1.12 = {
+	monarch = {
+		name = "Tolui"
+		birth_date = 1397.9.18
+		dynasty = "RaccoonCucciKhan"
+		adm = 3
+		dip = 2
+		mil = 6
+	}
+	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = conqueror_personality
+}
+1444.11.11 = {
+	capital = 142
+	add_treasury = 6061
+	add_prestige = 3213
+}

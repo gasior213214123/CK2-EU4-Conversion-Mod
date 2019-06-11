@@ -1,0 +1,26 @@
+# Rajputana
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = indian
+primary_culture = rajput
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 2067
+1442.12.18 = {
+	monarch = {
+		name = "Kiratpal"
+		birth_date = 1436.5.4
+		dynasty = "Matyineni"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = obsessive_perfectionist_personality
+}
+1444.11.11 = {
+	capital = 2067
+	add_treasury = 52
+	add_prestige = 507
+}

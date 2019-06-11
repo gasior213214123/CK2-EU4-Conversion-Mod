@@ -1,0 +1,27 @@
+# Sardinia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = italian
+religion = hellenic_pagan
+clear_scripted_personalities = yes
+capital = 2986
+1438.10.19 = {
+	monarch = {
+		name = "Argentina"
+		birth_date = 1407.5.12
+		dynasty = "Varbertingi"
+		female = yes
+		adm = 1
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = conqueror_personality
+}
+1444.11.11 = {
+	capital = 2986
+	add_treasury = 51
+	add_prestige = 339
+}

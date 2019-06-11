@@ -1,0 +1,27 @@
+# Novgorod
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = russian_culture
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 310
+1423.9.1 = {
+	monarch = {
+		name = "Volodar"
+		birth_date = 1377.12.1
+		dynasty = "Inzhayid"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = inspiring_leader_personality
+}
+1444.11.11 = {
+	capital = 310
+	add_treasury = 6
+	add_prestige = 769
+}

@@ -1,0 +1,171 @@
+# Yatvingia
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 149 97 97 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	administrative_ideas
+	quantity_ideas
+}
+
+historical_units = {
+	bardiche_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	hungarian_hussar
+	polish_musketeer
+	polish_hussar
+	polish_tercio
+	polish_winged_hussar
+	russian_lancer
+	russian_cuirassier
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
+}
+
+
+
+leader_names = {
+
+	"Briachislav" "Vladimir" "Rostislava" "Sviatoslava" "Boleslava" "Dobrynia" "Stanislav" "Terentiy" "Prebrana" "Radoslav" 
+	"Gorislava" "Ulita" "Nikita" "Zabava" "Ruslan" "Yeremey" "Mitrofan" "Fedot" "Praxida" "Iliya" 
+	"Yevstafiy" "Liudmila" "Sviatopolk" "Fevronia" "Arunas" "Erdvilas" "Liudas" "Kiten" "Songaila" "Bukantas" 
+	"Antavas" "Yudki" "Talivaldis" "Erasts" "Drosuk" "Vsevolod" "Gleb" "Gierolt" "Algirdas" "Antanas" 
+	"Aras" "Azuolas" "Budrys" "Butavas" "Butigeidis" "Butvydas" "Daugvilas" "Daumantas" "Dausprungas" "Dravenis" 
+	"Erdenis" "Gedigaudas" "Gediminas" "Gedivilas" "Gintaras" "Gintautas" "Girdenis" "Irmantas" "Jaunutis" "Jogaila" 
+	"Jovirdas" "Kantibutas" "Karijotas" "Kesgaila" "Kestutis" "Korigaila" "Korybutas" "Lasukas" "Lingvenis" "Lubartas" 
+	"Lutuveras" "Merkelis" "Mindaugas" "Minigaila" "Mantvydas" "Movkoldas" "Narimantas" "Povilas" "Pukuveras" "Rimantas" 
+	"Rimgaila" "Rimvydas" "Ringaudas" "Sarunas" "Skirgaila" "Svarnas" "Svitrigaila" "Tarvydas" "Tovtivilas" "Traidenis" 
+	"Treniotas" "Vainius" "Vaisvilkas" "Valimantas" "Vidmantas" "Vingoldas" "Virmantas" "Visvaldis" "Vizgirdas" "Vykintas" 
+	"Vytautas" "Vytenis" "Zivinbudas" "Zygimantas" }
+monarch_names = {
+	"Briachislav #1" = 21
+	"Vladimir #0" = 1
+	"Rostislava #0" = -1
+	"Sviatoslava #0" = -1
+	"Boleslava #0" = -1
+	"Dobrynia #0" = 1
+	"Stanislav #3" = 18
+	"Terentiy #0" = 1
+	"Prebrana #0" = -1
+	"Radoslav #1" = 21
+	"Gorislava #0" = -1
+	"Ulita #0" = -1
+	"Nikita #1" = 21
+	"Zabava #0" = -1
+	"Ruslan #0" = 1
+	"Yeremey #0" = 1
+	"Mitrofan #0" = 1
+	"Fedot #0" = 1
+	"Praxida #0" = -1
+	"Iliya #2" = 18
+	"Yevstafiy #0" = 1
+	"Liudmila #0" = -1
+	"Sviatopolk #0" = 1
+	"Fevronia #0" = -1
+	"Arunas #1" = 0
+	"Erdvilas #1" = 0
+	"Liudas #1" = 0
+	"Kiten #1" = 0
+	"Songaila #1" = 0
+	"Bukantas #1" = 0
+	"Antavas #1" = 0
+	"Yudki #1" = 0
+	"Talivaldis #1" = 0
+	"Erasts #1" = 0
+	"Drosuk #1" = 0
+	"Vsevolod #2" = 0
+	"Gleb #1" = 0
+	"Gierolt #2" = 0
+	"Algirdas #0" = 0
+	"Antanas #0" = 0
+	"Aras #0" = 0
+	"Azuolas #0" = 0
+	"Budrys #0" = 0
+	"Butavas #0" = 0
+	"Butigeidis #0" = 0
+	"Butvydas #0" = 0
+	"Daugvilas #0" = 0
+	"Daumantas #0" = 0
+	"Dausprungas #0" = 0
+	"Dravenis #0" = 0
+	"Erdenis #0" = 0
+	"Gedigaudas #0" = 0
+	"Gediminas #0" = 0
+	"Gedivilas #0" = 0
+	"Gintaras #0" = 0
+	"Gintautas #0" = 0
+	"Girdenis #0" = 0
+	"Irmantas #0" = 0
+	"Jaunutis #0" = 0
+	"Jogaila #0" = 0
+	"Jovirdas #0" = 0
+	"Kantibutas #0" = 0
+	"Karijotas #0" = 0
+	"Kesgaila #0" = 0
+	"Kestutis #0" = 0
+	"Korigaila #0" = 0
+	"Korybutas #0" = 0
+	"Lasukas #0" = 0
+	"Lingvenis #0" = 0
+	"Lubartas #0" = 0
+	"Lutuveras #0" = 0
+	"Merkelis #0" = 0
+	"Mindaugas #0" = 0
+	"Minigaila #0" = 0
+	"Mantvydas #0" = 0
+	"Movkoldas #0" = 0
+	"Narimantas #0" = 0
+	"Povilas #0" = 0
+	"Pukuveras #0" = 0
+	"Rimantas #0" = 0
+	"Rimgaila #0" = 0
+	"Rimvydas #0" = 0
+	"Ringaudas #0" = 0
+	"Sarunas #0" = 0
+	"Skirgaila #0" = 0
+	"Svarnas #0" = 0
+	"Svitrigaila #0" = 0
+	"Tarvydas #0" = 0
+	"Tovtivilas #0" = 0
+	"Traidenis #0" = 0
+	"Treniotas #0" = 0
+	"Vainius #0" = 0
+	"Vaisvilkas #0" = 0
+	"Valimantas #0" = 0
+	"Vidmantas #0" = 0
+	"Vingoldas #0" = 0
+	"Virmantas #0" = 0
+	"Visvaldis #0" = 0
+	"Vizgirdas #0" = 0
+	"Vykintas #0" = 0
+	"Vytautas #0" = 0
+	"Vytenis #0" = 0
+	"Zivinbudas #0" = 0
+	"Zygimantas #0" = 0
+}
+ship_names = {
+	Alytus
+	Birzai
+	Druskininkai
+	Gardinas
+	Jonava
+	Kaunas Kretinga Kreva
+	Lazdijai
+	Naugardukas
+	Palanga
+	Raseiniai
+	Siauliai Sventoji
+	Taurage Telsiai Trakai
+	Utena
+	Vilkmerge
+}
+

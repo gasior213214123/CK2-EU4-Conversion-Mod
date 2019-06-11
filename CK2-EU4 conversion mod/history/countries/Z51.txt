@@ -1,0 +1,27 @@
+# Trier
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = cosmopolitan_french
+religion = catholic
+clear_scripted_personalities = yes
+capital = 188
+1442.9.27 = {
+	monarch = {
+		name = "Nunzia"
+		birth_date = 1423.1.15
+		dynasty = "di Battenberg"
+		female = yes
+		adm = 3
+		dip = 4
+		mil = 1
+	}
+	add_ruler_personality = greedy_personality
+}
+1444.11.11 = {
+	capital = 188
+	add_treasury = 38
+	add_prestige = 15
+}

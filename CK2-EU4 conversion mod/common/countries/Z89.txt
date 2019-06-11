@@ -1,0 +1,199 @@
+# Nyitra
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 190 21 21 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	administrative_ideas
+	religious_ideas
+}
+
+historical_units = {
+	bardiche_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	hungarian_hussar
+	polish_musketeer
+	polish_hussar
+	polish_tercio
+	polish_winged_hussar
+	russian_lancer
+	russian_cuirassier
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
+}
+
+
+
+leader_names = {
+
+	"Bohdan" "Halina" "Strachkvas" "Kristyna" "Hynek" "Drahoslava" "Jindrich" "Domaslava" "Pribyslava" "Svatava" 
+	"Vojslava" "Eliska" "Boleslava" "Drslav" "Justina" "Doubravka" "Viola" "Jitka" "Jaroslava" "Sobieslav" 
+	"Milic" "Albrecht" "Guta" "Judita" "Vanek" "Litold" "Slavomír" "Zofie" "Richeza" "Johanka" 
+	"Walenty" "Blazej" "Leszek" "Bohuslav" "Bozena" "Slavibor" "Msciwoj" "Bocek" "Prokop" "Dobroslava" 
+	"Kuník" "Zdenka" "Borzywoj" "Dobrogost" "Bozydar" "Kunhuta" "Doman" "Jaroslav" "Perchta" "Wszebora" 
+	"Anezka" "Konrad" "Swietopelk" "Václav" "Tobiás" "Marie" "Stanislava" "Bohuslava" "Albert" "Libuse" 
+	"Niezamysl" "Svatopluk" "Boleslav" "Bedrich" "Olga" "Skonka" "Vladimír" "Svetimir" "Mojmír" "Markvart" 
+	"Kojata" "Ötemis" "Tuk" "Jaromar" "Witosz" "Ales" "Arnost" "Bavor" "Benes" "Bores" 
+	"Borijov" "Bretislav" "Budivoj" "Castolov" "Cenek" "Chval" "Ctirad" "Diepold" "Detrich" "Gerhard" 
+	"Hanus" "Havel" "Heralt" "Herman" "Hrabis" "Jan" "Jaromír" "Jesek" "Jirík" "Karel" 
+	"Konrád" "Matous" "Mikulás" "Ojír" "Oldrich" "Ondrej" "Ota" "Otakar" "Pelhrim" "Petr" 
+	"Premysl" "Rajmund" "Rostislav" "Sezima" "Smil" "Spytihnev" "Svatobor" "Viktorín" "Vítek" "Vilém" 
+	"Vladislav" "Vojtech" "Vratislav" "Vsebor" "Závis" "Zbynek" "Zdík" "Zdirad" "Zikmund" }
+monarch_names = {
+	"Bohdan #2" = 21
+	"Halina #0" = -1
+	"Strachkvas #0" = 1
+	"Kristyna #0" = -1
+	"Hynek #1" = 21
+	"Drahoslava #0" = -1
+	"Jindrich #0" = 1
+	"Domaslava #0" = -1
+	"Pribyslava #0" = -1
+	"Svatava #0" = -1
+	"Vojslava #0" = -1
+	"Eliska #0" = -1
+	"Boleslava #0" = -1
+	"Drslav #0" = 1
+	"Justina #0" = -1
+	"Doubravka #0" = -1
+	"Viola #0" = -1
+	"Jitka #0" = -1
+	"Jaroslava #0" = -1
+	"Sobieslav #0" = 1
+	"Milic #0" = 1
+	"Albrecht #0" = 1
+	"Guta #0" = -1
+	"Judita #0" = -1
+	"Vanek #0" = 1
+	"Litold #0" = 1
+	"Slavomír #0" = 1
+	"Zofie #0" = -1
+	"Richeza #0" = -1
+	"Johanka #0" = -1
+	"Walenty #0" = 1
+	"Blazej #0" = 1
+	"Leszek #1" = 18
+	"Bohuslav #0" = 1
+	"Bozena #0" = -1
+	"Slavibor #0" = 1
+	"Msciwoj #1" = 24
+	"Bocek #0" = 1
+	"Prokop #0" = 1
+	"Dobroslava #0" = -1
+	"Kuník #3" = 21
+	"Zdenka #0" = -1
+	"Borzywoj #0" = 1
+	"Dobrogost #0" = 1
+	"Bozydar #1" = 18
+	"Kunhuta #0" = -1
+	"Doman #0" = 1
+	"Jaroslav #2" = 21
+	"Perchta #0" = -1
+	"Wszebora #0" = -1
+	"Anezka #0" = -1
+	"Konrad #0" = 1
+	"Swietopelk #0" = 1
+	"Václav #2" = 24
+	"Tobiás #0" = 1
+	"Marie #0" = -1
+	"Stanislava #0" = -1
+	"Bohuslava #0" = -1
+	"Albert #0" = 1
+	"Libuse #0" = -1
+	"Niezamysl #0" = 1
+	"Svatopluk #0" = 1
+	"Boleslav #0" = 1
+	"Bedrich #0" = 1
+	"Olga #0" = -1
+	"Skonka #0" = -1
+	"Vladimír #0" = 1
+	"Svetimir #1" = 0
+	"Mojmír #1" = 0
+	"Markvart #1" = 0
+	"Kojata #1" = 0
+	"Ötemis #1" = 0
+	"Tuk #1" = 0
+	"Jaromar #1" = 0
+	"Witosz #1" = 0
+	"Ales #0" = 0
+	"Arnost #0" = 0
+	"Bavor #0" = 0
+	"Benes #0" = 0
+	"Bores #0" = 0
+	"Borijov #0" = 0
+	"Bretislav #0" = 0
+	"Budivoj #0" = 0
+	"Castolov #0" = 0
+	"Cenek #0" = 0
+	"Chval #0" = 0
+	"Ctirad #0" = 0
+	"Diepold #0" = 0
+	"Detrich #0" = 0
+	"Gerhard #0" = 0
+	"Hanus #0" = 0
+	"Havel #0" = 0
+	"Heralt #0" = 0
+	"Herman #0" = 0
+	"Hrabis #0" = 0
+	"Jan #0" = 0
+	"Jaromír #0" = 0
+	"Jesek #0" = 0
+	"Jirík #0" = 0
+	"Karel #0" = 0
+	"Konrád #0" = 0
+	"Matous #0" = 0
+	"Mikulás #0" = 0
+	"Ojír #0" = 0
+	"Oldrich #0" = 0
+	"Ondrej #0" = 0
+	"Ota #0" = 0
+	"Otakar #0" = 0
+	"Pelhrim #0" = 0
+	"Petr #0" = 0
+	"Premysl #0" = 0
+	"Rajmund #0" = 0
+	"Rostislav #0" = 0
+	"Sezima #0" = 0
+	"Smil #0" = 0
+	"Spytihnev #0" = 0
+	"Svatobor #0" = 0
+	"Viktorín #0" = 0
+	"Vítek #0" = 0
+	"Vilém #0" = 0
+	"Vladislav #0" = 0
+	"Vojtech #0" = 0
+	"Vratislav #0" = 0
+	"Vsebor #0" = 0
+	"Závis #0" = 0
+	"Zbynek #0" = 0
+	"Zdík #0" = 0
+	"Zdirad #0" = 0
+	"Zikmund #0" = 0
+}
+ship_names = {
+	"Arka Noego"
+        "Bialy Orzel" Burza "Bialy Lew" "Brzesko-Kujawskie" Belzkie Braclawskie
+        Charitas "Czarny Orzel" "Czarny Kruk" Chelminskie Czernichowskie
+        Fortuna
+        Gryf Gwiazda Gnieznienskie
+	Inoworclawskie
+	"Król Dawid" Kaliskie Krakowskie Kijowskie Kraków
+        Lublin "Latajacy Jelen" Lwów Leczyckie Lubelskie
+        "Maly Bialy Orzel" Malborskie Mazowieckie
+        Niewrazliwy "Nowy Czarny Orzel"
+        "Prorok Samuel" "Panna Wodna" Plomien Poznanskie Plockie Podlaskie Podolskie
+	"Rycerz Swiety Jerzy" Rawskie Ruskie
+        Strzelec Suwerenny "Swiety Piotr" Sieradzkie Sandomierskie "Swiety Kazimierz"
+        "Wielkie Slonce" Wodnik Warminskie Wolynskie Warszawa
+        Zwyciestwo "Zólty Lew"
+}
+

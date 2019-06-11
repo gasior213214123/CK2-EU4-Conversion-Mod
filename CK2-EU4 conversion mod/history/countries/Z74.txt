@@ -1,0 +1,26 @@
+# Umayyad
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = bedouin_arabic
+religion = manichean
+clear_scripted_personalities = yes
+capital = 232
+1435.6.10 = {
+	monarch = {
+		name = "Isa"
+		birth_date = 1434.8.10
+		dynasty = "Umayyad"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = kind_hearted_personality
+}
+1444.11.11 = {
+	capital = 232
+	add_treasury = 53
+	add_prestige = 533
+}

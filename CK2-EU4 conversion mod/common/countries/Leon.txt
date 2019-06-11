@@ -1,0 +1,112 @@
+# León
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 253 158 51 }
+historical_idea_groups = {
+	religious_ideas
+	exploration_ideas
+	defensive_ideas
+	naval_ideas
+	economic_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	spanish_tercio
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Fruela" "Pelagio" "Fafila" "Adelfonso" "Froila" "Aurelio" "Ordonno" "Monnia" "Berengario" "Halil" 
+	"Abdul-Jaleel" "Musa" "Zeyd" "Alfonso" "Alonso" "Álvar" "Álvaro" "Bermudo" "Diego" "Enrique" 
+	"Fadrique" "Felipe" "Fernando" "García" "Gil" "Gómez" "Gonzalo" "Guillén" "Guillermo" "Gutierre" 
+	"Juan" "Lope" "Luis" "Manrique" "Martín" "Munio" "Nuño" "Ordoño" "Oveco" "Pedro" 
+	"Pelayo" "Ramiro" "Rodrigo" "Sancho" "Suero" "Tello" "Vela" }
+monarch_names = {
+	"Fruela #1" = 18
+	"Pelagio #1" = 0
+	"Fafila #1" = 0
+	"Adelfonso #1" = 0
+	"Froila #2" = 0
+	"Aurelio #1" = 0
+	"Ordonno #1" = 0
+	"Monnia #1" = -1
+	"Berengario #1" = 0
+	"Halil #1" = 0
+	"Abdul-Jaleel #1" = 0
+	"Musa #1" = 0
+	"Zeyd #1" = 0
+	"Alfonso #0" = 0
+	"Alonso #0" = 0
+	"Álvar #0" = 0
+	"Álvaro #0" = 0
+	"Bermudo #0" = 0
+	"Diego #0" = 0
+	"Enrique #0" = 0
+	"Fadrique #0" = 0
+	"Felipe #0" = 0
+	"Fernando #0" = 0
+	"García #0" = 0
+	"Gil #0" = 0
+	"Gómez #0" = 0
+	"Gonzalo #0" = 0
+	"Guillén #0" = 0
+	"Guillermo #0" = 0
+	"Gutierre #0" = 0
+	"Juan #0" = 0
+	"Lope #0" = 0
+	"Luis #0" = 0
+	"Manrique #0" = 0
+	"Martín #0" = 0
+	"Munio #0" = 0
+	"Nuño #0" = 0
+	"Ordoño #0" = 0
+	"Oveco #0" = 0
+	"Pedro #0" = 0
+	"Pelayo #0" = 0
+	"Ramiro #0" = 0
+	"Rodrigo #0" = 0
+	"Sancho #0" = 0
+	"Suero #0" = 0
+	"Tello #0" = 0
+	"Vela #0" = 0
+
+
+	"Isabel #0" = -1
+	"Elvira #0" = -1
+	"Milia #0" = -1
+	"Urraca #0" = -1
+}
+ship_names = {
+	Andalucía Anunciación Argonauta Aurora Aventurero Bizarra Brillante Burlando
+	Cacafuego Caimán Castilla Catalina "Conde de Tolosa" Conquistador Constante "Cuervo Marino"
+	Dorada Dragón "El Retiro" Esmeralda Esperanza Fuerte Galicia Gavilán Gaviota Glorioso Griega
+	Hércules Hermiona Infante Intrépido Iris Jassón Juno Júpiter
+	"La Carlota" "La Cazadora" "La Tetis" León Luz Mercurio Neptuno
+	Pena Penélope Peregrina "Perla de España" Princesa "Príncipe de Asturias" Puercoespín
+	"Real Carlos" "Real Familia" "Real Felipe" "Real Jorge" "Rubí" "Saeta"
+	"San Andrés" "San Antonio" "San Carlos" "San Esteban" "San Felipe" "San Fernando" "San Francisco"
+	"San Gabriel" "San Gil" "San Isidoro" "San Isidro" "San Jerónimo" "San Joaquín" "San José" "San Juan" "San Juan Bautista"
+	"San Leandro" "San Luis" "San Marcos" "San Martín" "San Miguel" "San Pío"
+	"Santa Ana" "Santa Bárbara" "Santa Eulalia" "Santa Irene" "Santa Isabel" "Santa Justa"
+	"Santa Natalia" "Santa Rita" "Santa Rosa" "Santa Susana" "Santa Teresa"
+	Santiago "Santísima Trinidad" Sebastiana Soberano Susana Trinidad Triunfo Unicornio
+	Venganza Vichero Victoria Vigilante Volante Vulcano Zara
+}
+

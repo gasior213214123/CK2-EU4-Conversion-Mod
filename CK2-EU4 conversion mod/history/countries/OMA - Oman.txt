@@ -1,0 +1,27 @@
+# Oman
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = bedouin_arabic
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 2341
+1401.8.13 = {
+	monarch = {
+		name = "Mahendrapal"
+		birth_date = 1381.4.1
+		dynasty = "Bhatti"
+		adm = 4
+		dip = 3
+		mil = 6
+	}
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = fierce_negotiator_personality
+}
+1444.11.11 = {
+	capital = 2341
+	add_treasury = 73
+	add_prestige = 667
+}

@@ -1,0 +1,26 @@
+# Taftan
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 1
+mercantilism = 0.1
+technology_group = nomad_group
+primary_culture = mongol
+religion = tengri_pagan_reformed
+clear_scripted_personalities = yes
+capital = 2352
+1440.4.23 = {
+	monarch = {
+		name = "Harghasun"
+		birth_date = 1403.2.7
+		dynasty = "Taftan"
+		adm = 2
+		dip = 3
+		mil = 6
+	}
+	add_ruler_personality = conqueror_personality
+}
+1444.11.11 = {
+	capital = 2352
+	add_treasury = 95
+	add_prestige = 45
+}

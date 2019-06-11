@@ -1,0 +1,27 @@
+# Tunis
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = italian
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 2453
+1430.4.26 = {
+	monarch = {
+		name = "Meletios II"
+		birth_date = 1430.2.18
+		dynasty = "of Trani"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality = pious_personality
+	add_ruler_personality = zealot_personality
+}
+1444.11.11 = {
+	capital = 2453
+	add_treasury = 56
+	add_prestige = 82
+}

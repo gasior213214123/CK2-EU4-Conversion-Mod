@@ -1,0 +1,27 @@
+# Silesia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = polish
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 4238
+1424.12.13 = {
+	monarch = {
+		name = "Gierolt"
+		birth_date = 1410.7.21
+		dynasty = "Sieradzki"
+		adm = 2
+		dip = 6
+		mil = 2
+	}
+	add_ruler_personality = fierce_negotiator_personality
+	add_ruler_personality = craven_personality
+}
+1444.11.11 = {
+	capital = 4238
+	add_treasury = 32
+	add_prestige = 333
+}

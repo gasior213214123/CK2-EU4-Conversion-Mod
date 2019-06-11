@@ -1,0 +1,38 @@
+# Shetland
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = scottish
+religion = catholic
+clear_scripted_personalities = yes
+capital = 1978
+1437.5.24 = {
+	monarch = {
+		name = "Conan"
+		birth_date = 1431.2.16
+		dynasty = "Dunbar"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+	add_ruler_personality = naive_personality
+	heir = {
+		name = "Saundra"
+		monarch_name = "Saundra"
+		dynasty = "Dunbar"
+		birth_date = 1429.9.16
+		death_date = 1509.9.16
+		female = yes
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+	add_heir_personality = strict_personality
+}
+1444.11.11 = {
+	capital = 1978
+	add_treasury = 221
+	add_prestige = 6
+}

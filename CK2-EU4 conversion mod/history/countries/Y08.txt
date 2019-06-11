@@ -1,0 +1,27 @@
+# Komi
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = komi
+religion = animism
+clear_scripted_personalities = yes
+capital = 4129
+1439.8.8 = {
+	monarch = {
+		name = "Linda"
+		birth_date = 1406.1.24
+		dynasty = "Tikshaykid"
+		female = yes
+		adm = 6
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = entrepreneur_personality
+}
+1444.11.11 = {
+	capital = 4129
+	add_treasury = 22
+	add_prestige = 155
+}

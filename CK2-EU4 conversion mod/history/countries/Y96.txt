@@ -1,0 +1,26 @@
+# Bengal
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = chinese
+primary_culture = nepali
+religion = buddhism
+clear_scripted_personalities = yes
+capital = 557
+1435.5.6 = {
+	monarch = {
+		name = "Black II"
+		birth_date = 1421.4.8
+		dynasty = "Cherpakovi"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = tactical_genius_personality
+}
+1444.11.11 = {
+	capital = 557
+	add_treasury = 370
+	add_prestige = 739
+}

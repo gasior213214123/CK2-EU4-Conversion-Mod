@@ -1,0 +1,26 @@
+# Bhatti
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = indian
+primary_culture = rajput
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 518
+1436.7.10 = {
+	monarch = {
+		name = "Naravarman"
+		birth_date = 1406.7.9
+		dynasty = "Bhatti"
+		adm = 6
+		dip = 3
+		mil = 6
+	}
+	add_ruler_personality = midas_touched_personality
+}
+1444.11.11 = {
+	capital = 518
+	add_treasury = 78
+	add_prestige = 267
+}

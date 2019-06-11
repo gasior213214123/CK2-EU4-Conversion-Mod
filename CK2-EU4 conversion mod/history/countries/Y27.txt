@@ -1,0 +1,27 @@
+# Karvuna
+government = theocracy
+add_government_reform = leading_clergy_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = bulgarian
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 159
+1429.8.20 = {
+	monarch = {
+		name = "Ioannes"
+		birth_date = 1402.4.26
+		dynasty = "Hamartolos"
+		adm = 1
+		dip = 5
+		mil = 4
+	}
+	add_ruler_personality = righteous_personality
+	add_ruler_personality = naive_personality
+}
+1444.11.11 = {
+	capital = 159
+	add_treasury = 45
+	add_prestige = 82
+}

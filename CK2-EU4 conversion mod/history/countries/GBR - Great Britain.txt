@@ -1,0 +1,40 @@
+# Britannia
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 3
+mercantilism = 0.1
+technology_group = western
+primary_culture = normand
+religion = catholic
+clear_scripted_personalities = yes
+capital = 236
+1413.5.5 = {
+	monarch = {
+		name = "Randolf"
+		birth_date = 1406.2.5
+		dynasty = "Cerdicing"
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+	add_ruler_personality = scholar_personality
+	add_ruler_personality = fierce_negotiator_personality
+}
+1428.9.18 = {
+	heir = {
+		name = "Adelard"
+		monarch_name = "Adelard"
+		dynasty = "Cerdicing"
+		birth_date = 1428.9.18
+		death_date = 1508.9.18
+		adm = 3
+		dip = 1
+		mil = 3
+	}
+	add_heir_personality = infertile_personality
+}
+1444.11.11 = {
+	capital = 236
+	add_treasury = 42
+	add_prestige = 1278
+}

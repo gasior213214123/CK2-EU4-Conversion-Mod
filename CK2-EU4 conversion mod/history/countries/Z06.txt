@@ -1,0 +1,26 @@
+# Syrmia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = croatian
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 4173
+1439.4.17 = {
+	monarch = {
+		name = "Ryszard"
+		birth_date = 1418.7.27
+		dynasty = "diCoconi"
+		adm = 1
+		dip = 0
+		mil = 3
+	}
+	add_ruler_personality = bold_fighter_personality
+}
+1444.11.11 = {
+	capital = 4173
+	add_treasury = 35
+	add_prestige = 106
+}

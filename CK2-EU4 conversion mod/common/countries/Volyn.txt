@@ -1,0 +1,136 @@
+# Volhynia
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 204 155 121 }
+
+
+
+
+leader_names = {
+
+	"Vysheslav" "Birute" "Giedre" "Rostislav" "Bukantas" "Iliya" "Dausprungas" "Dannila" "Anele" "Eleonora" 
+	"Kesgaila" "Lamberto" "Lev" "Dravenis" "Svajone" "Svatava" "Azuolas" "Sarunas" "Pukuveras" "Audra" 
+	"Danute" "Jevna" "Przemyslaw" "Budrys" "Sviatoslav" "Yelisey" "Vladimir" "Twardomir" "Gierolt" "Wojciech" 
+	"Pechna" "Elzbieta" "Wszebor" "Kenna" "Adleta" "Daugvilas" "Tobiás" "Gintare" "Briachislav" "Witosz" 
+	"Sulistryj" "Trojden" "Kazimierz" "Piskla" "Pelka" "Slavibor" "Herman" "Teodoro" "Algirdas" "Antanas" 
+	"Antavas" "Aras" "Arunas" "Butavas" "Butigeidis" "Butvydas" "Daumantas" "Erdenis" "Erdvilas" "Gedigaudas" 
+	"Gediminas" "Gedivilas" "Gintaras" "Gintautas" "Girdenis" "Irmantas" "Jaunutis" "Jogaila" "Jovirdas" "Kantibutas" 
+	"Karijotas" "Kestutis" "Korigaila" "Korybutas" "Lasukas" "Lingvenis" "Liudas" "Lubartas" "Lutuveras" "Merkelis" 
+	"Mindaugas" "Minigaila" "Mantvydas" "Movkoldas" "Narimantas" "Povilas" "Rimantas" "Rimgaila" "Rimvydas" "Ringaudas" 
+	"Skirgaila" "Songaila" "Svarnas" "Svitrigaila" "Tarvydas" "Tovtivilas" "Traidenis" "Treniotas" "Vainius" "Vaisvilkas" 
+	"Valimantas" "Vidmantas" "Vingoldas" "Virmantas" "Visvaldis" "Vizgirdas" "Vykintas" "Vytautas" "Vytenis" "Zivinbudas" 
+	"Zygimantas" }
+monarch_names = {
+	"Vysheslav #0" = 1
+	"Birute #0" = -1
+	"Giedre #0" = -1
+	"Rostislav #0" = 1
+	"Bukantas #0" = 1
+	"Iliya #0" = 1
+	"Dausprungas #0" = 1
+	"Dannila #0" = -1
+	"Anele #0" = -1
+	"Eleonora #0" = -1
+	"Kesgaila #0" = 1
+	"Lamberto #0" = 1
+	"Lev #1" = 18
+	"Dravenis #0" = 1
+	"Svajone #0" = -1
+	"Svatava #0" = -1
+	"Azuolas #0" = 1
+	"Sarunas #1" = 18
+	"Pukuveras #0" = 1
+	"Audra #0" = -1
+	"Danute #0" = -1
+	"Jevna #0" = -1
+	"Przemyslaw #0" = 1
+	"Budrys #1" = 21
+	"Sviatoslav #0" = 1
+	"Yelisey #0" = 1
+	"Vladimir #0" = 1
+	"Twardomir #0" = 1
+	"Gierolt #1" = 18
+	"Wojciech #0" = 1
+	"Pechna #0" = -1
+	"Elzbieta #0" = -1
+	"Wszebor #0" = 1
+	"Kenna #0" = -1
+	"Adleta #0" = -1
+	"Daugvilas #1" = 18
+	"Tobiás #0" = 1
+	"Gintare #0" = -1
+	"Briachislav #1" = 0
+	"Witosz #1" = 0
+	"Sulistryj #1" = 0
+	"Trojden #2" = 0
+	"Kazimierz #1" = 0
+	"Piskla #1" = 0
+	"Pelka #1" = 0
+	"Slavibor #1" = 0
+	"Herman #1" = 0
+	"Teodoro #1" = 0
+	"Algirdas #0" = 0
+	"Antanas #0" = 0
+	"Antavas #0" = 0
+	"Aras #0" = 0
+	"Arunas #0" = 0
+	"Butavas #0" = 0
+	"Butigeidis #0" = 0
+	"Butvydas #0" = 0
+	"Daumantas #0" = 0
+	"Erdenis #0" = 0
+	"Erdvilas #0" = 0
+	"Gedigaudas #0" = 0
+	"Gediminas #0" = 0
+	"Gedivilas #0" = 0
+	"Gintaras #0" = 0
+	"Gintautas #0" = 0
+	"Girdenis #0" = 0
+	"Irmantas #0" = 0
+	"Jaunutis #0" = 0
+	"Jogaila #0" = 0
+	"Jovirdas #0" = 0
+	"Kantibutas #0" = 0
+	"Karijotas #0" = 0
+	"Kestutis #0" = 0
+	"Korigaila #0" = 0
+	"Korybutas #0" = 0
+	"Lasukas #0" = 0
+	"Lingvenis #0" = 0
+	"Liudas #0" = 0
+	"Lubartas #0" = 0
+	"Lutuveras #0" = 0
+	"Merkelis #0" = 0
+	"Mindaugas #0" = 0
+	"Minigaila #0" = 0
+	"Mantvydas #0" = 0
+	"Movkoldas #0" = 0
+	"Narimantas #0" = 0
+	"Povilas #0" = 0
+	"Rimantas #0" = 0
+	"Rimgaila #0" = 0
+	"Rimvydas #0" = 0
+	"Ringaudas #0" = 0
+	"Skirgaila #0" = 0
+	"Songaila #0" = 0
+	"Svarnas #0" = 0
+	"Svitrigaila #0" = 0
+	"Tarvydas #0" = 0
+	"Tovtivilas #0" = 0
+	"Traidenis #0" = 0
+	"Treniotas #0" = 0
+	"Vainius #0" = 0
+	"Vaisvilkas #0" = 0
+	"Valimantas #0" = 0
+	"Vidmantas #0" = 0
+	"Vingoldas #0" = 0
+	"Virmantas #0" = 0
+	"Visvaldis #0" = 0
+	"Vizgirdas #0" = 0
+	"Vykintas #0" = 0
+	"Vytautas #0" = 0
+	"Vytenis #0" = 0
+	"Zivinbudas #0" = 0
+	"Zygimantas #0" = 0
+}
+

@@ -1,0 +1,39 @@
+# Alto Aragón
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = bedouin_arabic
+religion = mazdaki
+clear_scripted_personalities = yes
+capital = 211
+1420.4.3 = {
+	monarch = {
+		name = "Hafiz"
+		birth_date = 1384.9.17
+		dynasty = "Jacaid"
+		adm = 2
+		dip = 1
+		mil = 5
+	}
+	add_ruler_personality = scholar_personality
+	add_ruler_personality = strict_personality
+}
+1437.11.25 = {
+	heir = {
+		name = "Burhanaddin"
+		monarch_name = "Burhanaddin"
+		dynasty = "Jacaid"
+		birth_date = 1437.11.25
+		death_date = 1517.11.25
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+1444.11.11 = {
+	capital = 211
+	add_treasury = 64
+	add_prestige = 42
+}

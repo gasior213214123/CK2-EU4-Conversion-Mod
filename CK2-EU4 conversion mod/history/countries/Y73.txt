@@ -1,0 +1,27 @@
+# Vemulavada Chalukya
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = indian
+primary_culture = telegu
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 542
+1405.11.10 = {
+	monarch = {
+		name = "Katunkon II"
+		birth_date = 1383.5.16
+		dynasty = "Vemulavada Chalukya"
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+	add_ruler_personality = pious_personality
+	add_ruler_personality = righteous_personality
+}
+1444.11.11 = {
+	capital = 542
+	add_treasury = 75
+	add_prestige = 598
+}

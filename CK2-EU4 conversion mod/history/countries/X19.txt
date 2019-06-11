@@ -1,0 +1,26 @@
+# Blemmyia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = east_african
+primary_culture = nubian
+religion = coptic
+clear_scripted_personalities = yes
+capital = 1230
+1435.7.7 = {
+	monarch = {
+		name = "Ioseph II"
+		birth_date = 1410.10.13
+		dynasty = "Sobaid"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+	add_ruler_personality = drunkard_personality
+}
+1444.11.11 = {
+	capital = 1230
+	add_treasury = 30
+	add_prestige = 141
+}

@@ -1,0 +1,70 @@
+# Polotsk
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 128 133 104 }
+
+
+
+
+leader_names = {
+
+	"Vladimir" "Marina" "Sviatoslav" "Iliya" "Telec" "Yaropolk" "Viacheslava" "Praxida" "Dobroslava" "Tatyana" 
+	"Sviatopolk" "Svetozar" "Rostislav" "Iziaslav" "Cirulis" "Antanas" "Rimvydas" "Butvydas" "Dravenis" "Briachislav" 
+	"Demid" "Dobrynia" "Fedot" "Gleb" "Igor" "Lev" "Mitrofan" "Mstislav" "Nikita" "Putiata" 
+	"Radoslav" "Rodislav" "Rogvolod" "Ruslan" "Stanislav" "Sudislav" "Terentiy" "Trifon" "Viacheslav" "Vladislav" 
+	"Voislav" "Volodar" "Vseslav" "Vsevolod" "Vyshata" "Vysheslav" "Yaroslav" "Yefimiy" "Yelisey" "Yeremey" 
+	"Yevstafiy" }
+monarch_names = {
+	"Vladimir #1" = 18
+	"Marina #0" = -1
+	"Sviatoslav #1" = 18
+	"Iliya #1" = 18
+	"Telec #1" = 18
+	"Yaropolk #0" = 1
+	"Viacheslava #0" = -1
+	"Praxida #0" = -1
+	"Dobroslava #0" = -1
+	"Tatyana #0" = -1
+	"Sviatopolk #1" = 18
+	"Svetozar #2" = 0
+	"Rostislav #1" = 0
+	"Iziaslav #1" = 0
+	"Cirulis #1" = 0
+	"Antanas #1" = 0
+	"Rimvydas #1" = 0
+	"Butvydas #2" = 0
+	"Dravenis #1" = 0
+	"Briachislav #0" = 0
+	"Demid #0" = 0
+	"Dobrynia #0" = 0
+	"Fedot #0" = 0
+	"Gleb #0" = 0
+	"Igor #0" = 0
+	"Lev #0" = 0
+	"Mitrofan #0" = 0
+	"Mstislav #0" = 0
+	"Nikita #0" = 0
+	"Putiata #0" = 0
+	"Radoslav #0" = 0
+	"Rodislav #0" = 0
+	"Rogvolod #0" = 0
+	"Ruslan #0" = 0
+	"Stanislav #0" = 0
+	"Sudislav #0" = 0
+	"Terentiy #0" = 0
+	"Trifon #0" = 0
+	"Viacheslav #0" = 0
+	"Vladislav #0" = 0
+	"Voislav #0" = 0
+	"Volodar #0" = 0
+	"Vseslav #0" = 0
+	"Vsevolod #0" = 0
+	"Vyshata #0" = 0
+	"Vysheslav #0" = 0
+	"Yaroslav #0" = 0
+	"Yefimiy #0" = 0
+	"Yelisey #0" = 0
+	"Yeremey #0" = 0
+	"Yevstafiy #0" = 0
+}
+

@@ -1,0 +1,26 @@
+# Rajendranarayan
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = indian
+primary_culture = bengali
+religion = buddhism
+clear_scripted_personalities = yes
+capital = 2095
+1441.4.26 = {
+	monarch = {
+		name = "Dhireshwar"
+		birth_date = 1434.9.24
+		dynasty = "Rajendranarayan"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = craven_personality
+}
+1444.11.11 = {
+	capital = 2095
+	add_treasury = 60
+	add_prestige = 106
+}

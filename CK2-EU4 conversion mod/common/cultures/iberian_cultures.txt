@@ -1,0 +1,6 @@
+iberian = {
+	visigothic = {
+		primary = CAS
+		dynasty_names = { "de Cantabria" "de Quatrebarbes" "de Maiorica" "Theodoricciana" }
+	}
+}

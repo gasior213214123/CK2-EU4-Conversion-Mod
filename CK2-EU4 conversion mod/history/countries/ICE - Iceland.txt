@@ -1,0 +1,38 @@
+# Iceland
+government = republic
+add_government_reform = republic
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = norwegian
+religion = cathar
+clear_scripted_personalities = yes
+capital = 370
+1417.3.1 = {
+	monarch = {
+		name = "Totil"
+		birth_date = 1374.6.8
+		dynasty = "af Droitwich"
+		adm = 5
+		dip = 1
+		mil = 2
+	}
+	add_ruler_personality = malevolent_personality
+	add_ruler_personality = midas_touched_personality
+	heir = {
+		name = "Buðli"
+		monarch_name = "Buðli II"
+		dynasty = "af Droitwich"
+		birth_date = 1381.11.23
+		death_date = 1461.11.23
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	add_heir_personality = embezzler_personality
+}
+1444.11.11 = {
+	capital = 370
+	add_treasury = 123
+	add_prestige = 234
+}

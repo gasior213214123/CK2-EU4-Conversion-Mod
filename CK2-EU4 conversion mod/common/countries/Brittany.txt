@@ -1,0 +1,605 @@
+# Brittany
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 159 75 34 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	exploration_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	french_caracolle
+	anglofrench_line
+	french_dragoon
+	french_bluecoat
+	french_cuirassier
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Owain" "Non" "Gwenasedd" "Cyngen" "Sioned" "Eleri" "Hywela" "Ystradwel" "Dynod" "Mair" 
+	"Delyth" "Lleuca" "Cynfelyn" "Ceindrych" "Argad" "Margred" "Algwyn" "Emrys" "Sibyl" "Elud" 
+	"Glywys" "Mallt" "Brochfael" "Brychan" "Cynlas" "Seiriol" "Meirion" "Einion" "Maig" "Cadwal" 
+	"Idgwyn" "Rhufon" "Hywel" "Meirchion" "Caradog" "Rhiannon" "Glynys" "Fflur" "Arddyn" "Elen" 
+	"Denis" "Dwywai" "Anowed" "Gwenwyn" "Llecci" "Llear" "Custennin" "Tegla" "Ellyn" "Dywel" 
+	"Clarisant" "Dwynwen" "Ceridwen" "Tewdwr" "Hunydd" "Ewyas" "Cynddylan" "Gwenllian" "Afrella" "Efa" 
+	"Arthwys" "Blodwen" "Margrud" "Heledd" "Madog" "Aeronwy" "Siân" "Ffraid" "Meilyr" "Mawd" 
+	"Rhiwallon" "Catrin" "Nynniaw" "Math" "Olwen" "Ysbail" "Garivald" "Ascaric" "Everard" "Marcatrude" 
+	"Geofroi" "Tiburge" "Janed" "Oswulf" "Iudnimet" "Bernead" "Adrien" "Proinsias" "Adoyre" "Aedan" 
+	"Agustin" "Alan" "Alar" "Aldrien" "Alfrond" "Alor" "Alured" "Alwen" "Anaoc" "Anaubritou" 
+	"Anaugen" "Anauguethen" "Anauguoret" "Anauhocar" "Andreas" "Aniud" "Anton" "Argantbri" "Argantmoet" "Arnalt" 
+	"Arthel" "Arthguiu" "Arthmael" "Arthueu" "Arthuiu" "Arthur" "Austol" "Baldoen" "Bastian" "Beli" 
+	"Beltram" "Benabic" "Berenger" "Berthgualt" "Bledric" "Bledros" "Bleidcum" "Bletcu" "Blethin" "Blethiut" 
+	"Bodan" "Bran" "Brangualart" "Branhucar" "Branoc" "Brenci" "Brendan" "Breselconan" "Breselcoucant" "Breselgar" 
+	"Breseloc" "Breselueu" "Brethoc" "Brient" "Brigualt" "Brioc" "Brithael" "Brochuael" "Bronmael" "Budguoret" 
+	"Budhoiarn" "Budic" "Budoc" "Buhedoc" "Butgual" "Cadan" "Cadaouen" "Cadarvan" "Cadiou" "Cadoc" 
+	"Cador" "Cadou" "Cantgueithen" "Caradec" "Caradoc" "Carantoc" "Catgualart" "Catuallon" "Catguethen" "Catguoret" 
+	"Catgutic" "Cathno" "Catnimed" "Catuod" "Caurantin" "Ceneu" "Cenguethen" "Cenmarhoc" "Cenmin" "Cenmonoc" 
+	"Cingur" "Cinhoedl" "Clemen" "Clodouan" "Clotwoïon" "Comoere" "Conan" "Concen" "Condeleu" "Condidan" 
+	"Congar" "Conmael" "Conmonoc" "Conogan" "Conredeu" "Conuallon" "Conmarch" "Convelin" "Conwoïon" "Corguethen" 
+	"Courantgern" "Courantmonoc" "Culmin" "Custent" "Custentin" "Dauid" "Deniel" "Deroch" "Derrien" "Deui" 
+	"Deurhoiarn" "Domnoret" "Domuel" "Donual" "Donuallon" "Drogon" "Duenerth" "Dumnarth" "Edern" "Edouart" 
+	"Eguen" "Eon" "Erispoë" "Erouan" "Estienne" "Etgual" "Eudon" "Euhocar" "Euhoiarn" "Eusebi" 
+	"Even" "Evrard" "Farinmael" "Ferant" "Fracan" "Framual" "Fransaz" "Frioc" "Garmon" "Geralt" 
+	"Gereint" "Gestin" "Gilbert" "Godefroi" "Goennoc" "Gouesnon" "Goulwen" "Gouremor" "Gourmaelon" "Gralon" 
+	"Gratcant" "Gregor" "Grifiud" "Guallon" "Gualter" "Gudual" "Guecon" "Guenerdon" "Guenhael" "Guentanet" 
+	"Guentiern" "Gui" "Guiharan" "Guihomarch" "Guihomart" "Guilherm" "Guincalon" "Guincum" "Guinhael" "Guinhoiarn" 
+	"Guinoc" "Guinol" "Guithrit" "Guitol" "Guobrian" "Guocon" "Guoedanau" "Guoedatoe" "Guoednou" "Guoethoiarn" 
+	"Guoletec" "Guorbili" "Guordotal" "Guoretan" "Guorethoiarn" "Guorhoiarn" "Gurbodu" "Gurcant" "Gurcencor" "Gurceneu" 
+	"Gurci" "Gurcon" "Gurdilic" "Gurgen" "Gurguaret" "Gurguist" "Gurguistl" "Gurheter" "Guriant" "Gurlouen" 
+	"Gurmael" "Gurmaeloc" "Gurmhaelon" "Gurthcid" "Gurthiern" "Guruant" "Guerech" "Gueroc" "Guethenan" "Guethencar" 
+	"Guethencor" "Guethenwoïon" "Guethenhoiarn" "Guethenoc" "Haelcomarch" "Haelguethen" "Haelguoret" "Haelhoiarn" "Haeloc" "Haeloubri" 
+	"Haermael" "Hammelin" "Hamon" "Harscoit" "Hedyn" "Heranal" "Herri" "Hesdren" "Hincomhal" "Hinguethen" 
+	"Hocar" "Hoconan" "Honfroi" "Hoël" "Huiarnal" "Huiarnbili" "Huiarnviu" "Hunfroi" "Iacob" "Iarcun" 
+	"Iarnbud" "Iarncant" "Iarncar" "Iarndetguid" "Iarnegon" "Iarnuallon" "Iarnuocon" "Iarnhitin" "Iedechael" "Iehan" 
+	"Ilcarthon" "Ildut" "Iliud" "Inisian" "Iocilin" "Iodoc" "Ionas" "Iosep" "Iudcum" "Iuduallon" 
+	"Iudhael" "Iudicael" "Iudnerth" "Iustoc" "Iudoc" "Iudual" "Iumael" "Iunceneu" "Iunuocon" "Iunmonoc" 
+	"Jord" "Leucum" "Loi" "Lorens" "Louenan" "Loumarch" "Louïs" "Maelcon" "Maeldoï" "Maelhuedoc" 
+	"Maeloc" "Maelscoet" "Maelscuet" "Maenceneu" "Maenci" "March" "Marthin" "Matheudoï" "Mathias" "Matoc" 
+	"Matuid" "Maugan" "Mauric" "Medrod" "Meldroc" "Meriadoc" "Mermin" "Meugan" "Meven" "Michel" 
+	"Morcant" "Morcondeleu" "Morgen" "Morguethen" "Morhaetho" "Mormarch" "Morvan" "Mortiern" "Neven" "Nicolas" 
+	"Nodethael" "Nodhoiarn" "Nominoë" "Nougui" "Oliuer" "Oswallt" "Padric" "Paol" "Pascueten" "Patern" 
+	"Petroc" "Phelippe" "Piran" "Prigent" "Primael" "Primarhoc" "Putrael" "Pêr" "Ralf" "Raoul" 
+	"Renan" "Resmen" "Riacet" "Ribald" "Ricart" "Riceneu" "Richwin" "Ridoredh" "Riualtr" "Rihouen" 
+	"Rinduran" "Rioc" "Riol" "Riwal" "Riuallon" "Rodric" "Roenualloc" "Roenuallon" "Roenuolou" "Roenhoiarn" 
+	"Rolland" "Ronan" "Roparth" "Roucen" "Rumon" "Ryd" "Salenn" "Salomon" "Samson" "Samuel" 
+	"Stefen" "Sulgen" "Sulhoiarn" "Sulmonoc" "Sultiern" "Talan" "Talhoiarn" "Tanci" "Tanet" "Tanhoiarn" 
+	"Telent" "Terithien" "Tethion" "Teudric" "Teudur" "Tibault" "Tiernan" "Tiernmael" "Tiernoc" "Tiernualloc" 
+	"Tiernuallon" "Treveur" "Tristan" "Tuduallon" "Tudur" "Tugdual" "Ungust" "Urbcen" "Urbien" "Urblon" 
+	"Urvod" "Uther" "Vincenne" }
+monarch_names = {
+	"Owain #0" = 1
+	"Non #0" = -1
+	"Gwenasedd #1" = -22
+	"Cyngen #0" = 1
+	"Sioned #0" = -1
+	"Eleri #0" = -1
+	"Hywela #0" = -1
+	"Ystradwel #0" = -1
+	"Dynod #0" = 1
+	"Mair #0" = -1
+	"Delyth #0" = -1
+	"Lleuca #0" = -1
+	"Cynfelyn #0" = 1
+	"Ceindrych #0" = -1
+	"Argad #0" = 1
+	"Margred #0" = -1
+	"Algwyn #0" = 1
+	"Emrys #0" = 1
+	"Sibyl #0" = -1
+	"Elud #0" = 1
+	"Glywys #0" = 1
+	"Mallt #0" = -1
+	"Brochfael #0" = 1
+	"Brychan #0" = 1
+	"Cynlas #0" = 1
+	"Seiriol #0" = 1
+	"Meirion #0" = 1
+	"Einion #0" = 1
+	"Maig #0" = 1
+	"Cadwal #0" = 1
+	"Idgwyn #0" = 1
+	"Rhufon #0" = 1
+	"Hywel #0" = 1
+	"Meirchion #0" = 1
+	"Caradog #0" = 1
+	"Rhiannon #0" = -1
+	"Glynys #0" = -1
+	"Fflur #0" = -1
+	"Arddyn #0" = -1
+	"Elen #0" = -1
+	"Denis #0" = -1
+	"Dwywai #0" = -1
+	"Anowed #0" = -1
+	"Gwenwyn #0" = -1
+	"Llecci #0" = -1
+	"Llear #0" = -1
+	"Custennin #0" = 1
+	"Tegla #0" = -1
+	"Ellyn #0" = -1
+	"Dywel #0" = 1
+	"Clarisant #0" = -1
+	"Dwynwen #0" = -1
+	"Ceridwen #0" = -1
+	"Tewdwr #0" = 1
+	"Hunydd #0" = -1
+	"Ewyas #0" = 1
+	"Cynddylan #0" = 1
+	"Gwenllian #0" = -1
+	"Afrella #0" = -1
+	"Efa #0" = -1
+	"Arthwys #0" = 1
+	"Blodwen #0" = -1
+	"Margrud #0" = -1
+	"Heledd #0" = -1
+	"Madog #0" = 1
+	"Aeronwy #0" = -1
+	"Siân #0" = -1
+	"Ffraid #0" = -1
+	"Meilyr #0" = 1
+	"Mawd #0" = -1
+	"Rhiwallon #0" = 1
+	"Catrin #0" = -1
+	"Nynniaw #0" = 1
+	"Math #0" = 1
+	"Olwen #0" = -1
+	"Ysbail #0" = -1
+	"Garivald #1" = 0
+	"Ascaric #1" = 0
+	"Everard #1" = 0
+	"Marcatrude #1" = -1
+	"Geofroi #1" = 0
+	"Tiburge #1" = -1
+	"Janed #1" = -1
+	"Oswulf #1" = 0
+	"Iudnimet #1" = 0
+	"Bernead #1" = 0
+	"Adrien #1" = 0
+	"Proinsias #1" = 0
+	"Adoyre #0" = 0
+	"Aedan #0" = 0
+	"Agustin #0" = 0
+	"Alan #0" = 0
+	"Alar #0" = 0
+	"Aldrien #0" = 0
+	"Alfrond #0" = 0
+	"Alor #0" = 0
+	"Alured #0" = 0
+	"Alwen #0" = 0
+	"Anaoc #0" = 0
+	"Anaubritou #0" = 0
+	"Anaugen #0" = 0
+	"Anauguethen #0" = 0
+	"Anauguoret #0" = 0
+	"Anauhocar #0" = 0
+	"Andreas #0" = 0
+	"Aniud #0" = 0
+	"Anton #0" = 0
+	"Argantbri #0" = 0
+	"Argantmoet #0" = 0
+	"Arnalt #0" = 0
+	"Arthel #0" = 0
+	"Arthguiu #0" = 0
+	"Arthmael #0" = 0
+	"Arthueu #0" = 0
+	"Arthuiu #0" = 0
+	"Arthur #0" = 0
+	"Austol #0" = 0
+	"Baldoen #0" = 0
+	"Bastian #0" = 0
+	"Beli #0" = 0
+	"Beltram #0" = 0
+	"Benabic #0" = 0
+	"Berenger #0" = 0
+	"Berthgualt #0" = 0
+	"Bledric #0" = 0
+	"Bledros #0" = 0
+	"Bleidcum #0" = 0
+	"Bletcu #0" = 0
+	"Blethin #0" = 0
+	"Blethiut #0" = 0
+	"Bodan #0" = 0
+	"Bran #0" = 0
+	"Brangualart #0" = 0
+	"Branhucar #0" = 0
+	"Branoc #0" = 0
+	"Brenci #0" = 0
+	"Brendan #0" = 0
+	"Breselconan #0" = 0
+	"Breselcoucant #0" = 0
+	"Breselgar #0" = 0
+	"Breseloc #0" = 0
+	"Breselueu #0" = 0
+	"Brethoc #0" = 0
+	"Brient #0" = 0
+	"Brigualt #0" = 0
+	"Brioc #0" = 0
+	"Brithael #0" = 0
+	"Brochuael #0" = 0
+	"Bronmael #0" = 0
+	"Budguoret #0" = 0
+	"Budhoiarn #0" = 0
+	"Budic #0" = 0
+	"Budoc #0" = 0
+	"Buhedoc #0" = 0
+	"Butgual #0" = 0
+	"Cadan #0" = 0
+	"Cadaouen #0" = 0
+	"Cadarvan #0" = 0
+	"Cadiou #0" = 0
+	"Cadoc #0" = 0
+	"Cador #0" = 0
+	"Cadou #0" = 0
+	"Cantgueithen #0" = 0
+	"Caradec #0" = 0
+	"Caradoc #0" = 0
+	"Carantoc #0" = 0
+	"Catgualart #0" = 0
+	"Catuallon #0" = 0
+	"Catguethen #0" = 0
+	"Catguoret #0" = 0
+	"Catgutic #0" = 0
+	"Cathno #0" = 0
+	"Catnimed #0" = 0
+	"Catuod #0" = 0
+	"Caurantin #0" = 0
+	"Ceneu #0" = 0
+	"Cenguethen #0" = 0
+	"Cenmarhoc #0" = 0
+	"Cenmin #0" = 0
+	"Cenmonoc #0" = 0
+	"Cingur #0" = 0
+	"Cinhoedl #0" = 0
+	"Clemen #0" = 0
+	"Clodouan #0" = 0
+	"Clotwoïon #0" = 0
+	"Comoere #0" = 0
+	"Conan #0" = 0
+	"Concen #0" = 0
+	"Condeleu #0" = 0
+	"Condidan #0" = 0
+	"Congar #0" = 0
+	"Conmael #0" = 0
+	"Conmonoc #0" = 0
+	"Conogan #0" = 0
+	"Conredeu #0" = 0
+	"Conuallon #0" = 0
+	"Conmarch #0" = 0
+	"Convelin #0" = 0
+	"Conwoïon #0" = 0
+	"Corguethen #0" = 0
+	"Courantgern #0" = 0
+	"Courantmonoc #0" = 0
+	"Culmin #0" = 0
+	"Custent #0" = 0
+	"Custentin #0" = 0
+	"Dauid #0" = 0
+	"Deniel #0" = 0
+	"Deroch #0" = 0
+	"Derrien #0" = 0
+	"Deui #0" = 0
+	"Deurhoiarn #0" = 0
+	"Domnoret #0" = 0
+	"Domuel #0" = 0
+	"Donual #0" = 0
+	"Donuallon #0" = 0
+	"Drogon #0" = 0
+	"Duenerth #0" = 0
+	"Dumnarth #0" = 0
+	"Edern #0" = 0
+	"Edouart #0" = 0
+	"Eguen #0" = 0
+	"Eon #0" = 0
+	"Erispoë #0" = 0
+	"Erouan #0" = 0
+	"Estienne #0" = 0
+	"Etgual #0" = 0
+	"Eudon #0" = 0
+	"Euhocar #0" = 0
+	"Euhoiarn #0" = 0
+	"Eusebi #0" = 0
+	"Even #0" = 0
+	"Evrard #0" = 0
+	"Farinmael #0" = 0
+	"Ferant #0" = 0
+	"Fracan #0" = 0
+	"Framual #0" = 0
+	"Fransaz #0" = 0
+	"Frioc #0" = 0
+	"Garmon #0" = 0
+	"Geralt #0" = 0
+	"Gereint #0" = 0
+	"Gestin #0" = 0
+	"Gilbert #0" = 0
+	"Godefroi #0" = 0
+	"Goennoc #0" = 0
+	"Gouesnon #0" = 0
+	"Goulwen #0" = 0
+	"Gouremor #0" = 0
+	"Gourmaelon #0" = 0
+	"Gralon #0" = 0
+	"Gratcant #0" = 0
+	"Gregor #0" = 0
+	"Grifiud #0" = 0
+	"Guallon #0" = 0
+	"Gualter #0" = 0
+	"Gudual #0" = 0
+	"Guecon #0" = 0
+	"Guenerdon #0" = 0
+	"Guenhael #0" = 0
+	"Guentanet #0" = 0
+	"Guentiern #0" = 0
+	"Gui #0" = 0
+	"Guiharan #0" = 0
+	"Guihomarch #0" = 0
+	"Guihomart #0" = 0
+	"Guilherm #0" = 0
+	"Guincalon #0" = 0
+	"Guincum #0" = 0
+	"Guinhael #0" = 0
+	"Guinhoiarn #0" = 0
+	"Guinoc #0" = 0
+	"Guinol #0" = 0
+	"Guithrit #0" = 0
+	"Guitol #0" = 0
+	"Guobrian #0" = 0
+	"Guocon #0" = 0
+	"Guoedanau #0" = 0
+	"Guoedatoe #0" = 0
+	"Guoednou #0" = 0
+	"Guoethoiarn #0" = 0
+	"Guoletec #0" = 0
+	"Guorbili #0" = 0
+	"Guordotal #0" = 0
+	"Guoretan #0" = 0
+	"Guorethoiarn #0" = 0
+	"Guorhoiarn #0" = 0
+	"Gurbodu #0" = 0
+	"Gurcant #0" = 0
+	"Gurcencor #0" = 0
+	"Gurceneu #0" = 0
+	"Gurci #0" = 0
+	"Gurcon #0" = 0
+	"Gurdilic #0" = 0
+	"Gurgen #0" = 0
+	"Gurguaret #0" = 0
+	"Gurguist #0" = 0
+	"Gurguistl #0" = 0
+	"Gurheter #0" = 0
+	"Guriant #0" = 0
+	"Gurlouen #0" = 0
+	"Gurmael #0" = 0
+	"Gurmaeloc #0" = 0
+	"Gurmhaelon #0" = 0
+	"Gurthcid #0" = 0
+	"Gurthiern #0" = 0
+	"Guruant #0" = 0
+	"Guerech #0" = 0
+	"Gueroc #0" = 0
+	"Guethenan #0" = 0
+	"Guethencar #0" = 0
+	"Guethencor #0" = 0
+	"Guethenwoïon #0" = 0
+	"Guethenhoiarn #0" = 0
+	"Guethenoc #0" = 0
+	"Haelcomarch #0" = 0
+	"Haelguethen #0" = 0
+	"Haelguoret #0" = 0
+	"Haelhoiarn #0" = 0
+	"Haeloc #0" = 0
+	"Haeloubri #0" = 0
+	"Haermael #0" = 0
+	"Hammelin #0" = 0
+	"Hamon #0" = 0
+	"Harscoit #0" = 0
+	"Hedyn #0" = 0
+	"Heranal #0" = 0
+	"Herri #0" = 0
+	"Hesdren #0" = 0
+	"Hincomhal #0" = 0
+	"Hinguethen #0" = 0
+	"Hocar #0" = 0
+	"Hoconan #0" = 0
+	"Honfroi #0" = 0
+	"Hoël #0" = 0
+	"Huiarnal #0" = 0
+	"Huiarnbili #0" = 0
+	"Huiarnviu #0" = 0
+	"Hunfroi #0" = 0
+	"Iacob #0" = 0
+	"Iarcun #0" = 0
+	"Iarnbud #0" = 0
+	"Iarncant #0" = 0
+	"Iarncar #0" = 0
+	"Iarndetguid #0" = 0
+	"Iarnegon #0" = 0
+	"Iarnuallon #0" = 0
+	"Iarnuocon #0" = 0
+	"Iarnhitin #0" = 0
+	"Iedechael #0" = 0
+	"Iehan #0" = 0
+	"Ilcarthon #0" = 0
+	"Ildut #0" = 0
+	"Iliud #0" = 0
+	"Inisian #0" = 0
+	"Iocilin #0" = 0
+	"Iodoc #0" = 0
+	"Ionas #0" = 0
+	"Iosep #0" = 0
+	"Iudcum #0" = 0
+	"Iuduallon #0" = 0
+	"Iudhael #0" = 0
+	"Iudicael #0" = 0
+	"Iudnerth #0" = 0
+	"Iustoc #0" = 0
+	"Iudoc #0" = 0
+	"Iudual #0" = 0
+	"Iumael #0" = 0
+	"Iunceneu #0" = 0
+	"Iunuocon #0" = 0
+	"Iunmonoc #0" = 0
+	"Jord #0" = 0
+	"Leucum #0" = 0
+	"Loi #0" = 0
+	"Lorens #0" = 0
+	"Louenan #0" = 0
+	"Loumarch #0" = 0
+	"Louïs #0" = 0
+	"Maelcon #0" = 0
+	"Maeldoï #0" = 0
+	"Maelhuedoc #0" = 0
+	"Maeloc #0" = 0
+	"Maelscoet #0" = 0
+	"Maelscuet #0" = 0
+	"Maenceneu #0" = 0
+	"Maenci #0" = 0
+	"March #0" = 0
+	"Marthin #0" = 0
+	"Matheudoï #0" = 0
+	"Mathias #0" = 0
+	"Matoc #0" = 0
+	"Matuid #0" = 0
+	"Maugan #0" = 0
+	"Mauric #0" = 0
+	"Medrod #0" = 0
+	"Meldroc #0" = 0
+	"Meriadoc #0" = 0
+	"Mermin #0" = 0
+	"Meugan #0" = 0
+	"Meven #0" = 0
+	"Michel #0" = 0
+	"Morcant #0" = 0
+	"Morcondeleu #0" = 0
+	"Morgen #0" = 0
+	"Morguethen #0" = 0
+	"Morhaetho #0" = 0
+	"Mormarch #0" = 0
+	"Morvan #0" = 0
+	"Mortiern #0" = 0
+	"Neven #0" = 0
+	"Nicolas #0" = 0
+	"Nodethael #0" = 0
+	"Nodhoiarn #0" = 0
+	"Nominoë #0" = 0
+	"Nougui #0" = 0
+	"Oliuer #0" = 0
+	"Oswallt #0" = 0
+	"Padric #0" = 0
+	"Paol #0" = 0
+	"Pascueten #0" = 0
+	"Patern #0" = 0
+	"Petroc #0" = 0
+	"Phelippe #0" = 0
+	"Piran #0" = 0
+	"Prigent #0" = 0
+	"Primael #0" = 0
+	"Primarhoc #0" = 0
+	"Putrael #0" = 0
+	"Pêr #0" = 0
+	"Ralf #0" = 0
+	"Raoul #0" = 0
+	"Renan #0" = 0
+	"Resmen #0" = 0
+	"Riacet #0" = 0
+	"Ribald #0" = 0
+	"Ricart #0" = 0
+	"Riceneu #0" = 0
+	"Richwin #0" = 0
+	"Ridoredh #0" = 0
+	"Riualtr #0" = 0
+	"Rihouen #0" = 0
+	"Rinduran #0" = 0
+	"Rioc #0" = 0
+	"Riol #0" = 0
+	"Riwal #0" = 0
+	"Riuallon #0" = 0
+	"Rodric #0" = 0
+	"Roenualloc #0" = 0
+	"Roenuallon #0" = 0
+	"Roenuolou #0" = 0
+	"Roenhoiarn #0" = 0
+	"Rolland #0" = 0
+	"Ronan #0" = 0
+	"Roparth #0" = 0
+	"Roucen #0" = 0
+	"Rumon #0" = 0
+	"Ryd #0" = 0
+	"Salenn #0" = 0
+	"Salomon #0" = 0
+	"Samson #0" = 0
+	"Samuel #0" = 0
+	"Stefen #0" = 0
+	"Sulgen #0" = 0
+	"Sulhoiarn #0" = 0
+	"Sulmonoc #0" = 0
+	"Sultiern #0" = 0
+	"Talan #0" = 0
+	"Talhoiarn #0" = 0
+	"Tanci #0" = 0
+	"Tanet #0" = 0
+	"Tanhoiarn #0" = 0
+	"Telent #0" = 0
+	"Terithien #0" = 0
+	"Tethion #0" = 0
+	"Teudric #0" = 0
+	"Teudur #0" = 0
+	"Tibault #0" = 0
+	"Tiernan #0" = 0
+	"Tiernmael #0" = 0
+	"Tiernoc #0" = 0
+	"Tiernualloc #0" = 0
+	"Tiernuallon #0" = 0
+	"Treveur #0" = 0
+	"Tristan #0" = 0
+	"Tuduallon #0" = 0
+	"Tudur #0" = 0
+	"Tugdual #0" = 0
+	"Ungust #0" = 0
+	"Urbcen #0" = 0
+	"Urbien #0" = 0
+	"Urblon #0" = 0
+	"Urvod #0" = 0
+	"Uther #0" = 0
+	"Vincenne #0" = 0
+}
+ship_names = {
+	Achille Actif Active Admirable Aglaé
+	Aimable Alcide Algésiras Alose Amazone
+	Ambition Amphion Anémone Annibal Apollon
+	Argonaute Artésien Audacieux Auguste Avenant
+	Badine Barbue Beaumont Bécasse Belliqueux
+	Bergère Berryer "Bien Aimé" Bienfaisant Bon
+	Bretagne Bretonne Brillant Brutus Caché
+	Célèbre Centaure Chameau Comte Courageux
+	Défenseur Diadème Diamant Dictateur Diligent
+	Dragon Duc Elephant Elisabeth Emerillon
+	Entreprenant Eole Fleuron Formidable Fortuné
+	Foudroyant Fougueux Fourgon Furieux Glorieux
+	"Grande Hermine" Impétueux Indien Indomptable Jupiter
+	Léopard Loire Massiac Neptune Nestor
+	Orion Pégase "Petite Hermine" Portefaix Profond
+	Protée Rolland "Saint Guillaume" Sarcelle Sévère
+	Six-Corps Solide Solitaire Souverain Sphère
+	Sphinx Superbe Tardif Téméraire Terrible
+	Thésée Tonnant Triomphant Triton Union
+	Vaillant Vengeur Victoire Vigilant Volante
+}
+

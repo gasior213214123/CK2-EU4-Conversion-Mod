@@ -1,0 +1,28 @@
+# Cappadocia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 4307
+1423.5.29 = {
+	monarch = {
+		name = "Ioustina"
+		birth_date = 1404.8.16
+		dynasty = "Tzamplakon"
+		female = yes
+		adm = 4
+		dip = 1
+		mil = 3
+	}
+	add_ruler_personality = calm_personality
+	add_ruler_personality = careful_personality
+}
+1444.11.11 = {
+	capital = 4307
+	add_treasury = 87
+	add_prestige = 66
+}

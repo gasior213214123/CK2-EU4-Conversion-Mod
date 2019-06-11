@@ -1,0 +1,28 @@
+# Brittany
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = breton
+religion = catholic
+clear_scripted_personalities = yes
+capital = 170
+1408.8.8 = {
+	monarch = {
+		name = "Gwenasedd"
+		birth_date = 1384.3.17
+		dynasty = "Rhos"
+		female = yes
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = kind_hearted_personality
+}
+1444.11.11 = {
+	capital = 170
+	add_treasury = 283
+	add_prestige = 197
+}

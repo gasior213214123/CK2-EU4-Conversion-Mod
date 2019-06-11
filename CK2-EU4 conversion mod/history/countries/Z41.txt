@@ -1,0 +1,26 @@
+# Latium
+government = theocracy
+add_government_reform = leading_clergy_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = italian
+religion = hellenic_pagan
+clear_scripted_personalities = yes
+capital = 118
+1439.8.6 = {
+	monarch = {
+		name = "Albino"
+		birth_date = 1401.5.5
+		dynasty = "di  Roma"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+	add_ruler_personality = scholar_personality
+}
+1444.11.11 = {
+	capital = 118
+	add_treasury = 103
+	add_prestige = 9
+}

@@ -1,0 +1,24 @@
+# Yatenga
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = sub_saharan
+primary_culture = mali
+religion = mazdaki
+capital = 1135
+1443.1.7 = {
+	monarch = {
+		name = "Biyu"
+		birth_date = 1438.11.28
+		dynasty = "Bassi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1444.11.11 = {
+	capital = 1135
+	add_treasury = 15
+	add_prestige = 12
+}

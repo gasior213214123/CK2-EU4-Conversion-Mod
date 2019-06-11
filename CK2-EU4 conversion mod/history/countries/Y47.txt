@@ -1,0 +1,26 @@
+# Edessa
+government = theocracy
+add_government_reform = leading_clergy_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = armenian
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 2308
+1441.10.22 = {
+	monarch = {
+		name = "Zacharias"
+		birth_date = 1392.2.23
+		dynasty = "ve  Edessa"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+	add_ruler_personality = scholar_personality
+}
+1444.11.11 = {
+	capital = 2308
+	add_treasury = 39
+	add_prestige = 41
+}

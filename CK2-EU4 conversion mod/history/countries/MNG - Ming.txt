@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = celestial_empire
+government_rank = 3
+technology_group = chinese
+add_harmonized_religion = mahayana
+capital = 1821	# Nanjing
+
+primary_culture = mongol
+religion = tengri_pagan_reformed
+1128.5.19 = {
+	monarch = {
+		name = "Yingzong"
+		birth_date = 1391.8.3
+		dynasty = "RaccoonCucciKhan"
+		adm = 4
+		dip = 2
+		mil = 5
+	}
+}

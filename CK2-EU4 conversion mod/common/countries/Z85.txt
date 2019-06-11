@@ -1,0 +1,284 @@
+# Ungvar
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 156 15 15 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	administrative_ideas
+	religious_ideas
+}
+
+historical_units = {
+	bardiche_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	hungarian_hussar
+	polish_musketeer
+	polish_hussar
+	polish_tercio
+	polish_winged_hussar
+	russian_lancer
+	russian_cuirassier
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
+}
+
+
+
+leader_names = {
+
+	"Maciej Eclipse" "EcX" "Odon" "Adelajda" "Lucja" "Zofia" "Bezprym" "Przybor" "Krzeslaw" "Stanislaw" 
+	"Anezka" "Gaudenty" "Konstancja" "Dobrawa" "Bogumil" "Ulfo" "Yeldem" "Konrad" "Adriana" "Grzymislawa" 
+	"Przemyslaw" "Dytryk" "Scholastyka" "Wincenty" "Danuta" "Stanislawa" "Agnieszka" "Eufrozyna" "Ipek" "Kinga" 
+	"Anastazja" "Czcibor" "Wit" "Ryksa" "Salomea" "Milosz" "Karol" "Domawuj" "Kunegunda" "Jadwiga" 
+	"Jaroslaw" "Natalija" "Doman" "Wieslaw" "Jolanta" "Jarmila" "Kurt" "Anna SI" "Ola" "Matylda" 
+	"Nas" "Wolislawa" "Gervasius" "Zbyszko" "Stanislava" "Pechna" "Domagna" "Wszemila" "Witosz" "Nixa" 
+	"Babalio" "Goszczon" "Bodacia" "Nawoja" "Rusco" "Sieciech" "Boleslaw" "Jan" "Wislawa" "Eleonor" 
+	"Jugno" "Dobronega" "Adleta" "Vladislav" "Anussa" "Ludmila" "Gertruda" "EcX II" "Henryk" "Wojslawa" 
+	"Wiesio" "Macio" "Annadoruchanca" "Kazimierz" "Smiechna" "Borzyslaw" "Dobieslaw" "Samboja" "Milena" "Elzbieta" 
+	"Trojden" "Mszczuj" "Borzywoj" "Kenna" "Helena" "Leszek" "Zbigniew" "Nadzieja" "Mieszko" "Strasz" 
+	"Aldona" "Boriwoj" "Sobieslav" "Radogej" "Rycheza" "Usciech" "Gniewosz" "Lambert" "Katarzyna" "Siemowit" 
+	"Szczesny" "Þora" "Viola" "Ctibor" "Stefana" "Dalimir" "Karel" "Swietoslawa" "Boncza" "Zegota" 
+	"Zelibrat" "Branislava" "Izbor" "Alzek" "Yildiz" "Svatava" "Bozena" "Snowid" "Eufemia" "Wlodzimierz" 
+	"Andela" "Zwinislawa" "Dobravy" "Dobrogost" "Malgorzata" "Izabela" "Wszebor" "Ljudevit" "Skarbimir" "Gawel" 
+	"Tvrdoslav" "Hranislav" "Sebeslav" "Dragomir" "Dragan" "Viktorín" "Detrich" "Stanislav" "Spytihnev" "Zikmund" 
+	"Slavomír" "Diepold" "Hrabis" "Adam" "Andrija" "Bartol" "Besar" "Bojan" "Boris" "Branimir" 
+	"Castimir" "Danail" "Dmitar" "Dobromir" "Drzislav" "Dujam" "Duym" "Filip" "Gaspar" "Gheorghe" 
+	"Grigorii" "Hrvoje" "Igor" "Ioan" "Ivan" "Ivanis" "Jitej" "Karlo" "Koloman" "Kresimir" 
+	"Ladislav" "Ljutomisl" "Lovro" "Matej" "Mihajlo" "Milman" "Mislav" "Mutimir" "Nikolitza" "Ognjen" 
+	"Petar" "Prohor" "Radomir" "Ratimir" "Seslav" "Slavich" "Stjepan" "Sulvan" "Teodor" "Tomislav" 
+	"Tvrtko" "Vid" "Vitomir" "Vlaicu" "Vukan" "Zvonimir" }
+monarch_names = {
+	"Maciej Eclipse #0" = 1
+	"EcX #0" = 1
+	"Odon #0" = 1
+	"Adelajda #0" = -1
+	"Lucja #0" = -1
+	"Zofia #0" = -1
+	"Bezprym #0" = 1
+	"Przybor #0" = 1
+	"Krzeslaw #0" = 1
+	"Stanislaw #0" = 1
+	"Anezka #0" = -1
+	"Gaudenty #2" = 27
+	"Konstancja #0" = -1
+	"Dobrawa #0" = -1
+	"Bogumil #0" = 1
+	"Ulfo #0" = 1
+	"Yeldem #0" = -1
+	"Konrad #1" = 27
+	"Adriana #0" = -1
+	"Grzymislawa #0" = -1
+	"Przemyslaw #0" = 1
+	"Dytryk #0" = 1
+	"Scholastyka #0" = -1
+	"Wincenty #0" = 1
+	"Danuta #0" = -1
+	"Stanislawa #0" = -1
+	"Agnieszka #0" = -1
+	"Eufrozyna #0" = -1
+	"Ipek #0" = -1
+	"Kinga #0" = -1
+	"Anastazja #0" = -1
+	"Czcibor #0" = 1
+	"Wit #0" = 1
+	"Ryksa #0" = -1
+	"Salomea #0" = -1
+	"Milosz #0" = 1
+	"Karol #0" = 1
+	"Domawuj #0" = 1
+	"Kunegunda #0" = -1
+	"Jadwiga #0" = -1
+	"Jaroslaw #0" = 1
+	"Natalija #0" = -1
+	"Doman #0" = 1
+	"Wieslaw #0" = 1
+	"Jolanta #0" = -1
+	"Jarmila #0" = -1
+	"Kurt #0" = 1
+	"Anna SI #0" = -1
+	"Ola #0" = -1
+	"Matylda #0" = -1
+	"Nas #0" = -1
+	"Wolislawa #0" = -1
+	"Gervasius #0" = 1
+	"Zbyszko #0" = 1
+	"Stanislava #0" = -1
+	"Pechna #0" = -1
+	"Domagna #0" = 1
+	"Wszemila #0" = -1
+	"Witosz #0" = 1
+	"Nixa #0" = -1
+	"Babalio #0" = -1
+	"Goszczon #0" = 1
+	"Bodacia #0" = -1
+	"Nawoja #0" = -1
+	"Rusco #0" = 1
+	"Sieciech #0" = 1
+	"Boleslaw #0" = 1
+	"Jan #0" = 1
+	"Wislawa #0" = -1
+	"Eleonor #0" = 1
+	"Jugno #0" = 1
+	"Dobronega #0" = -1
+	"Adleta #0" = -1
+	"Vladislav #0" = 1
+	"Anussa #0" = -1
+	"Ludmila #0" = -1
+	"Gertruda #0" = -1
+	"EcX II #0" = 1
+	"Henryk #0" = 1
+	"Wojslawa #0" = -1
+	"Wiesio #0" = 1
+	"Macio #0" = 1
+	"Annadoruchanca #0" = -1
+	"Kazimierz #0" = 1
+	"Smiechna #0" = -1
+	"Borzyslaw #0" = 1
+	"Dobieslaw #0" = 1
+	"Samboja #0" = -1
+	"Milena #0" = -1
+	"Elzbieta #0" = -1
+	"Trojden #0" = 1
+	"Mszczuj #0" = 1
+	"Borzywoj #0" = 1
+	"Kenna #0" = -1
+	"Helena #0" = -1
+	"Leszek #0" = 1
+	"Zbigniew #0" = 1
+	"Nadzieja #0" = -1
+	"Mieszko #0" = 1
+	"Strasz #0" = 1
+	"Aldona #0" = -1
+	"Boriwoj #0" = 1
+	"Sobieslav #0" = 1
+	"Radogej #0" = 1
+	"Rycheza #0" = -1
+	"Usciech #0" = 1
+	"Gniewosz #0" = 1
+	"Lambert #0" = 1
+	"Katarzyna #0" = -1
+	"Siemowit #0" = 1
+	"Szczesny #0" = 1
+	"Þora #0" = -1
+	"Viola #0" = -1
+	"Ctibor #0" = 1
+	"Stefana #0" = -1
+	"Dalimir #0" = 1
+	"Karel #0" = 1
+	"Swietoslawa #0" = -1
+	"Boncza #0" = 1
+	"Zegota #0" = 1
+	"Zelibrat #0" = 1
+	"Branislava #0" = -1
+	"Izbor #0" = 1
+	"Alzek #0" = 1
+	"Yildiz #0" = -1
+	"Svatava #0" = -1
+	"Bozena #0" = -1
+	"Snowid #0" = 1
+	"Eufemia #0" = -1
+	"Wlodzimierz #0" = 1
+	"Andela #0" = -1
+	"Zwinislawa #0" = -1
+	"Dobravy #0" = -1
+	"Dobrogost #0" = 1
+	"Malgorzata #0" = -1
+	"Izabela #0" = -1
+	"Wszebor #0" = 1
+	"Ljudevit #1" = 18
+	"Skarbimir #0" = 1
+	"Gawel #0" = 1
+	"Tvrdoslav #1" = 0
+	"Hranislav #1" = 0
+	"Sebeslav #1" = 0
+	"Dragomir #1" = 0
+	"Dragan #1" = 0
+	"Viktorín #2" = 0
+	"Detrich #3" = 0
+	"Stanislav #1" = 0
+	"Spytihnev #3" = 0
+	"Zikmund #1" = 0
+	"Slavomír #2" = 0
+	"Diepold #2" = 0
+	"Hrabis #1" = 0
+	"Adam #0" = 0
+	"Andrija #0" = 0
+	"Bartol #0" = 0
+	"Besar #0" = 0
+	"Bojan #0" = 0
+	"Boris #0" = 0
+	"Branimir #0" = 0
+	"Castimir #0" = 0
+	"Danail #0" = 0
+	"Dmitar #0" = 0
+	"Dobromir #0" = 0
+	"Drzislav #0" = 0
+	"Dujam #0" = 0
+	"Duym #0" = 0
+	"Filip #0" = 0
+	"Gaspar #0" = 0
+	"Gheorghe #0" = 0
+	"Grigorii #0" = 0
+	"Hrvoje #0" = 0
+	"Igor #0" = 0
+	"Ioan #0" = 0
+	"Ivan #0" = 0
+	"Ivanis #0" = 0
+	"Jitej #0" = 0
+	"Karlo #0" = 0
+	"Koloman #0" = 0
+	"Kresimir #0" = 0
+	"Ladislav #0" = 0
+	"Ljutomisl #0" = 0
+	"Lovro #0" = 0
+	"Matej #0" = 0
+	"Mihajlo #0" = 0
+	"Milman #0" = 0
+	"Mislav #0" = 0
+	"Mutimir #0" = 0
+	"Nikolitza #0" = 0
+	"Ognjen #0" = 0
+	"Petar #0" = 0
+	"Prohor #0" = 0
+	"Radomir #0" = 0
+	"Ratimir #0" = 0
+	"Seslav #0" = 0
+	"Slavich #0" = 0
+	"Stjepan #0" = 0
+	"Sulvan #0" = 0
+	"Teodor #0" = 0
+	"Tomislav #0" = 0
+	"Tvrtko #0" = 0
+	"Vid #0" = 0
+	"Vitomir #0" = 0
+	"Vlaicu #0" = 0
+	"Vukan #0" = 0
+	"Zvonimir #0" = 0
+}
+ship_names = {
+	"Arka Noego"
+        "Bialy Orzel" Burza "Bialy Lew" "Brzesko-Kujawskie" Belzkie Braclawskie
+        Charitas "Czarny Orzel" "Czarny Kruk" Chelminskie Czernichowskie
+        Fortuna
+        Gryf Gwiazda Gnieznienskie
+	Inoworclawskie
+	"Król Dawid" Kaliskie Krakowskie Kijowskie Kraków
+        Lublin "Latajacy Jelen" Lwów Leczyckie Lubelskie
+        "Maly Bialy Orzel" Malborskie Mazowieckie
+        Niewrazliwy "Nowy Czarny Orzel"
+        "Prorok Samuel" "Panna Wodna" Plomien Poznanskie Plockie Podlaskie Podolskie
+	"Rycerz Swiety Jerzy" Rawskie Ruskie
+        Strzelec Suwerenny "Swiety Piotr" Sieradzkie Sandomierskie "Swiety Kazimierz"
+        "Wielkie Slonce" Wodnik Warminskie Wolynskie Warszawa
+        Zwyciestwo "Zólty Lew"
+}
+

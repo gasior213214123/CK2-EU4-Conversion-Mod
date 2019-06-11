@@ -1,0 +1,37 @@
+# Kola
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = samoyed
+religion = norse_pagan_reformed
+clear_scripted_personalities = yes
+capital = 4113
+1434.11.14 = {
+	monarch = {
+		name = "Yavlad"
+		birth_date = 1427.12.8
+		dynasty = "Hasabid"
+		adm = 3
+		dip = 0
+		mil = 6
+	}
+	add_ruler_personality = tactical_genius_personality
+	heir = {
+		name = "Sarak"
+		monarch_name = "Sarak"
+		dynasty = "Hasabid"
+		birth_date = 1432.2.8
+		death_date = 1512.2.8
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	add_heir_personality = cruel_personality
+}
+1444.11.11 = {
+	capital = 4113
+	add_treasury = 14
+	add_prestige = 125
+}

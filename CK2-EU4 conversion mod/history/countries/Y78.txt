@@ -1,0 +1,27 @@
+# Vermid
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = indian
+primary_culture = rajput
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 513
+1407.9.23 = {
+	monarch = {
+		name = "Kshemraja II"
+		birth_date = 1395.12.11
+		dynasty = "Vermid"
+		adm = 5
+		dip = 4
+		mil = 1
+	}
+	add_ruler_personality = just_personality
+	add_ruler_personality = strict_personality
+}
+1444.11.11 = {
+	capital = 513
+	add_treasury = 42
+	add_prestige = 545
+}

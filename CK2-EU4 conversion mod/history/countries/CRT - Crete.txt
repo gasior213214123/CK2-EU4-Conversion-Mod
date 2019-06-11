@@ -1,0 +1,27 @@
+# Krete
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = bedouin_arabic
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 163
+1432.10.4 = {
+	monarch = {
+		name = "Herakleios"
+		birth_date = 1381.7.14
+		dynasty = "Resti"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality = careful_personality
+	add_ruler_personality = calm_personality
+}
+1444.11.11 = {
+	capital = 163
+	add_treasury = 484
+	add_prestige = 83
+}

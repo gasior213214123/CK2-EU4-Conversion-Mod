@@ -1,0 +1,26 @@
+# Al Bahrein
+government = theocracy
+add_government_reform = leading_clergy_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = bedouin_arabic
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 395
+1442.1.3 = {
+	monarch = {
+		name = "Venkatapathi"
+		birth_date = 1378.11.2
+		dynasty = "mn  Bahrein"
+		adm = 3
+		dip = 4
+		mil = 0
+	}
+	add_ruler_personality = careful_personality
+}
+1444.11.11 = {
+	capital = 395
+	add_treasury = 70
+	add_prestige = 23
+}

@@ -1,0 +1,38 @@
+# Zavarot
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = hannoverian
+religion = tengri_pagan_reformed
+clear_scripted_personalities = yes
+capital = 4257
+1426.8.16 = {
+	monarch = {
+		name = "Gunzelin II"
+		birth_date = 1408.7.28
+		dynasty = "Tobyid"
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+	add_ruler_personality = martial_educator_personality
+	add_ruler_personality = tactical_genius_personality
+	heir = {
+		name = "Burchard"
+		monarch_name = "Burchard"
+		dynasty = "Tobyid"
+		birth_date = 1404.8.12
+		death_date = 1484.8.12
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+	add_heir_personality = careful_personality
+}
+1444.11.11 = {
+	capital = 4257
+	add_treasury = 8
+	add_prestige = -8
+}

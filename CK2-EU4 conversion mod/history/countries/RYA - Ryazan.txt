@@ -1,0 +1,27 @@
+# Ryazan
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = mongol
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 301
+1428.5.28 = {
+	monarch = {
+		name = "Mstislav II"
+		birth_date = 1403.12.16
+		dynasty = "Andriyashin "
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = bold_fighter_personality
+}
+1444.11.11 = {
+	capital = 301
+	add_treasury = 39
+	add_prestige = 430
+}

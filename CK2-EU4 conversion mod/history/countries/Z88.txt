@@ -1,0 +1,27 @@
+# Lithuania
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = ilmenian
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 275
+1416.3.22 = {
+	monarch = {
+		name = "Vyshata II"
+		birth_date = 1411.5.5
+		dynasty = "Asimov"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = infertile_personality
+}
+1444.11.11 = {
+	capital = 275
+	add_treasury = 16
+	add_prestige = 228
+}

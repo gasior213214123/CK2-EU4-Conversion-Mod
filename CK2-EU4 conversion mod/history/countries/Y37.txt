@@ -1,0 +1,27 @@
+# Vidin
+government = theocracy
+add_government_reform = leading_clergy_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = romanian
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 2746
+1413.1.15 = {
+	monarch = {
+		name = "Thomas"
+		birth_date = 1380.1.9
+		dynasty = "de  Vidin"
+		adm = 0
+		dip = 1
+		mil = 2
+	}
+	add_ruler_personality = scholar_personality
+	add_ruler_personality = craven_personality
+}
+1444.11.11 = {
+	capital = 2746
+	add_treasury = 45
+	add_prestige = 69
+}

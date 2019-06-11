@@ -1,0 +1,27 @@
+# Carniola
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = carantanian
+religion = catholic
+clear_scripted_personalities = yes
+capital = 129
+1427.2.11 = {
+	monarch = {
+		name = "Eginolf III"
+		birth_date = 1413.10.17
+		dynasty = "von Versfleth"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = bold_fighter_personality
+}
+1444.11.11 = {
+	capital = 129
+	add_treasury = 241
+	add_prestige = 63
+}

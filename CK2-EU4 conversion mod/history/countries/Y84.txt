@@ -1,0 +1,26 @@
+# Perumâlid
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = bedouin_arabic
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 2329
+1441.11.14 = {
+	monarch = {
+		name = "Perumâl"
+		birth_date = 1416.5.5
+		dynasty = "Perumâlid"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = silver_tongue_personality
+}
+1444.11.11 = {
+	capital = 2329
+	add_treasury = 20
+	add_prestige = 44
+}

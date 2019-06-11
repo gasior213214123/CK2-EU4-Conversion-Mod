@@ -1,0 +1,40 @@
+# Karnata
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = indian
+primary_culture = kannada
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 1948
+1429.9.5 = {
+	monarch = {
+		name = "Uravâkkinân III"
+		birth_date = 1417.10.6
+		dynasty = "Chera"
+		adm = 3
+		dip = 1
+		mil = 5
+	}
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = tactical_genius_personality
+}
+1435.5.1 = {
+	heir = {
+		name = "Uravâkkinân"
+		monarch_name = "Uravâkkinân IV"
+		dynasty = "Chera"
+		birth_date = 1435.5.1
+		death_date = 1515.5.1
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+	add_heir_personality = kind_hearted_personality
+}
+1444.11.11 = {
+	capital = 1948
+	add_treasury = 466
+	add_prestige = 278
+}

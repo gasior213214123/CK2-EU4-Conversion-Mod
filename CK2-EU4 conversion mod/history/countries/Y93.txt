@@ -1,0 +1,38 @@
+# Masudid
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = al_suryah_arabic
+religion = sunni
+clear_scripted_personalities = yes
+capital = 405
+1440.8.27 = {
+	monarch = {
+		name = "Musa"
+		birth_date = 1419.11.14
+		dynasty = "Masudid"
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+	add_ruler_personality = entrepreneur_personality
+}
+1442.11.9 = {
+	heir = {
+		name = "Abdul-Azeem"
+		monarch_name = "Abdul-Azeem III"
+		dynasty = "Masudid"
+		birth_date = 1442.11.9
+		death_date = 1522.11.9
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+1444.11.11 = {
+	capital = 405
+	add_treasury = 807
+	add_prestige = 51
+}

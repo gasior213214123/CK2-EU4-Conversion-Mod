@@ -1,0 +1,140 @@
+# Kola
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 230 70 15 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	innovativeness_ideas
+	naval_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	dutch_maurician
+	french_caracolle
+	swedish_gallop
+	swedish_gustavian
+	swedish_caroline
+	swedish_arme_blanche
+	prussian_uhlan
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Kako" "Ilme" "Kat" "Yar" "Hasaba" "Syeju" "Tadane" "Kontäw" "Laptsui" "Ngeva" 
+	"Kolik" "Senda" "Tada" "Sarak" "Yavlad" "Yadne" "Atpälha" "Wayngachi" "Kujku" "Nabtiko" 
+	"Mandak" "Xëryuchi" "Yurak" "Num" "Nyalku" "Khatyako" "Auli" "Salinder" "Galya" "Samatu" 
+	"Pudak" "Sirtya" "Nenyts" "Panay" "Chichayka" "Hulyen" "Tolik" "Alik" "Inyava" "Tatva" 
+	"Vesei" "Somatu" "Kharuchi" "Mutlu" "Khulan" "Voitto" "Yapti" "Elisabet" "Helmi" "Syudbya" 
+	"Nga" "Vesa" "Taimi" "Ngënoh" "Baeivi" "Mohkku" "Oiva" "Turo" "Noumea" }
+monarch_names = {
+	"Kako #0" = 1
+	"Ilme #0" = -1
+	"Kat #0" = -1
+	"Yar #0" = -1
+	"Hasaba #0" = 1
+	"Syeju #0" = -1
+	"Tadane #0" = -1
+	"Kontäw #0" = -1
+	"Laptsui #0" = -1
+	"Ngeva #0" = -1
+	"Kolik #0" = 1
+	"Senda #0" = -1
+	"Tada #0" = -1
+	"Sarak #0" = 1
+	"Yavlad #1" = 30
+	"Yadne #0" = 1
+	"Atpälha #0" = -1
+	"Wayngachi #0" = 1
+	"Kujku #0" = -1
+	"Nabtiko #0" = 1
+	"Mandak #0" = 1
+	"Xëryuchi #1" = 33
+	"Yurak #0" = 1
+	"Num #0" = 1
+	"Nyalku #1" = 24
+	"Khatyako #0" = -1
+	"Auli #0" = -1
+	"Salinder #0" = 1
+	"Galya #0" = -1
+	"Samatu #0" = 1
+	"Pudak #1" = 27
+	"Sirtya #0" = 1
+	"Nenyts #0" = 1
+	"Panay #3" = 30
+	"Chichayka #0" = 1
+	"Hulyen #0" = 1
+	"Tolik #2" = 36
+	"Alik #0" = 1
+	"Inyava #0" = -1
+	"Tatva #0" = 1
+	"Vesei #1" = 21
+	"Somatu #0" = 1
+	"Kharuchi #0" = 1
+	"Mutlu #0" = -1
+	"Khulan #0" = -1
+	"Voitto #1" = 18
+	"Yapti #0" = 1
+	"Elisabet #0" = -1
+	"Helmi #0" = -1
+	"Syudbya #1" = 18
+	"Nga #1" = 21
+	"Vesa #0" = 1
+	"Taimi #0" = -1
+	"Ngënoh #0" = 1
+	"Baeivi #2" = 0
+	"Mohkku #1" = 0
+	"Oiva #1" = 0
+	"Turo #1" = 0
+	"Noumea #0" = 0
+}
+ship_names = {
+	Akilles Amarant Andromeda Anklam Bohus "Böse Lejon" Calmar Camilla Carolus Charlotte Cossacken 
+	Crono-Solen David Disa Draken Drottningen Elefanten Elfsborg Elisabet Engel "Engel Gabriel" 
+	Enighet Euridice Falk Fenix Finland "Flygande Wargen" Fortuna Fredrika "Fredrika Amalia" 
+	Fröija Galathe "Gamla Fortuna" "Gamla Rikssvärdet" "Gotha Lejon" Grip Gustavus "Gyllende Lejon" 
+	Göta Göteborg Halland Havsfru Hektor Herkules Hieronymus Hjalmar Hök Illerim Ingeborg Jomfru 
+	Jupiter Jägare "Kalmar Nyckel" Kalmarkastell Karlskrona Kronan Laxen Leopard Lejon Lodbrok 
+	Mars Mercurius Morgonstjärna Norden Nordstjärna Nyckeln Nyland Oden Pelikanen Postillion 
+	"Prins Carl" Prinsessan Regina Rosa Skåne Småland Solen "St. Erik" "St. Göran" "St. Johannes" 
+	"St. Thomas" Starkoster Stenbock Stockholm "Stora Cronan" Svan "Svenska Falk" "Svenska Lejonet" 
+	Sverige Svärdet Södermanland Tapper Thetis Tigern "Tre Kronor" Troilus Ulrica Uppland 
+	Vasen Victoria Warberg Wasa Wenden Werden Vestervik Wästmanland Victoria Witduve Öland Örn
+	Achilles "Arche Noa" Arken Beskjermer "Byens Løffue" Caritas "Charlotte Amalie" 
+	Christiania Christiansand Christiansø "Christianus IV" "Christianus V" Churprindsen 
+	Concordia Cæsar Dannebroge David Delmenhorst Ditmarsken Draken "Dronning Louisa" 
+	Ebenetzer Elefanten Enighed "Engelske Fortuna" Enhiørningen Fides Flores 
+	"Flygende Hjorten" Fortuna "Fredericus III" "Fredericus IV" Fyen Gravenstein Griffe 
+	Gyldenløve Hannibal Havfru Havhest Havmand Hector Hercules "Hertug Olufs Pincke" 
+	Hiælperen Hjort Høyenhald Hummer "Hvide Ørn" Højenhald Island Jernvågen Jægermester 
+	Justitia "Kongens Jagt Krone" "Kronet Fisk" Lamprenen Leopard Lindorm Loss Lovisa 
+	"Løvendals Gallej" Makaløs Mars Merkurius Morian Najaden Nelleblad Neptunus 
+	"Norske Løve" Oldenborg Papegoye Patienta Pelican Phønix "Prinds Carl" 
+	"Prinds Christian" "Prinds Christian" "Prinds Wilhelm" Raae Samson Solen 
+	"Sophia Amalia" "Sophia Hedvig" "St. Erik" "St. Georg" "St. Oluf" Stormar Stralsund 
+	Svaerdfisk Svan "Svenske Jomfru" Søridder Tomler "To Løver" "Tre Løver" Trefoldighed 
+	Victoria Vindhunden Wenden Ørnen
+	Ålvik
+	Bergen
+	Engan
+	Kristiansund
+	Molde
+	Oslo
+	Roan
+	Stavanger Sula
+	Trondheim
+}
+

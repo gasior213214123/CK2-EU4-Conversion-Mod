@@ -1,0 +1,230 @@
+# Zavarot
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 210 150 120 }
+
+
+
+
+leader_names = {
+
+	"Tatva" "Burchard" "Lembert" "Enda" "Luitgard" "Hulderic" "Margarete" "Beatrix" "Radke" "Gunzelin" 
+	"Jutta" "Marquard" "Nabtiko" "Salinder" "Tolik" "Xëryuchi" "Noumea" "Ngënoh" "Yadne" "Laptsui" 
+	"Nyalku" "Ilme" "Auli" "Atpälha" "Sarak" "Galya" "Tadane" "Kat" "Khatyako" "Tada" 
+	"Kujku" "Herberd" "Syudbya" "Somatu" "Alik" "Num" "Arnost" "Abo" "Jaspar" "Wolter" 
+	"Bia" "Yapti" "Bruno" "Mathilde" "Kharuchi" "Senda" "Hellä" "Ngeva" "Wayngachi" "Agnes" 
+	"Heilwig" "Eilika" "Aelle" "Vesei" "Theodrada" "Bertha" "Ida" "Theoderic" "Adalgar" "Harthgate" 
+	"Adelheid" "Cyprian" "Adalbero" "Adalbert" "Adalbrand" "Adaldag" "Adalgod" "Adolf" "Albrecht" "Alebrand" 
+	"Altfrid" "Ansgar" "Arnd" "Arnold" "Asig" "Balduin" "Balthasar" "Banzleib" "Beneke" "Benno" 
+	"Bernd" "Bernhard" "Bertold" "Bertram" "Boddic" "Brun" "Cissa" "Claus" "Cobbo" "Cord" 
+	"Dago" "Dedo" "Dethard" "Detleff" "Detmar" "Diederik" "Donar" "Eggerd" "Egilmar" "Ekbert" 
+	"Engelbert" "Engelhard" "Erik" "Erp" "Esiko" "Everd" "Ewald" "Floribert" "Freawine" "Frederik" 
+	"Gehrke" "Gelder" "Gero" "Gerold" "Gevert" "Ghert" "Giselher" "Giselmar" "Gosschalk" "Goswin" 
+	"Gödke" "Günther" "Hartwig" "Heideke" "Hengest" "Henneke" "Hermann" "Hinrik" "Hoger" "Humfried" 
+	"Immed" "Isidor" "Jochim" "Johann" "Juries" "Kersten" "Köpke" "Laurentz" "Leuderic" "Liawizo" 
+	"Liemar" "Liudger" "Luder-Udo" "Luder" "Ludolf" "Ludwig" "Marbold" "Mathias" "Meinwerk" "Merten" 
+	"Norbert" "Odo" "Ordulf" "Philipp" "Reginbern" "Reinbern" "Reineke" "Reinmar" "Rudigar" "Rudolf" 
+	"Sigbert" "Sigfrid" "Sigward" "Steffen" "Thankmar" "Theodoric" "Theodwin" "Thimo" "Tobe" "Tymmeke" 
+	"Udo" "Unwan" "Viric" "Volkwin" "Volrad" "Walbert" "Waldemar" "Waldered" "Waltard" "Warin" 
+	"Warinechin" "Wecta" "Wenzel" "Werneke" "Weybrecht" "Wichbert" "Wichmann" "Wicho" "Widukind" "Wigebert" 
+	"Wilbrand" "Willichin" "Withgils" "Witikind" "Witta" "Wlencing" "Wulff" }
+monarch_names = {
+	"Tatva #2" = 21
+	"Burchard #0" = 1
+	"Lembert #0" = 1
+	"Enda #0" = -1
+	"Luitgard #0" = -1
+	"Hulderic #0" = 1
+	"Margarete #0" = -1
+	"Beatrix #0" = -1
+	"Radke #0" = 1
+	"Gunzelin #2" = 21
+	"Jutta #0" = -1
+	"Marquard #0" = 1
+	"Nabtiko #2" = 27
+	"Salinder #0" = 1
+	"Tolik #1" = 24
+	"Xëryuchi #0" = 1
+	"Noumea #1" = 21
+	"Ngënoh #1" = 18
+	"Yadne #0" = 1
+	"Laptsui #0" = -1
+	"Nyalku #1" = 21
+	"Ilme #0" = -1
+	"Auli #0" = -1
+	"Atpälha #0" = -1
+	"Sarak #0" = 1
+	"Galya #0" = -1
+	"Tadane #0" = -1
+	"Kat #0" = -1
+	"Khatyako #1" = -22
+	"Tada #0" = -1
+	"Kujku #0" = -1
+	"Herberd #0" = 1
+	"Syudbya #0" = 1
+	"Somatu #0" = 1
+	"Alik #0" = 1
+	"Num #1" = 18
+	"Arnost #0" = 1
+	"Abo #0" = 1
+	"Jaspar #0" = 1
+	"Wolter #0" = 1
+	"Bia #0" = -1
+	"Yapti #0" = 1
+	"Bruno #0" = 1
+	"Mathilde #0" = -1
+	"Kharuchi #1" = 18
+	"Senda #0" = -1
+	"Hellä #0" = -1
+	"Ngeva #0" = -1
+	"Wayngachi #1" = 18
+	"Agnes #0" = -1
+	"Heilwig #0" = -1
+	"Eilika #0" = -1
+	"Aelle #1" = 21
+	"Vesei #0" = 1
+	"Theodrada #0" = -1
+	"Bertha #0" = -1
+	"Ida #0" = -1
+	"Theoderic #1" = 18
+	"Adalgar #0" = 1
+	"Harthgate #0" = 1
+	"Adelheid #0" = -1
+	"Cyprian #1" = 0
+	"Adalbero #0" = 0
+	"Adalbert #0" = 0
+	"Adalbrand #0" = 0
+	"Adaldag #0" = 0
+	"Adalgod #0" = 0
+	"Adolf #0" = 0
+	"Albrecht #0" = 0
+	"Alebrand #0" = 0
+	"Altfrid #0" = 0
+	"Ansgar #0" = 0
+	"Arnd #0" = 0
+	"Arnold #0" = 0
+	"Asig #0" = 0
+	"Balduin #0" = 0
+	"Balthasar #0" = 0
+	"Banzleib #0" = 0
+	"Beneke #0" = 0
+	"Benno #0" = 0
+	"Bernd #0" = 0
+	"Bernhard #0" = 0
+	"Bertold #0" = 0
+	"Bertram #0" = 0
+	"Boddic #0" = 0
+	"Brun #0" = 0
+	"Cissa #0" = 0
+	"Claus #0" = 0
+	"Cobbo #0" = 0
+	"Cord #0" = 0
+	"Dago #0" = 0
+	"Dedo #0" = 0
+	"Dethard #0" = 0
+	"Detleff #0" = 0
+	"Detmar #0" = 0
+	"Diederik #0" = 0
+	"Donar #0" = 0
+	"Eggerd #0" = 0
+	"Egilmar #0" = 0
+	"Ekbert #0" = 0
+	"Engelbert #0" = 0
+	"Engelhard #0" = 0
+	"Erik #0" = 0
+	"Erp #0" = 0
+	"Esiko #0" = 0
+	"Everd #0" = 0
+	"Ewald #0" = 0
+	"Floribert #0" = 0
+	"Freawine #0" = 0
+	"Frederik #0" = 0
+	"Gehrke #0" = 0
+	"Gelder #0" = 0
+	"Gero #0" = 0
+	"Gerold #0" = 0
+	"Gevert #0" = 0
+	"Ghert #0" = 0
+	"Giselher #0" = 0
+	"Giselmar #0" = 0
+	"Gosschalk #0" = 0
+	"Goswin #0" = 0
+	"Gödke #0" = 0
+	"Günther #0" = 0
+	"Hartwig #0" = 0
+	"Heideke #0" = 0
+	"Hengest #0" = 0
+	"Henneke #0" = 0
+	"Hermann #0" = 0
+	"Hinrik #0" = 0
+	"Hoger #0" = 0
+	"Humfried #0" = 0
+	"Immed #0" = 0
+	"Isidor #0" = 0
+	"Jochim #0" = 0
+	"Johann #0" = 0
+	"Juries #0" = 0
+	"Kersten #0" = 0
+	"Köpke #0" = 0
+	"Laurentz #0" = 0
+	"Leuderic #0" = 0
+	"Liawizo #0" = 0
+	"Liemar #0" = 0
+	"Liudger #0" = 0
+	"Luder-Udo #0" = 0
+	"Luder #0" = 0
+	"Ludolf #0" = 0
+	"Ludwig #0" = 0
+	"Marbold #0" = 0
+	"Mathias #0" = 0
+	"Meinwerk #0" = 0
+	"Merten #0" = 0
+	"Norbert #0" = 0
+	"Odo #0" = 0
+	"Ordulf #0" = 0
+	"Philipp #0" = 0
+	"Reginbern #0" = 0
+	"Reinbern #0" = 0
+	"Reineke #0" = 0
+	"Reinmar #0" = 0
+	"Rudigar #0" = 0
+	"Rudolf #0" = 0
+	"Sigbert #0" = 0
+	"Sigfrid #0" = 0
+	"Sigward #0" = 0
+	"Steffen #0" = 0
+	"Thankmar #0" = 0
+	"Theodoric #0" = 0
+	"Theodwin #0" = 0
+	"Thimo #0" = 0
+	"Tobe #0" = 0
+	"Tymmeke #0" = 0
+	"Udo #0" = 0
+	"Unwan #0" = 0
+	"Viric #0" = 0
+	"Volkwin #0" = 0
+	"Volrad #0" = 0
+	"Walbert #0" = 0
+	"Waldemar #0" = 0
+	"Waldered #0" = 0
+	"Waltard #0" = 0
+	"Warin #0" = 0
+	"Warinechin #0" = 0
+	"Wecta #0" = 0
+	"Wenzel #0" = 0
+	"Werneke #0" = 0
+	"Weybrecht #0" = 0
+	"Wichbert #0" = 0
+	"Wichmann #0" = 0
+	"Wicho #0" = 0
+	"Widukind #0" = 0
+	"Wigebert #0" = 0
+	"Wilbrand #0" = 0
+	"Willichin #0" = 0
+	"Withgils #0" = 0
+	"Witikind #0" = 0
+	"Witta #0" = 0
+	"Wlencing #0" = 0
+	"Wulff #0" = 0
+}
+

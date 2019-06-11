@@ -1,0 +1,26 @@
+# Bucellarian
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 326
+1434.2.10 = {
+	monarch = {
+		name = "Gabriel"
+		birth_date = 1424.8.27
+		dynasty = "Tsaphas"
+		adm = 3
+		dip = 4
+		mil = 1
+	}
+	add_ruler_personality = craven_personality
+}
+1444.11.11 = {
+	capital = 326
+	add_treasury = 250
+	add_prestige = 37
+}

@@ -1,0 +1,253 @@
+# Albany
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 25 85 160 }
+historical_idea_groups = {
+	defensive_ideas
+	aristocracy_ideas
+	naval_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	gaelic_galloglaigh
+	gaelic_mercenary
+	gaelic_free_shooter
+	irish_charge
+	scottish_highlander
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Argentocoxos" "Ælfrida" "Uuochu" "Allust" "Uunis" "Wihtburh" "Angus" "Ru" "Elaine" "Arnemetia" 
+	"Sara" "Addiena" "Allisander" "Delyth" "Eua" "Maelmurie" "Glynys" "Unen" "Rudri" "Deocillimon" 
+	"Iduallon" "Tysilio" "Eanhere" "Brethoc" "Bili" "Uusbail" "Buthut" "Ganant" "Breth" "Uipoig" 
+	"Canutulachama" "Uuredach" "Ceother" "Aniel" "Telurg" "Uuirp" "Brude" "Drest" "Naiton" "Girom" 
+	"Uudrost" "Galam" "Manath" "Murtolic" "Caltram" "Mor" "Drosten" "Lutrin" "Uuroid" "Elpin" 
+	"Tarla" "Uthoil" "Ciniod" "Canuall" "Margrud" "Aenbecan" "Dabuut" "Achiuir" "Rubert" "Iuan" 
+	"Castantin" "Siunod" "Uluen" "Morag" "Uoret" "Ruatirch" "Madru" "Bran" "Bridei" "Cristin" 
+	"Neulina" "Durilia" "Pedric" "Elen" "Ninian" "Brân" "Mairi" "Pidarnoin" "Aethon" "Mordeleg" 
+	"Morien" "Morleo" "Caitrion" "Allcallorred" "Uen" "Uuen" "Ælfstan" "Abrella" "Eanswith" "Maud" 
+	"Eddarrnonn" "Iestan" "Beorngyth" "Ælfthryth" "Erpin" "Iain" "Rædwald" "Castant" "Osræd" "Burgheard" 
+	"Ælfgyth" "Ælfgar" "Sæxræd" "Dugald" "Marjory" "Wærburg" "Paul" "Ælfgifu" "Derilla" "Wulfthryth" 
+	"Maelchon" "Arncytel" "Malcolm" "Ealdgyth" "Cyneswith" "Gunhilda" "Wulfgyth" "Muriel" "Zoe" "Eadberht" 
+	"Helen" "Æbba" "Sigeberht" "Waldeve" "Kenna" "Heahberht" "Æthelwine" "Ordgar" "Eadhburh" "Osulf" 
+	"Wynnflæd" "Donella" "Telurgan" "Matad" "Taran" "Haraldr" "Eadburg" "Cadfan" "Kentigerna" "Hereswith" 
+	"Rhiwallon" "Hawys" "Uuena" "Rædwulf" "Urguist" "Gwriad" "Baldarich" "Philipp" "Sieghard" "Beornwulf" 
+	"Beorhthelm" "Allan" "Ardle" "Auust" "Briog" "Broichan" "Canu" "Canan" "Caradaig" "Caruorst" 
+	"Crup" "Deoord" "Domelch" "Enuidaig" "Garalt" "Gede" "Gest" "Gigurum" "Idual" "Irb" 
+	"Mael" "Pedur" "Uist" "Unuist" "Usuullt" "Uuid" }
+monarch_names = {
+	"Argentocoxos #0" = 1
+	"Ælfrida #0" = -1
+	"Uuochu #0" = 1
+	"Allust #0" = -1
+	"Uunis #0" = -1
+	"Wihtburh #0" = -1
+	"Angus #0" = 1
+	"Ru #0" = 1
+	"Elaine #1" = -28
+	"Arnemetia #1" = -19
+	"Sara #0" = -1
+	"Addiena #0" = -1
+	"Allisander #0" = 1
+	"Delyth #0" = -1
+	"Eua #0" = -1
+	"Maelmurie #0" = -1
+	"Glynys #0" = -1
+	"Unen #0" = 1
+	"Rudri #0" = 1
+	"Deocillimon #0" = 1
+	"Iduallon #0" = 1
+	"Tysilio #0" = 1
+	"Eanhere #0" = 1
+	"Brethoc #0" = -1
+	"Bili #1" = 18
+	"Uusbail #0" = -1
+	"Buthut #0" = 1
+	"Ganant #0" = 1
+	"Breth #0" = 1
+	"Uipoig #0" = 1
+	"Canutulachama #0" = 1
+	"Uuredach #0" = 1
+	"Ceother #0" = 1
+	"Aniel #1" = 21
+	"Telurg #1" = 30
+	"Uuirp #0" = 1
+	"Brude #0" = 1
+	"Drest #0" = 1
+	"Naiton #0" = 1
+	"Girom #0" = 1
+	"Uudrost #0" = 1
+	"Galam #1" = 27
+	"Manath #0" = 1
+	"Murtolic #1" = 21
+	"Caltram #0" = 1
+	"Mor #0" = -1
+	"Drosten #0" = 1
+	"Lutrin #0" = 1
+	"Uuroid #0" = 1
+	"Elpin #0" = 1
+	"Tarla #0" = 1
+	"Uthoil #0" = 1
+	"Ciniod #0" = 1
+	"Canuall #0" = 1
+	"Margrud #0" = -1
+	"Aenbecan #0" = 1
+	"Dabuut #1" = 24
+	"Achiuir #0" = 1
+	"Rubert #0" = 1
+	"Iuan #0" = 1
+	"Castantin #1" = 21
+	"Siunod #0" = -1
+	"Uluen #1" = -19
+	"Morag #0" = -1
+	"Uoret #1" = 21
+	"Ruatirch #1" = 27
+	"Madru #0" = -1
+	"Bran #0" = 1
+	"Bridei #0" = 1
+	"Cristin #0" = -1
+	"Neulina #0" = -1
+	"Durilia #0" = -1
+	"Pedric #0" = 1
+	"Elen #0" = -1
+	"Ninian #0" = 1
+	"Brân #0" = 1
+	"Mairi #0" = -1
+	"Pidarnoin #1" = 18
+	"Aethon #0" = 1
+	"Mordeleg #0" = 1
+	"Morien #0" = -1
+	"Morleo #0" = 1
+	"Caitrion #0" = -1
+	"Allcallorred #2" = 24
+	"Uen #0" = -1
+	"Uuen #0" = 1
+	"Ælfstan #0" = 1
+	"Abrella #0" = -1
+	"Eanswith #0" = -1
+	"Maud #0" = -1
+	"Eddarrnonn #0" = 1
+	"Iestan #0" = 1
+	"Beorngyth #0" = -1
+	"Ælfthryth #0" = -1
+	"Erpin #0" = 1
+	"Iain #0" = 1
+	"Rædwald #0" = 1
+	"Castant #1" = 18
+	"Osræd #0" = 1
+	"Burgheard #0" = 1
+	"Ælfgyth #0" = -1
+	"Ælfgar #0" = 1
+	"Sæxræd #0" = 1
+	"Dugald #0" = 1
+	"Marjory #0" = -1
+	"Wærburg #0" = -1
+	"Paul #1" = 24
+	"Ælfgifu #0" = -1
+	"Derilla #0" = -1
+	"Wulfthryth #0" = -1
+	"Maelchon #0" = 1
+	"Arncytel #0" = 1
+	"Malcolm #0" = 1
+	"Ealdgyth #0" = -1
+	"Cyneswith #0" = -1
+	"Gunhilda #0" = -1
+	"Wulfgyth #0" = -1
+	"Muriel #0" = -1
+	"Zoe #0" = -1
+	"Eadberht #0" = 1
+	"Helen #0" = -1
+	"Æbba #0" = -1
+	"Sigeberht #0" = 1
+	"Waldeve #0" = 1
+	"Kenna #0" = -1
+	"Heahberht #0" = 1
+	"Æthelwine #0" = 1
+	"Ordgar #0" = 1
+	"Eadhburh #0" = -1
+	"Osulf #0" = 1
+	"Wynnflæd #0" = -1
+	"Donella #0" = -1
+	"Telurgan #0" = 1
+	"Matad #0" = 1
+	"Taran #0" = 1
+	"Haraldr #0" = 1
+	"Eadburg #0" = -1
+	"Cadfan #0" = 1
+	"Kentigerna #0" = -1
+	"Hereswith #0" = -1
+	"Rhiwallon #0" = 1
+	"Hawys #0" = -1
+	"Uuena #0" = -1
+	"Rædwulf #0" = 1
+	"Urguist #1" = 0
+	"Gwriad #1" = 0
+	"Baldarich #1" = 0
+	"Philipp #1" = 0
+	"Sieghard #1" = 0
+	"Beornwulf #1" = 0
+	"Beorhthelm #1" = 0
+	"Allan #0" = 0
+	"Ardle #0" = 0
+	"Auust #0" = 0
+	"Briog #0" = 0
+	"Broichan #0" = 0
+	"Canu #0" = 0
+	"Canan #0" = 0
+	"Caradaig #0" = 0
+	"Caruorst #0" = 0
+	"Crup #0" = 0
+	"Deoord #0" = 0
+	"Domelch #0" = 0
+	"Enuidaig #0" = 0
+	"Garalt #0" = 0
+	"Gede #0" = 0
+	"Gest #0" = 0
+	"Gigurum #0" = 0
+	"Idual #0" = 0
+	"Irb #0" = 0
+	"Mael #0" = 0
+	"Pedur #0" = 0
+	"Uist #0" = 0
+	"Unuist #0" = 0
+	"Usuullt #0" = 0
+	"Uuid #0" = 0
+}
+ship_names = {
+	Advantage "Ann of Anstruther"
+	Bonaventure Bruce
+	Charles "Christian of Boness" Christopher Cuckoo
+	Flower Fortune
+	"Good Fortune" Green-tree
+	"Great Michael"
+	James Janet "Jenny Pirwin"
+	"King's Caravel"
+	"Lamb of Leith" Lesley Lion
+	Margaret "Margaret of Peterhead" "Mary Willoughby" "Mary Walsingham" Mercury Moon Morton
+	Pelican "Prince Rupert" "Providence of Dundee"
+	"Rainbow of Dundee" Rothes
+	Salamander "St. Salvator"
+	Thistle
+	Unicorn
+	Venture
+	Wemyss
+	"Yellow Caravel"
+}
+

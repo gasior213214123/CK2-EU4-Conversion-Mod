@@ -1,0 +1,26 @@
+# Warriors of Perun
+government = theocracy
+add_government_reform = monastic_order_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dalmatian
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 1767
+1439.6.6 = {
+	monarch = {
+		name = "Igor"
+		birth_date = 1417.5.19
+		dynasty = "Inzhayid"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = infertile_personality
+}
+1444.11.11 = {
+	capital = 1767
+	add_treasury = 14
+	add_prestige = 258
+}

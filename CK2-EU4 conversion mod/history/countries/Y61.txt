@@ -1,0 +1,28 @@
+# Paphlagonia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 4313
+1420.12.28 = {
+	monarch = {
+		name = "Iouliana"
+		birth_date = 1409.4.23
+		dynasty = "Alousianos"
+		female = yes
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = drunkard_personality
+}
+1444.11.11 = {
+	capital = 4313
+	add_treasury = 34
+	add_prestige = 55
+}

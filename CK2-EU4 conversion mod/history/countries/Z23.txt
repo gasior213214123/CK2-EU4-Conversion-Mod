@@ -1,0 +1,27 @@
+# Småland
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = norse
+religion = catholic
+clear_scripted_personalities = yes
+capital = 3
+1437.11.26 = {
+	monarch = {
+		name = "Þora"
+		birth_date = 1400.12.7
+		dynasty = "Dál Birn"
+		female = yes
+		adm = 3
+		dip = 6
+		mil = 5
+	}
+	add_ruler_personality = industrious_personality
+}
+1444.11.11 = {
+	capital = 3
+	add_treasury = 8
+	add_prestige = 429
+}

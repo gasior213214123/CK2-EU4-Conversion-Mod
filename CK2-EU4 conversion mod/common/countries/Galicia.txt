@@ -1,0 +1,215 @@
+# Galicia
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 255 224 94 }
+historical_idea_groups = {
+	religious_ideas
+	naval_ideas
+	defensive_ideas
+	economic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas
+	diplomatic_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	spanish_tercio
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Airmanagildo" "Ebrildi" "Cisilo" "Ermildi" "Hakam" "Gundiverga" "Rezevera" "Aarif" "Fagilo" "Bugidai" 
+	"Parween" "Fadl" "Riquilo" "Abdul-Gafur" "Sholah" "Fredoaldus" "Layla" "Sahba" "Shameem" "Ebegei" 
+	"Notarius" "Randuarius" "Asiya" "Veremondo" "Gonterote" "Petro" "Eldonza" "Nyawela" "Friedenando" "Yagana" 
+	"Riciberga" "Monniadomna" "Samira" "Rasa" "Ermenisinda" "Froila" "Husam" "Akin" "Silo" "Jalil" 
+	"Reshawna" "Shahrbano" "Abdul-Qadir" "Trasoldi" "Shararah" "Iberia" "Sisenanda" "Alim" "Shahzadah" "Yakta" 
+	"Sheeftah" "Murad" "Amsha" "Paywand" "Mansur" "Musa" "Sheeva" "Habiba" "Adila" "Mubarak" 
+	"Azam" "Halil" "Yasmin" "Jahaira" "Qawurd" "Faghira" "Sami" "Zaynab" "Mirza" "Ubayd" 
+	"Balashk" "Amr" "Gamila" "Rashida" "Wahida" "Abdul-Aziz" "Mundir" "Nadia" "Abda" "Zahra" 
+	"Tahira" "Rafiqa" "Fahriya" "Butayna" "Safiya" "Trasmira" "Ahu" "Mubashir" "Fath" "Remisol" 
+	"Maldras" "Hildemir" "Khadija" "Sulayman" "Sisiverta" "Villisendo" "Wannaqo" "Ragolfus" "Uways" "Teudileova" 
+	"Astriverga" "Adelgaster" "Hisham" "Sisilli" "Najib" "Zamarius" "Abdul-Jaleel" "Abdul-Wahab" "Aghlab" "Aram" 
+	"Bahir" "Burhanaddin" "Fadil" "Faruk" "Ghalib" "Hafiz" "Ibrahim" "Idris" "Is'mail" "Isa" 
+	"Jabir" "Jibril" "Khaireddin" "Khalil" "Mahdi" "Mukhtar" "Muslihiddin" "Muzaffaraddin" "Nasr" "Nizam" 
+	"Ramadan" "Sa'daddin" "Sadiq" "Samir" "Shaiban" "Shamir" "Shujah" "Talib" "Yahya" "Ya'qub" 
+	"Youkhanna" "Yusuf" "Zeyd" }
+monarch_names = {
+	"Airmanagildo #0" = 1
+	"Ebrildi #0" = -1
+	"Cisilo #0" = -1
+	"Ermildi #0" = -1
+	"Hakam #0" = 1
+	"Gundiverga #0" = -1
+	"Rezevera #0" = -1
+	"Aarif #1" = 18
+	"Fagilo #0" = -1
+	"Bugidai #0" = 1
+	"Parween #0" = -1
+	"Fadl #1" = 33
+	"Riquilo #0" = -1
+	"Abdul-Gafur #0" = 1
+	"Sholah #0" = -1
+	"Fredoaldus #0" = 1
+	"Layla #0" = -1
+	"Sahba #0" = -1
+	"Shameem #0" = -1
+	"Ebegei #0" = -1
+	"Notarius #0" = 1
+	"Randuarius #0" = 1
+	"Asiya #0" = -1
+	"Veremondo #1" = 18
+	"Gonterote #1" = -19
+	"Petro #1" = 18
+	"Eldonza #0" = -1
+	"Nyawela #0" = -1
+	"Friedenando #1" = 21
+	"Yagana #0" = -1
+	"Riciberga #0" = -1
+	"Monniadomna #0" = -1
+	"Samira #0" = -1
+	"Rasa #0" = -1
+	"Ermenisinda #1" = -19
+	"Froila #0" = 1
+	"Husam #0" = 1
+	"Akin #0" = 1
+	"Silo #1" = 18
+	"Jalil #1" = 18
+	"Reshawna #0" = -1
+	"Shahrbano #0" = -1
+	"Abdul-Qadir #0" = 1
+	"Trasoldi #0" = 1
+	"Shararah #0" = -1
+	"Iberia #0" = -1
+	"Sisenanda #0" = -1
+	"Alim #0" = 1
+	"Shahzadah #0" = -1
+	"Yakta #0" = -1
+	"Sheeftah #0" = -1
+	"Murad #0" = 1
+	"Amsha #0" = -1
+	"Paywand #0" = -1
+	"Mansur #0" = 1
+	"Musa #1" = 21
+	"Sheeva #0" = -1
+	"Habiba #0" = -1
+	"Adila #0" = -1
+	"Mubarak #2" = 30
+	"Azam #1" = 18
+	"Halil #0" = 1
+	"Yasmin #0" = -1
+	"Jahaira #0" = -1
+	"Qawurd #0" = 1
+	"Faghira #0" = -1
+	"Sami #0" = 1
+	"Zaynab #0" = -1
+	"Mirza #0" = 1
+	"Ubayd #1" = 18
+	"Balashk #0" = 1
+	"Amr #0" = 1
+	"Gamila #0" = -1
+	"Rashida #0" = -1
+	"Wahida #0" = -1
+	"Abdul-Aziz #0" = 1
+	"Mundir #0" = 1
+	"Nadia #0" = -1
+	"Abda #0" = -1
+	"Zahra #0" = -1
+	"Tahira #0" = -1
+	"Rafiqa #0" = -1
+	"Fahriya #0" = -1
+	"Butayna #0" = -1
+	"Safiya #0" = -1
+	"Trasmira #0" = -1
+	"Ahu #0" = -1
+	"Mubashir #0" = 1
+	"Fath #0" = 1
+	"Remisol #0" = 1
+	"Maldras #1" = 18
+	"Hildemir #0" = 1
+	"Khadija #0" = -1
+	"Sulayman #0" = 1
+	"Sisiverta #0" = -1
+	"Villisendo #0" = 1
+	"Wannaqo #0" = 1
+	"Ragolfus #1" = 18
+	"Uways #0" = 1
+	"Teudileova #0" = -1
+	"Astriverga #0" = -1
+	"Adelgaster #1" = 0
+	"Hisham #2" = 0
+	"Sisilli #1" = -1
+	"Najib #1" = 0
+	"Zamarius #1" = 0
+	"Abdul-Jaleel #0" = 0
+	"Abdul-Wahab #0" = 0
+	"Aghlab #0" = 0
+	"Aram #0" = 0
+	"Bahir #0" = 0
+	"Burhanaddin #0" = 0
+	"Fadil #0" = 0
+	"Faruk #0" = 0
+	"Ghalib #0" = 0
+	"Hafiz #0" = 0
+	"Ibrahim #0" = 0
+	"Idris #0" = 0
+	"Is'mail #0" = 0
+	"Isa #0" = 0
+	"Jabir #0" = 0
+	"Jibril #0" = 0
+	"Khaireddin #0" = 0
+	"Khalil #0" = 0
+	"Mahdi #0" = 0
+	"Mukhtar #0" = 0
+	"Muslihiddin #0" = 0
+	"Muzaffaraddin #0" = 0
+	"Nasr #0" = 0
+	"Nizam #0" = 0
+	"Ramadan #0" = 0
+	"Sa'daddin #0" = 0
+	"Sadiq #0" = 0
+	"Samir #0" = 0
+	"Shaiban #0" = 0
+	"Shamir #0" = 0
+	"Shujah #0" = 0
+	"Talib #0" = 0
+	"Yahya #0" = 0
+	"Ya'qub #0" = 0
+	"Youkhanna #0" = 0
+	"Yusuf #0" = 0
+	"Zeyd #0" = 0
+}
+ship_names = {
+	Galicia Argonauta Asturias Asunción Atrevido Azor
+	Cartagonova Castilla "Castillo Negro" Castor "Ciervo Volante"
+	Doncella Dragón 
+	"El Gran Grin" "El Retiro" Eneas Eolo Esperanza "Espíritu Santo" Extremadura
+	Furor Galicia "Gran Grifón" Halcón Hércules Isabela Júpiter
+	"La Concepción" "La Magdalena" "La Manuela" León Ligera "Lobo Marino"
+	Marte Mercurio Neptuno Niña Orión
+	"Paloma Blanca" Pegaso "Perro Marino" Pinta Plutón Pollux "Príncipe de Asturias"
+	Rayo "Real Alfonso" "Real Enrique" "Real Juan" "Rey Pelayo" "Rey Rodrigo"
+	"San Andrés" "San Antonio" "San Bartolomé" "San Bernabé" "San Cristobal" "San Enrique"
+	"San Esteban" "San Fernando" "San Francisco" "San Gabriel" "San Isidoro" "San Jerónimo"
+	"San José" "San Juan" "San Juan Bautista" "San Leandro" "San Miguel" "San Pedro"
+	"San Rafael" "San Salvador" "San Sebastian" "Santa Ana" "Santa Bárbara" "Santa Beatriz"
+	"Santa Catalina" "Santa Cruz" "Santa Fe" "Santa Isabel" "Santa Justa" "Santa María"
+	"Santa Marta" "Santa Rita" "Santa Teresa" Santiago "Santísima Trinidad" "Santo Domingo" Sirena
+	Terror Toledo Trinidad Tritón Unicornio
+	Vencedora Ventura Victoria Vigilante Vizcaya Vulcano Zúñiga
+}
+

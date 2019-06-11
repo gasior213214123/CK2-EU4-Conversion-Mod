@@ -1,0 +1,27 @@
+# Polotsk
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = volhynian
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 292
+1432.3.16 = {
+	monarch = {
+		name = "Telec"
+		birth_date = 1432.2.18
+		dynasty = "Tivertsi"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality = obsessive_perfectionist_personality
+	add_ruler_personality = calm_personality
+}
+1444.11.11 = {
+	capital = 292
+	add_treasury = 39
+	add_prestige = 29
+}

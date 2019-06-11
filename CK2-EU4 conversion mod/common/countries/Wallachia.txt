@@ -1,0 +1,449 @@
+# Wallachia
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 220 132 40 }
+
+
+
+
+leader_names = {
+
+	"Nibelung" "Sibyl" "Jeanne" "Helewisa" "Blanche" "Humphrey" "Gervas" "Gohilde" "Osbern" "Walter" 
+	"Egelina" "Giselle" "Yildiz" "Sybille" "Anquetil" "Aubrey" "Loup" "Antoinette" "Fressende" "Yvon" 
+	"Gulay" "Yolanda" "Busilla" "Norman" "Odo" "Lesceline" "Tekçe" "Orderic" "Chepa" "Anne" 
+	"Avelina" "Sayer" "Bérengère" "Ayten" "William" "Baldwin" "Édouard" "Ida" "Goubert" "Abdul-Haq" 
+	"Yasar" "Tokhtaman" "Savaçka" "Arnald" "Evrard" "Turold" "Maud" "Oriel" "Marguerite" "Felicia" 
+	"Bernard" "Clemence" "Foulques" "Yevstafiy" "Heria" "Guillaumette" "Mabel" "Eustadiola" "Emma" "Fraunk" 
+	"Theoderic" "Theodbert" "Berta" "Childebrand" "Adalelm" "Teudoin" "Abba" "Guillaume" "Karloman" "Niebelung" 
+	"Charibert" "Bertilla" "Godalbert" "Bernegildis" "Sadalberga" "Brunhild" "Martinga" "Chlodosind" "Gualtari" "Pharamond" 
+	"Berthildis" "Glodesind" "Ingunde" "Ermengardis" "Gundrada" "Bertenildis" "Austrechild" "Ultrogotha" "Bladovildis" "Roland" 
+	"Cesaria" "Berald" "Halderudis" "Robert" "Gertrude" "Rigunth" "Bertrand" "Airsenda" "Haldemar" "Berthefled" 
+	"Waltrude" "Vulfari" "Marcatrude" "Aldedramn" "Rosamund" "Dagena" "Arsindis" "Martin" "Berthefried" "Garivald" 
+	"Ceslin" "Liutgarde" "Beretrude" "Sunno" "Engilbert" "Reginari" "Lambert" "Morberga" "Celsovildis" "Adalgrim" 
+	"Abrahil" "Raginari" "Sigebert" "Faileuba" "Rathar" "Adalbert" "Gausbold" "Aegidius" "Rorgues" "Valeran" 
+	"Dietwin" "Goiswinth" "Adaluildis" "Wolfari" "Siclehildis" "Gualter" "Merovech" "Eirikr" "Chramnesind" "Sunnegisil" 
+	"Inga" "Marcovefa" "Gautlindis" "Harildis" "Theudebald" "Genovefa" "Gararic" "Dagobert" "Archambaud" "Anstrude" 
+	"Theodelinda" "Eglantine" "Berthegund" "Framberta" "Gyrið" "Helene" "Ofeig" "Raynaud" "Arcambald" "Ermengildis" 
+	"Lothar" "Giuco" "Ursula" "Agathe" "Tiburge" "Mélusine" "Eve" "Lucarus" "Savary" "Rictrude" 
+	"Teotbert" "Vita" "Gislari" "Tancrad" "Aldegonde" "Çilen" "Kätyarikka" "Gisela" "Monegund" "Arnaud" 
+	"Ruothilde" "Sinop" "Piero" "Frothari" "Breth" "Gotberga" "Fulcari" "Tassilo" "Foroen" "Guglielmo" 
+	"Broichan" "Kardam" "Ferdinand" "Garalt" "Uuochu" "Hildegarde" "Hans" "Petrus" "Adaltrude" "Alitrudis" 
+	"Esin" "Arnault" "Elen" "Gerberge" "Sarikel" "Tura" "Benoîte" "Burgundofara" "Burchard" "Asli" 
+	"Esclarmonde" "Gurmaeloc" "Marthe" "André" "Landina" "Savtilek" "Aubry" "Adelinde" "Ascaric" "Tervel" 
+	"Childeric" "Ermessinde" "Julien" "Ancel" "Ermensindis" "Yavantey" "Richard" "Stéphanie" "Irge" "Ragenard" 
+	"Ingitrude" "Hildebert" "Adèle" "Mallobaudes" "Dobronega" "Aléarde" "Otbert" "Umor" "Sichar" "Valence" 
+	"Fastrada" "Fevronia" "Mafalda" "Avremar" "Gradislava" "Peksen" "Élodie" "Ellak" "Antoine" "Zabava" 
+	"Yelisey" "Radoslav" "François" "Vulframn" "Isbul" "Alexandra" "Arsinde" "Echive" "Ikalay" "Alain" 
+	"Cundo" "Herbert" "Birgitta" "Çeçki" "Turstin" "Herman" "Marie" "Adelaide" "Ademar" "Hadwis" 
+	"Aline" "Judit" "Clemenza" "Tukiy" "Perinne" "Alisce" "Bisti" "Matheus" "Pascalis" "Juliano" 
+	"Calenda" "Pantoleon" "Almish" "Alzek" "Anzi" "Apskhih" "Araslan" "Asparukh" "Balamber" "Bars" 
+	"Bataul" "Batbayan" "Batoya" "Batulia" "Bayan" "Belkermak" "Bezmer" "Boyan" "Bulger" "Buzan" 
+	"Chinialush" "Dengizikh" "Dizeng" "Dometa" "Dristar" "Drong" "Dukum" "Elemag" "Ernakh" "Eskhakh" 
+	"Goleda" "Gostun" "Guar" "Hudbad" "Iani" "Irnek" "Islivan" "Isperikh" "Ispor" "Kälaç" 
+	"Kano" "Karan" "Karaton" "Kharaton" "Khinialon" "Khudbard" "Kordil" "Kormesiy" "Kormisosh" "Kotrag" 
+	"Krovat" "Krum" "Kuber" "Kubrat" "Kurt" "Kutrigur" "Kuvrat" "Labertam" "Magotin" "Malamir" 
+	"Mugel" "Odolgan" "Okhsi" "Okhsun" "Okors" "Omurtag" "Onegavon" "Organ" "Organa" "Ornag" 
+	"Oshi" "Ostro" "Pagan" "Pakhtiyar" "Paväl" "Praksa" "Rassate" "Rugila" "Sabin" "Sandil" 
+	"Sandilkh" "Sarkhan" "Sartäç" "Savin" "Sevar" "Shilki" "Sondoke" "Tähtaman" "Tarasiy" "Taridin" 
+	"Tatra" "Telec" "Telerig" "Timër" "Timëreç" "Timërpälat" "Tingiz" "Tiradin" "Toktu" "Tsog" 
+	"Tsul" "Tuk" "Uturgur" "Vakrim" "Venda" "Vetam" "Vinekh" "Yani" "Yençepi" "Yerneslu" 
+	"Yeçtirek" "Zabergan" "Zenti" "Aydar" "Irkhan" "Batir" }
+monarch_names = {
+	"Nibelung #0" = 1
+	"Sibyl #0" = -1
+	"Jeanne #0" = -1
+	"Helewisa #0" = -1
+	"Blanche #0" = -1
+	"Humphrey #0" = 1
+	"Gervas #0" = 1
+	"Gohilde #0" = -1
+	"Osbern #0" = 1
+	"Walter #0" = 1
+	"Egelina #0" = -1
+	"Giselle #0" = -1
+	"Yildiz #0" = -1
+	"Sybille #0" = -1
+	"Anquetil #0" = 1
+	"Aubrey #0" = -1
+	"Loup #0" = 1
+	"Antoinette #0" = -1
+	"Fressende #0" = -1
+	"Yvon #0" = -1
+	"Gulay #0" = -1
+	"Yolanda #0" = -1
+	"Busilla #0" = -1
+	"Norman #0" = 1
+	"Odo #0" = 1
+	"Lesceline #0" = -1
+	"Tekçe #0" = -1
+	"Orderic #1" = 21
+	"Chepa #0" = 1
+	"Anne #0" = -1
+	"Avelina #0" = -1
+	"Sayer #0" = 1
+	"Bérengère #0" = -1
+	"Ayten #0" = -1
+	"William #0" = 1
+	"Baldwin #0" = 1
+	"Édouard #0" = 1
+	"Ida #0" = -1
+	"Goubert #0" = 1
+	"Abdul-Haq #0" = 1
+	"Yasar #0" = -1
+	"Tokhtaman #0" = 1
+	"Savaçka #0" = -1
+	"Arnald #0" = 1
+	"Evrard #0" = 1
+	"Turold #0" = 1
+	"Maud #0" = -1
+	"Oriel #0" = -1
+	"Marguerite #0" = -1
+	"Felicia #0" = -1
+	"Bernard #0" = 1
+	"Clemence #0" = 1
+	"Foulques #0" = 1
+	"Yevstafiy #0" = 1
+	"Heria #0" = -1
+	"Guillaumette #0" = -1
+	"Mabel #0" = -1
+	"Eustadiola #0" = -1
+	"Emma #0" = -1
+	"Fraunk #0" = 1
+	"Theoderic #0" = 1
+	"Theodbert #0" = 1
+	"Berta #0" = -1
+	"Childebrand #0" = 1
+	"Adalelm #0" = 1
+	"Teudoin #0" = 1
+	"Abba #0" = -1
+	"Guillaume #0" = 1
+	"Karloman #0" = 1
+	"Niebelung #0" = 1
+	"Charibert #0" = 1
+	"Bertilla #0" = -1
+	"Godalbert #0" = 1
+	"Bernegildis #0" = -1
+	"Sadalberga #0" = -1
+	"Brunhild #0" = -1
+	"Martinga #0" = -1
+	"Chlodosind #0" = -1
+	"Gualtari #0" = 1
+	"Pharamond #0" = 1
+	"Berthildis #0" = -1
+	"Glodesind #0" = -1
+	"Ingunde #0" = -1
+	"Ermengardis #0" = -1
+	"Gundrada #0" = -1
+	"Bertenildis #0" = -1
+	"Austrechild #0" = -1
+	"Ultrogotha #0" = -1
+	"Bladovildis #0" = -1
+	"Roland #0" = 1
+	"Cesaria #0" = -1
+	"Berald #0" = 1
+	"Halderudis #0" = -1
+	"Robert #0" = 1
+	"Gertrude #0" = -1
+	"Rigunth #0" = -1
+	"Bertrand #0" = 1
+	"Airsenda #0" = -1
+	"Haldemar #0" = 1
+	"Berthefled #0" = -1
+	"Waltrude #0" = -1
+	"Vulfari #0" = 1
+	"Marcatrude #0" = -1
+	"Aldedramn #0" = 1
+	"Rosamund #0" = -1
+	"Dagena #0" = -1
+	"Arsindis #0" = -1
+	"Martin #0" = 1
+	"Berthefried #0" = -1
+	"Garivald #1" = 24
+	"Ceslin #0" = 1
+	"Liutgarde #0" = -1
+	"Beretrude #0" = -1
+	"Sunno #0" = 1
+	"Engilbert #0" = 1
+	"Reginari #0" = 1
+	"Lambert #0" = 1
+	"Morberga #0" = -1
+	"Celsovildis #0" = -1
+	"Adalgrim #0" = 1
+	"Abrahil #0" = 1
+	"Raginari #0" = 1
+	"Sigebert #0" = 1
+	"Faileuba #0" = -1
+	"Rathar #0" = 1
+	"Adalbert #0" = 1
+	"Gausbold #1" = 27
+	"Aegidius #0" = 1
+	"Rorgues #0" = 1
+	"Valeran #0" = 1
+	"Dietwin #0" = 1
+	"Goiswinth #0" = -1
+	"Adaluildis #0" = -1
+	"Wolfari #0" = 1
+	"Siclehildis #0" = -1
+	"Gualter #0" = 1
+	"Merovech #0" = 1
+	"Eirikr #0" = 1
+	"Chramnesind #3" = 27
+	"Sunnegisil #0" = 1
+	"Inga #0" = -1
+	"Marcovefa #0" = -1
+	"Gautlindis #0" = -1
+	"Harildis #0" = -1
+	"Theudebald #0" = 1
+	"Genovefa #0" = -1
+	"Gararic #0" = 1
+	"Dagobert #0" = 1
+	"Archambaud #0" = 1
+	"Anstrude #0" = -1
+	"Theodelinda #0" = -1
+	"Eglantine #0" = -1
+	"Berthegund #0" = -1
+	"Framberta #0" = -1
+	"Gyrið #0" = -1
+	"Helene #0" = -1
+	"Ofeig #0" = 1
+	"Raynaud #0" = 1
+	"Arcambald #0" = 1
+	"Ermengildis #0" = -1
+	"Lothar #0" = 1
+	"Giuco #0" = 1
+	"Ursula #0" = -1
+	"Agathe #0" = -1
+	"Tiburge #0" = -1
+	"Mélusine #0" = -1
+	"Eve #0" = -1
+	"Lucarus #0" = 1
+	"Savary #0" = 1
+	"Rictrude #0" = -1
+	"Teotbert #0" = 1
+	"Vita #1" = 18
+	"Gislari #1" = 18
+	"Tancrad #0" = 1
+	"Aldegonde #0" = -1
+	"Çilen #0" = -1
+	"Kätyarikka #0" = -1
+	"Gisela #0" = -1
+	"Monegund #0" = -1
+	"Arnaud #0" = 1
+	"Ruothilde #0" = -1
+	"Sinop #0" = 1
+	"Piero #0" = 1
+	"Frothari #0" = 1
+	"Breth #0" = 1
+	"Gotberga #0" = -1
+	"Fulcari #1" = 24
+	"Tassilo #0" = 1
+	"Foroen #0" = 1
+	"Guglielmo #0" = 1
+	"Broichan #0" = 1
+	"Kardam #0" = 1
+	"Ferdinand #0" = 1
+	"Garalt #0" = 1
+	"Uuochu #0" = 1
+	"Hildegarde #0" = -1
+	"Hans #0" = 1
+	"Petrus #0" = 1
+	"Adaltrude #0" = -1
+	"Alitrudis #0" = -1
+	"Esin #0" = -1
+	"Arnault #0" = 1
+	"Elen #0" = -1
+	"Gerberge #0" = -1
+	"Sarikel #0" = -1
+	"Tura #0" = -1
+	"Benoîte #0" = -1
+	"Burgundofara #0" = -1
+	"Burchard #0" = 1
+	"Asli #0" = -1
+	"Esclarmonde #0" = -1
+	"Gurmaeloc #0" = 1
+	"Marthe #0" = -1
+	"André #0" = 1
+	"Landina #0" = -1
+	"Savtilek #0" = -1
+	"Aubry #0" = 1
+	"Adelinde #0" = -1
+	"Ascaric #0" = 1
+	"Tervel #0" = 1
+	"Childeric #0" = 1
+	"Ermessinde #0" = -1
+	"Julien #0" = 1
+	"Ancel #0" = 1
+	"Ermensindis #0" = -1
+	"Yavantey #0" = 1
+	"Richard #0" = 1
+	"Stéphanie #0" = -1
+	"Irge #0" = -1
+	"Ragenard #0" = 1
+	"Ingitrude #0" = -1
+	"Hildebert #0" = 1
+	"Adèle #0" = -1
+	"Mallobaudes #1" = 24
+	"Dobronega #0" = -1
+	"Aléarde #0" = -1
+	"Otbert #0" = 1
+	"Umor #1" = 18
+	"Sichar #0" = 1
+	"Valence #0" = -1
+	"Fastrada #0" = -1
+	"Fevronia #0" = -1
+	"Mafalda #0" = -1
+	"Avremar #0" = 1
+	"Gradislava #0" = -1
+	"Peksen #0" = -1
+	"Élodie #0" = -1
+	"Ellak #0" = 1
+	"Antoine #0" = 1
+	"Zabava #0" = -1
+	"Yelisey #0" = 1
+	"Radoslav #0" = 1
+	"François #0" = 1
+	"Vulframn #0" = 1
+	"Isbul #0" = 1
+	"Alexandra #0" = -1
+	"Arsinde #0" = -1
+	"Echive #0" = -1
+	"Ikalay #0" = -1
+	"Alain #0" = 1
+	"Cundo #0" = -1
+	"Herbert #0" = 1
+	"Birgitta #0" = -1
+	"Çeçki #0" = -1
+	"Turstin #0" = 1
+	"Herman #0" = 1
+	"Marie #0" = -1
+	"Adelaide #0" = -1
+	"Ademar #0" = 1
+	"Hadwis #0" = -1
+	"Aline #0" = -1
+	"Judit #0" = -1
+	"Clemenza #1" = -19
+	"Tukiy #0" = 1
+	"Perinne #0" = -1
+	"Alisce #0" = -1
+	"Bisti #2" = 0
+	"Matheus #1" = 0
+	"Pascalis #1" = 0
+	"Juliano #1" = 0
+	"Calenda #1" = 0
+	"Pantoleon #1" = 0
+	"Almish #0" = 0
+	"Alzek #0" = 0
+	"Anzi #0" = 0
+	"Apskhih #0" = 0
+	"Araslan #0" = 0
+	"Asparukh #0" = 0
+	"Balamber #0" = 0
+	"Bars #0" = 0
+	"Bataul #0" = 0
+	"Batbayan #0" = 0
+	"Batoya #0" = 0
+	"Batulia #0" = 0
+	"Bayan #0" = 0
+	"Belkermak #0" = 0
+	"Bezmer #0" = 0
+	"Boyan #0" = 0
+	"Bulger #0" = 0
+	"Buzan #0" = 0
+	"Chinialush #0" = 0
+	"Dengizikh #0" = 0
+	"Dizeng #0" = 0
+	"Dometa #0" = 0
+	"Dristar #0" = 0
+	"Drong #0" = 0
+	"Dukum #0" = 0
+	"Elemag #0" = 0
+	"Ernakh #0" = 0
+	"Eskhakh #0" = 0
+	"Goleda #0" = 0
+	"Gostun #0" = 0
+	"Guar #0" = 0
+	"Hudbad #0" = 0
+	"Iani #0" = 0
+	"Irnek #0" = 0
+	"Islivan #0" = 0
+	"Isperikh #0" = 0
+	"Ispor #0" = 0
+	"Kälaç #0" = 0
+	"Kano #0" = 0
+	"Karan #0" = 0
+	"Karaton #0" = 0
+	"Kharaton #0" = 0
+	"Khinialon #0" = 0
+	"Khudbard #0" = 0
+	"Kordil #0" = 0
+	"Kormesiy #0" = 0
+	"Kormisosh #0" = 0
+	"Kotrag #0" = 0
+	"Krovat #0" = 0
+	"Krum #0" = 0
+	"Kuber #0" = 0
+	"Kubrat #0" = 0
+	"Kurt #0" = 0
+	"Kutrigur #0" = 0
+	"Kuvrat #0" = 0
+	"Labertam #0" = 0
+	"Magotin #0" = 0
+	"Malamir #0" = 0
+	"Mugel #0" = 0
+	"Odolgan #0" = 0
+	"Okhsi #0" = 0
+	"Okhsun #0" = 0
+	"Okors #0" = 0
+	"Omurtag #0" = 0
+	"Onegavon #0" = 0
+	"Organ #0" = 0
+	"Organa #0" = 0
+	"Ornag #0" = 0
+	"Oshi #0" = 0
+	"Ostro #0" = 0
+	"Pagan #0" = 0
+	"Pakhtiyar #0" = 0
+	"Paväl #0" = 0
+	"Praksa #0" = 0
+	"Rassate #0" = 0
+	"Rugila #0" = 0
+	"Sabin #0" = 0
+	"Sandil #0" = 0
+	"Sandilkh #0" = 0
+	"Sarkhan #0" = 0
+	"Sartäç #0" = 0
+	"Savin #0" = 0
+	"Sevar #0" = 0
+	"Shilki #0" = 0
+	"Sondoke #0" = 0
+	"Tähtaman #0" = 0
+	"Tarasiy #0" = 0
+	"Taridin #0" = 0
+	"Tatra #0" = 0
+	"Telec #0" = 0
+	"Telerig #0" = 0
+	"Timër #0" = 0
+	"Timëreç #0" = 0
+	"Timërpälat #0" = 0
+	"Tingiz #0" = 0
+	"Tiradin #0" = 0
+	"Toktu #0" = 0
+	"Tsog #0" = 0
+	"Tsul #0" = 0
+	"Tuk #0" = 0
+	"Uturgur #0" = 0
+	"Vakrim #0" = 0
+	"Venda #0" = 0
+	"Vetam #0" = 0
+	"Vinekh #0" = 0
+	"Yani #0" = 0
+	"Yençepi #0" = 0
+	"Yerneslu #0" = 0
+	"Yeçtirek #0" = 0
+	"Zabergan #0" = 0
+	"Zenti #0" = 0
+	"Aydar #0" = 0
+	"Irkhan #0" = 0
+	"Batir #0" = 0
+}
+

@@ -1,0 +1,40 @@
+# Vakhan
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = sogdian
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 452
+1422.12.18 = {
+	monarch = {
+		name = "Yasaman"
+		birth_date = 1396.9.14
+		dynasty = "Wakhanshah"
+		female = yes
+		adm = 4
+		dip = 0
+		mil = 1
+	}
+	add_ruler_personality = craven_personality
+	add_ruler_personality = conqueror_personality
+}
+1437.10.12 = {
+	heir = {
+		name = "Chunakk"
+		monarch_name = "Chunakk"
+		dynasty = "Wakhanshah"
+		birth_date = 1437.10.12
+		death_date = 1517.10.12
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1444.11.11 = {
+	capital = 452
+	add_treasury = 241
+	add_prestige = 95
+}

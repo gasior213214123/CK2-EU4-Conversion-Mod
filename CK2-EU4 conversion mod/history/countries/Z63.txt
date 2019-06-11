@@ -1,0 +1,27 @@
+# Ure
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = bedouin_arabic
+religion = shiite
+clear_scripted_personalities = yes
+capital = 221
+1422.12.30 = {
+	monarch = {
+		name = "Uregh"
+		birth_date = 1384.2.1
+		dynasty = "Ure"
+		adm = 2
+		dip = 0
+		mil = 6
+	}
+	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = malevolent_personality
+}
+1444.11.11 = {
+	capital = 221
+	add_treasury = 52
+	add_prestige = 249
+}

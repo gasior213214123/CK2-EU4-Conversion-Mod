@@ -1,0 +1,26 @@
+# Chauhan
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = indian
+primary_culture = rajput
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 504
+1443.7.14 = {
+	monarch = {
+		name = "Banhbina II"
+		birth_date = 1404.10.26
+		dynasty = "Chauhan"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+}
+1444.11.11 = {
+	capital = 504
+	add_treasury = 509
+	add_prestige = 88
+}

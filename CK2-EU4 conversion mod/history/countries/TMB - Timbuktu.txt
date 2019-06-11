@@ -1,0 +1,26 @@
+# Timbuktu
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = sub_saharan
+primary_culture = soninke
+religion = shiite
+clear_scripted_personalities = yes
+capital = 1132
+1443.11.8 = {
+	monarch = {
+		name = "Maghan"
+		birth_date = 1432.4.3
+		dynasty = "Kumbarid"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = obsessive_perfectionist_personality
+}
+1444.11.11 = {
+	capital = 1132
+	add_treasury = 33
+	add_prestige = 26
+}

@@ -1,0 +1,27 @@
+# Pratihara
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = indian
+primary_culture = gujarati
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 4454
+1424.5.5 = {
+	monarch = {
+		name = "Margdeva"
+		birth_date = 1395.7.5
+		dynasty = "Pratihara"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	add_ruler_personality = pious_personality
+	add_ruler_personality = infertile_personality
+}
+1444.11.11 = {
+	capital = 4454
+	add_treasury = 17
+	add_prestige = 672
+}

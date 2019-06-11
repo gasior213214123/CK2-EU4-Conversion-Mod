@@ -1,0 +1,78 @@
+# Lithuania
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 81 0 0 }
+
+
+
+
+leader_names = {
+
+	"Vyshata" "Boleslava" "Zvenislava" "Dobronega" "Lev" "Vladimir" "Olga" "Rostislava" "Briachislav" "Ulyana" 
+	"Darya" "Volodar" "Iliya" "Trifon" "Rodislav" "Gleb" "Vasilisa" "Premyslava" "Liubava" "Gremislava" 
+	"Cirulis" "Kesgaila" "Virmantas" "Antanas" "Rimvydas" "Butvydas" "Casimir" "Otokar" "Radoslav" "Stanislav" 
+	"Vsevolod" "Demid" "Dobrynia" "Fedot" "Igor" "Iziaslav" "Mitrofan" "Mstislav" "Nikita" "Putiata" 
+	"Rogvolod" "Rostislav" "Ruslan" "Sudislav" "Svetozar" "Sviatopolk" "Sviatoslav" "Terentiy" "Viacheslav" "Vladislav" 
+	"Voislav" "Vseslav" "Vysheslav" "Yaropolk" "Yaroslav" "Yefimiy" "Yelisey" "Yeremey" "Yevstafiy" }
+monarch_names = {
+	"Vyshata #2" = 27
+	"Boleslava #0" = -1
+	"Zvenislava #0" = -1
+	"Dobronega #0" = -1
+	"Lev #0" = 1
+	"Vladimir #1" = 21
+	"Olga #0" = -1
+	"Rostislava #0" = -1
+	"Briachislav #2" = 21
+	"Ulyana #0" = -1
+	"Darya #0" = -1
+	"Volodar #1" = 18
+	"Iliya #1" = 18
+	"Trifon #0" = 1
+	"Rodislav #0" = 1
+	"Gleb #1" = 18
+	"Vasilisa #0" = -1
+	"Premyslava #0" = -1
+	"Liubava #0" = -1
+	"Gremislava #0" = -1
+	"Cirulis #2" = 0
+	"Kesgaila #1" = 0
+	"Virmantas #1" = 0
+	"Antanas #1" = 0
+	"Rimvydas #1" = 0
+	"Butvydas #1" = 0
+	"Casimir #1" = 0
+	"Otokar #1" = 0
+	"Radoslav #2" = 0
+	"Stanislav #2" = 0
+	"Vsevolod #2" = 0
+	"Demid #0" = 0
+	"Dobrynia #0" = 0
+	"Fedot #0" = 0
+	"Igor #0" = 0
+	"Iziaslav #0" = 0
+	"Mitrofan #0" = 0
+	"Mstislav #0" = 0
+	"Nikita #0" = 0
+	"Putiata #0" = 0
+	"Rogvolod #0" = 0
+	"Rostislav #0" = 0
+	"Ruslan #0" = 0
+	"Sudislav #0" = 0
+	"Svetozar #0" = 0
+	"Sviatopolk #0" = 0
+	"Sviatoslav #0" = 0
+	"Terentiy #0" = 0
+	"Viacheslav #0" = 0
+	"Vladislav #0" = 0
+	"Voislav #0" = 0
+	"Vseslav #0" = 0
+	"Vysheslav #0" = 0
+	"Yaropolk #0" = 0
+	"Yaroslav #0" = 0
+	"Yefimiy #0" = 0
+	"Yelisey #0" = 0
+	"Yeremey #0" = 0
+	"Yevstafiy #0" = 0
+}
+

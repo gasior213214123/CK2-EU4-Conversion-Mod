@@ -1,0 +1,224 @@
+# Armenia
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 154 77 36 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	naval_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	bardiche_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	muscovite_musketeer
+	muscovite_caracolle
+	muscovite_soldaty
+	muscovite_cossack
+	russian_petrine
+	russian_lancer
+	russian_green_coat
+	russian_cuirassier
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
+}
+
+army_names = {
+	"Legio I Herculia" "Legio II Rapax" "Legio III Liberatrix" "Legio IV Apollonaris" "Legio V Alaudae"
+	"Legio VI Victrix" "Legio VII Ferrata" "Legio VIII Augusta" "Legio IX Triumphalis" "Legio X Italica" 
+	"Legio XI Macedonica" "Legio XII Minervia" "Legio XIII Fulminata" "Legio XIV Fretensis" "Legio XV Primigenia"
+	"Legio XVI Claudia" "Legio XVII Galatia" "Legio XVIII Pannonia" "Legio XIX Traiana" "Legio XX Scythica"
+}
+
+fleet_names = {
+	"Classis Alexandrina" "Classis Seleucena" "Classis Carpathia" "Classis Venetum" "Classis Constantinopolis"
+	"Classis Roma" "Classis Adrianopolis" "Classis Atlanticum" "Classis Mediterraneus" "Classis Euxeinos Pontos"
+}
+
+leader_names = {
+
+	"Candak" "Tinatini" "Khorishah" "Shahanshah" "Kohar" "Yasynya" "Arda" "Sevag" "Avag" "Meghranoush" 
+	"Seta" "Akhsar" "Buriberdi" "Bazuk" "Æmbalan" "Aravat" "Durgulel" "Ælbeg" "Satinik" "Atsyrukhs" 
+	"Vedokha" "Hasqar" "Arsen" "Sangipan" "Bedisa" "Natia" "Chrysogone" "Shukhia" "Tamari" "Mukhran" 
+	"Malkhazi" "Shanshe" "Rusudan" "Kekela" "Konstantine" "Gulisa" "Shota" "Gvantsa" "Petronia" "Niketas" 
+	"Uturku" "Eudoxia" "Btsenon" "Belisarios" "Isaias" "Luarsab" "Hripsimeh" "Gurgen" "Thoros" "Mushel" 
+	"Hamazasp" "Grigor" "Ashot" "Nerseh" "Smbat" "Sahak" "Vakhtank" "Khalil" "Zeyd" "Najib" 
+	"Murad" "Jibril" "Talib" "Salih" "Aram" "Sulayman" "Mukhtar" "Sami" "Husam" "Khaireddin" 
+	"Samir" "Aarif" "Mansur" "Barbara" "Leonidas" "Polykarpos" "Gennadios" "Abas" "Abirad" "Aboughamr" 
+	"Aboulgharib" "Aleksandr" "Artashes" "Artashir" "Artavazd" "Arshak" "Athom" "Atrnerseh" "Avedis" "Bagour" 
+	"Bagrat" "Bedros" "Boghos" "Davit" "Eshkhan" "Gagik" "Gevorg" "Gosdantin" "Hagop" "Hethum" 
+	"Hovhannes" "Hovsep" "Ishkhan" "Ivane" "Kapriel" "Khachik" "Khosrov" "Levon" "Malkhas" "Mamigon" 
+	"Manuel" "Margos" "Melek" "Mihrdat" "Mikayel" "Mleh" "Mushegh" "Mzhezh" "Oshin" "Roupen" 
+	"Sahag" "Sarkis" "Stepanos" "Tachat" "Taniel" "Tatoul" "Tigran" "Tornik" "Tovmas" "Trdat" 
+	"Vache" "Vachagan" "Vagharshak" "Vahag" "Vahan" "Vahram" "Varazdat" "Vartan" "Vassak" "Vesd" 
+	"Vrtanes" "Zakare" "Zarmihr" }
+monarch_names = {
+	"Candak #0" = 1
+	"Tinatini #0" = -1
+	"Khorishah #0" = -1
+	"Shahanshah #0" = 1
+	"Kohar #0" = -1
+	"Yasynya #1" = 21
+	"Arda #0" = -1
+	"Sevag #0" = 1
+	"Avag #1" = 18
+	"Meghranoush #0" = -1
+	"Seta #0" = -1
+	"Akhsar #0" = 1
+	"Buriberdi #0" = 1
+	"Bazuk #0" = 1
+	"Æmbalan #0" = 1
+	"Aravat #0" = 1
+	"Durgulel #0" = 1
+	"Ælbeg #0" = 1
+	"Satinik #0" = -1
+	"Atsyrukhs #0" = -1
+	"Vedokha #0" = -1
+	"Hasqar #0" = 1
+	"Arsen #0" = 1
+	"Sangipan #0" = 1
+	"Bedisa #0" = -1
+	"Natia #0" = -1
+	"Chrysogone #0" = -1
+	"Shukhia #0" = -1
+	"Tamari #0" = -1
+	"Mukhran #0" = 1
+	"Malkhazi #0" = 1
+	"Shanshe #0" = 1
+	"Rusudan #0" = -1
+	"Kekela #0" = -1
+	"Konstantine #0" = 1
+	"Gulisa #0" = -1
+	"Shota #0" = 1
+	"Gvantsa #0" = -1
+	"Petronia #0" = -1
+	"Niketas #0" = 1
+	"Uturku #1" = 18
+	"Eudoxia #0" = -1
+	"Btsenon #0" = -1
+	"Belisarios #0" = 1
+	"Isaias #1" = 18
+	"Luarsab #0" = 1
+	"Hripsimeh #0" = -1
+	"Gurgen #1" = 18
+	"Thoros #1" = 0
+	"Mushel #2" = 0
+	"Hamazasp #1" = 0
+	"Grigor #2" = 0
+	"Ashot #3" = 0
+	"Nerseh #1" = 0
+	"Smbat #2" = 0
+	"Sahak #1" = 0
+	"Vakhtank #1" = 0
+	"Khalil #1" = 0
+	"Zeyd #1" = 0
+	"Najib #1" = 0
+	"Murad #1" = 0
+	"Jibril #1" = 0
+	"Talib #1" = 0
+	"Salih #3" = 0
+	"Aram #2" = 0
+	"Sulayman #1" = 0
+	"Mukhtar #1" = 0
+	"Sami #1" = 0
+	"Husam #1" = 0
+	"Khaireddin #2" = 0
+	"Samir #1" = 0
+	"Aarif #1" = 0
+	"Mansur #1" = 0
+	"Barbara #1" = -1
+	"Leonidas #1" = 0
+	"Polykarpos #1" = 0
+	"Gennadios #1" = 0
+	"Abas #0" = 0
+	"Abirad #0" = 0
+	"Aboughamr #0" = 0
+	"Aboulgharib #0" = 0
+	"Aleksandr #0" = 0
+	"Artashes #0" = 0
+	"Artashir #0" = 0
+	"Artavazd #0" = 0
+	"Arshak #0" = 0
+	"Athom #0" = 0
+	"Atrnerseh #0" = 0
+	"Avedis #0" = 0
+	"Bagour #0" = 0
+	"Bagrat #0" = 0
+	"Bedros #0" = 0
+	"Boghos #0" = 0
+	"Davit #0" = 0
+	"Eshkhan #0" = 0
+	"Gagik #0" = 0
+	"Gevorg #0" = 0
+	"Gosdantin #0" = 0
+	"Hagop #0" = 0
+	"Hethum #0" = 0
+	"Hovhannes #0" = 0
+	"Hovsep #0" = 0
+	"Ishkhan #0" = 0
+	"Ivane #0" = 0
+	"Kapriel #0" = 0
+	"Khachik #0" = 0
+	"Khosrov #0" = 0
+	"Levon #0" = 0
+	"Malkhas #0" = 0
+	"Mamigon #0" = 0
+	"Manuel #0" = 0
+	"Margos #0" = 0
+	"Melek #0" = 0
+	"Mihrdat #0" = 0
+	"Mikayel #0" = 0
+	"Mleh #0" = 0
+	"Mushegh #0" = 0
+	"Mzhezh #0" = 0
+	"Oshin #0" = 0
+	"Roupen #0" = 0
+	"Sahag #0" = 0
+	"Sarkis #0" = 0
+	"Stepanos #0" = 0
+	"Tachat #0" = 0
+	"Taniel #0" = 0
+	"Tatoul #0" = 0
+	"Tigran #0" = 0
+	"Tornik #0" = 0
+	"Tovmas #0" = 0
+	"Trdat #0" = 0
+	"Vache #0" = 0
+	"Vachagan #0" = 0
+	"Vagharshak #0" = 0
+	"Vahag #0" = 0
+	"Vahan #0" = 0
+	"Vahram #0" = 0
+	"Varazdat #0" = 0
+	"Vartan #0" = 0
+	"Vassak #0" = 0
+	"Vesd #0" = 0
+	"Vrtanes #0" = 0
+	"Zakare #0" = 0
+	"Zarmihr #0" = 0
+}
+ship_names = {
+	Aramu Argishtis Ararat Ani Artsakh
+	Dvin
+	Erimena
+	Haik Haldi
+	Ishpuinis
+	Kars
+	Lutipri
+	Musasir Menuas Manzikert
+	Parisos
+	"Rusas II"
+	Siwini Selardi "Sarduri I" "Sarduris II"
+	Vaspurakan
+	Yerevan
+}
+

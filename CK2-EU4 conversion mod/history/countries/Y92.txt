@@ -1,0 +1,40 @@
+# Seljukid
+government = monarchy
+add_government_reform = iqta
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = turkish
+religion = zikri
+clear_scripted_personalities = yes
+capital = 2309
+1421.1.16 = {
+	monarch = {
+		name = "Mehmed"
+		birth_date = 1416.8.24
+		dynasty = "Seljukid"
+		adm = 6
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = obsessive_perfectionist_personality
+}
+1434.3.2 = {
+	heir = {
+		name = "Hasan"
+		monarch_name = "Hasan"
+		dynasty = "Seljukid"
+		birth_date = 1434.3.2
+		death_date = 1514.3.2
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+	add_heir_personality = bold_fighter_personality
+}
+1444.11.11 = {
+	capital = 2309
+	add_treasury = 0
+	add_prestige = 61
+}

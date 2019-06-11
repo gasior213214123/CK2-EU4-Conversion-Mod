@@ -1,0 +1,197 @@
+# Mengu-Timur
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 223 146 137 }
+
+
+
+
+leader_names = {
+
+	"Uighurtai" "Khutulun" "Mongoljin" "Hogelun" "Bughu" "Belgutei" "Begter" "Temulun" "Khorijin" "Chakha" 
+	"Chulgetei" "Belgunutei" "Barghujin" "Doregene" "Gurbesu" "Khojin" "Chabi" "Oljaitu" "Khorilartai" "Altani" 
+	"Megetu" "Khogaghchin" "Bolkhadar" "Orbei" "Bagaridai" "Ajinai" "Jochi" "Slyugan'ka" "Menggei" "Temur" 
+	"Khulan" "Batu" "Bulughan" "Sorkhaghatani" "Khabichi" "Buri" "Yesugei" "Daritai" "Yegu" "Hoelun" 
+	"Khugurchin" "Yesui" "Töregene" "Al-Alta" "Ogodei" "Alchidai" "Jajiradai" "Tekine" "Doquz" "Chilagun" 
+	"Ajai" "Chiledu" "Chigu" "Chagur" "Arasen" "Sokhatai" "Tumen" "Yokhunan" "Mandukhai" "Usun" 
+	"Inalchi" "Khubilai" "Chormakhan" "Khachi" "Oghul" "Borjigidai" "Achigh" "Checheyigen" "Bogen" "Ebegei" 
+	"Boroghul" "Kogsegu" "Bodonchar" "Ibakha" "Khal" "Bugunutei" "Botokhui" "Yesugun" "Dayir" "Akhutai" 
+	"Hulegu" "Guchu" "Subetei" "Yedi" "Babur" "Duua" "Todogen" "Holuikhan" "Khadagh" "Targhutai" 
+	"Harghasun" "Altan" "Jurchedei" "Dagun" "Alan" "Burundai" "Berke" "Temuge" "Chaghagan" "Borte" 
+	"Kadan" "Nogai" "Munglig" "Godan" "Bala" "Alchi" "Temujin" "Bilge" "Chotan" "Kokochu" 
+	"Abagha" "Aguchu" "Alagh" "Ambaghai" "Arkhai" "Badai" "Bartan" "Bedugun" "Bogorchu" "Bugidai" 
+	"Bujeg" "Bukha" "Burkhan" "Chagatai" "Chanai" "Chidukhul" "Dodai" "Eljigedei" "Ghazan" "Ghunan" 
+	"Gughlug" "Guyug" "Horkhudagh" "Husun" "Inancha" "Iturgen" "Jamugha" "Jebe" "Khachigun" "Khagatai" 
+	"Khaidu" "Khorchi" "Khudu" "Khutula" "Khuyildar" "Megujin" "Mongke" "Morokha" "Nakhu" "Narin" 
+	"Nayaga" "Odchigin" "Okhotur" "Oronartai" "Shiraghul" "Shirgugetu" "Suyiketu" "Taghai" "Tamachi" "Toghoril" 
+	"Toghtoga" "Tokhtamis" "Tolui" "Torolchi" "Ukhuna" "Yeke" "Yesunge" }
+monarch_names = {
+	"Uighurtai #1" = 30
+	"Khutulun #0" = -1
+	"Mongoljin #0" = -1
+	"Hogelun #0" = -1
+	"Bughu #0" = 1
+	"Belgutei #0" = 1
+	"Begter #1" = 27
+	"Temulun #0" = -1
+	"Khorijin #0" = -1
+	"Chakha #0" = -1
+	"Chulgetei #0" = 1
+	"Belgunutei #0" = 1
+	"Barghujin #1" = 24
+	"Doregene #0" = -1
+	"Gurbesu #0" = -1
+	"Khojin #0" = -1
+	"Chabi #0" = -1
+	"Oljaitu #0" = 1
+	"Khorilartai #0" = 1
+	"Altani #0" = -1
+	"Megetu #0" = 1
+	"Khogaghchin #0" = -1
+	"Bolkhadar #0" = 1
+	"Orbei #0" = -1
+	"Bagaridai #0" = 1
+	"Ajinai #0" = 1
+	"Jochi #1" = 24
+	"Slyugan'ka #0" = -1
+	"Menggei #1" = 27
+	"Temur #0" = 1
+	"Khulan #0" = -1
+	"Batu #0" = 1
+	"Bulughan #0" = -1
+	"Sorkhaghatani #0" = -1
+	"Khabichi #0" = 1
+	"Buri #0" = 1
+	"Yesugei #0" = 1
+	"Daritai #0" = 1
+	"Yegu #0" = 1
+	"Hoelun #0" = -1
+	"Khugurchin #0" = -1
+	"Yesui #0" = -1
+	"Töregene #0" = -1
+	"Al-Alta #0" = -1
+	"Ogodei #0" = 1
+	"Alchidai #1" = 27
+	"Jajiradai #1" = 27
+	"Tekine #0" = -1
+	"Doquz #0" = -1
+	"Chilagun #1" = 21
+	"Ajai #1" = 18
+	"Chiledu #1" = 18
+	"Chigu #2" = 24
+	"Chagur #0" = -1
+	"Arasen #0" = 1
+	"Sokhatai #0" = -1
+	"Tumen #0" = 1
+	"Yokhunan #0" = 1
+	"Mandukhai #0" = -1
+	"Usun #0" = 1
+	"Inalchi #0" = 1
+	"Khubilai #0" = 1
+	"Chormakhan #0" = 1
+	"Khachi #1" = 27
+	"Oghul #0" = -1
+	"Borjigidai #0" = 1
+	"Achigh #0" = 1
+	"Checheyigen #0" = -1
+	"Bogen #1" = 27
+	"Ebegei #0" = -1
+	"Boroghul #0" = 1
+	"Kogsegu #0" = 1
+	"Bodonchar #0" = 1
+	"Ibakha #0" = -1
+	"Khal #0" = 1
+	"Bugunutei #0" = 1
+	"Botokhui #0" = -1
+	"Yesugun #0" = -1
+	"Dayir #0" = 1
+	"Akhutai #0" = 1
+	"Hulegu #0" = 1
+	"Guchu #0" = 1
+	"Subetei #0" = 1
+	"Yedi #0" = 1
+	"Babur #0" = 1
+	"Duua #0" = 1
+	"Todogen #0" = 1
+	"Holuikhan #0" = -1
+	"Khadagh #0" = 1
+	"Targhutai #0" = 1
+	"Harghasun #0" = 1
+	"Altan #0" = 1
+	"Jurchedei #0" = 1
+	"Dagun #0" = 1
+	"Alan #0" = -1
+	"Burundai #0" = 1
+	"Berke #0" = 1
+	"Temuge #0" = 1
+	"Chaghagan #0" = 1
+	"Borte #0" = -1
+	"Kadan #1" = 18
+	"Nogai #0" = 1
+	"Munglig #0" = 1
+	"Godan #0" = 1
+	"Bala #0" = 1
+	"Alchi #0" = 1
+	"Temujin #0" = 1
+	"Bilge #0" = 1
+	"Chotan #0" = -1
+	"Kokochu #0" = 1
+	"Abagha #0" = 0
+	"Aguchu #0" = 0
+	"Alagh #0" = 0
+	"Ambaghai #0" = 0
+	"Arkhai #0" = 0
+	"Badai #0" = 0
+	"Bartan #0" = 0
+	"Bedugun #0" = 0
+	"Bogorchu #0" = 0
+	"Bugidai #0" = 0
+	"Bujeg #0" = 0
+	"Bukha #0" = 0
+	"Burkhan #0" = 0
+	"Chagatai #0" = 0
+	"Chanai #0" = 0
+	"Chidukhul #0" = 0
+	"Dodai #0" = 0
+	"Eljigedei #0" = 0
+	"Ghazan #0" = 0
+	"Ghunan #0" = 0
+	"Gughlug #0" = 0
+	"Guyug #0" = 0
+	"Horkhudagh #0" = 0
+	"Husun #0" = 0
+	"Inancha #0" = 0
+	"Iturgen #0" = 0
+	"Jamugha #0" = 0
+	"Jebe #0" = 0
+	"Khachigun #0" = 0
+	"Khagatai #0" = 0
+	"Khaidu #0" = 0
+	"Khorchi #0" = 0
+	"Khudu #0" = 0
+	"Khutula #0" = 0
+	"Khuyildar #0" = 0
+	"Megujin #0" = 0
+	"Mongke #0" = 0
+	"Morokha #0" = 0
+	"Nakhu #0" = 0
+	"Narin #0" = 0
+	"Nayaga #0" = 0
+	"Odchigin #0" = 0
+	"Okhotur #0" = 0
+	"Oronartai #0" = 0
+	"Shiraghul #0" = 0
+	"Shirgugetu #0" = 0
+	"Suyiketu #0" = 0
+	"Taghai #0" = 0
+	"Tamachi #0" = 0
+	"Toghoril #0" = 0
+	"Toghtoga #0" = 0
+	"Tokhtamis #0" = 0
+	"Tolui #0" = 0
+	"Torolchi #0" = 0
+	"Ukhuna #0" = 0
+	"Yeke #0" = 0
+	"Yesunge #0" = 0
+}
+

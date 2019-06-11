@@ -1,0 +1,175 @@
+# Pereyaslavl
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 60 120 65 }
+
+
+
+
+leader_names = {
+
+	"Oldrich" "Ulita" "Yelisey" "Premyslava" "Gremislava" "Vsevolod" "Zvenislava" "Ruslan" "Demid" "Terentiy" 
+	"Vladislav" "Olena" "Rodislav" "Putiata" "Pribislava" "Gleb" "Gorislava" "Malusha" "Dobronega" "Stanislav" 
+	"Yefrosinia" "Viacheslava" "Gradislava" "Olga" "Pereyaslava" "Sviatopolk" "Sofia" "Veleslava" "Trifon" "Sbyslava" 
+	"Igor" "Fevronia" "Vseslava" "Viacheslav" "Praskovya" "Sudislav" "Lev" "Prebrana" "Kenna" "Ewa" 
+	"Radomir" "Przemysl" "Pechna" "Casimir" "Gertruda" "Mateja" "Andela" "Szczesny" "Jacenty" "Radomil" 
+	"Rycheza" "Msciwoj" "Stefana" "Kornelia" "Lidia" "Jadwiga" "Dobromil" "Geira" "Fedot" "Rostislav" 
+	"Yaroslav" "Svetozar" "Vasilisa" "Predslava" "Halina" "Rogneda" "Vyshata" "Vseslav" "Yevstafiy" "Sviatoslav" 
+	"Mstislav" "Rogvolod" "Tatyana" "Boleslava" "Sviatoslava" "Ulyana" "Zabava" "Vladimir" "Volodar" "Praxida" 
+	"Yefimia" "Liudmila" "Yaropolk" "Dobrava" "Varvara" "Darya" "Iziaslav" "Verkhoslava" "Yaroslava" "Malfrida" 
+	"Rostislava" "Liubava" "Béla" "Gellért" "Sathis" "Yasynya" "Çat'n" "Buzer" "Simsam" "Alp" 
+	"Araslan" "Bagha" "Baghatur" "Bälgiçi" "Barjik" "Barsbek" "Bastu" "Bashtwa" "Bihor" "Böri" 
+	"Bugha" "Bulan" "Bulçan" "Busir" "Çat" "Çorpan" "Ilik" "Iltäbär" "Itakh" "Kamaj" 
+	"Karadakh" "Kayghalagh" "Khatir" "Khuterkin" "Kibar" "Kisa" "Kundaçiq" "Kundaç" "Mänär" "Mänäs" 
+	"Mënümarót" "Ötemis" "Papaçyz" "Samsam" "Sartäç" "Täbär" "Tabghaç" "Tarkhan" "Tarmaç" "Tuzniq" 
+	"Vakrim" "Yabghu" "Yavantey" "Yençepi" "Yerneslu" "Yeçtirek" "Yilig" }
+monarch_names = {
+	"Oldrich #0" = 1
+	"Ulita #0" = -1
+	"Yelisey #1" = 27
+	"Premyslava #0" = -1
+	"Gremislava #0" = -1
+	"Vsevolod #0" = 1
+	"Zvenislava #0" = -1
+	"Ruslan #0" = 1
+	"Demid #0" = 1
+	"Terentiy #1" = 21
+	"Vladislav #0" = 1
+	"Olena #0" = -1
+	"Rodislav #0" = 1
+	"Putiata #0" = 1
+	"Pribislava #0" = -1
+	"Gleb #0" = 1
+	"Gorislava #0" = -1
+	"Malusha #0" = -1
+	"Dobronega #0" = -1
+	"Stanislav #0" = 1
+	"Yefrosinia #0" = -1
+	"Viacheslava #0" = -1
+	"Gradislava #0" = -1
+	"Olga #0" = -1
+	"Pereyaslava #0" = -1
+	"Sviatopolk #0" = 1
+	"Sofia #0" = -1
+	"Veleslava #0" = -1
+	"Trifon #0" = 1
+	"Sbyslava #0" = -1
+	"Igor #1" = 18
+	"Fevronia #0" = -1
+	"Vseslava #0" = -1
+	"Viacheslav #2" = 24
+	"Praskovya #0" = -1
+	"Sudislav #0" = 1
+	"Lev #2" = 36
+	"Prebrana #0" = -1
+	"Kenna #0" = -1
+	"Ewa #0" = -1
+	"Radomir #0" = 1
+	"Przemysl #0" = 1
+	"Pechna #0" = -1
+	"Casimir #0" = 1
+	"Gertruda #0" = -1
+	"Mateja #0" = -1
+	"Andela #0" = -1
+	"Szczesny #0" = 1
+	"Jacenty #0" = 1
+	"Radomil #0" = 1
+	"Rycheza #0" = -1
+	"Msciwoj #0" = 1
+	"Stefana #0" = -1
+	"Kornelia #0" = -1
+	"Lidia #0" = -1
+	"Jadwiga #0" = -1
+	"Dobromil #0" = 1
+	"Geira #0" = -1
+	"Fedot #0" = 1
+	"Rostislav #0" = 1
+	"Yaroslav #1" = 21
+	"Svetozar #0" = 1
+	"Vasilisa #0" = -1
+	"Predslava #0" = -1
+	"Halina #0" = -1
+	"Rogneda #0" = -1
+	"Vyshata #0" = 1
+	"Vseslav #0" = 1
+	"Yevstafiy #0" = 1
+	"Sviatoslav #0" = 1
+	"Mstislav #1" = 24
+	"Rogvolod #0" = 1
+	"Tatyana #0" = -1
+	"Boleslava #0" = -1
+	"Sviatoslava #0" = -1
+	"Ulyana #0" = -1
+	"Zabava #0" = -1
+	"Vladimir #0" = 1
+	"Volodar #1" = 18
+	"Praxida #0" = -1
+	"Yefimia #0" = -1
+	"Liudmila #0" = -1
+	"Yaropolk #0" = 1
+	"Dobrava #0" = -1
+	"Varvara #0" = -1
+	"Darya #0" = -1
+	"Iziaslav #2" = 21
+	"Verkhoslava #0" = -1
+	"Yaroslava #0" = -1
+	"Malfrida #0" = -1
+	"Rostislava #0" = -1
+	"Liubava #0" = -1
+	"Béla #1" = 0
+	"Gellért #1" = 0
+	"Sathis #1" = 0
+	"Yasynya #1" = 0
+	"Çat'n #1" = 0
+	"Buzer #1" = 0
+	"Simsam #1" = 0
+	"Alp #0" = 0
+	"Araslan #0" = 0
+	"Bagha #0" = 0
+	"Baghatur #0" = 0
+	"Bälgiçi #0" = 0
+	"Barjik #0" = 0
+	"Barsbek #0" = 0
+	"Bastu #0" = 0
+	"Bashtwa #0" = 0
+	"Bihor #0" = 0
+	"Böri #0" = 0
+	"Bugha #0" = 0
+	"Bulan #0" = 0
+	"Bulçan #0" = 0
+	"Busir #0" = 0
+	"Çat #0" = 0
+	"Çorpan #0" = 0
+	"Ilik #0" = 0
+	"Iltäbär #0" = 0
+	"Itakh #0" = 0
+	"Kamaj #0" = 0
+	"Karadakh #0" = 0
+	"Kayghalagh #0" = 0
+	"Khatir #0" = 0
+	"Khuterkin #0" = 0
+	"Kibar #0" = 0
+	"Kisa #0" = 0
+	"Kundaçiq #0" = 0
+	"Kundaç #0" = 0
+	"Mänär #0" = 0
+	"Mänäs #0" = 0
+	"Mënümarót #0" = 0
+	"Ötemis #0" = 0
+	"Papaçyz #0" = 0
+	"Samsam #0" = 0
+	"Sartäç #0" = 0
+	"Täbär #0" = 0
+	"Tabghaç #0" = 0
+	"Tarkhan #0" = 0
+	"Tarmaç #0" = 0
+	"Tuzniq #0" = 0
+	"Vakrim #0" = 0
+	"Yabghu #0" = 0
+	"Yavantey #0" = 0
+	"Yençepi #0" = 0
+	"Yerneslu #0" = 0
+	"Yeçtirek #0" = 0
+	"Yilig #0" = 0
+}
+

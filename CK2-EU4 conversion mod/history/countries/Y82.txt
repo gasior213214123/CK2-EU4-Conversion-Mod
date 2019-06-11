@@ -1,0 +1,27 @@
+# Bhambhani
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = indian
+primary_culture = tamil
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 4423
+1414.9.21 = {
+	monarch = {
+		name = "Mangiyuvaraja"
+		birth_date = 1386.3.3
+		dynasty = "Bhambhani"
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = entrepreneur_personality
+}
+1444.11.11 = {
+	capital = 4423
+	add_treasury = 36
+	add_prestige = 349
+}

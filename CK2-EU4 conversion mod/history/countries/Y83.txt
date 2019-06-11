@@ -1,0 +1,26 @@
+# Medapata
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = indian
+primary_culture = rajput
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 2058
+1444.2.15 = {
+	monarch = {
+		name = "Khetrapal"
+		birth_date = 1414.6.6
+		dynasty = "Matyineni"
+		adm = 1
+		dip = 3
+		mil = 1
+	}
+	add_ruler_personality = greedy_personality
+}
+1444.11.11 = {
+	capital = 2058
+	add_treasury = 14
+	add_prestige = 520
+}

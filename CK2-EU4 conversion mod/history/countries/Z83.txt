@@ -1,0 +1,26 @@
+# Lesser Poland
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = pommeranian
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 1858
+1442.1.2 = {
+	monarch = {
+		name = "Swietopelk"
+		birth_date = 1409.8.1
+		dynasty = "Dzik"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = careful_personality
+}
+1444.11.11 = {
+	capital = 1858
+	add_treasury = 76
+	add_prestige = 345
+}

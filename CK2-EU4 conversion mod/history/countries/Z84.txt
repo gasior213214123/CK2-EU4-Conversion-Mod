@@ -1,0 +1,27 @@
+# Magyar
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = polish
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 259
+1423.2.16 = {
+	monarch = {
+		name = "Rogvolod"
+		birth_date = 1403.12.15
+		dynasty = "Andriyashin "
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = greedy_personality
+	add_ruler_personality = embezzler_personality
+}
+1444.11.11 = {
+	capital = 259
+	add_treasury = 121
+	add_prestige = 643
+}

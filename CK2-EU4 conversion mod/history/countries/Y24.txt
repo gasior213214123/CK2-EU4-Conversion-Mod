@@ -1,0 +1,27 @@
+# Rashka
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = serbian
+religion = fraticelli
+clear_scripted_personalities = yes
+capital = 1827
+1409.2.9 = {
+	monarch = {
+		name = "Matthaios"
+		birth_date = 1384.5.14
+		dynasty = "Goudeles"
+		adm = 1
+		dip = 1
+		mil = 6
+	}
+	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = bold_fighter_personality
+}
+1444.11.11 = {
+	capital = 1827
+	add_treasury = 51
+	add_prestige = 225
+}

@@ -1,0 +1,37 @@
+# Lambakanna
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = indian
+primary_culture = sinhala
+religion = buddhism
+clear_scripted_personalities = yes
+capital = 572
+1440.12.26 = {
+	monarch = {
+		name = "Ratana"
+		birth_date = 1396.8.7
+		dynasty = "Lambakanna"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+	add_ruler_personality = midas_touched_personality
+	heir = {
+		name = "Ratana"
+		monarch_name = "Ratana II"
+		dynasty = "Lambakanna"
+		birth_date = 1434.6.9
+		death_date = 1514.6.9
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+	add_heir_personality = obsessive_perfectionist_personality
+}
+1444.11.11 = {
+	capital = 572
+	add_treasury = 1920
+	add_prestige = 181
+}

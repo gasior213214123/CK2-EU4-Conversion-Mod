@@ -1,0 +1,26 @@
+# Gafurid
+government = republic
+add_government_reform = republic
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = bedouin_arabic
+religion = buddhism
+clear_scripted_personalities = yes
+capital = 401
+1438.11.11 = {
+	monarch = {
+		name = "Abdul-Gafur"
+		birth_date = 1386.1.13
+		dynasty = "Gafurid"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = lawgiver_personality
+}
+1444.11.11 = {
+	capital = 401
+	add_treasury = 73
+	add_prestige = 141
+}

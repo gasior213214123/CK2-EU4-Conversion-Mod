@@ -1,0 +1,26 @@
+# Fes
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = berber
+religion = shiite
+clear_scripted_personalities = yes
+capital = 342
+1444.2.12 = {
+	monarch = {
+		name = "Niptasan"
+		birth_date = 1423.11.15
+		dynasty = "Fatimid"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+	add_ruler_personality = benevolent_personality
+}
+1444.11.11 = {
+	capital = 342
+	add_treasury = 0
+	add_prestige = 526
+}

@@ -1,0 +1,26 @@
+# Roman Empire
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 3
+mercantilism = 0.1
+technology_group = western
+primary_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 121
+1436.9.28 = {
+	monarch = {
+		name = "Anthimos"
+		birth_date = 1409.9.1
+		dynasty = "Sicalia"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = tactical_genius_personality
+}
+1444.11.11 = {
+	capital = 121
+	add_treasury = 649
+	add_prestige = 566
+}

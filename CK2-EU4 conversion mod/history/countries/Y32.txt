@@ -1,0 +1,26 @@
+# Samos
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 2348
+1434.11.17 = {
+	monarch = {
+		name = "Staurakios"
+		birth_date = 1416.10.22
+		dynasty = "Agiad"
+		adm = 0
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = drunkard_personality
+}
+1444.11.11 = {
+	capital = 2348
+	add_treasury = 44
+	add_prestige = 226
+}

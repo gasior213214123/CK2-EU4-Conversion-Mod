@@ -1,0 +1,26 @@
+# Verona
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = italian
+religion = hellenic_pagan
+clear_scripted_personalities = yes
+capital = 108
+1435.5.7 = {
+	monarch = {
+		name = "Fosco"
+		birth_date = 1415.9.24
+		dynasty = "Teduericingi"
+		adm = 5
+		dip = 6
+		mil = 3
+	}
+	add_ruler_personality = conqueror_personality
+}
+1444.11.11 = {
+	capital = 108
+	add_treasury = 46
+	add_prestige = 36
+}

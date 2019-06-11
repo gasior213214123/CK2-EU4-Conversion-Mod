@@ -1,0 +1,27 @@
+# Nangqen
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = chinese
+primary_culture = tibetan
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 705
+1421.2.9 = {
+	monarch = {
+		name = "Yumtän"
+		birth_date = 1385.11.30
+		dynasty = "Miwoche"
+		adm = 2
+		dip = 0
+		mil = 5
+	}
+	add_ruler_personality = scholar_personality
+	add_ruler_personality = strict_personality
+}
+1444.11.11 = {
+	capital = 705
+	add_treasury = 15
+	add_prestige = 87
+}

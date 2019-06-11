@@ -1,0 +1,26 @@
+# Tver
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = russian_culture
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 294
+1444.2.5 = {
+	monarch = {
+		name = "Yaroslav"
+		birth_date = 1425.1.2
+		dynasty = "Inzhayid"
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+	add_ruler_personality = silver_tongue_personality
+}
+1444.11.11 = {
+	capital = 294
+	add_treasury = 0
+	add_prestige = 164
+}

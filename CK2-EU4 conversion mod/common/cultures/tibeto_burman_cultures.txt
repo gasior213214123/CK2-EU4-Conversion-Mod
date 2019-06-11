@@ -1,0 +1,14 @@
+burman = {
+	tangut = {
+		primary = KAM
+		dynasty_names = { }
+	}
+	zhangzhung = {
+		primary = GUG
+		dynasty_names = { "Lig" }
+	}
+	sumpa = {
+		primary = TIB
+		dynasty_names = { "Kye" }
+	}
+}

@@ -1,0 +1,265 @@
+# Raccoon Mongol Empire
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 130 180 240 }
+historical_idea_groups = {
+	offensive_ideas
+	defensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	religious_ideas
+	economic_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	mongol_bow
+	mongol_swarm
+	mongol_steppe
+}
+
+
+
+leader_names = {
+
+	"Wholesomeghis I" "Wholesomeghist II" "Gisèle" "Chiledu" "Yesui" "Holuikhan" "Khachigun" "Alan" "Robin" "Burundai" 
+	"Iturgen" "Botokhui" "Abagha" "Tekine" "Arasen" "Doregene" "Kadan" "Hogelun" "Chabi" "Dodai" 
+	"Toghoril" "Borte" "Chagur" "Yeke" "Sorkhaghatani" "Jamugha" "Oronartai" "Isabeau" "Taghai" "Belgutei" 
+	"Khulan" "Mongoljin" "Bukha" "Hoelun" "Eljigedei" "Chaghagan" "Husun" "Yesugun" "Khorilartai" "Ebegei" 
+	"Ermengarde" "Jajiradai" "Chotan" "Khogaghchin" "Tiburge" "Khugurchin" "Yingzong" "Tolui" "Bodonchar" "Gughlug" 
+	"Odchigin" "Gauthier" "Goffredo" "Altani" "Uighurtai" "Chilagun" "Targhutai" "Batu" "Gilbert" "Menggei" 
+	"Mandukhai" "Chidukhul" "Khojin" "Daritai" "Temulun" "Oljaitu" "Renaud" "Hildebert" "Antoinette" "Khorijin" 
+	"Henri" "Al-Alta" "Sokhatai" "Bogen" "Bulughan" "Subetei" "Chulgetei" "Orbei" "Akhutai" "Ambaghai" 
+	"Bugidai" "Chagatai" "Wholesomeghis II backup" "Aguchu" "Khutula" "Gurbesu" "Khorchi" "Uzur" "Kutan" "Mongke" 
+	"Shirgugetu" "Achigh" "Todogen" "Alchidai" "Etrek" "Khadagan" "Yesugei" "Bagaridai" "Megetu" "Oghul" 
+	"Songul" "Khadagh" "Temuge" "Chakha" "Khutulun" "Buri" "Bulçan" "Bilge" "Chormakhan" "Altan" 
+	"Zhigu" "Jochi" "Kogsegu" "Chanai" "Badai" "Guyug" "Narin" "Alchi" "Checheyigen" "Shiraghul" 
+	"Khabichi" "Liezu" "Duua" "Töregene" "Zhaozu" "Berke" "Tamachi" "Jurchedei" "Doquz" "Horkhudagh" 
+	"Ibakha" "Nomolun" "Boroghul" "Khaidu" "Duanzong" "Megujin" "Jebe" "Burkhan" "Huizong" "Ajai" 
+	"Yedi" "Lizong" "Maurice" "Khachi" "Chigu" "Foulques" "Babur" "Qinzong" "Guilhem" "Usun" 
+	"Bujeg" "Barghujin" "Ogodei" "Nogai" "Kangzong" "Clotaire" "Ghazan" "Khuyildar" "Ajinai" "Denise" 
+	"Alagh" "Begter" "Tumen" "Dagun" "Aymar" "Sophie" "Bogorchu" "Hulegu" "Ukhuna" "Borjigidai" 
+	"Morokha" "Yokhunan" "Ghunan" "Péronelle" "Zhenzong" "Bartan" "Arkhai" "Bala" "Bedugun" "Belgunutei" 
+	"Bolkhadar" "Bughu" "Bugunutei" "Dayir" "Guchu" "Harghasun" "Inalchi" "Inancha" "Khagatai" "Khal" 
+	"Khubilai" "Khudu" "Kokochu" "Munglig" "Nakhu" "Nayaga" "Okhotur" "Suyiketu" "Temujin" "Temur" 
+	"Toghtoga" "Tokhtamis" "Torolchi" "Yegu" "Yesunge" "Godan" }
+monarch_names = {
+	"Wholesomeghis I #0" = 1
+	"Wholesomeghist II #0" = 1
+	"Gisèle #0" = -1
+	"Chiledu #0" = 1
+	"Yesui #0" = -1
+	"Holuikhan #0" = -1
+	"Khachigun #0" = 1
+	"Alan #0" = -1
+	"Robin #0" = 1
+	"Burundai #0" = 1
+	"Iturgen #0" = 1
+	"Botokhui #0" = -1
+	"Abagha #0" = 1
+	"Tekine #0" = -1
+	"Arasen #1" = 27
+	"Doregene #0" = -1
+	"Kadan #0" = 1
+	"Hogelun #0" = -1
+	"Chabi #0" = -1
+	"Dodai #0" = 1
+	"Toghoril #0" = 1
+	"Borte #0" = -1
+	"Chagur #0" = -1
+	"Yeke #0" = 1
+	"Sorkhaghatani #0" = -1
+	"Jamugha #0" = 1
+	"Oronartai #0" = 1
+	"Isabeau #0" = -1
+	"Taghai #0" = 1
+	"Belgutei #0" = 1
+	"Khulan #0" = -1
+	"Mongoljin #0" = -1
+	"Bukha #0" = 1
+	"Hoelun #0" = -1
+	"Eljigedei #0" = 1
+	"Chaghagan #1" = 24
+	"Husun #1" = 24
+	"Yesugun #0" = -1
+	"Khorilartai #0" = 1
+	"Ebegei #0" = -1
+	"Ermengarde #0" = -1
+	"Jajiradai #0" = 1
+	"Chotan #0" = -1
+	"Khogaghchin #0" = -1
+	"Tiburge #0" = -1
+	"Khugurchin #0" = -1
+	"Yingzong #0" = 1
+	"Tolui #1" = 21
+	"Bodonchar #0" = 1
+	"Gughlug #0" = 1
+	"Odchigin #0" = 1
+	"Gauthier #0" = 1
+	"Goffredo #0" = 1
+	"Altani #0" = -1
+	"Uighurtai #0" = 1
+	"Chilagun #0" = 1
+	"Targhutai #0" = 1
+	"Batu #0" = 1
+	"Gilbert #0" = 1
+	"Menggei #0" = 1
+	"Mandukhai #0" = -1
+	"Chidukhul #0" = 1
+	"Khojin #0" = -1
+	"Daritai #0" = 1
+	"Temulun #0" = -1
+	"Oljaitu #0" = 1
+	"Renaud #0" = 1
+	"Hildebert #0" = 1
+	"Antoinette #0" = -1
+	"Khorijin #0" = -1
+	"Henri #0" = 1
+	"Al-Alta #0" = -1
+	"Sokhatai #0" = -1
+	"Bogen #0" = 1
+	"Bulughan #0" = -1
+	"Subetei #0" = 1
+	"Chulgetei #0" = 1
+	"Orbei #0" = -1
+	"Akhutai #0" = 1
+	"Ambaghai #0" = 1
+	"Bugidai #0" = 1
+	"Chagatai #0" = 1
+	"Wholesomeghis II backup #0" = 1
+	"Aguchu #0" = 1
+	"Khutula #0" = 1
+	"Gurbesu #0" = -1
+	"Khorchi #0" = 1
+	"Uzur #0" = 1
+	"Kutan #0" = 1
+	"Mongke #0" = 1
+	"Shirgugetu #0" = 1
+	"Achigh #3" = 45
+	"Todogen #0" = 1
+	"Alchidai #1" = 27
+	"Etrek #0" = 1
+	"Khadagan #0" = -1
+	"Yesugei #1" = 21
+	"Bagaridai #0" = 1
+	"Megetu #1" = 27
+	"Oghul #0" = -1
+	"Songul #0" = -1
+	"Khadagh #0" = 1
+	"Temuge #0" = 1
+	"Chakha #0" = -1
+	"Khutulun #0" = -1
+	"Buri #1" = 24
+	"Bulçan #0" = 1
+	"Bilge #1" = 21
+	"Chormakhan #0" = 1
+	"Altan #0" = 1
+	"Zhigu #0" = 1
+	"Jochi #0" = 1
+	"Kogsegu #0" = 1
+	"Chanai #0" = 1
+	"Badai #0" = 1
+	"Guyug #0" = 1
+	"Narin #0" = 1
+	"Alchi #0" = 1
+	"Checheyigen #0" = -1
+	"Shiraghul #0" = 1
+	"Khabichi #0" = 1
+	"Liezu #0" = 1
+	"Duua #0" = 1
+	"Töregene #0" = -1
+	"Zhaozu #0" = 1
+	"Berke #0" = 1
+	"Tamachi #0" = 1
+	"Jurchedei #0" = 1
+	"Doquz #0" = -1
+	"Horkhudagh #0" = 1
+	"Ibakha #0" = -1
+	"Nomolun #0" = -1
+	"Boroghul #0" = 1
+	"Khaidu #0" = 1
+	"Duanzong #0" = 1
+	"Megujin #0" = 1
+	"Jebe #0" = 1
+	"Burkhan #0" = 1
+	"Huizong #0" = 1
+	"Ajai #1" = 24
+	"Yedi #0" = 1
+	"Lizong #0" = 1
+	"Maurice #0" = 1
+	"Khachi #0" = 1
+	"Chigu #0" = 1
+	"Foulques #0" = 1
+	"Babur #0" = 1
+	"Qinzong #0" = 1
+	"Guilhem #0" = 1
+	"Usun #0" = 1
+	"Bujeg #0" = 1
+	"Barghujin #0" = 1
+	"Ogodei #0" = 1
+	"Nogai #0" = 1
+	"Kangzong #0" = 1
+	"Clotaire #0" = 1
+	"Ghazan #0" = 1
+	"Khuyildar #0" = 1
+	"Ajinai #0" = 1
+	"Denise #0" = -1
+	"Alagh #0" = 1
+	"Begter #0" = 1
+	"Tumen #0" = 1
+	"Dagun #0" = 1
+	"Aymar #0" = 1
+	"Sophie #0" = -1
+	"Bogorchu #0" = 1
+	"Hulegu #0" = 1
+	"Ukhuna #0" = 1
+	"Borjigidai #0" = 1
+	"Morokha #0" = 1
+	"Yokhunan #0" = 1
+	"Ghunan #0" = 1
+	"Péronelle #0" = -1
+	"Zhenzong #0" = 1
+	"Bartan #0" = 1
+	"Arkhai #0" = 0
+	"Bala #0" = 0
+	"Bedugun #0" = 0
+	"Belgunutei #0" = 0
+	"Bolkhadar #0" = 0
+	"Bughu #0" = 0
+	"Bugunutei #0" = 0
+	"Dayir #0" = 0
+	"Guchu #0" = 0
+	"Harghasun #0" = 0
+	"Inalchi #0" = 0
+	"Inancha #0" = 0
+	"Khagatai #0" = 0
+	"Khal #0" = 0
+	"Khubilai #0" = 0
+	"Khudu #0" = 0
+	"Kokochu #0" = 0
+	"Munglig #0" = 0
+	"Nakhu #0" = 0
+	"Nayaga #0" = 0
+	"Okhotur #0" = 0
+	"Suyiketu #0" = 0
+	"Temujin #0" = 0
+	"Temur #0" = 0
+	"Toghtoga #0" = 0
+	"Tokhtamis #0" = 0
+	"Torolchi #0" = 0
+	"Yegu #0" = 0
+	"Yesunge #0" = 0
+	"Godan #0" = 0
+}
+ship_names = {
+	Yingchang Karakorum Hohhot Chagaan
+	"Ghengis Khan" Jöchi Ögödei Tolui
+	Möngke Qubilai Hülegü Böke
+	Jinggim Kamala Dharmapala "Örüg Temür"
+	Adai Elbeg Batu Mugali "Bo'orchu" Borokhula Chilaun
+	Khubilai Jelme Jebe Subutai
+	"Yelü Chucai" Shikhikhutug "Sorqan Shira" "Khar Khiruge"
+	"Dörben Külü'üd" "Dörben Noyas"
+}
+

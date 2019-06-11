@@ -1,0 +1,27 @@
+# Opsikion
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = waldensian
+clear_scripted_personalities = yes
+capital = 4312
+1444.1.17 = {
+	monarch = {
+		name = "Zoe"
+		birth_date = 1417.2.17
+		dynasty = "Sicalia"
+		female = yes
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+	add_ruler_personality = tolerant_personality
+}
+1444.11.11 = {
+	capital = 4312
+	add_treasury = 75
+	add_prestige = 429
+}

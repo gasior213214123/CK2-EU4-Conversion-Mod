@@ -1,0 +1,26 @@
+# Kerman
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = turkish
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 432
+1437.11.24 = {
+	monarch = {
+		name = "Khadaga"
+		birth_date = 1425.6.22
+		dynasty = "Chera"
+		adm = 4
+		dip = 2
+		mil = 6
+	}
+	add_ruler_personality = tactical_genius_personality
+}
+1444.11.11 = {
+	capital = 432
+	add_treasury = 43
+	add_prestige = 126
+}

@@ -1,0 +1,26 @@
+# Dalmatia
+government = republic
+add_government_reform = merchants_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dalmatian
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 136
+1440.8.18 = {
+	monarch = {
+		name = "Anatolios"
+		birth_date = 1404.3.28
+		dynasty = "Maliasenos"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+	add_ruler_personality = bold_fighter_personality
+}
+1444.11.11 = {
+	capital = 136
+	add_treasury = 135
+	add_prestige = 160
+}

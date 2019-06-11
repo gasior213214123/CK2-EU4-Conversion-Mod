@@ -1,0 +1,27 @@
+# Alsace
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = cosmopolitan_french
+religion = catholic
+clear_scripted_personalities = yes
+capital = 1880
+1419.5.25 = {
+	monarch = {
+		name = "Agapito"
+		birth_date = 1390.3.14
+		dynasty = "di Hersfeld"
+		adm = 5
+		dip = 1
+		mil = 2
+	}
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = drunkard_personality
+}
+1444.11.11 = {
+	capital = 1880
+	add_treasury = 43
+	add_prestige = 257
+}

@@ -1,0 +1,26 @@
+# Georgia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = georgian
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 423
+1443.6.13 = {
+	monarch = {
+		name = "Hypatios II"
+		birth_date = 1387.7.25
+		dynasty = "Prospeios"
+		adm = 2
+		dip = 2
+		mil = 6
+	}
+	add_ruler_personality = inspiring_leader_personality
+}
+1444.11.11 = {
+	capital = 423
+	add_treasury = 22
+	add_prestige = 711
+}

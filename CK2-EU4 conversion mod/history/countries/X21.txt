@@ -1,0 +1,26 @@
+# Ghana
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = sub_saharan
+primary_culture = soninke
+religion = mazdaki
+clear_scripted_personalities = yes
+capital = 2245
+1439.7.25 = {
+	monarch = {
+		name = "Kalabi"
+		birth_date = 1417.8.4
+		dynasty = "Sibi"
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = infertile_personality
+}
+1444.11.11 = {
+	capital = 2245
+	add_treasury = 48
+	add_prestige = 197
+}

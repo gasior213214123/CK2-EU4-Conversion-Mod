@@ -1,0 +1,455 @@
+# Tirabhukti
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 58 178 41 }
+
+
+
+
+leader_names = {
+
+	"Esho Lek" "Anqi" "Thrikhyiding" "Sadnalegs" "Mangpoje" "Nyitri" "Tashi" "Hong" "Taramo" "Kanchani" 
+	"Dhairjendranayaran" "Tisho" "Jomo" "Ting" "Koboza" "Hajo" "Kanwar" "Yuqing" "Baozhu" "Yondagmo" 
+	"Fangmei" "Bum" "Dagmo" "Trashi" "Nattadevi" "Gungsong" "Pratapnarayanroy" "Daktri" "Rani" "Bhogavati" 
+	"Denöl" "Rinchen" "Toktokteng" "Mangalal" "Jingquan" "Laxminath Singh Dev" "Rapsel" "Phurbulcam" "Yontan" "Sambhota" 
+	"Ladahachandra" "Nayapala" "Tubten" "Che" "Konchog" "Kumarapala" "Gön" "Hemavati" "Khsetravridha" "Cogrobza" 
+	"Dhruvasvamini" "Sun" "Xinyue" "Torma" "Yuanyu" "Ngawang" "Jagatpal" "Vijnayavati" "Gambhir" "Maharani" 
+	"Shou" "Vijaysen" "Shenxi" "Chökyi" "Kyi" "Yuying" "Devi Ahiylya" "Zongru" "Dringma" "Jatakhadga" 
+	"Kakanvati" "Desho Lek" "Tisho Lek" "Guru Lek" "Trongzhi Lek" "Isho Lek" "Zanam Zindé" "Detrul Namshungtsen" "Senöl Namdé" "Senöl Podé" 
+	"Senöl Nam" "Senöl Po" "Degyel Po" "Detrin Tsen" "Tori Longtsen" "Tritsen Nam" "Tridra Pungtsen" "Tritog Jetsen" "Lha Thothori Nyantsen" "Trinyen Zungtsen" 
+	"Drongnyen Deu" "Tagbu Nyasig" "Namri Songtsen" "Tsensong" "Gungsrong Gungtsen" "Songtsen Gampo" "Sadmarkar" "Mangsong Mangtsen" "Tridu Songtsen" "Thridang" 
+	"Lha Balpo" "Dronmalön" "Me Agtsom" "Mutri" "Mutik" "Trisong Detsen" "Dechen" "Muné" "Pude" "Tshistöng" 
+	"Wangmo" "Chödron" "Pelgyi Phurbu" "Nyasig" "Zungtsen" "Gyältsugru" "Trinle" "Sal" "Tökarma" "Nyantsen" 
+	"Bishnu" "Song Detsen" "Yeshe" "Gyagar" "Namzhungtsen" "Takdra" "Lha" "Sajita" "Namkha" "Lasya" 
+	"Deu" "Zigsa" "Sunita" "Tricham" "Shristi" "Senöl" "Jetsunma" "Trinyen" "Aspru" "Machig" 
+	"Kyeden" "Manu" "Asmita" "Shang" "Tala Mebar" "Chimey" "Raju" "Lhamo" "Tawen" "Changchub" 
+	"Kunzang" "Cham" "Tsangma" "Shakya" "Tse" "Vishal" "Lhathrimo" "Shirisha" "Lekpa" "Nanamsa" 
+	"Kusum" "Tsenpo" "Langdarma" "Heena" "Nikkon" "Dunkyi" "Mangmo" "Öpoche" "Lhamgonza" "Dondup" 
+	"Drönma" "Yumtän" "Nagzib" "Kyidé" "Thothori" "Tripta" "Bumphulwa" "Rangneng" "Driza" "Dzeden" 
+	"Drag" "Nyigön" "Zangmo" "Pongza" "Gesar" "Chuhou" "Fangzhi" "Dro" "Palchen" "Palden" 
+	"Yueyi" "Qinming" "Taknang" "Jamyang" "Tsemo" "Tsomo" "Choden" "Pogong" "Jodhabai" "Yülsung" 
+	"Kelzang" "Tsenma" "Gyalyum" "Zhaojun" "Maozhen" "Na" "Chuke" "Mangmoje" "Yi'an" "Gyaltsen" 
+	"Yujing" "Samant Sen" "Lakshminarayan" "Rouniang" "Guangfu" "Zhirong" "Basudevnayaran" "Rui" "Lhanang" "Thuchen" 
+	"Gandharavati" "Fu" "Shenji" "Anzong" "Jira" "Yuanchao" "Hira" "Jinghui" "Fengji" "Nyendrak" 
+	"Dompu" "Yanxiang" "Tong'e" "Trikar" "Changliang" "Andhraka" "E'zi" "Shengqiong" "Jiuling" "Kamalnarayan" 
+	"Lumo" "Sengemo" "Longtsen" "Chuna" "Ratnadevi" "Devitara" "Thrimalö" "Khadrobum" "Isho" "Detrul" 
+	"Sisupala" "Dharmapala" "Ramagupta" "Krishanmishra" "Naranarayan" "Kirti Singh" "Vijaysingha" "Mahendrapala" "Pushkaranadhipa" "Jyotirishwar" 
+	"Shakrasingh Dev" "Yesugei" "Magod" "Nayanadevi" "Uditanarayan" "Nar Singh" "Rajendranarayan" "Ghosha" "Amritnarayan" "Balabhata" 
+	"Balinarayan" "Ballalsen" "Bhagadatta" "Bhairabendranarayan" "Bhatta" "Bhavashankari" "Bhimsingha" "Birnayaran" "Chandrasen" "Chandranarayan" 
+	"Chaturanan" "Chilarai" "Danujmadhava" "Dasharathadeva" "Devakhadga" "Devapala" "Devendranarayan" "Dharendranarayan" "Dhirsingha" "Gajnarayan" 
+	"Gopala" "Govindachandra" "Govindapala" "Harendranarayan" "Haridevnarayan" "Hariyamandal" "Hemantasen" "Indranarayan" "Jadu" "Jagaddipendranarayan" 
+	"Jayanarayan" "Jayapala" "Jitendranarayan" "Kalyanachandra" "Keshabsen" "Khadgodyama" "Krishnaroy" "Kumudnarayan" "Lakshmansen" "Lakshmichandra" 
+	"Lomapada" "Madanapala" "Mahendrasingha" "Mahindranarayan" "Mahipala" "Manava" "Mukundanarayan" "Narasingha" "Narayanapala" "Narendranarayan" 
+	"Nripendranarayan" "Parikshitnayaran" "Prananarayan" "Prannath" "Pratapnarayan" "Raghudev" "Rajabhata" "Rajadinaj" "Rajaganesha" "Rajrajendranarayan" 
+	"Rajyapala" "Ramapala" "Ramnath" "Ranasura" "Ranjitsingha" "Roopnarayan" "Rudranarayan" "Samudrasen" "Shanibhangar" "Shashanka" 
+	"Shivanarayan" "Shivendranarayan" "Shukladhwaj" "Shurapala" "Srichandra" "Srimanta" "Subarnachandra" "Sukhdev" "Suryanarayan" "Traillokyachandra" 
+	"Udirnakhadga" "Upendranayaran" "Vakapala" "Vapyata" "Vigrahapala" "Vijaynarayan" "Virajdendranarayan" "Vishwarupsen" "Vishwasingha" "Bhairav Singh" 
+	"Bhavesh" "Bhogishwar" "Dev Singh" "Dhir Singh" "Dhireshwar" "Ganeshwar Singh" "Gang Dev" "Harasimhadeva" "Hari Singh" "Hemant Sen" 
+	"Kameshwar" "Laxman Sen" "Madanpal" "Nanya Dev" "Narsingh Dev" "Padma Singh" "Rambhadra Singh Dev" "Rameshwar" "Shiv Singh" "Vallal Sen" 
+	"Vijay Sen" "Agnimitra" "Ayus" "Bhagabhadra" "Bhikhari" "Bhumimitra" "Devabhuti" "Gopal" "Govindapal" "Maharshi" 
+	"Mahendra" "Maurayadhwaj" "Narayana" "Pulindaka" "Pusyamitra" "Sahtiya" "Susarman" "Vajramitra" "Vasudeva" "Vasujyeshtha" 
+	"Vasumitra" }
+monarch_names = {
+	"Esho Lek #0" = 1
+	"Anqi #0" = 1
+	"Thrikhyiding #0" = 1
+	"Sadnalegs #0" = 1
+	"Mangpoje #0" = 1
+	"Nyitri #0" = -1
+	"Tashi #0" = -1
+	"Hong #0" = -1
+	"Taramo #0" = -1
+	"Kanchani #0" = -1
+	"Dhairjendranayaran #0" = 1
+	"Tisho #0" = 1
+	"Jomo #0" = -1
+	"Ting #0" = 1
+	"Koboza #0" = -1
+	"Hajo #0" = 1
+	"Kanwar #0" = -1
+	"Yuqing #0" = 1
+	"Baozhu #0" = -1
+	"Yondagmo #0" = -1
+	"Fangmei #0" = -1
+	"Bum #0" = -1
+	"Dagmo #0" = -1
+	"Trashi #0" = 1
+	"Nattadevi #0" = -1
+	"Gungsong #0" = 1
+	"Pratapnarayanroy #1" = 18
+	"Daktri #0" = 1
+	"Rani #0" = -1
+	"Bhogavati #0" = -1
+	"Denöl #0" = 1
+	"Rinchen #0" = -1
+	"Toktokteng #0" = -1
+	"Mangalal #0" = -1
+	"Jingquan #1" = 18
+	"Laxminath Singh Dev #0" = 1
+	"Rapsel #0" = 1
+	"Phurbulcam #0" = -1
+	"Yontan #0" = 1
+	"Sambhota #0" = 1
+	"Ladahachandra #0" = 1
+	"Nayapala #0" = 1
+	"Tubten #0" = -1
+	"Che #0" = 1
+	"Konchog #0" = -1
+	"Kumarapala #0" = 1
+	"Gön #0" = 1
+	"Hemavati #0" = -1
+	"Khsetravridha #0" = 1
+	"Cogrobza #0" = -1
+	"Dhruvasvamini #0" = -1
+	"Sun #0" = 1
+	"Xinyue #0" = -1
+	"Torma #0" = -1
+	"Yuanyu #0" = 1
+	"Ngawang #0" = 1
+	"Jagatpal #0" = 1
+	"Vijnayavati #0" = -1
+	"Gambhir #0" = 1
+	"Maharani #0" = -1
+	"Shou #0" = 1
+	"Vijaysen #0" = 1
+	"Shenxi #0" = 1
+	"Chökyi #0" = -1
+	"Kyi #0" = -1
+	"Yuying #0" = -1
+	"Devi Ahiylya #0" = -1
+	"Zongru #0" = 1
+	"Dringma #0" = -1
+	"Jatakhadga #0" = 1
+	"Kakanvati #0" = -1
+	"Desho Lek #0" = 1
+	"Tisho Lek #0" = 1
+	"Guru Lek #0" = 1
+	"Trongzhi Lek #0" = 1
+	"Isho Lek #0" = 1
+	"Zanam Zindé #0" = 1
+	"Detrul Namshungtsen #0" = 1
+	"Senöl Namdé #0" = 1
+	"Senöl Podé #0" = 1
+	"Senöl Nam #0" = 1
+	"Senöl Po #0" = 1
+	"Degyel Po #0" = 1
+	"Detrin Tsen #0" = 1
+	"Tori Longtsen #0" = 1
+	"Tritsen Nam #0" = 1
+	"Tridra Pungtsen #0" = 1
+	"Tritog Jetsen #0" = 1
+	"Lha Thothori Nyantsen #0" = 1
+	"Trinyen Zungtsen #0" = 1
+	"Drongnyen Deu #0" = 1
+	"Tagbu Nyasig #0" = 1
+	"Namri Songtsen #0" = 1
+	"Tsensong #0" = 1
+	"Gungsrong Gungtsen #0" = 1
+	"Songtsen Gampo #0" = 1
+	"Sadmarkar #0" = -1
+	"Mangsong Mangtsen #0" = 1
+	"Tridu Songtsen #0" = 1
+	"Thridang #0" = -1
+	"Lha Balpo #0" = 1
+	"Dronmalön #0" = -1
+	"Me Agtsom #0" = 1
+	"Mutri #0" = 1
+	"Mutik #0" = 1
+	"Trisong Detsen #0" = 1
+	"Dechen #0" = -1
+	"Muné #0" = 1
+	"Pude #0" = 1
+	"Tshistöng #0" = -1
+	"Wangmo #0" = -1
+	"Chödron #0" = -1
+	"Pelgyi Phurbu #0" = 1
+	"Nyasig #0" = 1
+	"Zungtsen #0" = 1
+	"Gyältsugru #0" = 1
+	"Trinle #0" = -1
+	"Sal #0" = -1
+	"Tökarma #0" = -1
+	"Nyantsen #0" = 1
+	"Bishnu #0" = -1
+	"Song Detsen #0" = 1
+	"Yeshe #0" = -1
+	"Gyagar #0" = 1
+	"Namzhungtsen #0" = 1
+	"Takdra #0" = 1
+	"Lha #0" = -1
+	"Sajita #0" = -1
+	"Namkha #0" = 1
+	"Lasya #0" = -1
+	"Deu #0" = 1
+	"Zigsa #0" = -1
+	"Sunita #0" = -1
+	"Tricham #0" = -1
+	"Shristi #0" = -1
+	"Senöl #0" = 1
+	"Jetsunma #0" = -1
+	"Trinyen #0" = 1
+	"Aspru #0" = -1
+	"Machig #0" = -1
+	"Kyeden #0" = -1
+	"Manu #0" = 1
+	"Asmita #0" = -1
+	"Shang #0" = 1
+	"Tala Mebar #0" = 1
+	"Chimey #0" = -1
+	"Raju #0" = 1
+	"Lhamo #0" = 1
+	"Tawen #0" = 1
+	"Changchub #0" = 1
+	"Kunzang #0" = -1
+	"Cham #0" = -1
+	"Tsangma #0" = 1
+	"Shakya #0" = 1
+	"Tse #0" = -1
+	"Vishal #0" = 1
+	"Lhathrimo #0" = -1
+	"Shirisha #0" = -1
+	"Lekpa #0" = 1
+	"Nanamsa #0" = -1
+	"Kusum #0" = -1
+	"Tsenpo #0" = 1
+	"Langdarma #0" = 1
+	"Heena #0" = -1
+	"Nikkon #0" = 1
+	"Dunkyi #0" = -1
+	"Mangmo #0" = -1
+	"Öpoche #0" = 1
+	"Lhamgonza #0" = -1
+	"Dondup #0" = 1
+	"Drönma #0" = -1
+	"Yumtän #0" = 1
+	"Nagzib #0" = -1
+	"Kyidé #0" = 1
+	"Thothori #0" = 1
+	"Tripta #0" = -1
+	"Bumphulwa #0" = -1
+	"Rangneng #0" = 1
+	"Driza #0" = -1
+	"Dzeden #0" = -1
+	"Drag #0" = 1
+	"Nyigön #0" = 1
+	"Zangmo #0" = -1
+	"Pongza #0" = -1
+	"Gesar #0" = 1
+	"Chuhou #0" = 1
+	"Fangzhi #0" = 1
+	"Dro #0" = -1
+	"Palchen #0" = 1
+	"Palden #0" = 1
+	"Yueyi #0" = -1
+	"Qinming #0" = 1
+	"Taknang #0" = 1
+	"Jamyang #0" = 1
+	"Tsemo #0" = 1
+	"Tsomo #0" = -1
+	"Choden #0" = -1
+	"Pogong #0" = -1
+	"Jodhabai #0" = -1
+	"Yülsung #0" = 1
+	"Kelzang #0" = -1
+	"Tsenma #0" = -1
+	"Gyalyum #0" = -1
+	"Zhaojun #0" = -1
+	"Maozhen #0" = 1
+	"Na #0" = -1
+	"Chuke #0" = 1
+	"Mangmoje #0" = -1
+	"Yi'an #0" = -1
+	"Gyaltsen #0" = 1
+	"Yujing #0" = -1
+	"Samant Sen #0" = 1
+	"Lakshminarayan #0" = 1
+	"Rouniang #0" = -1
+	"Guangfu #0" = 1
+	"Zhirong #0" = -1
+	"Basudevnayaran #0" = 1
+	"Rui #0" = -1
+	"Lhanang #0" = 1
+	"Thuchen #0" = 1
+	"Gandharavati #0" = -1
+	"Fu #0" = -1
+	"Shenji #0" = 1
+	"Anzong #0" = -1
+	"Jira #0" = -1
+	"Yuanchao #0" = 1
+	"Hira #0" = -1
+	"Jinghui #0" = -1
+	"Fengji #0" = 1
+	"Nyendrak #0" = -1
+	"Dompu #0" = 1
+	"Yanxiang #0" = -1
+	"Tong'e #0" = -1
+	"Trikar #0" = -1
+	"Changliang #0" = 1
+	"Andhraka #0" = 1
+	"E'zi #0" = -1
+	"Shengqiong #0" = -1
+	"Jiuling #0" = 1
+	"Kamalnarayan #0" = 1
+	"Lumo #0" = -1
+	"Sengemo #0" = -1
+	"Longtsen #0" = 1
+	"Chuna #0" = 1
+	"Ratnadevi #0" = -1
+	"Devitara #0" = -1
+	"Thrimalö #0" = -1
+	"Khadrobum #0" = -1
+	"Isho #0" = 1
+	"Detrul #0" = 1
+	"Sisupala #0" = 1
+	"Dharmapala #1" = 0
+	"Ramagupta #2" = 0
+	"Krishanmishra #1" = 0
+	"Naranarayan #1" = 0
+	"Kirti Singh #1" = 0
+	"Vijaysingha #1" = 0
+	"Mahendrapala #2" = 0
+	"Pushkaranadhipa #1" = 0
+	"Jyotirishwar #1" = 0
+	"Shakrasingh Dev #1" = 0
+	"Yesugei #1" = 0
+	"Magod #1" = 0
+	"Nayanadevi #1" = -1
+	"Uditanarayan #1" = 0
+	"Nar Singh #1" = 0
+	"Rajendranarayan #1" = 0
+	"Ghosha #1" = 0
+	"Amritnarayan #0" = 0
+	"Balabhata #0" = 0
+	"Balinarayan #0" = 0
+	"Ballalsen #0" = 0
+	"Bhagadatta #0" = 0
+	"Bhairabendranarayan #0" = 0
+	"Bhatta #0" = 0
+	"Bhavashankari #0" = 0
+	"Bhimsingha #0" = 0
+	"Birnayaran #0" = 0
+	"Chandrasen #0" = 0
+	"Chandranarayan #0" = 0
+	"Chaturanan #0" = 0
+	"Chilarai #0" = 0
+	"Danujmadhava #0" = 0
+	"Dasharathadeva #0" = 0
+	"Devakhadga #0" = 0
+	"Devapala #0" = 0
+	"Devendranarayan #0" = 0
+	"Dharendranarayan #0" = 0
+	"Dhirsingha #0" = 0
+	"Gajnarayan #0" = 0
+	"Gopala #0" = 0
+	"Govindachandra #0" = 0
+	"Govindapala #0" = 0
+	"Harendranarayan #0" = 0
+	"Haridevnarayan #0" = 0
+	"Hariyamandal #0" = 0
+	"Hemantasen #0" = 0
+	"Indranarayan #0" = 0
+	"Jadu #0" = 0
+	"Jagaddipendranarayan #0" = 0
+	"Jayanarayan #0" = 0
+	"Jayapala #0" = 0
+	"Jitendranarayan #0" = 0
+	"Kalyanachandra #0" = 0
+	"Keshabsen #0" = 0
+	"Khadgodyama #0" = 0
+	"Krishnaroy #0" = 0
+	"Kumudnarayan #0" = 0
+	"Lakshmansen #0" = 0
+	"Lakshmichandra #0" = 0
+	"Lomapada #0" = 0
+	"Madanapala #0" = 0
+	"Mahendrasingha #0" = 0
+	"Mahindranarayan #0" = 0
+	"Mahipala #0" = 0
+	"Manava #0" = 0
+	"Mukundanarayan #0" = 0
+	"Narasingha #0" = 0
+	"Narayanapala #0" = 0
+	"Narendranarayan #0" = 0
+	"Nripendranarayan #0" = 0
+	"Parikshitnayaran #0" = 0
+	"Prananarayan #0" = 0
+	"Prannath #0" = 0
+	"Pratapnarayan #0" = 0
+	"Raghudev #0" = 0
+	"Rajabhata #0" = 0
+	"Rajadinaj #0" = 0
+	"Rajaganesha #0" = 0
+	"Rajrajendranarayan #0" = 0
+	"Rajyapala #0" = 0
+	"Ramapala #0" = 0
+	"Ramnath #0" = 0
+	"Ranasura #0" = 0
+	"Ranjitsingha #0" = 0
+	"Roopnarayan #0" = 0
+	"Rudranarayan #0" = 0
+	"Samudrasen #0" = 0
+	"Shanibhangar #0" = 0
+	"Shashanka #0" = 0
+	"Shivanarayan #0" = 0
+	"Shivendranarayan #0" = 0
+	"Shukladhwaj #0" = 0
+	"Shurapala #0" = 0
+	"Srichandra #0" = 0
+	"Srimanta #0" = 0
+	"Subarnachandra #0" = 0
+	"Sukhdev #0" = 0
+	"Suryanarayan #0" = 0
+	"Traillokyachandra #0" = 0
+	"Udirnakhadga #0" = 0
+	"Upendranayaran #0" = 0
+	"Vakapala #0" = 0
+	"Vapyata #0" = 0
+	"Vigrahapala #0" = 0
+	"Vijaynarayan #0" = 0
+	"Virajdendranarayan #0" = 0
+	"Vishwarupsen #0" = 0
+	"Vishwasingha #0" = 0
+	"Bhairav Singh #0" = 0
+	"Bhavesh #0" = 0
+	"Bhogishwar #0" = 0
+	"Dev Singh #0" = 0
+	"Dhir Singh #0" = 0
+	"Dhireshwar #0" = 0
+	"Ganeshwar Singh #0" = 0
+	"Gang Dev #0" = 0
+	"Harasimhadeva #0" = 0
+	"Hari Singh #0" = 0
+	"Hemant Sen #0" = 0
+	"Kameshwar #0" = 0
+	"Laxman Sen #0" = 0
+	"Madanpal #0" = 0
+	"Nanya Dev #0" = 0
+	"Narsingh Dev #0" = 0
+	"Padma Singh #0" = 0
+	"Rambhadra Singh Dev #0" = 0
+	"Rameshwar #0" = 0
+	"Shiv Singh #0" = 0
+	"Vallal Sen #0" = 0
+	"Vijay Sen #0" = 0
+	"Agnimitra #0" = 0
+	"Ayus #0" = 0
+	"Bhagabhadra #0" = 0
+	"Bhikhari #0" = 0
+	"Bhumimitra #0" = 0
+	"Devabhuti #0" = 0
+	"Gopal #0" = 0
+	"Govindapal #0" = 0
+	"Maharshi #0" = 0
+	"Mahendra #0" = 0
+	"Maurayadhwaj #0" = 0
+	"Narayana #0" = 0
+	"Pulindaka #0" = 0
+	"Pusyamitra #0" = 0
+	"Sahtiya #0" = 0
+	"Susarman #0" = 0
+	"Vajramitra #0" = 0
+	"Vasudeva #0" = 0
+	"Vasujyeshtha #0" = 0
+	"Vasumitra #0" = 0
+}
+

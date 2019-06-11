@@ -1,0 +1,27 @@
+# Ascalon
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = bedouin_arabic
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 1854
+1417.12.8 = {
+	monarch = {
+		name = "Maximos"
+		birth_date = 1408.6.17
+		dynasty = "Tagares"
+		adm = 2
+		dip = 0
+		mil = 6
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = cruel_personality
+}
+1444.11.11 = {
+	capital = 1854
+	add_treasury = 204
+	add_prestige = 177
+}

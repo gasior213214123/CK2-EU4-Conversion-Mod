@@ -1,0 +1,342 @@
+# Estonia
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 125 75 75 }
+
+
+
+
+leader_names = {
+
+	"Bohumir" "Izabela" "Yefrosinia" "Gracja" "Prebrana" "Judyta" "Jarmila" "Wojslawa" "Wincenty" "Wlodzimierz" 
+	"Mateja" "Dobravy" "Rurik" "Casimir" "Wratislaw" "Zwinislawa" "Rycheza" "Kamil" "Juliusz" "Kolman" 
+	"Miroslava" "Zbigniew" "Stanislaw" "Bedrich" "Edyta" "Hanna" "Dobroniega" "Karel" "Jaromar" "Frantisek" 
+	"Marek" "Drosuk" "Zofia" "Matteo" "Pechna" "Andela" "Rodislav" "Kenna" "Branimir" "Kasper" 
+	"Oldrich" "Regelinda" "Dorota" "Przemysl" "Branislava" "Wlodek" "Stefana" "Baldomar" "Smiechna" "Cededa" 
+	"Swietopelk" "Grazyna" "Ludmila" "Gawel" "Zdenka" "Walenty" "Zdenek" "Marcelina" "Lech" "Waclaw" 
+	"Dobrogost" "Irena" "Koz'ma" "Msciwoj" "Rostislav" "Lubomir" "Mscislaw" "Svetlana" "Dytryk" "Salomea" 
+	"Kamila" "Kornelia" "Radoslava" "Ana" "Bozydar" "Matylda" "Agnieszka" "Václava" "Raina" "Berta" 
+	"Krystyna" "Milosz" "Radomil" "Boleslaw" "Lidia" "Ulyana" "Gertruda" "Ksenia" "Martyna" "Bozena" 
+	"Swietoslaw" "Odolric" "Jolanta" "Milena" "Leszek" "Szczesny" "Lucjan" "Adalbert" "Kinga" "Ludvik" 
+	"Wizlaw" "Kresimir" "Stanislava" "Miloslaw" "Malgorzata" "Danuta" "Przybyslaw" "Adalgrim" "Wilbert" "Prendota" 
+	"Boriwoj" "Dagmar" "Sobieslav" "Miroslaw" "Jaromir" "Magda" "Bohdan" "Zdislav" "Róza" "Dobieslaw" 
+	"Strasz" "Brunhild" "Vladislava" "Xenia" "Radomila" "Leutgardis" "Bohuslava" "Udalrich" "Yevstafiy" "Ewa" 
+	"Mieszko" "Dobrynia" "Radomira" "Zygmunt" "Malfrida" "Jaroslav" "Boris" "Aron" "Kazimierz" "Halina" 
+	"Urjasz" "Ultrogotha" "Vojtech" "Radoslav" "Jadwiga" "Iliya" "Szymon" "Jaromil" "Tadeusz" "Katarina" 
+	"Dobroslava" "Branislav" "Praxida" "Predslava" "Zvenislava" "Gremislava" "Jacenty" "Vasilisa" "Greze" "Otokar" 
+	"Geira" "Ctibor" "Urszula" "Wera" "Ringaudas" "Karijotas" "Aare" "Agul" "Ahas" "Aho" 
+	"Ahti" "Ahvo" "Alar" "Alo" "Alur" "Aopelg" "Aotõiv" "Arp" "Arvet" "Arvo" 
+	"Atko" "Aul" "Aulemb" "Eeri" "Elmar" "Hain" "Haljas" "Heameel" "Heatõiv" "Hoovatõiv" 
+	"Hurmas" "Hurmetõiv" "Hõimulemb" "Hüvalemb" "Hüvameel" "Hüvatõiv" "Igalemb" "Igapäiv" "Ihalemb" "Ihameel" 
+	"Ihar" "Ihatõiv" "Ihavald" "Illimar" "Ilmalemb" "Ilmar" "Ilvelemb" "Jaolemb" "Kaalep" "Kaarel" 
+	"Kaaren" "Kahar" "Kahru" "Kahrulemb" "Kahus" "Kaido" "Kalev" "Kalju" "Kaljuvald" "Kalle" 
+	"Kaomeel" "Karuvald" "Kaugemeel" "Kaupo" "Kaur" "Kiur" "Kiurupelg" "Koit" "Kosk" "Kudres" 
+	"Küllelemb" "Leetõiv" "Lembit" "Leppetõiv" "Lible" "Lättelemb" "Manivald" "Mart" "Maru" "Mati" 
+	"Mats" "Meelis" "Mehis" "Meigo" "Neeme" "Niglas" "Ohetõiv" "Ohevald" "Olev" "Onni" 
+	"Otelemb" "Ott" "Pihl" "Piho" "Pikne" "Päevalemb" "Pärt" "Raak" "Raho" "Rahuleid" 
+	"Sulev" "Susi" "Sutemeel" "Sutepelg" "Tambet" "Tarva" "Tarvet" "Tasulemb" "Toivo" "Toom" 
+	"Tunne" "Tutkas" "Tuul" "Tõeleid" "Tõiv" "Tõivulemb" "Tõll" "Tõnn" "Uku" "Urmas" 
+	"Uru" "Valdur" "Vambola" "Vandemeel" "Varjelemb" "Veli" "Vello" "Venno" "Vesse" "Vihavald" 
+	"Vililemb" "Vilimeel" "Vilitõiv" "Vilivald" "Vootele" "Väino" "Värvo" "Õigemeel" "Ülo" }
+monarch_names = {
+	"Bohumir #0" = 1
+	"Izabela #0" = -1
+	"Yefrosinia #0" = -1
+	"Gracja #0" = -1
+	"Prebrana #0" = -1
+	"Judyta #0" = -1
+	"Jarmila #0" = -1
+	"Wojslawa #0" = -1
+	"Wincenty #0" = 1
+	"Wlodzimierz #0" = 1
+	"Mateja #0" = -1
+	"Dobravy #0" = -1
+	"Rurik #0" = 1
+	"Casimir #0" = 1
+	"Wratislaw #0" = 1
+	"Zwinislawa #0" = -1
+	"Rycheza #0" = -1
+	"Kamil #0" = 1
+	"Juliusz #0" = 1
+	"Kolman #0" = 1
+	"Miroslava #0" = -1
+	"Zbigniew #0" = 1
+	"Stanislaw #0" = 1
+	"Bedrich #0" = 1
+	"Edyta #0" = -1
+	"Hanna #0" = -1
+	"Dobroniega #0" = -1
+	"Karel #1" = 33
+	"Jaromar #0" = 1
+	"Frantisek #0" = 1
+	"Marek #0" = 1
+	"Drosuk #1" = 30
+	"Zofia #0" = -1
+	"Matteo #0" = 1
+	"Pechna #0" = -1
+	"Andela #0" = -1
+	"Rodislav #0" = 1
+	"Kenna #0" = -1
+	"Branimir #0" = 1
+	"Kasper #0" = 1
+	"Oldrich #0" = 1
+	"Regelinda #0" = -1
+	"Dorota #0" = -1
+	"Przemysl #0" = 1
+	"Branislava #0" = -1
+	"Wlodek #0" = 1
+	"Stefana #0" = -1
+	"Baldomar #0" = 1
+	"Smiechna #0" = -1
+	"Cededa #0" = -1
+	"Swietopelk #0" = 1
+	"Grazyna #0" = -1
+	"Ludmila #0" = -1
+	"Gawel #0" = 1
+	"Zdenka #0" = -1
+	"Walenty #1" = 21
+	"Zdenek #2" = 24
+	"Marcelina #0" = -1
+	"Lech #0" = 1
+	"Waclaw #0" = 1
+	"Dobrogost #0" = 1
+	"Irena #0" = -1
+	"Koz'ma #0" = 1
+	"Msciwoj #0" = 1
+	"Rostislav #0" = 1
+	"Lubomir #0" = 1
+	"Mscislaw #0" = 1
+	"Svetlana #0" = -1
+	"Dytryk #0" = 1
+	"Salomea #0" = -1
+	"Kamila #0" = -1
+	"Kornelia #0" = -1
+	"Radoslava #0" = -1
+	"Ana #0" = -1
+	"Bozydar #0" = 1
+	"Matylda #0" = -1
+	"Agnieszka #0" = -1
+	"Václava #0" = -1
+	"Raina #0" = -1
+	"Berta #0" = -1
+	"Krystyna #0" = -1
+	"Milosz #0" = 1
+	"Radomil #0" = 1
+	"Boleslaw #0" = 1
+	"Lidia #0" = -1
+	"Ulyana #0" = -1
+	"Gertruda #0" = -1
+	"Ksenia #0" = -1
+	"Martyna #0" = -1
+	"Bozena #0" = -1
+	"Swietoslaw #0" = 1
+	"Odolric #0" = 1
+	"Jolanta #0" = -1
+	"Milena #0" = -1
+	"Leszek #2" = 24
+	"Szczesny #0" = 1
+	"Lucjan #0" = 1
+	"Adalbert #0" = 1
+	"Kinga #0" = -1
+	"Ludvik #0" = 1
+	"Wizlaw #0" = 1
+	"Kresimir #0" = 1
+	"Stanislava #0" = -1
+	"Miloslaw #0" = 1
+	"Malgorzata #0" = -1
+	"Danuta #0" = -1
+	"Przybyslaw #0" = 1
+	"Adalgrim #0" = 1
+	"Wilbert #0" = 1
+	"Prendota #0" = 1
+	"Boriwoj #0" = 1
+	"Dagmar #0" = -1
+	"Sobieslav #0" = 1
+	"Miroslaw #0" = 1
+	"Jaromir #0" = 1
+	"Magda #0" = -1
+	"Bohdan #0" = 1
+	"Zdislav #1" = 21
+	"Róza #0" = -1
+	"Dobieslaw #0" = 1
+	"Strasz #0" = 1
+	"Brunhild #0" = -1
+	"Vladislava #0" = -1
+	"Xenia #0" = -1
+	"Radomila #0" = -1
+	"Leutgardis #0" = -1
+	"Bohuslava #0" = -1
+	"Udalrich #0" = 1
+	"Yevstafiy #0" = 1
+	"Ewa #0" = -1
+	"Mieszko #0" = 1
+	"Dobrynia #0" = 1
+	"Radomira #0" = -1
+	"Zygmunt #1" = 21
+	"Malfrida #0" = -1
+	"Jaroslav #0" = 1
+	"Boris #0" = 1
+	"Aron #0" = 1
+	"Kazimierz #0" = 1
+	"Halina #0" = -1
+	"Urjasz #0" = 1
+	"Ultrogotha #0" = -1
+	"Vojtech #0" = 1
+	"Radoslav #0" = 1
+	"Jadwiga #0" = -1
+	"Iliya #0" = 1
+	"Szymon #0" = 1
+	"Jaromil #0" = 1
+	"Tadeusz #1" = 18
+	"Katarina #0" = -1
+	"Dobroslava #0" = -1
+	"Branislav #0" = 1
+	"Praxida #0" = -1
+	"Predslava #0" = -1
+	"Zvenislava #0" = -1
+	"Gremislava #0" = -1
+	"Jacenty #0" = 1
+	"Vasilisa #0" = -1
+	"Greze #0" = -1
+	"Otokar #0" = 1
+	"Geira #0" = -1
+	"Ctibor #0" = 1
+	"Urszula #0" = -1
+	"Wera #0" = -1
+	"Ringaudas #1" = 0
+	"Karijotas #1" = 0
+	"Aare #0" = 0
+	"Agul #0" = 0
+	"Ahas #0" = 0
+	"Aho #0" = 0
+	"Ahti #0" = 0
+	"Ahvo #0" = 0
+	"Alar #0" = 0
+	"Alo #0" = 0
+	"Alur #0" = 0
+	"Aopelg #0" = 0
+	"Aotõiv #0" = 0
+	"Arp #0" = 0
+	"Arvet #0" = 0
+	"Arvo #0" = 0
+	"Atko #0" = 0
+	"Aul #0" = 0
+	"Aulemb #0" = 0
+	"Eeri #0" = 0
+	"Elmar #0" = 0
+	"Hain #0" = 0
+	"Haljas #0" = 0
+	"Heameel #0" = 0
+	"Heatõiv #0" = 0
+	"Hoovatõiv #0" = 0
+	"Hurmas #0" = 0
+	"Hurmetõiv #0" = 0
+	"Hõimulemb #0" = 0
+	"Hüvalemb #0" = 0
+	"Hüvameel #0" = 0
+	"Hüvatõiv #0" = 0
+	"Igalemb #0" = 0
+	"Igapäiv #0" = 0
+	"Ihalemb #0" = 0
+	"Ihameel #0" = 0
+	"Ihar #0" = 0
+	"Ihatõiv #0" = 0
+	"Ihavald #0" = 0
+	"Illimar #0" = 0
+	"Ilmalemb #0" = 0
+	"Ilmar #0" = 0
+	"Ilvelemb #0" = 0
+	"Jaolemb #0" = 0
+	"Kaalep #0" = 0
+	"Kaarel #0" = 0
+	"Kaaren #0" = 0
+	"Kahar #0" = 0
+	"Kahru #0" = 0
+	"Kahrulemb #0" = 0
+	"Kahus #0" = 0
+	"Kaido #0" = 0
+	"Kalev #0" = 0
+	"Kalju #0" = 0
+	"Kaljuvald #0" = 0
+	"Kalle #0" = 0
+	"Kaomeel #0" = 0
+	"Karuvald #0" = 0
+	"Kaugemeel #0" = 0
+	"Kaupo #0" = 0
+	"Kaur #0" = 0
+	"Kiur #0" = 0
+	"Kiurupelg #0" = 0
+	"Koit #0" = 0
+	"Kosk #0" = 0
+	"Kudres #0" = 0
+	"Küllelemb #0" = 0
+	"Leetõiv #0" = 0
+	"Lembit #0" = 0
+	"Leppetõiv #0" = 0
+	"Lible #0" = 0
+	"Lättelemb #0" = 0
+	"Manivald #0" = 0
+	"Mart #0" = 0
+	"Maru #0" = 0
+	"Mati #0" = 0
+	"Mats #0" = 0
+	"Meelis #0" = 0
+	"Mehis #0" = 0
+	"Meigo #0" = 0
+	"Neeme #0" = 0
+	"Niglas #0" = 0
+	"Ohetõiv #0" = 0
+	"Ohevald #0" = 0
+	"Olev #0" = 0
+	"Onni #0" = 0
+	"Otelemb #0" = 0
+	"Ott #0" = 0
+	"Pihl #0" = 0
+	"Piho #0" = 0
+	"Pikne #0" = 0
+	"Päevalemb #0" = 0
+	"Pärt #0" = 0
+	"Raak #0" = 0
+	"Raho #0" = 0
+	"Rahuleid #0" = 0
+	"Sulev #0" = 0
+	"Susi #0" = 0
+	"Sutemeel #0" = 0
+	"Sutepelg #0" = 0
+	"Tambet #0" = 0
+	"Tarva #0" = 0
+	"Tarvet #0" = 0
+	"Tasulemb #0" = 0
+	"Toivo #0" = 0
+	"Toom #0" = 0
+	"Tunne #0" = 0
+	"Tutkas #0" = 0
+	"Tuul #0" = 0
+	"Tõeleid #0" = 0
+	"Tõiv #0" = 0
+	"Tõivulemb #0" = 0
+	"Tõll #0" = 0
+	"Tõnn #0" = 0
+	"Uku #0" = 0
+	"Urmas #0" = 0
+	"Uru #0" = 0
+	"Valdur #0" = 0
+	"Vambola #0" = 0
+	"Vandemeel #0" = 0
+	"Varjelemb #0" = 0
+	"Veli #0" = 0
+	"Vello #0" = 0
+	"Venno #0" = 0
+	"Vesse #0" = 0
+	"Vihavald #0" = 0
+	"Vililemb #0" = 0
+	"Vilimeel #0" = 0
+	"Vilitõiv #0" = 0
+	"Vilivald #0" = 0
+	"Vootele #0" = 0
+	"Väino #0" = 0
+	"Värvo #0" = 0
+	"Õigemeel #0" = 0
+	"Ülo #0" = 0
+}
+

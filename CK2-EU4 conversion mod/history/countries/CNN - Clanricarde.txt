@@ -1,0 +1,27 @@
+# Connacht
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = irish
+religion = catholic
+clear_scripted_personalities = yes
+capital = 376
+1441.8.14 = {
+	monarch = {
+		name = "Tailefhlaith"
+		birth_date = 1410.5.24
+		dynasty = "Cerdicing"
+		female = yes
+		adm = 0
+		dip = 0
+		mil = 2
+	}
+	add_ruler_personality = drunkard_personality
+}
+1444.11.11 = {
+	capital = 376
+	add_treasury = 12
+	add_prestige = 328
+}

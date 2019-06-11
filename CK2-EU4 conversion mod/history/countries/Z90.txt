@@ -1,0 +1,26 @@
+# Minsk
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = russian_culture
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 276
+1441.9.17 = {
+	monarch = {
+		name = "Yemelyan"
+		birth_date = 1421.8.24
+		dynasty = "Andriyashin "
+		adm = 4
+		dip = 1
+		mil = 2
+	}
+	add_ruler_personality = greedy_personality
+}
+1444.11.11 = {
+	capital = 276
+	add_treasury = 41
+	add_prestige = 343
+}

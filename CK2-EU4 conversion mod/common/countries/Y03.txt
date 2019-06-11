@@ -1,0 +1,310 @@
+# Dihistan
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 153 160 180 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+
+
+leader_names = {
+
+	"Böri" "Yokhunan" "Guchu" "Taghai" "Töregene" "Al-Alta" "Tekine" "Ebegei" "Chotan" "Chidukhul" 
+	"Khutulun" "Tukiy" "Sorkhaghatani" "Menggei" "Morokha" "Husun" "Chagur" "Altani" "Orbei" "Botokhui" 
+	"Burkhan" "Dodai" "Arkhai" "Mandukhai" "Temulun" "Hoelun" "Chaghagan" "Ghunan" "Usun" "Tolui" 
+	"Inancha" "Targhutai" "Borte" "Papaçyz" "Iltäbär" "Yeçtirek" "Tarkhan" "Parsbit" "Mänär" "Samur" 
+	"Bashtwa" "Asli" "Paykëlti" "Khatun" "Itakh" "Sibel" "Këlyamal" "Yabghu" "Çeçki" "Lyukha" 
+	"Bälgiçi" "Kundaçiq" "Çilen" "Çeçtilet" "Araslan" "Songul" "Mala" "Özgul" "Barjik" "Alp" 
+	"Ikalay" "Gunes" "Çat'n" "Sartäç" "Vakrim" "Hamdam" "Gunduz" "Azadeh" "Mutlu" "Elnaz" 
+	"Yartilek" "Dinah" "Çiçäk" "Kayghalagh" "Tura" "Barsbek" "Mongoljin" "Busir" "Bulan" "Bilge" 
+	"Chakha" "Bugha" "Khuterkin" "Yildiz" "Khaidu" "Bulçan" "Chagatai" "Megetu" "Karacik" "Khogaghchin" 
+	"Ötemis" "Gundes" "Bulughan" "Naça" "Belgunutei" "Tumen" "Chilagun" "Ilkay" "Gulay" "Chanai" 
+	"Gughlug" "Badai" "Çiltanesi" "Doregene" "Bughu" "Khugurchin" "Morad" "Chiledu" "Checheyigen" "Hogelun" 
+	"Subetei" "Bozçin" "Bukha" "Khachi" "Toghtoga" "Jebe" "Shervin" "Vandad Hormozd" "Zakaria" "Keykhosrau" 
+	"Nizam" "Mehrab" "Babak" "Fareed" "Shahryar" "Samir" "Muzaffaraddin" "Sadri" "Khashayar" "Ehsan" 
+	"Tahmasb" "Zand" "Abagha" "Achigh" "Aguchu" "Ajai" "Ajinai" "Akhutai" "Alagh" "Alchi" 
+	"Alchidai" "Altan" "Ambaghai" "Arasen" "Babur" "Bagaridai" "Bala" "Barghujin" "Bartan" "Batu" 
+	"Bedugun" "Begter" "Belgutei" "Berke" "Bodonchar" "Bogen" "Bogorchu" "Bolkhadar" "Borjigidai" "Boroghul" 
+	"Bugidai" "Bugunutei" "Bujeg" "Buri" "Burundai" "Chigu" "Chormakhan" "Chulgetei" "Dagun" "Daritai" 
+	"Dayir" "Duua" "Eljigedei" "Ghazan" "Guyug" "Harghasun" "Horkhudagh" "Hulegu" "Inalchi" "Iturgen" 
+	"Jajiradai" "Jamugha" "Jochi" "Jurchedei" "Khabichi" "Khachigun" "Khadagh" "Khagatai" "Khal" "Khorchi" 
+	"Khorilartai" "Khubilai" "Khudu" "Khutula" "Khuyildar" "Kogsegu" "Kokochu" "Megujin" "Mongke" "Munglig" 
+	"Nakhu" "Narin" "Nayaga" "Nogai" "Odchigin" "Ogodei" "Okhotur" "Oljaitu" "Oronartai" "Shiraghul" 
+	"Shirgugetu" "Suyiketu" "Tamachi" "Temuge" "Temujin" "Temur" "Todogen" "Toghoril" "Tokhtamis" "Torolchi" 
+	"Uighurtai" "Ukhuna" "Yedi" "Yegu" "Yeke" "Yesugei" "Yesunge" "Kadan" "Godan" }
+monarch_names = {
+	"Böri #1" = 36
+	"Yokhunan #0" = 1
+	"Guchu #1" = 21
+	"Taghai #0" = 1
+	"Töregene #0" = -1
+	"Al-Alta #0" = -1
+	"Tekine #0" = -1
+	"Ebegei #0" = -1
+	"Chotan #0" = -1
+	"Chidukhul #0" = 1
+	"Khutulun #0" = -1
+	"Tukiy #0" = 1
+	"Sorkhaghatani #0" = -1
+	"Menggei #0" = 1
+	"Morokha #0" = 1
+	"Husun #0" = 1
+	"Chagur #0" = -1
+	"Altani #0" = -1
+	"Orbei #0" = -1
+	"Botokhui #0" = -1
+	"Burkhan #0" = 1
+	"Dodai #0" = 1
+	"Arkhai #0" = 1
+	"Mandukhai #0" = -1
+	"Temulun #0" = -1
+	"Hoelun #0" = -1
+	"Chaghagan #0" = 1
+	"Ghunan #0" = 1
+	"Usun #0" = 1
+	"Tolui #0" = 1
+	"Inancha #0" = 1
+	"Targhutai #0" = 1
+	"Borte #0" = -1
+	"Papaçyz #0" = 1
+	"Iltäbär #0" = 1
+	"Yeçtirek #0" = 1
+	"Tarkhan #0" = 1
+	"Parsbit #0" = -1
+	"Mänär #0" = 1
+	"Samur #0" = -1
+	"Bashtwa #0" = 1
+	"Asli #0" = -1
+	"Paykëlti #0" = -1
+	"Khatun #0" = -1
+	"Itakh #0" = 1
+	"Sibel #0" = -1
+	"Këlyamal #0" = -1
+	"Yabghu #0" = 1
+	"Çeçki #0" = -1
+	"Lyukha #0" = -1
+	"Bälgiçi #0" = 1
+	"Kundaçiq #0" = 1
+	"Çilen #0" = -1
+	"Çeçtilet #0" = -1
+	"Araslan #0" = 1
+	"Songul #0" = -1
+	"Mala #0" = -1
+	"Özgul #0" = -1
+	"Barjik #0" = 1
+	"Alp #0" = 1
+	"Ikalay #0" = -1
+	"Gunes #0" = -1
+	"Çat'n #0" = 1
+	"Sartäç #1" = 21
+	"Vakrim #0" = 1
+	"Hamdam #0" = -1
+	"Gunduz #0" = -1
+	"Azadeh #0" = -1
+	"Mutlu #0" = -1
+	"Elnaz #0" = -1
+	"Yartilek #0" = -1
+	"Dinah #0" = -1
+	"Çiçäk #0" = -1
+	"Kayghalagh #0" = 1
+	"Tura #0" = -1
+	"Barsbek #1" = 21
+	"Mongoljin #0" = -1
+	"Busir #0" = 1
+	"Bulan #0" = 1
+	"Bilge #0" = 1
+	"Chakha #0" = -1
+	"Bugha #0" = 1
+	"Khuterkin #0" = 1
+	"Yildiz #0" = -1
+	"Khaidu #0" = 1
+	"Bulçan #0" = 1
+	"Chagatai #0" = 1
+	"Megetu #2" = 21
+	"Karacik #0" = -1
+	"Khogaghchin #0" = -1
+	"Ötemis #0" = 1
+	"Gundes #0" = -1
+	"Bulughan #0" = -1
+	"Naça #0" = -1
+	"Belgunutei #0" = 1
+	"Tumen #0" = 1
+	"Chilagun #1" = 18
+	"Ilkay #0" = -1
+	"Gulay #0" = -1
+	"Chanai #0" = 1
+	"Gughlug #0" = 1
+	"Badai #0" = 1
+	"Çiltanesi #0" = -1
+	"Doregene #0" = -1
+	"Bughu #0" = 1
+	"Khugurchin #0" = -1
+	"Morad #0" = 1
+	"Chiledu #0" = 1
+	"Checheyigen #0" = -1
+	"Hogelun #0" = -1
+	"Subetei #0" = 1
+	"Bozçin #0" = -1
+	"Bukha #0" = 1
+	"Khachi #0" = 1
+	"Toghtoga #0" = 1
+	"Jebe #0" = 1
+	"Shervin #1" = 0
+	"Vandad Hormozd #1" = 0
+	"Zakaria #2" = 0
+	"Keykhosrau #1" = 0
+	"Nizam #1" = 0
+	"Mehrab #1" = 0
+	"Babak #1" = 0
+	"Fareed #1" = 0
+	"Shahryar #1" = 0
+	"Samir #1" = 0
+	"Muzaffaraddin #1" = 0
+	"Sadri #1" = 0
+	"Khashayar #1" = 0
+	"Ehsan #1" = 0
+	"Tahmasb #1" = 0
+	"Zand #1" = 0
+	"Abagha #0" = 0
+	"Achigh #0" = 0
+	"Aguchu #0" = 0
+	"Ajai #0" = 0
+	"Ajinai #0" = 0
+	"Akhutai #0" = 0
+	"Alagh #0" = 0
+	"Alchi #0" = 0
+	"Alchidai #0" = 0
+	"Altan #0" = 0
+	"Ambaghai #0" = 0
+	"Arasen #0" = 0
+	"Babur #0" = 0
+	"Bagaridai #0" = 0
+	"Bala #0" = 0
+	"Barghujin #0" = 0
+	"Bartan #0" = 0
+	"Batu #0" = 0
+	"Bedugun #0" = 0
+	"Begter #0" = 0
+	"Belgutei #0" = 0
+	"Berke #0" = 0
+	"Bodonchar #0" = 0
+	"Bogen #0" = 0
+	"Bogorchu #0" = 0
+	"Bolkhadar #0" = 0
+	"Borjigidai #0" = 0
+	"Boroghul #0" = 0
+	"Bugidai #0" = 0
+	"Bugunutei #0" = 0
+	"Bujeg #0" = 0
+	"Buri #0" = 0
+	"Burundai #0" = 0
+	"Chigu #0" = 0
+	"Chormakhan #0" = 0
+	"Chulgetei #0" = 0
+	"Dagun #0" = 0
+	"Daritai #0" = 0
+	"Dayir #0" = 0
+	"Duua #0" = 0
+	"Eljigedei #0" = 0
+	"Ghazan #0" = 0
+	"Guyug #0" = 0
+	"Harghasun #0" = 0
+	"Horkhudagh #0" = 0
+	"Hulegu #0" = 0
+	"Inalchi #0" = 0
+	"Iturgen #0" = 0
+	"Jajiradai #0" = 0
+	"Jamugha #0" = 0
+	"Jochi #0" = 0
+	"Jurchedei #0" = 0
+	"Khabichi #0" = 0
+	"Khachigun #0" = 0
+	"Khadagh #0" = 0
+	"Khagatai #0" = 0
+	"Khal #0" = 0
+	"Khorchi #0" = 0
+	"Khorilartai #0" = 0
+	"Khubilai #0" = 0
+	"Khudu #0" = 0
+	"Khutula #0" = 0
+	"Khuyildar #0" = 0
+	"Kogsegu #0" = 0
+	"Kokochu #0" = 0
+	"Megujin #0" = 0
+	"Mongke #0" = 0
+	"Munglig #0" = 0
+	"Nakhu #0" = 0
+	"Narin #0" = 0
+	"Nayaga #0" = 0
+	"Nogai #0" = 0
+	"Odchigin #0" = 0
+	"Ogodei #0" = 0
+	"Okhotur #0" = 0
+	"Oljaitu #0" = 0
+	"Oronartai #0" = 0
+	"Shiraghul #0" = 0
+	"Shirgugetu #0" = 0
+	"Suyiketu #0" = 0
+	"Tamachi #0" = 0
+	"Temuge #0" = 0
+	"Temujin #0" = 0
+	"Temur #0" = 0
+	"Todogen #0" = 0
+	"Toghoril #0" = 0
+	"Tokhtamis #0" = 0
+	"Torolchi #0" = 0
+	"Uighurtai #0" = 0
+	"Ukhuna #0" = 0
+	"Yedi #0" = 0
+	"Yegu #0" = 0
+	"Yeke #0" = 0
+	"Yesugei #0" = 0
+	"Yesunge #0" = 0
+	"Kadan #0" = 0
+	"Godan #0" = 0
+}
+ship_names = {
+	Abathur "Adamn Kasia" "Aesma Daeva" Agas
+	Ahriman Ahura "Ahura Mazda" Ahurani Airyaman
+	"Aka Manah" Aladdin Allatum Amashaspan Ameratat
+	"Amesha Spentas" Anahita "Angra Mainyu" Anjuman
+	"Apam-natat" Apaosa Aredvi Arishtat Armaiti Arsaces
+	"Asha vahista" Asman "Asto Vidatu" "Astvat-Ereta"
+	Atar "Azi Dahaka" Baga Bahram Burijas Bushyasta Buyasta
+	Camros Daena Daevas Ahaka Dahhak Dena Dev Diwe Drug
+	Drvaspa Frashegird Fravashis Gandarewa "Gao-kerena"
+	Gayomard Gayomart "Geus-Tasan" "Geus-Urvan" Haoma
+	Haurvatat Humay Hvar Hvarekhshaeta Indar Indra Izha
+	Jamshid Jeh Karshipta Kavi Khara "Khshathra vairya"
+	Kundrav Mah Mahre Mahrianag Manu Manuchihir Mao 
+	Mashyane Mashye Menog Mithra Nairyosangha Nanghaithya
+	Neriosang Ormazd Peris Peshdadians Rapithwin Rashnu
+	Rustam Saurva Simurgh "Spenta Mainyu" Sraosa Srosh
+	Tawrich Thunaupa Tistrya Tushnamatay Vanant Vata
+	Verethragna "Vohu Manah" Vouruskasha Yam Yasht Yazata
+	Yezidi Yima Zal Zam "Zam-Armatay" Zarathustra Zarich
+	"Zend-Avesta" Zurvan
+}
+

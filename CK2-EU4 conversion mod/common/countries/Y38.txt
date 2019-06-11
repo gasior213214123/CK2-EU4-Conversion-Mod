@@ -1,0 +1,138 @@
+# Hum
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 184 137 137 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	religious_ideas
+	quality_ideas
+}
+
+historical_units = {
+	eastern_medieval_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	ottoman_sekban
+	ottoman_reformed_spahi
+	ottoman_reformed_janissary
+	ottoman_toprakli_hit_and_run
+	ottoman_nizami_cedid
+	ottoman_toprakli_dragoon
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	ottoman_new_model
+	ottoman_lancer
+}
+
+army_names = {
+	"Legio I Herculia" "Legio II Rapax" "Legio III Liberatrix" "Legio IV Apollonaris" "Legio V Alaudae"
+	"Legio VI Victrix" "Legio VII Ferrata" "Legio VIII Augusta" "Legio IX Triumphalis" "Legio X Italica" 
+	"Legio XI Macedonica" "Legio XII Minervia" "Legio XIII Fulminata" "Legio XIV Fretensis" "Legio XV Primigenia"
+	"Legio XVI Claudia" "Legio XVII Galatia" "Legio XVIII Pannonia" "Legio XIX Traiana" "Legio XX Scythica"
+}
+
+fleet_names = {
+	"Classis Alexandrina" "Classis Seleucena" "Classis Carpathia" "Classis Venetum" "Classis Constantinopolis"
+	"Classis Roma" "Classis Adrianopolis" "Classis Atlanticum" "Classis Mediterraneus" "Classis Euxeinos Pontos"
+}
+
+leader_names = {
+
+	"Georgios" "Anthousa" "Damiane" "Antipatra" "Romane" "Isaias" "Chrysogone" "Xene" "Barbara" "Anthimos" 
+	"Viseslav" "Borna" "Klonimir" "Dragan" "Clime" "Bisti" "Gaucoli" "Pascalis" "Vita" "Stane" 
+	"Calenda" "Anthemios" "Aikaterine" "Rusco" "Loncho" "Vallius" "Borzywoj" "Sulislaw" "Philaretos" "Ioannikios" 
+	"Isidoros" "Trepimirus" "Leonidas" "Polykarpos" "Hippolytos" "Phokas" "Manuel" "Andre" "Andreas" "Blaxius" 
+	"Comes" "Domagna" "Gauzoli" "Gervasius" "Giuco" "Give" "Jugno" "Juliano" "Junius" "Laurenzo" 
+	"Leonardus" "Lucarus" "Mare" "Marco" "Maroe" "Marinus" "Matheus" "Michael" "Nale" "Nichiforus" 
+	"Nicola" "Pasqualis" "Petragna" "Petrus" "Piero" "Perue" "Rassinus" "Thoma" "Tuone" }
+monarch_names = {
+	"Georgios #2" = 21
+	"Anthousa #0" = -1
+	"Damiane #0" = -1
+	"Antipatra #0" = -1
+	"Romane #0" = -1
+	"Isaias #0" = 1
+	"Chrysogone #0" = -1
+	"Xene #0" = -1
+	"Barbara #0" = -1
+	"Anthimos #1" = 18
+	"Viseslav #3" = 0
+	"Borna #2" = 0
+	"Klonimir #1" = 0
+	"Dragan #1" = 0
+	"Clime #1" = 0
+	"Bisti #2" = 0
+	"Gaucoli #3" = 0
+	"Pascalis #1" = 0
+	"Vita #2" = 0
+	"Stane #1" = 0
+	"Calenda #1" = 0
+	"Anthemios #1" = 0
+	"Aikaterine #1" = -1
+	"Rusco #1" = 0
+	"Loncho #1" = 0
+	"Vallius #1" = 0
+	"Borzywoj #1" = 0
+	"Sulislaw #1" = 0
+	"Philaretos #1" = 0
+	"Ioannikios #1" = 0
+	"Isidoros #1" = 0
+	"Trepimirus #1" = 0
+	"Leonidas #1" = 0
+	"Polykarpos #1" = 0
+	"Hippolytos #1" = 0
+	"Phokas #1" = 0
+	"Manuel #1" = 0
+	"Andre #0" = 0
+	"Andreas #0" = 0
+	"Blaxius #0" = 0
+	"Comes #0" = 0
+	"Domagna #0" = 0
+	"Gauzoli #0" = 0
+	"Gervasius #0" = 0
+	"Giuco #0" = 0
+	"Give #0" = 0
+	"Jugno #0" = 0
+	"Juliano #0" = 0
+	"Junius #0" = 0
+	"Laurenzo #0" = 0
+	"Leonardus #0" = 0
+	"Lucarus #0" = 0
+	"Mare #0" = 0
+	"Marco #0" = 0
+	"Maroe #0" = 0
+	"Marinus #0" = 0
+	"Matheus #0" = 0
+	"Michael #0" = 0
+	"Nale #0" = 0
+	"Nichiforus #0" = 0
+	"Nicola #0" = 0
+	"Pasqualis #0" = 0
+	"Petragna #0" = 0
+	"Petrus #0" = 0
+	"Piero #0" = 0
+	"Perue #0" = 0
+	"Rassinus #0" = 0
+	"Thoma #0" = 0
+	"Tuone #0" = 0
+}
+ship_names = {
+	Cres
+	"Dugi Otok"
+	Goli
+	Krl
+	Pag Plavnik
+	Susak "Sveti Grgur"
+	Tijat
+	Unije
+	"Vele Srankane"
+	Zlarin Zmajan
+}
+

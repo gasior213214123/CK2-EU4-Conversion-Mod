@@ -1,0 +1,26 @@
+# Matyineni
+government = monarchy
+add_government_reform = elective_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = indian
+primary_culture = tamil
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 540
+1442.6.1 = {
+	monarch = {
+		name = "Manappâkkîlan II"
+		birth_date = 1380.12.6
+		dynasty = "Matyineni"
+		adm = 2
+		dip = 2
+		mil = 6
+	}
+	add_ruler_personality = cruel_personality
+}
+1444.11.11 = {
+	capital = 540
+	add_treasury = 2289
+	add_prestige = 1062
+}

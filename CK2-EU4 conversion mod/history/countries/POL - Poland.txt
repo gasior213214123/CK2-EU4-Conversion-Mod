@@ -1,0 +1,27 @@
+# Poland
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = polish
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 262
+1427.1.13 = {
+	monarch = {
+		name = "Krzeslaw"
+		birth_date = 1424.12.14
+		dynasty = "Wawel"
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = kind_hearted_personality
+	add_ruler_personality = conqueror_personality
+}
+1444.11.11 = {
+	capital = 262
+	add_treasury = -3
+	add_prestige = 331
+}

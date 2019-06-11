@@ -1,0 +1,27 @@
+# Slavonia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = croatian
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 131
+1418.5.21 = {
+	monarch = {
+		name = "Konstas II"
+		birth_date = 1403.5.4
+		dynasty = "Sicalia"
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+	add_ruler_personality = benevolent_personality
+	add_ruler_personality = kind_hearted_personality
+}
+1444.11.11 = {
+	capital = 131
+	add_treasury = 61
+	add_prestige = 402
+}

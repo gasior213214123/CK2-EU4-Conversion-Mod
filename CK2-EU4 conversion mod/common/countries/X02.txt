@@ -1,0 +1,222 @@
+# Gorkha
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 195 100 20 }
+
+
+
+
+leader_names = {
+
+	"Arumba" "Emil" "Suctorial" "Messerschmitt" "Bhopal" "Kailaspal" "Kumaradevi" "Anantadevi" "Samyukta" "Black" 
+	"Prithvivarman" "Khusbu" "Dimitar" "Beejpala" "Puppadevi" "Maya" "Asmita" "Harshapala" "Finjo" "Prasadhanadevi" 
+	"Shristi" "Nabin" "Dattadevi" "Palisha" "Sunil" "Mahendrapala" "Sabin" "Zainab Tari" "Del'shaad" "Dank Kush" 
+	"Ankit" "Mihira" "Sainyukta" "Dhruvasvamini" "Shanta" "Lakshman" "Chukpo" "Prabhavati" "Kakanvati" "Prajun" 
+	"Golandaam" "Manna" "Kanwar" "Nattadevi" "Amita" "Sajit" "Emiliaa" "Hammiravarman" "Rajhita" "Karmavati" 
+	"Sang" "Tiron" "Swornima" "Rumen" "Nagapala" "Samixya" "Bibhas" "Bhairaja" "Dousteyn" "Surajpala" 
+	"Nayapala" "Karuna" "Reshma" "Sofia" "Krishnray" "Ranjan" "Dhruvadevi" "Sunita" "Kanchuka" "Milan" 
+	"Malkit" "Bhoj" "Sarita" "Manu" "Raju" "Mahidevi" "Udayaditya" "Dehanagadevi" "Bhojavarman" "Kukee" 
+	"Hashish" "Bishal" "Mathias" "Sebasti" "Tisho" "Woman" "Lodrö" "Ivan" "Emilia" "Germania" 
+	"Gunggyal" "Muné" "Woke" "Bum" "Langdarma" "Pälkhortsän" "Miasdttte" "Life" "Has" "Mangsham" 
+	"Magod" "Nagzib" "BassFaalGood" "Baas" "Xdia" "Kunga" "Tshistöng" "RNG" "Niko" "Hariti" 
+	"Chokey" "Amala" "Trikar" "Drönma" "Love" "Mathi" "Toktokteng" "Nigg" "Tubten" "Tashi" 
+	"Tsunmotog" "Thridang" "Togo" "Jomo" "Koboza" "Nyendrak" "Gangeya" "Vidyadhara" "Xd" "Manish" 
+	"Dhanga" "Harpal" "Akash" "Jhetpal" "Jayasimha" "Baaaaas" "Mahipata" "Sultanpal" "Mama" "Alita" 
+	"Run" "Fuck" "Mia" "Kalyanachandra" "Damayanti" "Gmt" "Lmfao" "Jaskarn" "Sajita" "Samar" 
+	"Sona" "Song" "Prabhavatigupta" "Hmm" "Kalayandevi" "Naravarman" "Gambhir" "Tsamchoe" "Varna" "Sanjay" 
+	"Eyrum" "Mehmed" "Trisong Detsen" "Lhawang" "Baliraja" "Shirisha" "Aashish" "Ananta" "Aramudi" "Babu" 
+	"Bibek" "Bikash" "Chandra" "Gagan" "Hem" "Kamal" "Kiran" "Kush" "Ngodup" "Nikkon" 
+	"Ram" "Sahil" "Sudi" "Sumit" "Suraj" "Tenzin" "Tiray" "Udgam" "Vishal" "Yash" }
+monarch_names = {
+	"Arumba #0" = 1
+	"Emil #1" = 33
+	"Suctorial #0" = 1
+	"Messerschmitt #1" = 18
+	"Bhopal #0" = 1
+	"Kailaspal #0" = 1
+	"Kumaradevi #0" = -1
+	"Anantadevi #0" = -1
+	"Samyukta #0" = -1
+	"Black #2" = 24
+	"Prithvivarman #0" = 1
+	"Khusbu #0" = -1
+	"Dimitar #2" = 27
+	"Beejpala #0" = 1
+	"Puppadevi #0" = -1
+	"Maya #0" = -1
+	"Asmita #0" = -1
+	"Harshapala #0" = 1
+	"Finjo #0" = 1
+	"Prasadhanadevi #0" = -1
+	"Shristi #0" = -1
+	"Nabin #0" = 1
+	"Dattadevi #0" = -1
+	"Palisha #0" = -1
+	"Sunil #0" = 1
+	"Mahendrapala #0" = 1
+	"Sabin #0" = 1
+	"Zainab Tari #0" = -1
+	"Del'shaad #0" = 1
+	"Dank Kush #1" = 24
+	"Ankit #0" = 1
+	"Mihira #0" = 1
+	"Sainyukta #0" = -1
+	"Dhruvasvamini #0" = -1
+	"Shanta #0" = 1
+	"Lakshman #0" = -1
+	"Chukpo #0" = 1
+	"Prabhavati #0" = -1
+	"Kakanvati #0" = -1
+	"Prajun #0" = 1
+	"Golandaam #0" = -1
+	"Manna #0" = -1
+	"Kanwar #0" = -1
+	"Nattadevi #0" = -1
+	"Amita #0" = -1
+	"Sajit #0" = 1
+	"Emiliaa #0" = -1
+	"Hammiravarman #0" = 1
+	"Rajhita #0" = -1
+	"Karmavati #0" = -1
+	"Sang #0" = -1
+	"Tiron #0" = 1
+	"Swornima #0" = -1
+	"Rumen #0" = 1
+	"Nagapala #0" = 1
+	"Samixya #0" = -1
+	"Bibhas #0" = 1
+	"Bhairaja #0" = 1
+	"Dousteyn #0" = 1
+	"Surajpala #0" = 1
+	"Nayapala #0" = 1
+	"Karuna #0" = -1
+	"Reshma #0" = -1
+	"Sofia #0" = -1
+	"Krishnray #0" = 1
+	"Ranjan #0" = 1
+	"Dhruvadevi #0" = -1
+	"Sunita #0" = -1
+	"Kanchuka #0" = -1
+	"Milan #0" = 1
+	"Malkit #0" = 1
+	"Bhoj #0" = 1
+	"Sarita #0" = -1
+	"Manu #1" = 18
+	"Raju #0" = 1
+	"Mahidevi #0" = -1
+	"Udayaditya #0" = 1
+	"Dehanagadevi #0" = -1
+	"Bhojavarman #0" = 1
+	"Kukee #0" = -1
+	"Hashish #0" = 1
+	"Bishal #0" = 1
+	"Mathias #1" = 21
+	"Sebasti #1" = 24
+	"Tisho #0" = 1
+	"Woman #0" = -1
+	"Lodrö #0" = 1
+	"Ivan #0" = 1
+	"Emilia #0" = -1
+	"Germania #0" = -1
+	"Gunggyal #0" = 1
+	"Muné #1" = 24
+	"Woke #0" = -1
+	"Bum #0" = -1
+	"Langdarma #0" = 1
+	"Pälkhortsän #0" = 1
+	"Miasdttte #0" = -1
+	"Life #1" = 24
+	"Has #0" = -1
+	"Mangsham #0" = 1
+	"Magod #1" = 21
+	"Nagzib #0" = -1
+	"BassFaalGood #0" = 1
+	"Baas #0" = 1
+	"Xdia #0" = -1
+	"Kunga #0" = -1
+	"Tshistöng #0" = -1
+	"RNG #0" = -1
+	"Niko #1" = 21
+	"Hariti #0" = -1
+	"Chokey #1" = 18
+	"Amala #0" = -1
+	"Trikar #0" = -1
+	"Drönma #0" = -1
+	"Love #0" = -1
+	"Mathi #1" = 18
+	"Toktokteng #0" = -1
+	"Nigg #0" = 1
+	"Tubten #0" = -1
+	"Tashi #0" = -1
+	"Tsunmotog #0" = -1
+	"Thridang #0" = -1
+	"Togo #0" = -1
+	"Jomo #0" = -1
+	"Koboza #0" = -1
+	"Nyendrak #0" = -1
+	"Gangeya #0" = 1
+	"Vidyadhara #0" = 1
+	"Xd #0" = 1
+	"Manish #0" = 1
+	"Dhanga #0" = 1
+	"Harpal #0" = 1
+	"Akash #0" = 1
+	"Jhetpal #0" = 1
+	"Jayasimha #0" = 1
+	"Baaaaas #0" = 1
+	"Mahipata #0" = 1
+	"Sultanpal #0" = 1
+	"Mama #0" = -1
+	"Alita #0" = -1
+	"Run #0" = 1
+	"Fuck #0" = 1
+	"Mia #0" = -1
+	"Kalyanachandra #0" = 1
+	"Damayanti #0" = -1
+	"Gmt #0" = 1
+	"Lmfao #0" = -1
+	"Jaskarn #0" = 1
+	"Sajita #0" = -1
+	"Samar #0" = 1
+	"Sona #0" = -1
+	"Song #0" = -1
+	"Prabhavatigupta #0" = -1
+	"Hmm #0" = 1
+	"Kalayandevi #0" = -1
+	"Naravarman #0" = 1
+	"Gambhir #0" = 1
+	"Tsamchoe #0" = -1
+	"Varna #0" = -1
+	"Sanjay #0" = 1
+	"Eyrum #0" = -1
+	"Mehmed #0" = 1
+	"Trisong Detsen #1" = 0
+	"Lhawang #1" = 0
+	"Baliraja #1" = 0
+	"Shirisha #1" = -1
+	"Aashish #0" = 0
+	"Ananta #0" = 0
+	"Aramudi #0" = 0
+	"Babu #0" = 0
+	"Bibek #0" = 0
+	"Bikash #0" = 0
+	"Chandra #0" = 0
+	"Gagan #0" = 0
+	"Hem #0" = 0
+	"Kamal #0" = 0
+	"Kiran #0" = 0
+	"Kush #0" = 0
+	"Ngodup #0" = 0
+	"Nikkon #0" = 0
+	"Ram #0" = 0
+	"Sahil #0" = 0
+	"Sudi #0" = 0
+	"Sumit #0" = 0
+	"Suraj #0" = 0
+	"Tenzin #0" = 0
+	"Tiray #0" = 0
+	"Udgam #0" = 0
+	"Vishal #0" = 0
+	"Yash #0" = 0
+}
+

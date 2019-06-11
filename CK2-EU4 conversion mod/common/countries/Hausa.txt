@@ -1,0 +1,184 @@
+# Hausaland
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 179 85 237 }
+
+
+
+
+leader_names = {
+
+	"Kandala" "Shadia" "Magajiya" "Lubabah" "Zahrah" "Dauda" "Gobir" "Bako" "Ado" "Said" 
+	"Soundiata" "Dabo" "Tsamiya" "Uban" "Hussain" "Majan" "Soyaki" "Abu" "Aisha" "Bamari" 
+	"Kambine" "Wati" "Kalabi" "Anaba" "Abasama" "Abdulkareem" "Abdulraham" "Abubakar" "Adam" "Adamu" 
+	"Ahmed" "Ahmedu" "Aliyu" "Aminu" "Amir" "Ashakuka" "Atuma" "Bagunda" "Balarabe" "Barau" 
+	"Barbushe" "Bashar" "Bashir" "Bawa" "Bawo" "Bayajidda" "Bayero" "Bello" "Bilal" "Biram" 
+	"Burema" "Burja" "Cikkoku" "Dadi" "Dakauta" "Dallatu" "Danasabe" "Danjuma" "Danladi" "Danlami" 
+	"Daoud" "Daren" "Daura" "Faisal" "Faizu" "Faruk" "Faruq" "Fuad" "Gaddo" "Gambo" 
+	"Gani" "Gijimasu" "Gowon" "Gugwa" "Habib" "Hadi" "Hafiz" "Hammada" "Hamzah" "Hassan" 
+	"Hussein" "Ibrahim" "Idris" "Imam" "Isa" "Ishaku" "Ishaq" "Ismaila" "Jalil" "Jamal" 
+	"Jatau" "Jibril" "Kabe" "Kado" "Kamil" "Kanajeji" "Kano" "Karbagari" "Kareem" "Katsina" 
+	"Khalifah" "Kisoki" "Korau" "Kukuna" "Kumbari" "Mahdi" "Mahmoud" "Malam" "Mansur" "Muhsin" 
+	"Musa" "Mustafa" "Nabil" "Nafata" "Naguji" "Nasir" "Nawata" "Nazaki" "Nohir" "Nomau" 
+	"Rahid" "Rano" "Rashidi" "Rumfa" "Salim" "Sambo" "Shahada" "Sharef" "Shashere" "Shekarau" 
+	"Sidi" "Suleyman" "Tahir" "Tanimu" "Tanko" "Tsaraki" "Umar" "Umaru" "Usman" "Warisi" 
+	"Yahya" "Yaji" "Yakubu" "Yakufu" "Yamusa" "Yaqub" "Yero" "Yohance" "Yohanna" "Yunfa" 
+	"Yunusa" "Yusa" "Yusuf" "Zaki" "Zaria" }
+monarch_names = {
+	"Kandala #1" = 18
+	"Shadia #1" = -19
+	"Magajiya #0" = -1
+	"Lubabah #0" = -1
+	"Zahrah #1" = -19
+	"Dauda #1" = 0
+	"Gobir #1" = 0
+	"Bako #1" = 0
+	"Ado #3" = 0
+	"Said #1" = 0
+	"Soundiata #1" = 0
+	"Dabo #1" = 0
+	"Tsamiya #2" = 0
+	"Uban #1" = 0
+	"Hussain #1" = 0
+	"Majan #1" = 0
+	"Soyaki #1" = 0
+	"Abu #1" = 0
+	"Aisha #1" = -1
+	"Bamari #1" = 0
+	"Kambine #1" = 0
+	"Wati #1" = 0
+	"Kalabi #1" = 0
+	"Anaba #1" = 0
+	"Abasama #0" = 0
+	"Abdulkareem #0" = 0
+	"Abdulraham #0" = 0
+	"Abubakar #0" = 0
+	"Adam #0" = 0
+	"Adamu #0" = 0
+	"Ahmed #0" = 0
+	"Ahmedu #0" = 0
+	"Aliyu #0" = 0
+	"Aminu #0" = 0
+	"Amir #0" = 0
+	"Ashakuka #0" = 0
+	"Atuma #0" = 0
+	"Bagunda #0" = 0
+	"Balarabe #0" = 0
+	"Barau #0" = 0
+	"Barbushe #0" = 0
+	"Bashar #0" = 0
+	"Bashir #0" = 0
+	"Bawa #0" = 0
+	"Bawo #0" = 0
+	"Bayajidda #0" = 0
+	"Bayero #0" = 0
+	"Bello #0" = 0
+	"Bilal #0" = 0
+	"Biram #0" = 0
+	"Burema #0" = 0
+	"Burja #0" = 0
+	"Cikkoku #0" = 0
+	"Dadi #0" = 0
+	"Dakauta #0" = 0
+	"Dallatu #0" = 0
+	"Danasabe #0" = 0
+	"Danjuma #0" = 0
+	"Danladi #0" = 0
+	"Danlami #0" = 0
+	"Daoud #0" = 0
+	"Daren #0" = 0
+	"Daura #0" = 0
+	"Faisal #0" = 0
+	"Faizu #0" = 0
+	"Faruk #0" = 0
+	"Faruq #0" = 0
+	"Fuad #0" = 0
+	"Gaddo #0" = 0
+	"Gambo #0" = 0
+	"Gani #0" = 0
+	"Gijimasu #0" = 0
+	"Gowon #0" = 0
+	"Gugwa #0" = 0
+	"Habib #0" = 0
+	"Hadi #0" = 0
+	"Hafiz #0" = 0
+	"Hammada #0" = 0
+	"Hamzah #0" = 0
+	"Hassan #0" = 0
+	"Hussein #0" = 0
+	"Ibrahim #0" = 0
+	"Idris #0" = 0
+	"Imam #0" = 0
+	"Isa #0" = 0
+	"Ishaku #0" = 0
+	"Ishaq #0" = 0
+	"Ismaila #0" = 0
+	"Jalil #0" = 0
+	"Jamal #0" = 0
+	"Jatau #0" = 0
+	"Jibril #0" = 0
+	"Kabe #0" = 0
+	"Kado #0" = 0
+	"Kamil #0" = 0
+	"Kanajeji #0" = 0
+	"Kano #0" = 0
+	"Karbagari #0" = 0
+	"Kareem #0" = 0
+	"Katsina #0" = 0
+	"Khalifah #0" = 0
+	"Kisoki #0" = 0
+	"Korau #0" = 0
+	"Kukuna #0" = 0
+	"Kumbari #0" = 0
+	"Mahdi #0" = 0
+	"Mahmoud #0" = 0
+	"Malam #0" = 0
+	"Mansur #0" = 0
+	"Muhsin #0" = 0
+	"Musa #0" = 0
+	"Mustafa #0" = 0
+	"Nabil #0" = 0
+	"Nafata #0" = 0
+	"Naguji #0" = 0
+	"Nasir #0" = 0
+	"Nawata #0" = 0
+	"Nazaki #0" = 0
+	"Nohir #0" = 0
+	"Nomau #0" = 0
+	"Rahid #0" = 0
+	"Rano #0" = 0
+	"Rashidi #0" = 0
+	"Rumfa #0" = 0
+	"Salim #0" = 0
+	"Sambo #0" = 0
+	"Shahada #0" = 0
+	"Sharef #0" = 0
+	"Shashere #0" = 0
+	"Shekarau #0" = 0
+	"Sidi #0" = 0
+	"Suleyman #0" = 0
+	"Tahir #0" = 0
+	"Tanimu #0" = 0
+	"Tanko #0" = 0
+	"Tsaraki #0" = 0
+	"Umar #0" = 0
+	"Umaru #0" = 0
+	"Usman #0" = 0
+	"Warisi #0" = 0
+	"Yahya #0" = 0
+	"Yaji #0" = 0
+	"Yakubu #0" = 0
+	"Yakufu #0" = 0
+	"Yamusa #0" = 0
+	"Yaqub #0" = 0
+	"Yero #0" = 0
+	"Yohance #0" = 0
+	"Yohanna #0" = 0
+	"Yunfa #0" = 0
+	"Yunusa #0" = 0
+	"Yusa #0" = 0
+	"Yusuf #0" = 0
+	"Zaki #0" = 0
+	"Zaria #0" = 0
+}
+

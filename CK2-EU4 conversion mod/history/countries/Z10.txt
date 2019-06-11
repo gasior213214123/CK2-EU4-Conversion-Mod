@@ -1,0 +1,27 @@
+# East Anglia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = anglo_saxon
+religion = catholic
+clear_scripted_personalities = yes
+capital = 1860
+1421.1.13 = {
+	monarch = {
+		name = "Eadberht"
+		birth_date = 1404.7.8
+		dynasty = "Dál Birn"
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+	add_ruler_personality = benevolent_personality
+	add_ruler_personality = kind_hearted_personality
+}
+1444.11.11 = {
+	capital = 1860
+	add_treasury = 224
+	add_prestige = 441
+}

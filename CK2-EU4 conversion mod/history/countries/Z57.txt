@@ -1,0 +1,26 @@
+# Raetia
+government = republic
+add_government_reform = oligarchy_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = italian
+religion = catholic
+clear_scripted_personalities = yes
+capital = 1869
+1443.1.2 = {
+	monarch = {
+		name = "Massimo"
+		birth_date = 1406.1.19
+		dynasty = "Pettiti"
+		adm = 0
+		dip = 1
+		mil = 3
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+}
+1444.11.11 = {
+	capital = 1869
+	add_treasury = 331
+	add_prestige = 5
+}

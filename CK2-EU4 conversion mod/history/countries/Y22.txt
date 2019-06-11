@@ -1,0 +1,28 @@
+# Moesia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 1765
+1400.12.27 = {
+	monarch = {
+		name = "Eupraxia"
+		birth_date = 1386.10.19
+		dynasty = "Belissariotes"
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+	add_ruler_personality = craven_personality
+	add_ruler_personality = fierce_negotiator_personality
+}
+1444.11.11 = {
+	capital = 1765
+	add_treasury = 74
+	add_prestige = 222
+}

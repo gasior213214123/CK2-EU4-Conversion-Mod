@@ -1,0 +1,240 @@
+# Wendish Empire
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 130 20 50 }
+
+
+
+
+leader_names = {
+
+	"Maciej Eclipse" "EcX" "Odon" "Adelajda" "Lucja" "Zofia" "Bezprym" "Przybor" "Krzeslaw" "Stanislaw" 
+	"Anezka" "Gaudenty" "Konstancja" "Dobrawa" "Bogumil" "Ulfo" "Yeldem" "Konrad" "Adriana" "Grzymislawa" 
+	"Przemyslaw" "Dytryk" "Scholastyka" "Wincenty" "Danuta" "Stanislawa" "Agnieszka" "Eufrozyna" "Ipek" "Kinga" 
+	"Anastazja" "Czcibor" "Wit" "Ryksa" "Salomea" "Milosz" "Karol" "Domawuj" "Kunegunda" "Jadwiga" 
+	"Jaroslaw" "Natalija" "Doman" "Wieslaw" "Jolanta" "Jarmila" "Kurt" "Anna SI" "Ola" "Matylda" 
+	"Nas" "Wolislawa" "Gervasius" "Zbyszko" "Stanislava" "Pechna" "Domagna" "Wszemila" "Witosz" "Nixa" 
+	"Babalio" "Goszczon" "Bodacia" "Nawoja" "Rusco" "Sieciech" "Boleslaw" "Jan" "Wislawa" "Eleonor" 
+	"Jugno" "Dobronega" "Adleta" "Vladislav" "Anussa" "Ludmila" "Gertruda" "EcX II" "Henryk" "Wojslawa" 
+	"Wiesio" "Macio" "Annadoruchanca" "Kazimierz" "Smiechna" "Borzyslaw" "Dobieslaw" "Samboja" "Milena" "Elzbieta" 
+	"Trojden" "Mszczuj" "Borzywoj" "Kenna" "Helena" "Leszek" "Zbigniew" "Nadzieja" "Mieszko" "Strasz" 
+	"Aldona" "Boriwoj" "Sobieslav" "Radogej" "Rycheza" "Usciech" "Gniewosz" "Lambert" "Katarzyna" "Siemowit" 
+	"Szczesny" "Þora" "Viola" "Ctibor" "Stefana" "Dalimir" "Karel" "Swietoslawa" "Boncza" "Zegota" 
+	"Zelibrat" "Branislava" "Izbor" "Alzek" "Yildiz" "Svatava" "Bozena" "Snowid" "Eufemia" "Wlodzimierz" 
+	"Andela" "Zwinislawa" "Dobravy" "Dobrogost" "Malgorzata" "Izabela" "Wszebor" "Ljudevit" "Skarbimir" "Gawel" 
+	"Casimir" "Drosuk" "Wizlaw" "Prendota" "Radoslav" "Mscislaw" "Aleksander" "Andrzej" "Bartosz" "Boguchwal" 
+	"Bozydar" "Budziwuj" "Czyrzniech" "Dobromir" "Eustachy" "Gierolt" "Gniewomir" "Gosciwuj" "Imram" "Józef" 
+	"Jacek" "Jaksa" "Jakub" "Jakusz" "Janislaw" "Janko" "Janusz" "Jerzy" "Krystyn" "Maciej" 
+	"Macko" "Malowuj" "Marcin" "Maslaw" "Mateusz" "Mikolaj" "Milobrat" "Miroslaw" "Msciwoj" "Nadbor" 
+	"Niezamysl" "Pawel" "Pelka" "Piotr" "Piskla" "Sambor" "Sedziej" "Sedzimir" "Siemomysl" "Spytko" 
+	"Stefan" "Stoigniew" "Sulislaw" "Sulistryj" "Swietopelk" "Swietoslaw" "Tomasz" "Twardomir" "Waclaw" "Wanko" 
+	"Wawrzyniec" "Wielislaw" "Wladyslaw" "Wojciech" "Wojuta" "Zygmunt" }
+monarch_names = {
+	"Maciej Eclipse #0" = 1
+	"EcX #0" = 1
+	"Odon #0" = 1
+	"Adelajda #0" = -1
+	"Lucja #0" = -1
+	"Zofia #0" = -1
+	"Bezprym #0" = 1
+	"Przybor #2" = 30
+	"Krzeslaw #0" = 1
+	"Stanislaw #0" = 1
+	"Anezka #0" = -1
+	"Gaudenty #0" = 1
+	"Konstancja #0" = -1
+	"Dobrawa #0" = -1
+	"Bogumil #0" = 1
+	"Ulfo #0" = 1
+	"Yeldem #0" = -1
+	"Konrad #0" = 1
+	"Adriana #0" = -1
+	"Grzymislawa #0" = -1
+	"Przemyslaw #0" = 1
+	"Dytryk #0" = 1
+	"Scholastyka #0" = -1
+	"Wincenty #0" = 1
+	"Danuta #0" = -1
+	"Stanislawa #0" = -1
+	"Agnieszka #0" = -1
+	"Eufrozyna #0" = -1
+	"Ipek #0" = -1
+	"Kinga #0" = -1
+	"Anastazja #0" = -1
+	"Czcibor #0" = 1
+	"Wit #0" = 1
+	"Ryksa #0" = -1
+	"Salomea #0" = -1
+	"Milosz #3" = 21
+	"Karol #0" = 1
+	"Domawuj #0" = 1
+	"Kunegunda #0" = -1
+	"Jadwiga #0" = -1
+	"Jaroslaw #0" = 1
+	"Natalija #0" = -1
+	"Doman #0" = 1
+	"Wieslaw #0" = 1
+	"Jolanta #0" = -1
+	"Jarmila #0" = -1
+	"Kurt #0" = 1
+	"Anna SI #0" = -1
+	"Ola #0" = -1
+	"Matylda #0" = -1
+	"Nas #0" = -1
+	"Wolislawa #0" = -1
+	"Gervasius #0" = 1
+	"Zbyszko #0" = 1
+	"Stanislava #0" = -1
+	"Pechna #0" = -1
+	"Domagna #0" = 1
+	"Wszemila #0" = -1
+	"Witosz #0" = 1
+	"Nixa #0" = -1
+	"Babalio #0" = -1
+	"Goszczon #0" = 1
+	"Bodacia #0" = -1
+	"Nawoja #0" = -1
+	"Rusco #0" = 1
+	"Sieciech #0" = 1
+	"Boleslaw #0" = 1
+	"Jan #0" = 1
+	"Wislawa #0" = -1
+	"Eleonor #0" = 1
+	"Jugno #0" = 1
+	"Dobronega #0" = -1
+	"Adleta #0" = -1
+	"Vladislav #0" = 1
+	"Anussa #0" = -1
+	"Ludmila #0" = -1
+	"Gertruda #0" = -1
+	"EcX II #0" = 1
+	"Henryk #0" = 1
+	"Wojslawa #0" = -1
+	"Wiesio #0" = 1
+	"Macio #0" = 1
+	"Annadoruchanca #0" = -1
+	"Kazimierz #0" = 1
+	"Smiechna #0" = -1
+	"Borzyslaw #0" = 1
+	"Dobieslaw #0" = 1
+	"Samboja #0" = -1
+	"Milena #0" = -1
+	"Elzbieta #0" = -1
+	"Trojden #0" = 1
+	"Mszczuj #0" = 1
+	"Borzywoj #0" = 1
+	"Kenna #0" = -1
+	"Helena #0" = -1
+	"Leszek #0" = 1
+	"Zbigniew #0" = 1
+	"Nadzieja #0" = -1
+	"Mieszko #0" = 1
+	"Strasz #0" = 1
+	"Aldona #0" = -1
+	"Boriwoj #0" = 1
+	"Sobieslav #1" = 18
+	"Radogej #0" = 1
+	"Rycheza #0" = -1
+	"Usciech #0" = 1
+	"Gniewosz #0" = 1
+	"Lambert #0" = 1
+	"Katarzyna #0" = -1
+	"Siemowit #0" = 1
+	"Szczesny #0" = 1
+	"Þora #0" = -1
+	"Viola #0" = -1
+	"Ctibor #0" = 1
+	"Stefana #0" = -1
+	"Dalimir #0" = 1
+	"Karel #0" = 1
+	"Swietoslawa #0" = -1
+	"Boncza #0" = 1
+	"Zegota #0" = 1
+	"Zelibrat #0" = 1
+	"Branislava #0" = -1
+	"Izbor #0" = 1
+	"Alzek #0" = 1
+	"Yildiz #0" = -1
+	"Svatava #0" = -1
+	"Bozena #0" = -1
+	"Snowid #0" = 1
+	"Eufemia #0" = -1
+	"Wlodzimierz #0" = 1
+	"Andela #0" = -1
+	"Zwinislawa #0" = -1
+	"Dobravy #0" = -1
+	"Dobrogost #0" = 1
+	"Malgorzata #0" = -1
+	"Izabela #0" = -1
+	"Wszebor #1" = 18
+	"Ljudevit #0" = 1
+	"Skarbimir #0" = 1
+	"Gawel #0" = 1
+	"Casimir #1" = 0
+	"Drosuk #3" = 0
+	"Wizlaw #1" = 0
+	"Prendota #1" = 0
+	"Radoslav #1" = 0
+	"Mscislaw #1" = 0
+	"Aleksander #0" = 0
+	"Andrzej #0" = 0
+	"Bartosz #0" = 0
+	"Boguchwal #0" = 0
+	"Bozydar #0" = 0
+	"Budziwuj #0" = 0
+	"Czyrzniech #0" = 0
+	"Dobromir #0" = 0
+	"Eustachy #0" = 0
+	"Gierolt #0" = 0
+	"Gniewomir #0" = 0
+	"Gosciwuj #0" = 0
+	"Imram #0" = 0
+	"Józef #0" = 0
+	"Jacek #0" = 0
+	"Jaksa #0" = 0
+	"Jakub #0" = 0
+	"Jakusz #0" = 0
+	"Janislaw #0" = 0
+	"Janko #0" = 0
+	"Janusz #0" = 0
+	"Jerzy #0" = 0
+	"Krystyn #0" = 0
+	"Maciej #0" = 0
+	"Macko #0" = 0
+	"Malowuj #0" = 0
+	"Marcin #0" = 0
+	"Maslaw #0" = 0
+	"Mateusz #0" = 0
+	"Mikolaj #0" = 0
+	"Milobrat #0" = 0
+	"Miroslaw #0" = 0
+	"Msciwoj #0" = 0
+	"Nadbor #0" = 0
+	"Niezamysl #0" = 0
+	"Pawel #0" = 0
+	"Pelka #0" = 0
+	"Piotr #0" = 0
+	"Piskla #0" = 0
+	"Sambor #0" = 0
+	"Sedziej #0" = 0
+	"Sedzimir #0" = 0
+	"Siemomysl #0" = 0
+	"Spytko #0" = 0
+	"Stefan #0" = 0
+	"Stoigniew #0" = 0
+	"Sulislaw #0" = 0
+	"Sulistryj #0" = 0
+	"Swietopelk #0" = 0
+	"Swietoslaw #0" = 0
+	"Tomasz #0" = 0
+	"Twardomir #0" = 0
+	"Waclaw #0" = 0
+	"Wanko #0" = 0
+	"Wawrzyniec #0" = 0
+	"Wielislaw #0" = 0
+	"Wladyslaw #0" = 0
+	"Wojciech #0" = 0
+	"Wojuta #0" = 0
+	"Zygmunt #0" = 0
+}
+

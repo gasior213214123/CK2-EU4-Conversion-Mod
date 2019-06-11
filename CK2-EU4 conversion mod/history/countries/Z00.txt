@@ -1,0 +1,26 @@
+# Wendish Empire
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = polish
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 282
+1441.10.1 = {
+	monarch = {
+		name = "Przybor II"
+		birth_date = 1439.1.21
+		dynasty = "Wawel"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = bold_fighter_personality
+}
+1444.11.11 = {
+	capital = 282
+	add_treasury = -1
+	add_prestige = 207
+}

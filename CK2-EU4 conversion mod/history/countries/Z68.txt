@@ -1,0 +1,26 @@
+# Sulamid
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = berber
+religion = manichean
+clear_scripted_personalities = yes
+capital = 2472
+1435.12.6 = {
+	monarch = {
+		name = "Ramadan"
+		birth_date = 1406.3.22
+		dynasty = "Sulamid"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality = strict_personality
+}
+1444.11.11 = {
+	capital = 2472
+	add_treasury = 108
+	add_prestige = 85
+}

@@ -1,0 +1,10 @@
+israelite = {
+	ashkenazi = {
+		primary = ISR
+		dynasty_names = { "Ben Reuben" "of Fuheis" "of Hildesheim" }
+	}
+	sephardi = {
+		primary = ISR
+		dynasty_names = { }
+	}
+}

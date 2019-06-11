@@ -1,0 +1,27 @@
+# Semien
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = east_african
+primary_culture = amhara
+religion = coptic
+clear_scripted_personalities = yes
+capital = 1227
+1430.11.7 = {
+	monarch = {
+		name = "Semere"
+		birth_date = 1412.2.19
+		dynasty = "Afeworkid"
+		adm = 2
+		dip = 6
+		mil = 2
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = well_connected_personality
+}
+1444.11.11 = {
+	capital = 1227
+	add_treasury = 19
+	add_prestige = 135
+}

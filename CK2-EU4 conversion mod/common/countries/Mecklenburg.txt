@@ -1,0 +1,251 @@
+# Mecklenburg
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 55 140 143 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	spy_ideas
+	innovativeness_ideas
+	quantity_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	prussian_frederickian
+	prussian_uhlan
+	prussian_drill
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Owain" "Non" "Gwenasedd" "Cyngen" "Sioned" "Eleri" "Hywela" "Ystradwel" "Dynod" "Mair" 
+	"Delyth" "Lleuca" "Cynfelyn" "Ceindrych" "Argad" "Margred" "Algwyn" "Emrys" "Sibyl" "Elud" 
+	"Glywys" "Mallt" "Brochfael" "Brychan" "Cynlas" "Seiriol" "Meirion" "Einion" "Maig" "Cadwal" 
+	"Idgwyn" "Rhufon" "Hywel" "Meirchion" "Caradog" "Rhiannon" "Glynys" "Fflur" "Arddyn" "Elen" 
+	"Denis" "Dwywai" "Anowed" "Gwenwyn" "Llecci" "Llear" "Custennin" "Tegla" "Ellyn" "Dywel" 
+	"Clarisant" "Dwynwen" "Ceridwen" "Tewdwr" "Hunydd" "Ewyas" "Cynddylan" "Gwenllian" "Afrella" "Efa" 
+	"Arthwys" "Blodwen" "Margrud" "Heledd" "Madog" "Aeronwy" "Siân" "Ffraid" "Meilyr" "Mawd" 
+	"Rhiwallon" "Catrin" "Nynniaw" "Math" "Olwen" "Ysbail" "Boriwoj" "Milyduch" "Bohumir" "Bretislav" 
+	"Msciwoj" "Ctibor" "Zdenek" "Bohdan" "Radomil" "Swietoslaw" "Wincenty" "Radoslav" "Zygmunt" "Wlodek" 
+	"Aleksander" "Andrzej" "Antoni" "Aron" "Barnim" "Bartosz" "Bedrich" "Bezprzym" "Blazej" "Bogislaw" 
+	"Boleslaw" "Bozydar" "Branimir" "Branislav" "Casimir" "Dobieslaw" "Dobromil" "Drosuk" "Dytryk" "Frantisek" 
+	"Gawel" "Grzegorz" "Havel" "Jacenty" "Jakub" "Jakusz" "Janusz" "Jaromar" "Jaromil" "Jaromir" 
+	"Jaroslav" "Jedrzej" "Jindrich" "Jirí" "Jozef" "Juliusz" "Kajetan" "Kamil" "Karel" "Kasper" 
+	"Kazimierz" "Kliment" "Kolman" "Kornel" "Kresimir" "Krzeslaw" "Krzysztof" "Lech" "Leszek" "Lubomir" 
+	"Lucjan" "Ludvik" "Marek" "Marian" "Martin" "Mateusz" "Mieszko" "Mikolás" "Miloslaw" "Milosz" 
+	"Miroslaw" "Mscislaw" "Oldrich" "Ondrej" "Otokar" "Patryk" "Pawel" "Piotr" "Prendota" "Przemysl" 
+	"Przybyslaw" "Radomir" "Rostislav" "Ryszard" "Sambor" "Sobieslav" "Stanislaw" "Strasz" "Swietopelk" "Szczepan" 
+	"Szczesny" "Szymon" "Tadeusz" "Tomasz" "Udalrich" "Urjasz" "Vojtech" "Waclaw" "Walenty" "Wratislaw" 
+	"Wawrzyniec" "Wenceslaw" "Wizlaw" "Wladyslaw" "Wlodzimierz" "Wlodzislaw" "Zbigniew" "Zdislav" }
+monarch_names = {
+	"Owain #0" = 1
+	"Non #0" = -1
+	"Gwenasedd #0" = -1
+	"Cyngen #0" = 1
+	"Sioned #0" = -1
+	"Eleri #0" = -1
+	"Hywela #0" = -1
+	"Ystradwel #0" = -1
+	"Dynod #0" = 1
+	"Mair #0" = -1
+	"Delyth #0" = -1
+	"Lleuca #0" = -1
+	"Cynfelyn #0" = 1
+	"Ceindrych #0" = -1
+	"Argad #0" = 1
+	"Margred #0" = -1
+	"Algwyn #0" = 1
+	"Emrys #0" = 1
+	"Sibyl #0" = -1
+	"Elud #1" = 18
+	"Glywys #0" = 1
+	"Mallt #0" = -1
+	"Brochfael #0" = 1
+	"Brychan #0" = 1
+	"Cynlas #0" = 1
+	"Seiriol #0" = 1
+	"Meirion #0" = 1
+	"Einion #0" = 1
+	"Maig #0" = 1
+	"Cadwal #0" = 1
+	"Idgwyn #0" = 1
+	"Rhufon #0" = 1
+	"Hywel #0" = 1
+	"Meirchion #0" = 1
+	"Caradog #0" = 1
+	"Rhiannon #0" = -1
+	"Glynys #0" = -1
+	"Fflur #0" = -1
+	"Arddyn #0" = -1
+	"Elen #0" = -1
+	"Denis #0" = -1
+	"Dwywai #0" = -1
+	"Anowed #0" = -1
+	"Gwenwyn #0" = -1
+	"Llecci #0" = -1
+	"Llear #0" = -1
+	"Custennin #0" = 1
+	"Tegla #0" = -1
+	"Ellyn #0" = -1
+	"Dywel #0" = 1
+	"Clarisant #0" = -1
+	"Dwynwen #0" = -1
+	"Ceridwen #0" = -1
+	"Tewdwr #0" = 1
+	"Hunydd #0" = -1
+	"Ewyas #0" = 1
+	"Cynddylan #0" = 1
+	"Gwenllian #0" = -1
+	"Afrella #0" = -1
+	"Efa #0" = -1
+	"Arthwys #0" = 1
+	"Blodwen #0" = -1
+	"Margrud #0" = -1
+	"Heledd #0" = -1
+	"Madog #0" = 1
+	"Aeronwy #0" = -1
+	"Siân #0" = -1
+	"Ffraid #0" = -1
+	"Meilyr #0" = 1
+	"Mawd #0" = -1
+	"Rhiwallon #0" = 1
+	"Catrin #0" = -1
+	"Nynniaw #0" = 1
+	"Math #0" = 1
+	"Olwen #0" = -1
+	"Ysbail #0" = -1
+	"Boriwoj #1" = 0
+	"Milyduch #2" = 0
+	"Bohumir #2" = 0
+	"Bretislav #2" = 0
+	"Msciwoj #1" = 0
+	"Ctibor #1" = 0
+	"Zdenek #2" = 0
+	"Bohdan #2" = 0
+	"Radomil #2" = 0
+	"Swietoslaw #1" = 0
+	"Wincenty #1" = 0
+	"Radoslav #3" = 0
+	"Zygmunt #1" = 0
+	"Wlodek #1" = 0
+	"Aleksander #0" = 0
+	"Andrzej #0" = 0
+	"Antoni #0" = 0
+	"Aron #0" = 0
+	"Barnim #0" = 0
+	"Bartosz #0" = 0
+	"Bedrich #0" = 0
+	"Bezprzym #0" = 0
+	"Blazej #0" = 0
+	"Bogislaw #0" = 0
+	"Boleslaw #0" = 0
+	"Bozydar #0" = 0
+	"Branimir #0" = 0
+	"Branislav #0" = 0
+	"Casimir #0" = 0
+	"Dobieslaw #0" = 0
+	"Dobromil #0" = 0
+	"Drosuk #0" = 0
+	"Dytryk #0" = 0
+	"Frantisek #0" = 0
+	"Gawel #0" = 0
+	"Grzegorz #0" = 0
+	"Havel #0" = 0
+	"Jacenty #0" = 0
+	"Jakub #0" = 0
+	"Jakusz #0" = 0
+	"Janusz #0" = 0
+	"Jaromar #0" = 0
+	"Jaromil #0" = 0
+	"Jaromir #0" = 0
+	"Jaroslav #0" = 0
+	"Jedrzej #0" = 0
+	"Jindrich #0" = 0
+	"Jirí #0" = 0
+	"Jozef #0" = 0
+	"Juliusz #0" = 0
+	"Kajetan #0" = 0
+	"Kamil #0" = 0
+	"Karel #0" = 0
+	"Kasper #0" = 0
+	"Kazimierz #0" = 0
+	"Kliment #0" = 0
+	"Kolman #0" = 0
+	"Kornel #0" = 0
+	"Kresimir #0" = 0
+	"Krzeslaw #0" = 0
+	"Krzysztof #0" = 0
+	"Lech #0" = 0
+	"Leszek #0" = 0
+	"Lubomir #0" = 0
+	"Lucjan #0" = 0
+	"Ludvik #0" = 0
+	"Marek #0" = 0
+	"Marian #0" = 0
+	"Martin #0" = 0
+	"Mateusz #0" = 0
+	"Mieszko #0" = 0
+	"Mikolás #0" = 0
+	"Miloslaw #0" = 0
+	"Milosz #0" = 0
+	"Miroslaw #0" = 0
+	"Mscislaw #0" = 0
+	"Oldrich #0" = 0
+	"Ondrej #0" = 0
+	"Otokar #0" = 0
+	"Patryk #0" = 0
+	"Pawel #0" = 0
+	"Piotr #0" = 0
+	"Prendota #0" = 0
+	"Przemysl #0" = 0
+	"Przybyslaw #0" = 0
+	"Radomir #0" = 0
+	"Rostislav #0" = 0
+	"Ryszard #0" = 0
+	"Sambor #0" = 0
+	"Sobieslav #0" = 0
+	"Stanislaw #0" = 0
+	"Strasz #0" = 0
+	"Swietopelk #0" = 0
+	"Szczepan #0" = 0
+	"Szczesny #0" = 0
+	"Szymon #0" = 0
+	"Tadeusz #0" = 0
+	"Tomasz #0" = 0
+	"Udalrich #0" = 0
+	"Urjasz #0" = 0
+	"Vojtech #0" = 0
+	"Waclaw #0" = 0
+	"Walenty #0" = 0
+	"Wratislaw #0" = 0
+	"Wawrzyniec #0" = 0
+	"Wenceslaw #0" = 0
+	"Wizlaw #0" = 0
+	"Wladyslaw #0" = 0
+	"Wlodzimierz #0" = 0
+	"Wlodzislaw #0" = 0
+	"Zbigniew #0" = 0
+	"Zdislav #0" = 0
+}
+ship_names = {
+	Pommern "Herzog Kasimir" "Herzog Bogislaw"
+	"Stettin Herzog Barnim" Wismar Rostock
+	Stralsund Greifswald Demmin Anklam "Herzog Otto"
+}
+

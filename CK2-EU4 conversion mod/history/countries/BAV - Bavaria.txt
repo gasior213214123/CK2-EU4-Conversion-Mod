@@ -1,0 +1,27 @@
+# Bavaria
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = italian
+religion = catholic
+clear_scripted_personalities = yes
+capital = 65
+1405.12.7 = {
+	monarch = {
+		name = "Carlo"
+		birth_date = 1384.8.7
+		dynasty = "Unruochinger"
+		adm = 3
+		dip = 0
+		mil = 6
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = tactical_genius_personality
+}
+1444.11.11 = {
+	capital = 65
+	add_treasury = 2
+	add_prestige = 317
+}

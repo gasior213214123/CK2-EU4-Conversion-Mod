@@ -1,0 +1,26 @@
+# Anatolia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 323
+1437.6.17 = {
+	monarch = {
+		name = "Pelagios"
+		birth_date = 1418.1.5
+		dynasty = "Sicalia"
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+	add_ruler_personality = tactical_genius_personality
+}
+1444.11.11 = {
+	capital = 323
+	add_treasury = 90
+	add_prestige = 400
+}

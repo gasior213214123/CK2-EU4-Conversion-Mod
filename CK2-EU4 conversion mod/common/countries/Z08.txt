@@ -1,0 +1,258 @@
+# Oppland
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 100 125 220 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	#New Ideas
+	innovativeness_ideas
+	naval_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	dutch_maurician
+	swedish_gallop
+	swedish_gustavian
+	swedish_caroline
+	swedish_arme_blanche
+	prussian_frederickian
+	prussian_uhlan
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Gelder" "Dag" "Magnus" "Alfrið" "Ingibjörg" "Malmfrið" "Sverker" "Ingjald" "Beata" "Jedvard" 
+	"Helena" "Inga" "Gerðr" "Homlaug" "Hakon" "Hadwis" "Halfdan" "Elisabet" "Maria" "Adalbero" 
+	"Diedke" "Helene" "Oda" "Hoger" "Hildegard" "Luder" "Bia" "Albrecht" "Geilana" "Arnold" 
+	"Waldemar" "Theodrada" "Eilif" "Theodoric" "Alvör" "Addila" "Engelhard" "Hasala" "Lembert" "Detleff" 
+	"Wecta" "Dietrich" "Rudolf" "Asig" "Adalgod" "Frederuna" "Widukind" "Erp" "Eilika" "Enda" 
+	"Banzleib" "Athela" "Vigdis" "Freyja" "Mathilde" "Norbert" "Kolbjörn" "Liawizo" "Klementia" "Mechthild" 
+	"Margareta" "Dietpold" "Gyrið" "Hemming" "Sigrid" "Guðfrið" "Sofia" "Fredrik" "Ingjerðr" "Nils" 
+	"Hafrid" "Hjalmar" "Klas" "Gyða" "Sigurðr" "Theoderic" "Harthgate" "Brun" "Herberd" "Faste" 
+	"Galam" "Drest" "Abrella" "Ale" "Alfr" "Alfgeir" "Anders" "Anlaufr" "Anundr" "Arnbjörn" 
+	"Arngrimr" "Arni" "Arnfast" "Baldr" "Barid" "Bengt" "Bersi" "Bertil" "Birger" "Björn" 
+	"Bo" "Borkvard" "Botulfr" "Bragi" "Buðli" "Dan" "Dyre" "Egill" "Einarr" "Eirikr" 
+	"Eskild" "Falki" "Filip" "Frirek" "Froði" "Freyr" "Folki" "Gandalfr" "Geirr" "Georg" 
+	"Greger" "Grimr" "Guðmundr" "Guðröðr" "Gunnarr" "Halsten" "Haraldr" "Haukr" "Helgi" "Holmger" 
+	"Hrafn" "Hrolfr" "Hrane" "Hæsteinn" "Hroðgar" "Hroðulfr" "Hrörekr" "Hysing" "Ingólfr" "Ingemar" 
+	"Ivar" "Jon" "Karl" "Kettil" "Kettilmund" "Kjartan" "Knut" "Kol" "Markus" "Magni" 
+	"Mats" "Niklas" "Oddr" "Ofeig" "Olafr" "Ormr" "Ottarr" "Refr" "Refil" "Ragnarr" 
+	"Rögnvaldr" "Skuli" "Snorri" "Sigtrygg" "Starkaðr" "Steinn" "Sturla" "Sumarliði" "Suni" "Sveinn" 
+	"Sæmundr" "Sölvi" "Þorbjörn" "Þorfinn" "Þorbrandr" "Þordr" "Þorgil" "Þorsteinn" "Þorolfr" "Totil" 
+	"Tryggve" "Ulfr" "Vagn" "Valdemar" "Åke" "Yngvar" "Örvar" "Öysteinn" }
+monarch_names = {
+	"Gelder #0" = 1
+	"Dag #0" = 1
+	"Magnus #0" = 1
+	"Alfrið #0" = -1
+	"Ingibjörg #0" = -1
+	"Malmfrið #0" = -1
+	"Sverker #0" = 1
+	"Ingjald #0" = 1
+	"Beata #0" = -1
+	"Jedvard #0" = 1
+	"Helena #0" = -1
+	"Inga #0" = -1
+	"Gerðr #0" = -1
+	"Homlaug #0" = -1
+	"Hakon #1" = 18
+	"Hadwis #0" = -1
+	"Halfdan #1" = 21
+	"Elisabet #0" = -1
+	"Maria #0" = -1
+	"Adalbero #0" = 1
+	"Diedke #0" = -1
+	"Helene #0" = -1
+	"Oda #0" = -1
+	"Hoger #0" = 1
+	"Hildegard #0" = -1
+	"Luder #0" = 1
+	"Bia #0" = -1
+	"Albrecht #0" = 1
+	"Geilana #0" = -1
+	"Arnold #0" = 1
+	"Waldemar #0" = 1
+	"Theodrada #0" = -1
+	"Eilif #0" = 1
+	"Theodoric #0" = 1
+	"Alvör #0" = -1
+	"Addila #0" = -1
+	"Engelhard #0" = 1
+	"Hasala #0" = -1
+	"Lembert #0" = 1
+	"Detleff #0" = 1
+	"Wecta #0" = 1
+	"Dietrich #0" = 1
+	"Rudolf #0" = 1
+	"Asig #2" = 24
+	"Adalgod #0" = 1
+	"Frederuna #0" = -1
+	"Widukind #0" = 1
+	"Erp #1" = 18
+	"Eilika #0" = -1
+	"Enda #0" = -1
+	"Banzleib #1" = 18
+	"Athela #0" = -1
+	"Vigdis #0" = -1
+	"Freyja #0" = -1
+	"Mathilde #0" = -1
+	"Norbert #0" = 1
+	"Kolbjörn #1" = 21
+	"Liawizo #0" = 1
+	"Klementia #0" = -1
+	"Mechthild #0" = -1
+	"Margareta #0" = -1
+	"Dietpold #0" = 1
+	"Gyrið #0" = -1
+	"Hemming #1" = 18
+	"Sigrid #0" = -1
+	"Guðfrið #0" = 1
+	"Sofia #0" = -1
+	"Fredrik #0" = 1
+	"Ingjerðr #0" = -1
+	"Nils #1" = 0
+	"Hafrid #1" = -1
+	"Hjalmar #1" = 0
+	"Klas #1" = 0
+	"Gyða #1" = -1
+	"Sigurðr #1" = 0
+	"Theoderic #1" = 0
+	"Harthgate #1" = 0
+	"Brun #1" = 0
+	"Herberd #1" = 0
+	"Faste #2" = 0
+	"Galam #2" = 0
+	"Drest #1" = 0
+	"Abrella #1" = -1
+	"Ale #0" = 0
+	"Alfr #0" = 0
+	"Alfgeir #0" = 0
+	"Anders #0" = 0
+	"Anlaufr #0" = 0
+	"Anundr #0" = 0
+	"Arnbjörn #0" = 0
+	"Arngrimr #0" = 0
+	"Arni #0" = 0
+	"Arnfast #0" = 0
+	"Baldr #0" = 0
+	"Barid #0" = 0
+	"Bengt #0" = 0
+	"Bersi #0" = 0
+	"Bertil #0" = 0
+	"Birger #0" = 0
+	"Björn #0" = 0
+	"Bo #0" = 0
+	"Borkvard #0" = 0
+	"Botulfr #0" = 0
+	"Bragi #0" = 0
+	"Buðli #0" = 0
+	"Dan #0" = 0
+	"Dyre #0" = 0
+	"Egill #0" = 0
+	"Einarr #0" = 0
+	"Eirikr #0" = 0
+	"Eskild #0" = 0
+	"Falki #0" = 0
+	"Filip #0" = 0
+	"Frirek #0" = 0
+	"Froði #0" = 0
+	"Freyr #0" = 0
+	"Folki #0" = 0
+	"Gandalfr #0" = 0
+	"Geirr #0" = 0
+	"Georg #0" = 0
+	"Greger #0" = 0
+	"Grimr #0" = 0
+	"Guðmundr #0" = 0
+	"Guðröðr #0" = 0
+	"Gunnarr #0" = 0
+	"Halsten #0" = 0
+	"Haraldr #0" = 0
+	"Haukr #0" = 0
+	"Helgi #0" = 0
+	"Holmger #0" = 0
+	"Hrafn #0" = 0
+	"Hrolfr #0" = 0
+	"Hrane #0" = 0
+	"Hæsteinn #0" = 0
+	"Hroðgar #0" = 0
+	"Hroðulfr #0" = 0
+	"Hrörekr #0" = 0
+	"Hysing #0" = 0
+	"Ingólfr #0" = 0
+	"Ingemar #0" = 0
+	"Ivar #0" = 0
+	"Jon #0" = 0
+	"Karl #0" = 0
+	"Kettil #0" = 0
+	"Kettilmund #0" = 0
+	"Kjartan #0" = 0
+	"Knut #0" = 0
+	"Kol #0" = 0
+	"Markus #0" = 0
+	"Magni #0" = 0
+	"Mats #0" = 0
+	"Niklas #0" = 0
+	"Oddr #0" = 0
+	"Ofeig #0" = 0
+	"Olafr #0" = 0
+	"Ormr #0" = 0
+	"Ottarr #0" = 0
+	"Refr #0" = 0
+	"Refil #0" = 0
+	"Ragnarr #0" = 0
+	"Rögnvaldr #0" = 0
+	"Skuli #0" = 0
+	"Snorri #0" = 0
+	"Sigtrygg #0" = 0
+	"Starkaðr #0" = 0
+	"Steinn #0" = 0
+	"Sturla #0" = 0
+	"Sumarliði #0" = 0
+	"Suni #0" = 0
+	"Sveinn #0" = 0
+	"Sæmundr #0" = 0
+	"Sölvi #0" = 0
+	"Þorbjörn #0" = 0
+	"Þorfinn #0" = 0
+	"Þorbrandr #0" = 0
+	"Þordr #0" = 0
+	"Þorgil #0" = 0
+	"Þorsteinn #0" = 0
+	"Þorolfr #0" = 0
+	"Totil #0" = 0
+	"Tryggve #0" = 0
+	"Ulfr #0" = 0
+	"Vagn #0" = 0
+	"Valdemar #0" = 0
+	"Åke #0" = 0
+	"Yngvar #0" = 0
+	"Örvar #0" = 0
+	"Öysteinn #0" = 0
+}
+ship_names = {
+	Ålvik
+	Bergen
+	Engan
+	Kristiansund
+	Molde
+	Oslo
+	Roan
+	Stavanger Sula
+	Trondheim
+}
+

@@ -1,0 +1,79 @@
+# Kanem
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 80 195 205 }
+
+
+
+
+leader_names = {
+
+	"Tamirat" "Misrak" "Wagaye" "Louama" "Tesfaye" "Geteye" "Dugu" "Abubakar" "Kanemi" "Mahmoud" 
+	"Tugule" "Gajideni" "Mamane" "Osman" "Shartay" "Ingir" "Kuti" "Igmi" "Galussa" "Anaba" 
+	"Abakar" "Abba" "Abdulraham" "Adam" "Ahmed" "At-Tayeb" "Brahim" "Daoud" "Deli" "Dolo" 
+	"Gilding" "Goukouni" "Hishi" "Ibrahim" "Idris" "Issa" "Kasu" "Kosu" "Ku" "Minni" 
+	"Musa" "Oki" "Okiramaj" "Omer" "Siddick" "Sora" "Suleyman" "Tijani" "Timan" "Toholjo" 
+	"Tor" "Torfu" "Udure" "Yahya" "Yaqub" "Yusuf" }
+monarch_names = {
+	"Tamirat #1" = 18
+	"Misrak #0" = -1
+	"Wagaye #0" = -1
+	"Louama #0" = -1
+	"Tesfaye #0" = 1
+	"Geteye #1" = 18
+	"Dugu #1" = 0
+	"Abubakar #3" = 0
+	"Kanemi #1" = 0
+	"Mahmoud #2" = 0
+	"Tugule #1" = 0
+	"Gajideni #1" = 0
+	"Mamane #1" = 0
+	"Osman #1" = 0
+	"Shartay #1" = 0
+	"Ingir #1" = 0
+	"Kuti #1" = 0
+	"Igmi #1" = 0
+	"Galussa #1" = 0
+	"Anaba #2" = 0
+	"Abakar #0" = 0
+	"Abba #0" = 0
+	"Abdulraham #0" = 0
+	"Adam #0" = 0
+	"Ahmed #0" = 0
+	"At-Tayeb #0" = 0
+	"Brahim #0" = 0
+	"Daoud #0" = 0
+	"Deli #0" = 0
+	"Dolo #0" = 0
+	"Gilding #0" = 0
+	"Goukouni #0" = 0
+	"Hishi #0" = 0
+	"Ibrahim #0" = 0
+	"Idris #0" = 0
+	"Issa #0" = 0
+	"Kasu #0" = 0
+	"Kosu #0" = 0
+	"Ku #0" = 0
+	"Minni #0" = 0
+	"Musa #0" = 0
+	"Oki #0" = 0
+	"Okiramaj #0" = 0
+	"Omer #0" = 0
+	"Siddick #0" = 0
+	"Sora #0" = 0
+	"Suleyman #0" = 0
+	"Tijani #0" = 0
+	"Timan #0" = 0
+	"Toholjo #0" = 0
+	"Tor #0" = 0
+	"Torfu #0" = 0
+	"Udure #0" = 0
+	"Yahya #0" = 0
+	"Yaqub #0" = 0
+	"Yusuf #0" = 0
+
+
+	"Falashina #0" = -1
+	"Hagos #0" = -1
+}
+

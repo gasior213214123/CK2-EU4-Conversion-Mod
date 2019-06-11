@@ -1,0 +1,28 @@
+# Cibyrrhaeot
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 2298
+1410.9.14 = {
+	monarch = {
+		name = "Hypatia"
+		birth_date = 1384.4.2
+		dynasty = "Synadenos"
+		female = yes
+		adm = 2
+		dip = 5
+		mil = 3
+	}
+	add_ruler_personality = loose_lips_personality
+	add_ruler_personality = sinner_personality
+}
+1444.11.11 = {
+	capital = 2298
+	add_treasury = 140
+	add_prestige = 188
+}

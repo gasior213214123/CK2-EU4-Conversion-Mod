@@ -1,0 +1,27 @@
+# Optimatoi
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 316
+1432.11.13 = {
+	monarch = {
+		name = "Alexios II"
+		birth_date = 1406.8.21
+		dynasty = "Trichas"
+		adm = 2
+		dip = 6
+		mil = 3
+	}
+	add_ruler_personality = kind_hearted_personality
+	add_ruler_personality = benevolent_personality
+}
+1444.11.11 = {
+	capital = 316
+	add_treasury = 76
+	add_prestige = 111
+}

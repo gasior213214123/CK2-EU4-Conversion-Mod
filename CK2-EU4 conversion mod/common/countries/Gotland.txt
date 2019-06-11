@@ -1,0 +1,246 @@
+# Gotland
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 170 25 25 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	trade_ideas
+	aristocracy_ideas
+	innovativeness_ideas
+	naval_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	dutch_maurician
+	french_caracolle
+	swedish_gallop
+	swedish_gustavian
+	swedish_caroline
+	swedish_arme_blanche
+	prussian_uhlan
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Öysteinn" "Mats" "Alvör" "Steffen" "Holmger" "Þyra" "Refil" "Maine" "Kolbjörn" "Bengt" 
+	"Þora" "Asa" "Ale" "Gödke" "Rögnvaldr" "Knut" "Totil" "Abo" "Adalbero" "Adalbert" 
+	"Adalbrand" "Adaldag" "Adalgar" "Adalgod" "Adolf" "Aelle" "Albrecht" "Alebrand" "Altfrid" "Ansgar" 
+	"Arnd" "Arnold" "Asig" "Balduin" "Balthasar" "Banzleib" "Beneke" "Benno" "Bernd" "Bernhard" 
+	"Bertold" "Bertram" "Boddic" "Brun" "Bruno" "Burchard" "Cissa" "Claus" "Cobbo" "Cord" 
+	"Cyprian" "Dago" "Dedo" "Dethard" "Detleff" "Detmar" "Diederik" "Donar" "Eggerd" "Egilmar" 
+	"Ekbert" "Engelbert" "Engelhard" "Erik" "Erp" "Esiko" "Everd" "Ewald" "Floribert" "Freawine" 
+	"Frederik" "Gehrke" "Gelder" "Gero" "Gerold" "Gevert" "Ghert" "Giselher" "Giselmar" "Gosschalk" 
+	"Goswin" "Gunzelin" "Günther" "Hans" "Harthgate" "Hartwig" "Heideke" "Hengest" "Henneke" "Herberd" 
+	"Hermann" "Hinrik" "Hoger" "Hulderic" "Humfried" "Immed" "Isidor" "Jacob" "Jaspar" "Jochim" 
+	"Johann" "Juries" "Kersten" "Köpke" "Laurentz" "Lembert" "Leuderic" "Liawizo" "Liemar" "Liudger" 
+	"Luder-Udo" "Luder" "Ludolf" "Ludwig" "Magnus" "Marbold" "Marquard" "Mathias" "Meinwerk" "Merten" 
+	"Michael" "Norbert" "Odo" "Ordulf" "Peter" "Philipp" "Radke" "Reginbern" "Reinbern" "Reineke" 
+	"Reinmar" "Rudigar" "Rudolf" "Sigbert" "Sigfrid" "Sigward" "Simon" "Thankmar" "Theoderic" "Theodoric" 
+	"Theodwin" "Thimo" "Thomas" "Tobe" "Tymmeke" "Udo" "Unwan" "Viric" "Volkwin" "Volrad" 
+	"Walbert" "Waldemar" "Waldered" "Waltard" "Warin" "Warinechin" "Wecta" "Wenzel" "Werneke" "Weybrecht" 
+	"Wichbert" "Wichmann" "Wicho" "Widukind" "Wigebert" "Wilbrand" "Willichin" "Withgils" "Witikind" "Witta" 
+	"Wlencing" "Wolter" "Wulff" }
+monarch_names = {
+	"Öysteinn #0" = 1
+	"Mats #0" = 1
+	"Alvör #0" = -1
+	"Steffen #1" = 18
+	"Holmger #1" = 21
+	"Þyra #0" = -1
+	"Refil #0" = 1
+	"Maine #0" = 1
+	"Kolbjörn #0" = 1
+	"Bengt #1" = 18
+	"Þora #0" = -1
+	"Asa #0" = -1
+	"Ale #0" = 1
+	"Gödke #1" = 18
+	"Rögnvaldr #1" = 0
+	"Knut #1" = 0
+	"Totil #1" = 0
+	"Abo #0" = 0
+	"Adalbero #0" = 0
+	"Adalbert #0" = 0
+	"Adalbrand #0" = 0
+	"Adaldag #0" = 0
+	"Adalgar #0" = 0
+	"Adalgod #0" = 0
+	"Adolf #0" = 0
+	"Aelle #0" = 0
+	"Albrecht #0" = 0
+	"Alebrand #0" = 0
+	"Altfrid #0" = 0
+	"Ansgar #0" = 0
+	"Arnd #0" = 0
+	"Arnold #0" = 0
+	"Asig #0" = 0
+	"Balduin #0" = 0
+	"Balthasar #0" = 0
+	"Banzleib #0" = 0
+	"Beneke #0" = 0
+	"Benno #0" = 0
+	"Bernd #0" = 0
+	"Bernhard #0" = 0
+	"Bertold #0" = 0
+	"Bertram #0" = 0
+	"Boddic #0" = 0
+	"Brun #0" = 0
+	"Bruno #0" = 0
+	"Burchard #0" = 0
+	"Cissa #0" = 0
+	"Claus #0" = 0
+	"Cobbo #0" = 0
+	"Cord #0" = 0
+	"Cyprian #0" = 0
+	"Dago #0" = 0
+	"Dedo #0" = 0
+	"Dethard #0" = 0
+	"Detleff #0" = 0
+	"Detmar #0" = 0
+	"Diederik #0" = 0
+	"Donar #0" = 0
+	"Eggerd #0" = 0
+	"Egilmar #0" = 0
+	"Ekbert #0" = 0
+	"Engelbert #0" = 0
+	"Engelhard #0" = 0
+	"Erik #0" = 0
+	"Erp #0" = 0
+	"Esiko #0" = 0
+	"Everd #0" = 0
+	"Ewald #0" = 0
+	"Floribert #0" = 0
+	"Freawine #0" = 0
+	"Frederik #0" = 0
+	"Gehrke #0" = 0
+	"Gelder #0" = 0
+	"Gero #0" = 0
+	"Gerold #0" = 0
+	"Gevert #0" = 0
+	"Ghert #0" = 0
+	"Giselher #0" = 0
+	"Giselmar #0" = 0
+	"Gosschalk #0" = 0
+	"Goswin #0" = 0
+	"Gunzelin #0" = 0
+	"Günther #0" = 0
+	"Hans #0" = 0
+	"Harthgate #0" = 0
+	"Hartwig #0" = 0
+	"Heideke #0" = 0
+	"Hengest #0" = 0
+	"Henneke #0" = 0
+	"Herberd #0" = 0
+	"Hermann #0" = 0
+	"Hinrik #0" = 0
+	"Hoger #0" = 0
+	"Hulderic #0" = 0
+	"Humfried #0" = 0
+	"Immed #0" = 0
+	"Isidor #0" = 0
+	"Jacob #0" = 0
+	"Jaspar #0" = 0
+	"Jochim #0" = 0
+	"Johann #0" = 0
+	"Juries #0" = 0
+	"Kersten #0" = 0
+	"Köpke #0" = 0
+	"Laurentz #0" = 0
+	"Lembert #0" = 0
+	"Leuderic #0" = 0
+	"Liawizo #0" = 0
+	"Liemar #0" = 0
+	"Liudger #0" = 0
+	"Luder-Udo #0" = 0
+	"Luder #0" = 0
+	"Ludolf #0" = 0
+	"Ludwig #0" = 0
+	"Magnus #0" = 0
+	"Marbold #0" = 0
+	"Marquard #0" = 0
+	"Mathias #0" = 0
+	"Meinwerk #0" = 0
+	"Merten #0" = 0
+	"Michael #0" = 0
+	"Norbert #0" = 0
+	"Odo #0" = 0
+	"Ordulf #0" = 0
+	"Peter #0" = 0
+	"Philipp #0" = 0
+	"Radke #0" = 0
+	"Reginbern #0" = 0
+	"Reinbern #0" = 0
+	"Reineke #0" = 0
+	"Reinmar #0" = 0
+	"Rudigar #0" = 0
+	"Rudolf #0" = 0
+	"Sigbert #0" = 0
+	"Sigfrid #0" = 0
+	"Sigward #0" = 0
+	"Simon #0" = 0
+	"Thankmar #0" = 0
+	"Theoderic #0" = 0
+	"Theodoric #0" = 0
+	"Theodwin #0" = 0
+	"Thimo #0" = 0
+	"Thomas #0" = 0
+	"Tobe #0" = 0
+	"Tymmeke #0" = 0
+	"Udo #0" = 0
+	"Unwan #0" = 0
+	"Viric #0" = 0
+	"Volkwin #0" = 0
+	"Volrad #0" = 0
+	"Walbert #0" = 0
+	"Waldemar #0" = 0
+	"Waldered #0" = 0
+	"Waltard #0" = 0
+	"Warin #0" = 0
+	"Warinechin #0" = 0
+	"Wecta #0" = 0
+	"Wenzel #0" = 0
+	"Werneke #0" = 0
+	"Weybrecht #0" = 0
+	"Wichbert #0" = 0
+	"Wichmann #0" = 0
+	"Wicho #0" = 0
+	"Widukind #0" = 0
+	"Wigebert #0" = 0
+	"Wilbrand #0" = 0
+	"Willichin #0" = 0
+	"Withgils #0" = 0
+	"Witikind #0" = 0
+	"Witta #0" = 0
+	"Wlencing #0" = 0
+	"Wolter #0" = 0
+	"Wulff #0" = 0
+
+
+	"Katharina #0" = -1
+}
+ship_names = {
+	Akilles Amarant Andromeda Anklam Bohus "Böse Lejon" Calmar Camilla Carolus Charlotte Cossacken 
+	Crono-Solen David Disa Draken Drottningen Elefanten Elfsborg Elisabet Engel "Engel Gabriel" 
+	Enighet Euridice Falk Fenix Finland "Flygande Wargen" Fortuna Fredrika "Fredrika Amalia" 
+	Fröija Galathe "Gamla Fortuna" "Gamla Rikssvärdet" "Gotha Lejon" Grip Gustavus "Gyllende Lejon" 
+	Göta Göteborg Halland Havsfru Hektor Herkules Hieronymus Hjalmar Hök Illerim Ingeborg Jomfru 
+	Jupiter Jägare "Kalmar Nyckel" Kalmarkastell Karlskrona Kronan Laxen Leopard Lejon Lodbrok 
+	Mars Mercurius Morgonstjärna Norden Nordstjärna Nyckeln Nyland Oden Pelikanen Postillion 
+	"Prins Carl" Prinsessan Regina Rosa Skåne Småland Solen "St. Erik" "St. Göran" "St. Johannes" 
+	"St. Thomas" Starkoster Stenbock Stockholm "Stora Cronan" Svan "Svenska Falk" "Svenska Lejonet" 
+	Sverige Svärdet Södermanland Tapper Thetis Tigern "Tre Kronor" Troilus Ulrica Uppland 
+	Vasen Victoria Warberg Wasa Wenden Werden Vestervik Wästmanland Victoria Witduve Öland Örn
+}
+

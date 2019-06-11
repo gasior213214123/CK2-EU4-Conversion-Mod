@@ -1,0 +1,26 @@
+# Ungvar
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = croatian
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 1953
+1442.7.21 = {
+	monarch = {
+		name = "Gaudenty II"
+		birth_date = 1433.1.23
+		dynasty = "Wawel"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = bold_fighter_personality
+}
+1444.11.11 = {
+	capital = 1953
+	add_treasury = 54
+	add_prestige = 237
+}

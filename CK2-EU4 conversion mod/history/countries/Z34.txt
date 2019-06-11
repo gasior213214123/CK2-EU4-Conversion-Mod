@@ -1,0 +1,27 @@
+# Picardie
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = normand
+religion = catholic
+clear_scripted_personalities = yes
+capital = 181
+1425.6.13 = {
+	monarch = {
+		name = "Odo"
+		birth_date = 1410.5.7
+		dynasty = "Nibelunging"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = strict_personality
+}
+1444.11.11 = {
+	capital = 181
+	add_treasury = 23
+	add_prestige = 524
+}

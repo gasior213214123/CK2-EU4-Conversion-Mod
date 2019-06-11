@@ -1,0 +1,27 @@
+# Damot
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = east_african
+primary_culture = amhara
+religion = coptic
+clear_scripted_personalities = yes
+capital = 2762
+1428.3.9 = {
+	monarch = {
+		name = "Hackeem II"
+		birth_date = 1422.12.18
+		dynasty = "Eliezerid"
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = bold_fighter_personality
+}
+1444.11.11 = {
+	capital = 2762
+	add_treasury = 93
+	add_prestige = 67
+}

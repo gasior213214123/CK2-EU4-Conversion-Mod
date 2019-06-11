@@ -1,0 +1,28 @@
+# Abruzzo
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = italian
+religion = fraticelli
+clear_scripted_personalities = yes
+capital = 120
+1411.8.31 = {
+	monarch = {
+		name = "Clorinda"
+		birth_date = 1388.8.5
+		dynasty = "Varbertingi"
+		female = yes
+		adm = 3
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = malevolent_personality
+}
+1444.11.11 = {
+	capital = 120
+	add_treasury = 623
+	add_prestige = 545
+}

@@ -1,0 +1,221 @@
+# Savoy
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 101 8 34 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	naval_ideas
+	offensive_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	italian_condotta
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Cosimo" "Sante" "Fatima" "Nabila" "Francesca" "Albina" "Agathon" "Joscella" "Fortunata" "Arrigo" 
+	"Tadros" "Nabil" "Adnan" "Zahra" "Alberico" "Bertoldo" "Agostina" "Bianca" "Ausonio" "Arderico" 
+	"Costante" "Cornelia" "Livia" "Adalgisa" "Alda" "Gregorio" "Dioniso" "Mariano" "Antonella" "Taddeo" 
+	"Agalina" "Bona" "Albano" "Ippolita" "Margherita" "Massimo" "Fosco" "Aldobrandino" "Gerperga" "Carla" 
+	"Teodoro" "Gabrino" "Flora" "Brunilde" "Eudossia" "Ghiyasaddin" "Delinda" "Mina" "Pippin" "Burchard" 
+	"Ragnald" "Adhemar" "Amalasuintha" "Atenolfo" "Albino" "Clemens" "Basso" "Cornelio" "Chiaffredo" "Benedetta" 
+	"Abelard" "Adam" "Adelard" "Ademar" "Alexander" "Alfons" "Amaury" "Anfroi" "Anquetil" "Anselm" 
+	"Armand" "Arnald" "Asclettin" "Aubrey" "Baldwin" "Bernard" "Berold" "Bertran" "Beuves" "Blayve" 
+	"Bohemond" "Botolf" "Clemence" "Drogo" "Errand" "Eustache" "Faramond" "Ferant" "Filbert" "Fulk" 
+	"Fraunk" "Frery" "Gaillard" "Gaufrid" "Geoffroy" "Gerald" "Gerard" "Gérard" "Geraud" "Gerbert" 
+	"Gervas" "Giffard" "Gilbert" "Godfrey" "Goubert" "Guntard" "Guy" "Haimo" "Hamelin" "Henry" 
+	"Herbert" "Herman" "Hubert" "Hugh" "Humbert" "Humphrey" "Ildebrando" "Jordan" "Joscelin" "Lambert" 
+	"Lancelin" "Mauger" "Nigel" "Norman" "Odo" "Orderic" "Osbern" "Osmond" "Oswulf" "Oswyn" 
+	"Radolf" "Radulf" "Randolf" "Ranulf" "Raymond" "Rayner" "Richard" "Robert" "Roger" "Rolland" 
+	"Roscelin" "Sayer" "Serlo" "Serril" "Sewal" "Silvester" "Simon" "Stefen" "Tancred" "Torf" 
+	"Turold" "Turquetil" "Turstin" "Tybalt" "Walter" "William" "Wymund" }
+monarch_names = {
+	"Cosimo #0" = 1
+	"Sante #0" = 1
+	"Fatima #0" = -1
+	"Nabila #0" = -1
+	"Francesca #0" = -1
+	"Albina #0" = -1
+	"Agathon #1" = 18
+	"Joscella #0" = -1
+	"Fortunata #0" = -1
+	"Arrigo #3" = 27
+	"Tadros #0" = 1
+	"Nabil #0" = 1
+	"Adnan #0" = 1
+	"Zahra #0" = -1
+	"Alberico #0" = 1
+	"Bertoldo #0" = 1
+	"Agostina #0" = -1
+	"Bianca #0" = -1
+	"Ausonio #1" = 18
+	"Arderico #0" = 1
+	"Costante #1" = 24
+	"Cornelia #0" = -1
+	"Livia #0" = -1
+	"Adalgisa #0" = -1
+	"Alda #0" = -1
+	"Gregorio #0" = 1
+	"Dioniso #0" = 1
+	"Mariano #0" = 1
+	"Antonella #0" = -1
+	"Taddeo #0" = 1
+	"Agalina #0" = -1
+	"Bona #0" = -1
+	"Albano #0" = 1
+	"Ippolita #0" = -1
+	"Margherita #0" = -1
+	"Massimo #0" = 1
+	"Fosco #0" = 1
+	"Aldobrandino #0" = 1
+	"Gerperga #0" = -1
+	"Carla #0" = -1
+	"Teodoro #0" = 1
+	"Gabrino #0" = 1
+	"Flora #0" = -1
+	"Brunilde #0" = -1
+	"Eudossia #0" = -1
+	"Ghiyasaddin #0" = 1
+	"Delinda #0" = -1
+	"Mina #0" = 1
+	"Pippin #1" = 0
+	"Burchard #2" = 0
+	"Ragnald #1" = 0
+	"Adhemar #1" = 0
+	"Amalasuintha #2" = -1
+	"Atenolfo #1" = 0
+	"Albino #1" = 0
+	"Clemens #1" = 0
+	"Basso #1" = 0
+	"Cornelio #1" = 0
+	"Chiaffredo #1" = 0
+	"Benedetta #1" = -1
+	"Abelard #0" = 0
+	"Adam #0" = 0
+	"Adelard #0" = 0
+	"Ademar #0" = 0
+	"Alexander #0" = 0
+	"Alfons #0" = 0
+	"Amaury #0" = 0
+	"Anfroi #0" = 0
+	"Anquetil #0" = 0
+	"Anselm #0" = 0
+	"Armand #0" = 0
+	"Arnald #0" = 0
+	"Asclettin #0" = 0
+	"Aubrey #0" = 0
+	"Baldwin #0" = 0
+	"Bernard #0" = 0
+	"Berold #0" = 0
+	"Bertran #0" = 0
+	"Beuves #0" = 0
+	"Blayve #0" = 0
+	"Bohemond #0" = 0
+	"Botolf #0" = 0
+	"Clemence #0" = 0
+	"Drogo #0" = 0
+	"Errand #0" = 0
+	"Eustache #0" = 0
+	"Faramond #0" = 0
+	"Ferant #0" = 0
+	"Filbert #0" = 0
+	"Fulk #0" = 0
+	"Fraunk #0" = 0
+	"Frery #0" = 0
+	"Gaillard #0" = 0
+	"Gaufrid #0" = 0
+	"Geoffroy #0" = 0
+	"Gerald #0" = 0
+	"Gerard #0" = 0
+	"Gérard #0" = 0
+	"Geraud #0" = 0
+	"Gerbert #0" = 0
+	"Gervas #0" = 0
+	"Giffard #0" = 0
+	"Gilbert #0" = 0
+	"Godfrey #0" = 0
+	"Goubert #0" = 0
+	"Guntard #0" = 0
+	"Guy #0" = 0
+	"Haimo #0" = 0
+	"Hamelin #0" = 0
+	"Henry #0" = 0
+	"Herbert #0" = 0
+	"Herman #0" = 0
+	"Hubert #0" = 0
+	"Hugh #0" = 0
+	"Humbert #0" = 0
+	"Humphrey #0" = 0
+	"Ildebrando #0" = 0
+	"Jordan #0" = 0
+	"Joscelin #0" = 0
+	"Lambert #0" = 0
+	"Lancelin #0" = 0
+	"Mauger #0" = 0
+	"Nigel #0" = 0
+	"Norman #0" = 0
+	"Odo #0" = 0
+	"Orderic #0" = 0
+	"Osbern #0" = 0
+	"Osmond #0" = 0
+	"Oswulf #0" = 0
+	"Oswyn #0" = 0
+	"Radolf #0" = 0
+	"Radulf #0" = 0
+	"Randolf #0" = 0
+	"Ranulf #0" = 0
+	"Raymond #0" = 0
+	"Rayner #0" = 0
+	"Richard #0" = 0
+	"Robert #0" = 0
+	"Roger #0" = 0
+	"Rolland #0" = 0
+	"Roscelin #0" = 0
+	"Sayer #0" = 0
+	"Serlo #0" = 0
+	"Serril #0" = 0
+	"Sewal #0" = 0
+	"Silvester #0" = 0
+	"Simon #0" = 0
+	"Stefen #0" = 0
+	"Tancred #0" = 0
+	"Torf #0" = 0
+	"Turold #0" = 0
+	"Turquetil #0" = 0
+	"Turstin #0" = 0
+	"Tybalt #0" = 0
+	"Walter #0" = 0
+	"William #0" = 0
+	"Wymund #0" = 0
+}
+ship_names = {
+	Medea Vulcano Gloria Minerva Laatea
+	Diligenza Vittoria Eolo Concordia Forza 
+	Fama Sirena Falcon Ercole Idra "San Andrea"
+	"San Zaccaria" "San Spiridon" "San Gaetano"
+	"Fortuna Guerriera" Terror Aquileta Constanza
+	"Regina del Mar" "San Nicolo" Nettuno Rosa
+	Fenice Iride Aurora Tigre Giove "Rizzo d'Oro"
+	"Amazzone Guerriera"
+}
+

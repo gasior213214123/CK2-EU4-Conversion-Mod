@@ -1,0 +1,180 @@
+# Vidin
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 122 103 58 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+	quantity_ideas
+}
+
+historical_units = {
+	eastern_medieval_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	ottoman_sekban
+	ottoman_reformed_spahi
+	ottoman_reformed_janissary
+	ottoman_toprakli_hit_and_run
+	ottoman_nizami_cedid
+	ottoman_toprakli_dragoon
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	ottoman_new_model
+	ottoman_lancer
+}
+
+army_names = {
+	"Legio I Herculia" "Legio II Rapax" "Legio III Liberatrix" "Legio IV Apollonaris" "Legio V Alaudae"
+	"Legio VI Victrix" "Legio VII Ferrata" "Legio VIII Augusta" "Legio IX Triumphalis" "Legio X Italica" 
+	"Legio XI Macedonica" "Legio XII Minervia" "Legio XIII Fulminata" "Legio XIV Fretensis" "Legio XV Primigenia"
+	"Legio XVI Claudia" "Legio XVII Galatia" "Legio XVIII Pannonia" "Legio XIX Traiana" "Legio XX Scythica"
+}
+
+fleet_names = {
+	"Classis Alexandrina" "Classis Seleucena" "Classis Carpathia" "Classis Venetum" "Classis Constantinopolis"
+	"Classis Roma" "Classis Adrianopolis" "Classis Atlanticum" "Classis Mediterraneus" "Classis Euxeinos Pontos"
+}
+
+leader_names = {
+
+	"Asparukh" "Urus" "Umor" "Uturgur" "Viseslav" "Dragan" "Vallius" "Leonardus" "Nichiforus" "Gervasius" 
+	"Juliano" "Nicola" "Bisti" "Calenda" "Maroe" "Gaucoli" "Loncho" "Maurikios" "Lavinia" "Enzo" 
+	"Guglielmo" "Blaxius" "Sobieslav" "Philaretos" "Zacharias" "Trepimirus" "Leonidas" "Polykarpos" "Hippolytos" "Phokas" 
+	"Manuel" "Orestes" "Kyriakos" "Thomas" "Adrian" "Alexandru" "Anghel" "Aron" "Bajan" "Balc" 
+	"Barbat" "Basarab" "Bogdan" "Carol" "Ciprian" "Ciubar" "Claudiu" "Corneliu" "Costin" "Damjan" 
+	"Dan" "Dragos" "Dumitru" "Emerik" "Florin" "Franjo" "Gavril" "Gheorghe" "Grigore" "Iacob" 
+	"Iancu" "Ieremia" "Ilie" "Ioan" "Iorghu" "Iosif" "Iuga" "Janos" "Ladislau" "Latcu" 
+	"Laurentiu" "Litovoi" "Lucian" "Marin" "Mihai" "Milos" "Mircea" "Moise" "Nicolaie" "Petre" 
+	"Pirvu" "Radovan" "Radu" "Roman" "Sas" "Seneslav" "Sergiu" "Simion" "Stefan" "Stelian" 
+	"Teodor" "Tepes" "Tibor" "Tihomir" "Timotei" "Tudor" "Valentin" "Valeriu" "Vasile" "Veaceslav" 
+	"Victor" "Vilhelm" "Vintila" "Vlad" }
+monarch_names = {
+	"Asparukh #1" = 0
+	"Urus #1" = 0
+	"Umor #2" = 0
+	"Uturgur #1" = 0
+	"Viseslav #1" = 0
+	"Dragan #1" = 0
+	"Vallius #1" = 0
+	"Leonardus #1" = 0
+	"Nichiforus #2" = 0
+	"Gervasius #1" = 0
+	"Juliano #1" = 0
+	"Nicola #1" = 0
+	"Bisti #2" = 0
+	"Calenda #1" = 0
+	"Maroe #1" = 0
+	"Gaucoli #1" = 0
+	"Loncho #1" = 0
+	"Maurikios #1" = 0
+	"Lavinia #1" = -1
+	"Enzo #1" = 0
+	"Guglielmo #1" = 0
+	"Blaxius #1" = 0
+	"Sobieslav #1" = 0
+	"Philaretos #1" = 0
+	"Zacharias #1" = 0
+	"Trepimirus #1" = 0
+	"Leonidas #1" = 0
+	"Polykarpos #1" = 0
+	"Hippolytos #1" = 0
+	"Phokas #1" = 0
+	"Manuel #1" = 0
+	"Orestes #1" = 0
+	"Kyriakos #1" = 0
+	"Thomas #1" = 0
+	"Adrian #0" = 0
+	"Alexandru #0" = 0
+	"Anghel #0" = 0
+	"Aron #0" = 0
+	"Bajan #0" = 0
+	"Balc #0" = 0
+	"Barbat #0" = 0
+	"Basarab #0" = 0
+	"Bogdan #0" = 0
+	"Carol #0" = 0
+	"Ciprian #0" = 0
+	"Ciubar #0" = 0
+	"Claudiu #0" = 0
+	"Corneliu #0" = 0
+	"Costin #0" = 0
+	"Damjan #0" = 0
+	"Dan #0" = 0
+	"Dragos #0" = 0
+	"Dumitru #0" = 0
+	"Emerik #0" = 0
+	"Florin #0" = 0
+	"Franjo #0" = 0
+	"Gavril #0" = 0
+	"Gheorghe #0" = 0
+	"Grigore #0" = 0
+	"Iacob #0" = 0
+	"Iancu #0" = 0
+	"Ieremia #0" = 0
+	"Ilie #0" = 0
+	"Ioan #0" = 0
+	"Iorghu #0" = 0
+	"Iosif #0" = 0
+	"Iuga #0" = 0
+	"Janos #0" = 0
+	"Ladislau #0" = 0
+	"Latcu #0" = 0
+	"Laurentiu #0" = 0
+	"Litovoi #0" = 0
+	"Lucian #0" = 0
+	"Marin #0" = 0
+	"Mihai #0" = 0
+	"Milos #0" = 0
+	"Mircea #0" = 0
+	"Moise #0" = 0
+	"Nicolaie #0" = 0
+	"Petre #0" = 0
+	"Pirvu #0" = 0
+	"Radovan #0" = 0
+	"Radu #0" = 0
+	"Roman #0" = 0
+	"Sas #0" = 0
+	"Seneslav #0" = 0
+	"Sergiu #0" = 0
+	"Simion #0" = 0
+	"Stefan #0" = 0
+	"Stelian #0" = 0
+	"Teodor #0" = 0
+	"Tepes #0" = 0
+	"Tibor #0" = 0
+	"Tihomir #0" = 0
+	"Timotei #0" = 0
+	"Tudor #0" = 0
+	"Valentin #0" = 0
+	"Valeriu #0" = 0
+	"Vasile #0" = 0
+	"Veaceslav #0" = 0
+	"Victor #0" = 0
+	"Vilhelm #0" = 0
+	"Vintila #0" = 0
+	"Vlad #0" = 0
+
+
+	"Parthena #0" = -1
+	"Leontia #0" = -1
+	"Hypatia #0" = -1
+	"Anthousa #0" = -1
+}
+ship_names = {
+	Alhtpolo
+	Kiten Kraymorie
+	Lozenets
+	Promorsko
+	Rezovo
+	Sarafovo Sinemorets Sozopol
+	Varara
+}
+

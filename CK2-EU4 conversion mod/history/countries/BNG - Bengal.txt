@@ -1,0 +1,37 @@
+# Bengal Empire
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 3
+mercantilism = 0.1
+technology_group = indian
+primary_culture = nepali
+religion = buddhism
+clear_scripted_personalities = yes
+capital = 4479
+1443.11.16 = {
+	monarch = {
+		name = "Dank II Kush"
+		birth_date = 1391.4.15
+		dynasty = "Cherpakovi"
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = careful_personality
+	heir = {
+		name = "Ankit"
+		monarch_name = "Ankit"
+		dynasty = "Cherpakovi"
+		birth_date = 1433.5.17
+		death_date = 1513.5.17
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+	add_heir_personality = obsessive_perfectionist_personality
+}
+1444.11.11 = {
+	capital = 4479
+	add_treasury = 45
+	add_prestige = 341
+}

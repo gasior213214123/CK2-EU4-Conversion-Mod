@@ -1,0 +1,185 @@
+# Francia
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 11 22 170 }
+
+
+
+
+leader_names = {
+
+	"Zark" "Konstantzia" "Guigone" "Lope" "Estefania" "Donato" "Alfontso" "Aznar" "Euphrosine" "Ximena" 
+	"Urraka" "Blanka" "Gontzal" "Helvis" "Belaskita" "Arnault" "Thibault" "Ordoño" "Raymond" "Berengaria" 
+	"Eneko" "Maria" "Odo" "Ximeno" "Mentzia" "Rodelinda" "Joana" "Eliza" "Bernart" "Fortun" 
+	"Galindo" "Aines" "Antso" "Gartzia" "Guichard" "Herramel" "Barral" "Francés" "Adèla" "Tibaud" 
+	"Eisabèu" "Teutbald" "Filomena" "Amaneus" "Clara" "Vicenç" "Feremund" "Rosèla" "Ava" "Rekkaredo" 
+	"Airmanagildo" "Berenguié" "Brandimena" "Matilda" "Raisenda" "Cecilia" "Azalaïs" "Simon" "Isabèu" "Guillabert" 
+	"Gedalbert" "Godomar" "Loïs" "Vulfari" "Clemència" "Garcia" "Ermengildis" "Clarmonda" "Guilheumina" "Trutgaud" 
+	"Alienòr" "Bòna" "Haldemar" "Martin" "Camila" "Rainer" "Loïsa" "Gersenda" "Berta" "Doumenge" 
+	"Nicholaus" "Fulcrad" "Robin" "Ricchar" "Monegund" "Patricia" "Lúcia" "Juliana" "Alitrudis" "Navar" 
+	"Arnaud" "Plaisance" "Boson" "Filip" "Almòdis" "Carles" "Frederi" "Gundobad" "Eufèmia" "Roger" 
+	"Tièrri" "Guigues" "Filipa" "Margarida" "Pons" "Aymeric" "Alpaïs" "Assalhida" "Ramiro" "Azelma" 
+	"Caterina" "Josselin" "Joan" "Brunissenda" "Belasko" "Dat" "Gilen" "Beatritz" "Obeko" "Francesa" 
+	"Leon" "Dodon" "Albert" "Pelaio" "Ugues" "Alvar" "Emili" "Amalric" "Folquet" "Maior" 
+	"Loui" "Munia" "Heloise" "Elbira" "Oria" "Marietta" "Oneka" "Piarres" "Antsa" "Pepin" 
+	"Adelaide" "Bermudo" "Diego" "Egidio" "Erramun" "Fernando" "Joanes" "Ladron" "Luis" "Manrike" 
+	"Martín" "Munio" "Nuño" "Rodrigo" "Vela" "Zentulo" }
+monarch_names = {
+	"Zark #0" = 1
+	"Konstantzia #0" = -1
+	"Guigone #0" = -1
+	"Lope #0" = 1
+	"Estefania #0" = -1
+	"Donato #0" = 1
+	"Alfontso #0" = 1
+	"Aznar #0" = 1
+	"Euphrosine #0" = -1
+	"Ximena #1" = -28
+	"Urraka #0" = -1
+	"Blanka #0" = -1
+	"Gontzal #0" = 1
+	"Helvis #0" = -1
+	"Belaskita #1" = -28
+	"Arnault #0" = 1
+	"Thibault #0" = 1
+	"Ordoño #0" = 1
+	"Raymond #0" = 1
+	"Berengaria #0" = -1
+	"Eneko #0" = 1
+	"Maria #0" = -1
+	"Odo #0" = 1
+	"Ximeno #0" = 1
+	"Mentzia #1" = -25
+	"Rodelinda #0" = -1
+	"Joana #0" = -1
+	"Eliza #0" = -1
+	"Bernart #0" = 1
+	"Fortun #0" = 1
+	"Galindo #0" = 1
+	"Aines #0" = -1
+	"Antso #0" = 1
+	"Gartzia #0" = 1
+	"Guichard #0" = 1
+	"Herramel #0" = 1
+	"Barral #0" = 1
+	"Francés #0" = 1
+	"Adèla #0" = -1
+	"Tibaud #0" = 1
+	"Eisabèu #0" = -1
+	"Teutbald #0" = 1
+	"Filomena #0" = -1
+	"Amaneus #0" = 1
+	"Clara #0" = -1
+	"Vicenç #0" = 1
+	"Feremund #0" = 1
+	"Rosèla #0" = -1
+	"Ava #0" = -1
+	"Rekkaredo #0" = 1
+	"Airmanagildo #0" = 1
+	"Berenguié #0" = 1
+	"Brandimena #0" = -1
+	"Matilda #0" = -1
+	"Raisenda #0" = -1
+	"Cecilia #0" = -1
+	"Azalaïs #0" = -1
+	"Simon #0" = 1
+	"Isabèu #0" = -1
+	"Guillabert #0" = 1
+	"Gedalbert #0" = 1
+	"Godomar #0" = 1
+	"Loïs #0" = 1
+	"Vulfari #0" = 1
+	"Clemència #0" = -1
+	"Garcia #0" = 1
+	"Ermengildis #0" = -1
+	"Clarmonda #0" = -1
+	"Guilheumina #0" = -1
+	"Trutgaud #0" = 1
+	"Alienòr #0" = -1
+	"Bòna #0" = -1
+	"Haldemar #0" = 1
+	"Martin #0" = 1
+	"Camila #0" = -1
+	"Rainer #0" = 1
+	"Loïsa #0" = -1
+	"Gersenda #0" = -1
+	"Berta #0" = -1
+	"Doumenge #0" = 1
+	"Nicholaus #0" = 1
+	"Fulcrad #0" = 1
+	"Robin #0" = 1
+	"Ricchar #0" = 1
+	"Monegund #0" = -1
+	"Patricia #0" = -1
+	"Lúcia #0" = -1
+	"Juliana #0" = -1
+	"Alitrudis #0" = -1
+	"Navar #0" = -1
+	"Arnaud #0" = 1
+	"Plaisance #0" = -1
+	"Boson #0" = 1
+	"Filip #0" = 1
+	"Almòdis #0" = -1
+	"Carles #0" = 1
+	"Frederi #0" = 1
+	"Gundobad #0" = 1
+	"Eufèmia #0" = -1
+	"Roger #1" = 21
+	"Tièrri #0" = 1
+	"Guigues #0" = 1
+	"Filipa #0" = -1
+	"Margarida #0" = -1
+	"Pons #0" = 1
+	"Aymeric #0" = 1
+	"Alpaïs #0" = -1
+	"Assalhida #0" = -1
+	"Ramiro #0" = 1
+	"Azelma #0" = -1
+	"Caterina #0" = -1
+	"Josselin #0" = 1
+	"Joan #0" = 1
+	"Brunissenda #0" = -1
+	"Belasko #0" = 1
+	"Dat #0" = 1
+	"Gilen #0" = 1
+	"Beatritz #0" = -1
+	"Obeko #0" = 1
+	"Francesa #0" = -1
+	"Leon #0" = 1
+	"Dodon #0" = 1
+	"Albert #0" = 1
+	"Pelaio #0" = 1
+	"Ugues #0" = 1
+	"Alvar #0" = 1
+	"Emili #0" = -1
+	"Amalric #0" = 1
+	"Folquet #0" = 1
+	"Maior #0" = -1
+	"Loui #0" = 1
+	"Munia #0" = -1
+	"Heloise #0" = -1
+	"Elbira #0" = -1
+	"Oria #0" = -1
+	"Marietta #0" = -1
+	"Oneka #0" = -1
+	"Piarres #0" = 1
+	"Antsa #0" = -1
+	"Pepin #1" = 0
+	"Adelaide #1" = -1
+	"Bermudo #0" = 0
+	"Diego #0" = 0
+	"Egidio #0" = 0
+	"Erramun #0" = 0
+	"Fernando #0" = 0
+	"Joanes #0" = 0
+	"Ladron #0" = 0
+	"Luis #0" = 0
+	"Manrike #0" = 0
+	"Martín #0" = 0
+	"Munio #0" = 0
+	"Nuño #0" = 0
+	"Rodrigo #0" = 0
+	"Vela #0" = 0
+	"Zentulo #0" = 0
+}
+

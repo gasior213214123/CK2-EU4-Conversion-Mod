@@ -1,0 +1,38 @@
+# Maghreb
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = berber
+religion = shiite
+clear_scripted_personalities = yes
+capital = 1751
+1429.8.23 = {
+	monarch = {
+		name = "Ahamatu II"
+		birth_date = 1428.3.20
+		dynasty = "Fatimid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	add_ruler_personality = free_thinker_personality
+	add_ruler_personality = tactical_genius_personality
+	heir = {
+		name = "Lewnis"
+		monarch_name = "Lewnis"
+		dynasty = "Fatimid"
+		birth_date = 1406.11.4
+		death_date = 1486.11.4
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+	add_heir_personality = tolerant_personality
+}
+1444.11.11 = {
+	capital = 1751
+	add_treasury = 874
+	add_prestige = 583
+}

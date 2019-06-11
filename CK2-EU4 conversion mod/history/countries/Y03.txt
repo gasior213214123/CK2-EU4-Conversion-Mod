@@ -1,0 +1,27 @@
+# Dihistan
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = mongol
+religion = tengri_pagan_reformed
+clear_scripted_personalities = yes
+capital = 2349
+1415.7.27 = {
+	monarch = {
+		name = "Guchu"
+		birth_date = 1381.10.28
+		dynasty = "Papaçyzid"
+		adm = 6
+		dip = 0
+		mil = 6
+	}
+	add_ruler_personality = malevolent_personality
+	add_ruler_personality = tactical_genius_personality
+}
+1444.11.11 = {
+	capital = 2349
+	add_treasury = 153
+	add_prestige = 430
+}

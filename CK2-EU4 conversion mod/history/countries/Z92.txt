@@ -1,0 +1,24 @@
+# Kuyavia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = polish
+religion = slavic_pagan_reformed
+capital = 4533
+1441.7.23 = {
+	monarch = {
+		name = "Sedziej"
+		birth_date = 1439.2.4
+		dynasty = "Swienca"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+1444.11.11 = {
+	capital = 4533
+	add_treasury = 29
+	add_prestige = 20
+}

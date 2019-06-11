@@ -1,0 +1,13 @@
+sudanese = {
+	daju = {
+		primary = KAM
+		dynasty_names = { }
+	}
+}
+
+sahelian = {
+	zaghawa = {
+		primary = KAM
+		dynasty_names = { }
+	}
+}

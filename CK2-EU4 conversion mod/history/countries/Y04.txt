@@ -1,0 +1,27 @@
+# Velsk
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = samoyed
+religion = animism
+clear_scripted_personalities = yes
+capital = 4122
+1413.12.25 = {
+	monarch = {
+		name = "Yapti II"
+		birth_date = 1394.9.20
+		dynasty = "Kolikid"
+		adm = 2
+		dip = 1
+		mil = 4
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = greedy_personality
+}
+1444.11.11 = {
+	capital = 4122
+	add_treasury = 164
+	add_prestige = 354
+}

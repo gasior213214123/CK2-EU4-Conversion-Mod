@@ -1,0 +1,27 @@
+# Kanyakubja
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = indian
+primary_culture = avadhi
+religion = buddhism
+clear_scripted_personalities = yes
+capital = 2094
+1421.9.2 = {
+	monarch = {
+		name = "Anupapala III"
+		birth_date = 1419.4.21
+		dynasty = "Gupta"
+		adm = 6
+		dip = 2
+		mil = 4
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = drunkard_personality
+}
+1444.11.11 = {
+	capital = 2094
+	add_treasury = 44
+	add_prestige = 247
+}

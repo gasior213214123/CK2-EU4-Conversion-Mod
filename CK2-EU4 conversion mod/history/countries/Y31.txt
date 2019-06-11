@@ -1,0 +1,27 @@
+# Kakheti
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = armenian
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 2203
+1429.5.22 = {
+	monarch = {
+		name = "Shahanshah"
+		birth_date = 1418.9.8
+		dynasty = "Færniatæ"
+		adm = 1
+		dip = 6
+		mil = 4
+	}
+	add_ruler_personality = benevolent_personality
+	add_ruler_personality = kind_hearted_personality
+}
+1444.11.11 = {
+	capital = 2203
+	add_treasury = 28
+	add_prestige = 83
+}

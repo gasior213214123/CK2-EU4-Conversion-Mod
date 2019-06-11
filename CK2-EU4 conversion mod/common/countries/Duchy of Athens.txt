@@ -1,0 +1,296 @@
+# Hellas
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 206 66 158 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	eastern_medieval_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	ottoman_spahi
+	ottoman_sekban
+	ottoman_reformed_spahi
+	ottoman_reformed_janissary
+	ottoman_toprakli_hit_and_run
+	ottoman_nizami_cedid
+	ottoman_toprakli_dragoon
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	ottoman_new_model
+	ottoman_lancer
+}
+
+army_names = {
+	"Legio I Herculia" "Legio II Rapax" "Legio III Liberatrix" "Legio IV Apollonaris" "Legio V Alaudae"
+	"Legio VI Victrix" "Legio VII Ferrata" "Legio VIII Augusta" "Legio IX Triumphalis" "Legio X Italica" 
+	"Legio XI Macedonica" "Legio XII Minervia" "Legio XIII Fulminata" "Legio XIV Fretensis" "Legio XV Primigenia"
+	"Legio XVI Claudia" "Legio XVII Galatia" "Legio XVIII Pannonia" "Legio XIX Traiana" "Legio XX Scythica"
+}
+
+fleet_names = {
+	"Classis Alexandrina" "Classis Seleucena" "Classis Carpathia" "Classis Venetum" "Classis Constantinopolis"
+	"Classis Roma" "Classis Adrianopolis" "Classis Atlanticum" "Classis Mediterraneus" "Classis Euxeinos Pontos"
+}
+
+leader_names = {
+
+	"Khalil" "Adrianos" "Agne" "Staurakios" "Phokas" "Nonna" "Sajida" "Latif" "Cena" "Sacmis" 
+	"Suhaila" "Abdul-Aziz" "Asenath" "Taweret" "Ridwan" "Jamila" "Agathonikos" "Tawaret" "Asenet" "Azenet" 
+	"Usama" "Hisham" "Alam" "Andali" "Abdul-Madjid" "Thuriya" "Lot" "Habil" "Murad" "Abisalom" 
+	"Abdul-Salaam" "Sharif" "Ra'uf" "Rafiq" "Acenith" "Murshid" "Muzaffaraddin" "Safiya" "Ilyas" "Aaron" 
+	"Zara" "Radiya" "Yared" "Milad" "Damianos" "Majida" "Mukhtar" "Herakleios" "Biktor" "Eustathia" 
+	"Garyphallia" "Jawdat" "Dawlat" "Amunet" "Badiat" "Margherita" "Hypatia" "Apollonia" "Halima" "Romanos" 
+	"Viviana" "Epiphania" "Adriane" "Boethios" "Eugenios" "Theodoros" "Konstantinos" "Aetios" "Andronikos" "Buriberdi" 
+	"Innokentios" "Theophylaktos" "Maximos" "Sibylla" "Zoe" "Bisti" "Gaucoli" "Rochus" "Calenda" "Ioannikios" 
+	"Iakobos" "Giuco" "Stane" "Antonios" "Alexios" "Gortyn" "Niphon" "Akakios" "Alexandros" "Anastasios" 
+	"Anatolios" "Andreas" "Anthemios" "Anthimos" "Antiochos" "Apollonios" "Arsenios" "Artemios" "Athanasios" "Bardas" 
+	"Bartholomaios" "Basileios" "Belisarios" "Bosporios" "Christophoros" "Chrysanthos" "Chrysogonos" "Daniel" "David" "Demetrios" 
+	"Diogenes" "Dionysios" "Dorotheos" "Eirenaios" "Eudoxios" "Eustratios" "Euphemios" "Eusebios" "Eustathios" "Evangelos" 
+	"Gabriel" "Gennadios" "Georgios" "Gerasimos" "Germanos" "Gregoras" "Gregorios" "Hektorios" "Helias" "Hierotheos" 
+	"Himerios" "Hippolytos" "Hypatios" "Ignatios" "Ioannes" "Iordanes" "Ioseph" "Isaakios" "Isaias" "Isidoros" 
+	"Ioulianos" "Ioustinianos" "Ioustinos" "Kaisarios" "Kallinikos" "Kallistos" "Komitas" "Konstantios" "Konstas" "Kosmas" 
+	"Kyriakos" "Kyrillos" "Kyros" "Laurentios" "Lazaros" "Leon" "Leontios" "Loukas" "Makarios" "Manuel" 
+	"Markos" "Matthaios" "Maurikios" "Megistos" "Meletios" "Methodios" "Michael" "Narses" "Neophytos" "Nikephoros" 
+	"Niketas" "Nikodemos" "Nikolaos" "Orestes" "Pamphilios" "Pankratios" "Pantoleon" "Paschalis" "Pavlos" "Pelagios" 
+	"Petros" "Philaretos" "Philippos" "Philotheos" "Photios" "Polykarpos" "Porphyrios" "Prokopios" "Pyrros" "Raphail" 
+	"Sabas" "Samuel" "Serapion" "Sebastianos" "Sergios" "Stephanos" "Symeon" "Symmachos" "Theocharistos" "Theodosios" 
+	"Theodotos" "Theodoulos" "Theoktistos" "Theophanes" "Theophilos" "Thomas" "Tiberios" "Traianos" "Timotheos" "Tryphon" 
+	"Valerios" "Zacharias" "Zenobios" "Zenon" }
+monarch_names = {
+	"Khalil #0" = 1
+	"Adrianos #1" = 18
+	"Agne #0" = -1
+	"Staurakios #0" = 1
+	"Phokas #1" = 18
+	"Nonna #0" = -1
+	"Sajida #0" = -1
+	"Latif #0" = 1
+	"Cena #0" = -1
+	"Sacmis #0" = -1
+	"Suhaila #0" = -1
+	"Abdul-Aziz #0" = 1
+	"Asenath #0" = -1
+	"Taweret #0" = -1
+	"Ridwan #0" = 1
+	"Jamila #0" = -1
+	"Agathonikos #0" = 1
+	"Tawaret #0" = -1
+	"Asenet #0" = -1
+	"Azenet #0" = -1
+	"Usama #0" = 1
+	"Hisham #0" = 1
+	"Alam #0" = 1
+	"Andali #0" = -1
+	"Abdul-Madjid #0" = 1
+	"Thuriya #0" = -1
+	"Lot #0" = 1
+	"Habil #0" = 1
+	"Murad #0" = 1
+	"Abisalom #0" = 1
+	"Abdul-Salaam #0" = 1
+	"Sharif #0" = 1
+	"Ra'uf #0" = 1
+	"Rafiq #1" = 18
+	"Acenith #0" = -1
+	"Murshid #0" = 1
+	"Muzaffaraddin #0" = 1
+	"Safiya #0" = -1
+	"Ilyas #0" = 1
+	"Aaron #0" = 1
+	"Zara #0" = -1
+	"Radiya #0" = -1
+	"Yared #0" = 1
+	"Milad #0" = 1
+	"Damianos #1" = 18
+	"Majida #0" = -1
+	"Mukhtar #0" = 1
+	"Herakleios #1" = 18
+	"Biktor #0" = 1
+	"Eustathia #0" = -1
+	"Garyphallia #0" = -1
+	"Jawdat #0" = 1
+	"Dawlat #1" = 21
+	"Amunet #0" = -1
+	"Badiat #0" = -1
+	"Margherita #0" = -1
+	"Hypatia #0" = -1
+	"Apollonia #0" = -1
+	"Halima #0" = -1
+	"Romanos #1" = 18
+	"Viviana #0" = -1
+	"Epiphania #0" = -1
+	"Adriane #0" = -1
+	"Boethios #0" = 1
+	"Eugenios #0" = 1
+	"Theodoros #1" = 0
+	"Konstantinos #1" = 0
+	"Aetios #1" = 0
+	"Andronikos #1" = 0
+	"Buriberdi #1" = 0
+	"Innokentios #1" = 0
+	"Theophylaktos #2" = 0
+	"Maximos #1" = 0
+	"Sibylla #1" = -1
+	"Zoe #1" = -1
+	"Bisti #1" = 0
+	"Gaucoli #1" = 0
+	"Rochus #2" = 0
+	"Calenda #1" = 0
+	"Ioannikios #1" = 0
+	"Iakobos #1" = 0
+	"Giuco #1" = 0
+	"Stane #1" = 0
+	"Antonios #2" = 0
+	"Alexios #1" = 0
+	"Gortyn #1" = 0
+	"Niphon #1" = 0
+	"Akakios #0" = 0
+	"Alexandros #0" = 0
+	"Anastasios #0" = 0
+	"Anatolios #0" = 0
+	"Andreas #0" = 0
+	"Anthemios #0" = 0
+	"Anthimos #0" = 0
+	"Antiochos #0" = 0
+	"Apollonios #0" = 0
+	"Arsenios #0" = 0
+	"Artemios #0" = 0
+	"Athanasios #0" = 0
+	"Bardas #0" = 0
+	"Bartholomaios #0" = 0
+	"Basileios #0" = 0
+	"Belisarios #0" = 0
+	"Bosporios #0" = 0
+	"Christophoros #0" = 0
+	"Chrysanthos #0" = 0
+	"Chrysogonos #0" = 0
+	"Daniel #0" = 0
+	"David #0" = 0
+	"Demetrios #0" = 0
+	"Diogenes #0" = 0
+	"Dionysios #0" = 0
+	"Dorotheos #0" = 0
+	"Eirenaios #0" = 0
+	"Eudoxios #0" = 0
+	"Eustratios #0" = 0
+	"Euphemios #0" = 0
+	"Eusebios #0" = 0
+	"Eustathios #0" = 0
+	"Evangelos #0" = 0
+	"Gabriel #0" = 0
+	"Gennadios #0" = 0
+	"Georgios #0" = 0
+	"Gerasimos #0" = 0
+	"Germanos #0" = 0
+	"Gregoras #0" = 0
+	"Gregorios #0" = 0
+	"Hektorios #0" = 0
+	"Helias #0" = 0
+	"Hierotheos #0" = 0
+	"Himerios #0" = 0
+	"Hippolytos #0" = 0
+	"Hypatios #0" = 0
+	"Ignatios #0" = 0
+	"Ioannes #0" = 0
+	"Iordanes #0" = 0
+	"Ioseph #0" = 0
+	"Isaakios #0" = 0
+	"Isaias #0" = 0
+	"Isidoros #0" = 0
+	"Ioulianos #0" = 0
+	"Ioustinianos #0" = 0
+	"Ioustinos #0" = 0
+	"Kaisarios #0" = 0
+	"Kallinikos #0" = 0
+	"Kallistos #0" = 0
+	"Komitas #0" = 0
+	"Konstantios #0" = 0
+	"Konstas #0" = 0
+	"Kosmas #0" = 0
+	"Kyriakos #0" = 0
+	"Kyrillos #0" = 0
+	"Kyros #0" = 0
+	"Laurentios #0" = 0
+	"Lazaros #0" = 0
+	"Leon #0" = 0
+	"Leontios #0" = 0
+	"Loukas #0" = 0
+	"Makarios #0" = 0
+	"Manuel #0" = 0
+	"Markos #0" = 0
+	"Matthaios #0" = 0
+	"Maurikios #0" = 0
+	"Megistos #0" = 0
+	"Meletios #0" = 0
+	"Methodios #0" = 0
+	"Michael #0" = 0
+	"Narses #0" = 0
+	"Neophytos #0" = 0
+	"Nikephoros #0" = 0
+	"Niketas #0" = 0
+	"Nikodemos #0" = 0
+	"Nikolaos #0" = 0
+	"Orestes #0" = 0
+	"Pamphilios #0" = 0
+	"Pankratios #0" = 0
+	"Pantoleon #0" = 0
+	"Paschalis #0" = 0
+	"Pavlos #0" = 0
+	"Pelagios #0" = 0
+	"Petros #0" = 0
+	"Philaretos #0" = 0
+	"Philippos #0" = 0
+	"Philotheos #0" = 0
+	"Photios #0" = 0
+	"Polykarpos #0" = 0
+	"Porphyrios #0" = 0
+	"Prokopios #0" = 0
+	"Pyrros #0" = 0
+	"Raphail #0" = 0
+	"Sabas #0" = 0
+	"Samuel #0" = 0
+	"Serapion #0" = 0
+	"Sebastianos #0" = 0
+	"Sergios #0" = 0
+	"Stephanos #0" = 0
+	"Symeon #0" = 0
+	"Symmachos #0" = 0
+	"Theocharistos #0" = 0
+	"Theodosios #0" = 0
+	"Theodotos #0" = 0
+	"Theodoulos #0" = 0
+	"Theoktistos #0" = 0
+	"Theophanes #0" = 0
+	"Theophilos #0" = 0
+	"Thomas #0" = 0
+	"Tiberios #0" = 0
+	"Traianos #0" = 0
+	"Timotheos #0" = 0
+	"Tryphon #0" = 0
+	"Valerios #0" = 0
+	"Zacharias #0" = 0
+	"Zenobios #0" = 0
+	"Zenon #0" = 0
+}
+ship_names = {
+	Hydra
+	Lesbos Limnos
+	Mikonios
+	Pezopoulos
+	Salamis Samos Simitzopoulos
+	Themistoklis
+	Votsis
+}
+

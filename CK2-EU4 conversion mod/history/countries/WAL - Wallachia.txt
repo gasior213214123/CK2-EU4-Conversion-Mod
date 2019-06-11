@@ -1,0 +1,26 @@
+# Wallachia
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = bolghar
+religion = catholic
+clear_scripted_personalities = yes
+capital = 161
+1435.4.2 = {
+	monarch = {
+		name = "Orderic"
+		birth_date = 1376.3.6
+		dynasty = "Nibelunging"
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+}
+1444.11.11 = {
+	capital = 161
+	add_treasury = 377
+	add_prestige = 413
+}

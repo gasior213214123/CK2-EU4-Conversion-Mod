@@ -1,0 +1,27 @@
+# Nyitra
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = czech
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 1772
+1423.7.20 = {
+	monarch = {
+		name = "Hynek"
+		birth_date = 1390.12.18
+		dynasty = "of Bygdoszcz"
+		adm = 2
+		dip = 0
+		mil = 3
+	}
+	add_ruler_personality = loose_lips_personality
+	add_ruler_personality = sinner_personality
+}
+1444.11.11 = {
+	capital = 1772
+	add_treasury = 19
+	add_prestige = 325
+}

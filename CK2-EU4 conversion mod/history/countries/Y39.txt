@@ -1,0 +1,27 @@
+# Abkhazia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = georgian
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 1856
+1423.3.10 = {
+	monarch = {
+		name = "Herakleios"
+		birth_date = 1418.8.14
+		dynasty = "of Debar"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = cruel_personality
+}
+1444.11.11 = {
+	capital = 1856
+	add_treasury = 35
+	add_prestige = 68
+}

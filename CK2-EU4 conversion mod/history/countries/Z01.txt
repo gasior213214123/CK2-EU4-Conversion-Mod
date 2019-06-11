@@ -1,0 +1,27 @@
+# Estonia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = estonian
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 36
+1407.2.26 = {
+	monarch = {
+		name = "Zdenek II"
+		birth_date = 1405.1.24
+		dynasty = "Dzik"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = loose_lips_personality
+}
+1444.11.11 = {
+	capital = 36
+	add_treasury = 34
+	add_prestige = 731
+}

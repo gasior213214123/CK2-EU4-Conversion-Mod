@@ -1,0 +1,408 @@
+# Gelre
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 200 100 25 }
+historical_idea_groups = {
+	trade_ideas
+	exploration_ideas
+	naval_ideas
+	defensive_ideas
+	economic_ideas
+	religious_ideas
+	innovativeness_ideas
+	offensive_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	french_caracolle
+	swedish_gallop
+	austrian_tercio
+	austrian_grenzer
+	french_bluecoat
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Billung" "Auesoete" "Ermengardis" "Helena" "Robert" "Cesare" "Ermenegilda" "Hildegard" "Faroin" "Warin" 
+	"Hadewigis" "Femke" "Bet" "Battista" "Hroðhard" "Bonaventura" "Alboino" "Teutbert" "Jacco" "Galteri" 
+	"Waltrud" "Jolanda" "Warinechin" "Lidia" "Amalburga" "Enno" "Bennit" "Athela" "Amelung" "Dethard" 
+	"Theodrada" "Helene" "Gehrke" "Juries" "Bisina" "Wiltrud" "Rodelinda" "Suanhilde" "Günther" "Theodwin" 
+	"Hadwig" "Mechthild" "Cyprian" "Hrothwina" "Agnes" "Freawine" "Oda" "Eilika" "Irminburg" "Gelder" 
+	"Othelindis" "Cobbo" "Wulfhild" "Willichin" "Donar" "Margarete" "Tymmeke" "Asig" "Glismod" "Lembert" 
+	"Wenzel" "Adalgar" "Addila" "Withgils" "Enda" "Frederuna" "Gertrud" "Goswin" "Luitgard" "Brigida" 
+	"Luder-Udo" "Heilwig" "Ida" "Hartwig" "Viric" "Beatrix" "Heideke" "Odo" "Richardis" "Sigward" 
+	"Bruno" "Reineke" "Cord" "Adelheid" "Alof" "Widukind" "Engelhard" "Everd" "Walbert" "Bertrada" 
+	"Thiedburga" "Kunigunde" "Theodoric" "Marbold" "Imma" "Aelle" "Into" "Diedke" "Reginbern" "Geilana" 
+	"Detleff" "Diederik" "Girom" "Wichmann" "Malmfrið" "Marquard" "Hroðulfr" "Humfried" "Freyja" "Ingibjörg" 
+	"Gisela" "Hasala" "Anundr" "Mathilde" "Hafrid" "Ruta" "Rudolf" "Dedo" "Astrid" "Radegund" 
+	"Alebrand" "Karloman" "Adaldag" "Viba" "Sif" "Ewald" "Svanhildr" "Gocelm" "Sigfrid" "Leofweald" 
+	"Kristina" "Folqui" "Matilda" "Bero" "Leutberga" "Reinoud" "Maer" "Sadalberga" "Frotlina" "Giselmar" 
+	"Celsa" "Bertha" "Gerda" "Waltard" "Goiswinth" "Willemine" "Hulderic" "Radulf" "Silef" "Hersewindis" 
+	"Baldovino" "Augustin" "Dieuwke" "Bertilla" "Breghlent" "Karl" "Pepin" "Clodion" "Alda" "Clovis" 
+	"Bernard" "Bernhard" "Merogais" "Érrard" "Giordano" "Ealdhun" "Theudebald" "Malacresta" "Adelbrik" "Aitet" 
+	"Aldgisl" "Audulf" "Auutet" "Avin" "Avo" "Avuko" "Avutet" "Bavo" "Bentet" "Blekulf" 
+	"Blithulf" "Brunhard" "Bubo" "Bôio" "Edulf" "Egildeg" "Eilbern" "Eilherd" "Eilulf" "Eilward" 
+	"Eldei" "Elderd" "Elhard" "Engilbald" "Enhard" "Entet" "Esulf" "Euitet" "Euuerhard" "Eðelbern" 
+	"Eðelulf" "Eðelwi" "Focko" "Folcbald" "Folkbern" "Folkhard" "Folkward" "Frethirik" "Frethold" "Frethuhard" 
+	"Frethwi" "Frithunath" "Geldulf" "Geltet" "Gerbald" "Gerbrand" "Gerbruht" "Gerdeg" "Gerhard" "Gerold" 
+	"Gerulf" "Gerwar" "Gosse" "Habo" "Haring" "Hathuward" "Hebetet" "Helibad" "Hessel" "Hobern" 
+	"Hoitet" "Hroðward" "Juw" "Liaftet" "Liudbad" "Liudbald" "Liudger" "Liudgod" "Liudulf" "Liudward" 
+	"Liuppo" "Lubbiko" "Magnus" "Meginbraht" "Meginhard" "Meginulf" "Meintet" "Menbold" "Menfrid" "Menger" 
+	"Menhard" "Menhold" "Meniko" "Mentet" "Menward" "Merulf" "Miginward" "Notheri" "Occo" "Osnath" 
+	"Osnoð" "Popetet" "Poppo" "Raeddeg" "Rauantet" "Redbad" "Reginhard" "Reinbern" "Reinier" "Renhard" 
+	"Renward" "Riklef" "Rikwi" "Rodbern" "Saco" "Salaco" "Sibod" "Sibraht" "Sidei" "Sikke" 
+	"Siward" "Siwi" "Sjoerd" "Sytse" "Taco" "Tadaco" "Tado" "Thancward" "Thankbern" "Thiadbold" 
+	"Thiadbrund" "Thiaddi" "Thiaderd" "Thiadulf" "Thiadward" "Thiadwi" "Thiedold" "Thonkrik" "Wambald" "Wening" 
+	"Wentet" "Wibad" "Wibraht" "Wibrund" "Wiftet" "Wigbald" "Wigerd" "Wihard" "Wilbrand" "Wilco" 
+	"Wiltet" "Wulfnoth" "Ygo" }
+monarch_names = {
+	"Billung #0" = 1
+	"Auesoete #0" = -1
+	"Ermengardis #0" = -1
+	"Helena #0" = -1
+	"Robert #0" = 1
+	"Cesare #0" = 1
+	"Ermenegilda #0" = -1
+	"Hildegard #0" = -1
+	"Faroin #0" = 1
+	"Warin #0" = 1
+	"Hadewigis #0" = -1
+	"Femke #0" = -1
+	"Bet #0" = -1
+	"Battista #0" = 1
+	"Hroðhard #1" = 18
+	"Bonaventura #0" = 1
+	"Alboino #0" = 1
+	"Teutbert #0" = 1
+	"Jacco #0" = 1
+	"Galteri #0" = 1
+	"Waltrud #0" = -1
+	"Jolanda #0" = -1
+	"Warinechin #0" = 1
+	"Lidia #0" = -1
+	"Amalburga #0" = -1
+	"Enno #0" = 1
+	"Bennit #0" = 1
+	"Athela #0" = -1
+	"Amelung #0" = 1
+	"Dethard #0" = 1
+	"Theodrada #0" = -1
+	"Helene #0" = -1
+	"Gehrke #0" = 1
+	"Juries #0" = 1
+	"Bisina #0" = -1
+	"Wiltrud #0" = -1
+	"Rodelinda #0" = -1
+	"Suanhilde #0" = -1
+	"Günther #0" = 1
+	"Theodwin #0" = 1
+	"Hadwig #0" = -1
+	"Mechthild #0" = -1
+	"Cyprian #0" = 1
+	"Hrothwina #0" = -1
+	"Agnes #0" = -1
+	"Freawine #0" = 1
+	"Oda #0" = -1
+	"Eilika #0" = -1
+	"Irminburg #1" = -28
+	"Gelder #0" = 1
+	"Othelindis #0" = -1
+	"Cobbo #0" = 1
+	"Wulfhild #0" = -1
+	"Willichin #0" = 1
+	"Donar #0" = 1
+	"Margarete #0" = -1
+	"Tymmeke #0" = 1
+	"Asig #0" = 1
+	"Glismod #0" = -1
+	"Lembert #0" = 1
+	"Wenzel #0" = 1
+	"Adalgar #0" = 1
+	"Addila #0" = -1
+	"Withgils #0" = 1
+	"Enda #0" = -1
+	"Frederuna #0" = -1
+	"Gertrud #0" = -1
+	"Goswin #0" = 1
+	"Luitgard #0" = -1
+	"Brigida #0" = -1
+	"Luder-Udo #0" = 1
+	"Heilwig #0" = -1
+	"Ida #0" = -1
+	"Hartwig #0" = 1
+	"Viric #0" = 1
+	"Beatrix #0" = -1
+	"Heideke #0" = 1
+	"Odo #0" = 1
+	"Richardis #0" = -1
+	"Sigward #1" = 21
+	"Bruno #0" = 1
+	"Reineke #0" = 1
+	"Cord #0" = 1
+	"Adelheid #0" = -1
+	"Alof #0" = -1
+	"Widukind #0" = 1
+	"Engelhard #0" = 1
+	"Everd #0" = 1
+	"Walbert #0" = 1
+	"Bertrada #0" = -1
+	"Thiedburga #0" = -1
+	"Kunigunde #0" = -1
+	"Theodoric #0" = 1
+	"Marbold #0" = 1
+	"Imma #0" = -1
+	"Aelle #0" = 1
+	"Into #0" = 1
+	"Diedke #0" = -1
+	"Reginbern #1" = 18
+	"Geilana #0" = -1
+	"Detleff #1" = 18
+	"Diederik #0" = 1
+	"Girom #0" = 1
+	"Wichmann #0" = 1
+	"Malmfrið #0" = -1
+	"Marquard #0" = 1
+	"Hroðulfr #0" = 1
+	"Humfried #0" = 1
+	"Freyja #0" = -1
+	"Ingibjörg #0" = -1
+	"Gisela #0" = -1
+	"Hasala #0" = -1
+	"Anundr #0" = 1
+	"Mathilde #0" = -1
+	"Hafrid #0" = -1
+	"Ruta #0" = -1
+	"Rudolf #0" = 1
+	"Dedo #0" = 1
+	"Astrid #0" = -1
+	"Radegund #0" = -1
+	"Alebrand #1" = 18
+	"Karloman #0" = 1
+	"Adaldag #0" = 1
+	"Viba #0" = -1
+	"Sif #0" = -1
+	"Ewald #0" = 1
+	"Svanhildr #0" = -1
+	"Gocelm #0" = 1
+	"Sigfrid #0" = 1
+	"Leofweald #0" = 1
+	"Kristina #0" = -1
+	"Folqui #0" = -1
+	"Matilda #0" = -1
+	"Bero #1" = 18
+	"Leutberga #1" = -19
+	"Reinoud #0" = 1
+	"Maer #0" = -1
+	"Sadalberga #0" = -1
+	"Frotlina #0" = -1
+	"Giselmar #0" = 1
+	"Celsa #0" = -1
+	"Bertha #0" = -1
+	"Gerda #0" = -1
+	"Waltard #0" = 1
+	"Goiswinth #0" = -1
+	"Willemine #0" = -1
+	"Hulderic #0" = 1
+	"Radulf #0" = 1
+	"Silef #0" = 1
+	"Hersewindis #0" = -1
+	"Baldovino #0" = 1
+	"Augustin #0" = 1
+	"Dieuwke #0" = -1
+	"Bertilla #0" = -1
+	"Breghlent #0" = -1
+	"Karl #1" = 0
+	"Pepin #1" = 0
+	"Clodion #1" = 0
+	"Alda #1" = -1
+	"Clovis #3" = 0
+	"Bernard #1" = 0
+	"Bernhard #1" = 0
+	"Merogais #1" = 0
+	"Érrard #1" = 0
+	"Giordano #1" = 0
+	"Ealdhun #1" = 0
+	"Theudebald #1" = 0
+	"Malacresta #1" = 0
+	"Adelbrik #0" = 0
+	"Aitet #0" = 0
+	"Aldgisl #0" = 0
+	"Audulf #0" = 0
+	"Auutet #0" = 0
+	"Avin #0" = 0
+	"Avo #0" = 0
+	"Avuko #0" = 0
+	"Avutet #0" = 0
+	"Bavo #0" = 0
+	"Bentet #0" = 0
+	"Blekulf #0" = 0
+	"Blithulf #0" = 0
+	"Brunhard #0" = 0
+	"Bubo #0" = 0
+	"Bôio #0" = 0
+	"Edulf #0" = 0
+	"Egildeg #0" = 0
+	"Eilbern #0" = 0
+	"Eilherd #0" = 0
+	"Eilulf #0" = 0
+	"Eilward #0" = 0
+	"Eldei #0" = 0
+	"Elderd #0" = 0
+	"Elhard #0" = 0
+	"Engilbald #0" = 0
+	"Enhard #0" = 0
+	"Entet #0" = 0
+	"Esulf #0" = 0
+	"Euitet #0" = 0
+	"Euuerhard #0" = 0
+	"Eðelbern #0" = 0
+	"Eðelulf #0" = 0
+	"Eðelwi #0" = 0
+	"Focko #0" = 0
+	"Folcbald #0" = 0
+	"Folkbern #0" = 0
+	"Folkhard #0" = 0
+	"Folkward #0" = 0
+	"Frethirik #0" = 0
+	"Frethold #0" = 0
+	"Frethuhard #0" = 0
+	"Frethwi #0" = 0
+	"Frithunath #0" = 0
+	"Geldulf #0" = 0
+	"Geltet #0" = 0
+	"Gerbald #0" = 0
+	"Gerbrand #0" = 0
+	"Gerbruht #0" = 0
+	"Gerdeg #0" = 0
+	"Gerhard #0" = 0
+	"Gerold #0" = 0
+	"Gerulf #0" = 0
+	"Gerwar #0" = 0
+	"Gosse #0" = 0
+	"Habo #0" = 0
+	"Haring #0" = 0
+	"Hathuward #0" = 0
+	"Hebetet #0" = 0
+	"Helibad #0" = 0
+	"Hessel #0" = 0
+	"Hobern #0" = 0
+	"Hoitet #0" = 0
+	"Hroðward #0" = 0
+	"Juw #0" = 0
+	"Liaftet #0" = 0
+	"Liudbad #0" = 0
+	"Liudbald #0" = 0
+	"Liudger #0" = 0
+	"Liudgod #0" = 0
+	"Liudulf #0" = 0
+	"Liudward #0" = 0
+	"Liuppo #0" = 0
+	"Lubbiko #0" = 0
+	"Magnus #0" = 0
+	"Meginbraht #0" = 0
+	"Meginhard #0" = 0
+	"Meginulf #0" = 0
+	"Meintet #0" = 0
+	"Menbold #0" = 0
+	"Menfrid #0" = 0
+	"Menger #0" = 0
+	"Menhard #0" = 0
+	"Menhold #0" = 0
+	"Meniko #0" = 0
+	"Mentet #0" = 0
+	"Menward #0" = 0
+	"Merulf #0" = 0
+	"Miginward #0" = 0
+	"Notheri #0" = 0
+	"Occo #0" = 0
+	"Osnath #0" = 0
+	"Osnoð #0" = 0
+	"Popetet #0" = 0
+	"Poppo #0" = 0
+	"Raeddeg #0" = 0
+	"Rauantet #0" = 0
+	"Redbad #0" = 0
+	"Reginhard #0" = 0
+	"Reinbern #0" = 0
+	"Reinier #0" = 0
+	"Renhard #0" = 0
+	"Renward #0" = 0
+	"Riklef #0" = 0
+	"Rikwi #0" = 0
+	"Rodbern #0" = 0
+	"Saco #0" = 0
+	"Salaco #0" = 0
+	"Sibod #0" = 0
+	"Sibraht #0" = 0
+	"Sidei #0" = 0
+	"Sikke #0" = 0
+	"Siward #0" = 0
+	"Siwi #0" = 0
+	"Sjoerd #0" = 0
+	"Sytse #0" = 0
+	"Taco #0" = 0
+	"Tadaco #0" = 0
+	"Tado #0" = 0
+	"Thancward #0" = 0
+	"Thankbern #0" = 0
+	"Thiadbold #0" = 0
+	"Thiadbrund #0" = 0
+	"Thiaddi #0" = 0
+	"Thiaderd #0" = 0
+	"Thiadulf #0" = 0
+	"Thiadward #0" = 0
+	"Thiadwi #0" = 0
+	"Thiedold #0" = 0
+	"Thonkrik #0" = 0
+	"Wambald #0" = 0
+	"Wening #0" = 0
+	"Wentet #0" = 0
+	"Wibad #0" = 0
+	"Wibraht #0" = 0
+	"Wibrund #0" = 0
+	"Wiftet #0" = 0
+	"Wigbald #0" = 0
+	"Wigerd #0" = 0
+	"Wihard #0" = 0
+	"Wilbrand #0" = 0
+	"Wilco #0" = 0
+	"Wiltet #0" = 0
+	"Wulfnoth #0" = 0
+	"Ygo #0" = 0
+}
+ship_names = {
+	Adelaar Ajax Alkmaar Amelia Amsterdam Atalanta
+	Bantam Batavia Beschermer Brederode Brouwer Brutus
+	Campen Cerberus Comeestar
+	Daphne Delfland Delft "Den Swarten Raven" Delphin Deventer Duyfken
+	Eendracht Eenhorn Embuscade Engel Erasmus
+	Gaesterland "Gekroende Liefde" Gelijkheid Gouda "Gouden Arend" "Gouden Leeuw" "Groot Frisia" "Groote Sint Joris" "Grote Zon"
+	Haarlem Heldin Hercules "De Halve Maen" Hollandia "Hollandsche Tuyn" "Huis te Oosterwijk" "Huis te Zwieten" "Huys van Nassau"
+	"Jong Prins te Paard" Jupiter "Kleine Zon"
+	"Kleene Sint Joris" Komeeetster "Kronede Arend"
+	Leyden "Liefde van Hoorn"
+	"Maagd van Dordrecht" Mars Mauritius Middelburg Minerva Moon Monnikendam Muiderberg
+	Nassau "Nieuw Vlissingen" 
+	Olifant Onrust Ooievaar Oranje
+	Patientia Posthorn "Prins Friso" "Prins Willem" 
+	Rotterdam Rozendaal
+	Schakerloo Schermer Spiegel Staten-Generaal Statenlande Ster "St. Iago de Victoria" "St. Marten" "St. Matthuis"
+	Tholen Tyger 
+	"Vereenigde Provincieën" Vlissingen Vrede Vrijheid
+	Waakzaamheid "Walcheren" "Wapen van Holland" "Wapen van Medenblik" Wassenaar Winhond "Witte Leeuw" Woerden Zeerijp
+	"Zeven Provincien" Zierikzee Zon Zuidholland "Zwarte Leeuw" 
+}
+

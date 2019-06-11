@@ -1,0 +1,114 @@
+# Ouallam Ghana
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 88 135 211 }
+
+
+
+
+leader_names = {
+
+	"Bamari" "Barakissa" "Nafissa" "Kalabi" "Kaya" "Lorane" "Sulayman" "Abubakar" "Akoi" "Alayaman" 
+	"Bérété" "Bathily" "Bomou" "Bilali" "Bunama" "Badä" "Bannu" "Birama" "Bisi" "Biyu" 
+	"Cissi" "Diobé" "Dabo" "Diakhaba" "Diawara" "Daffi" "Doucouri" "Dankaran" "Demba" "Daoud" 
+	"Diara" "Fissourou" "Fadiga" "Fädazu" "Fuluku" "Gane" "Gao" "Ishaq" "Kaba" "Kabayo" 
+	"Kanafa" "Kambine" "Kassa" "Kayna" "Kinkin" "Kukuray" "Kusoy" "Marega" "M'Bali" "Maghan" 
+	"Majan" "Mamadi" "Mamoudou" "Mari-Djata" "Musa" "Niakhaté" "Nintasanay" "Wague" "Wali" "Wati" 
+	"Reidja" "Sy" "Sylla" "Sakho" "Soukhouna" "Sima" "Soumaré" "Sakoura" "Salman" "Sandaki" 
+	"Soumaba" "Soumaoro" "Soundiata" "Tandian" "Tunka" "Tunka-Menin" "Tabouri" "Tounkara" "Touri" "Tandi" 
+	"Takoi" "Tib" "Yansané" "Yatabéri" "Yama" "Yasiboy" "Zakoi" "Zenku" }
+monarch_names = {
+	"Bamari #1" = 18
+	"Barakissa #0" = -1
+	"Nafissa #0" = -1
+	"Kalabi #1" = 18
+	"Kaya #0" = 1
+	"Lorane #0" = -1
+	"Sulayman #0" = 1
+	"Abubakar #0" = 0
+	"Akoi #0" = 0
+	"Alayaman #0" = 0
+	"Bérété #0" = 0
+	"Bathily #0" = 0
+	"Bomou #0" = 0
+	"Bilali #0" = 0
+	"Bunama #0" = 0
+	"Badä #0" = 0
+	"Bannu #0" = 0
+	"Birama #0" = 0
+	"Bisi #0" = 0
+	"Biyu #0" = 0
+	"Cissi #0" = 0
+	"Diobé #0" = 0
+	"Dabo #0" = 0
+	"Diakhaba #0" = 0
+	"Diawara #0" = 0
+	"Daffi #0" = 0
+	"Doucouri #0" = 0
+	"Dankaran #0" = 0
+	"Demba #0" = 0
+	"Daoud #0" = 0
+	"Diara #0" = 0
+	"Fissourou #0" = 0
+	"Fadiga #0" = 0
+	"Fädazu #0" = 0
+	"Fuluku #0" = 0
+	"Gane #0" = 0
+	"Gao #0" = 0
+	"Ishaq #0" = 0
+	"Kaba #0" = 0
+	"Kabayo #0" = 0
+	"Kanafa #0" = 0
+	"Kambine #0" = 0
+	"Kassa #0" = 0
+	"Kayna #0" = 0
+	"Kinkin #0" = 0
+	"Kukuray #0" = 0
+	"Kusoy #0" = 0
+	"Marega #0" = 0
+	"M'Bali #0" = 0
+	"Maghan #0" = 0
+	"Majan #0" = 0
+	"Mamadi #0" = 0
+	"Mamoudou #0" = 0
+	"Mari-Djata #0" = 0
+	"Musa #0" = 0
+	"Niakhaté #0" = 0
+	"Nintasanay #0" = 0
+	"Wague #0" = 0
+	"Wali #0" = 0
+	"Wati #0" = 0
+	"Reidja #0" = 0
+	"Sy #0" = 0
+	"Sylla #0" = 0
+	"Sakho #0" = 0
+	"Soukhouna #0" = 0
+	"Sima #0" = 0
+	"Soumaré #0" = 0
+	"Sakoura #0" = 0
+	"Salman #0" = 0
+	"Sandaki #0" = 0
+	"Soumaba #0" = 0
+	"Soumaoro #0" = 0
+	"Soundiata #0" = 0
+	"Tandian #0" = 0
+	"Tunka #0" = 0
+	"Tunka-Menin #0" = 0
+	"Tabouri #0" = 0
+	"Tounkara #0" = 0
+	"Touri #0" = 0
+	"Tandi #0" = 0
+	"Takoi #0" = 0
+	"Tib #0" = 0
+	"Yansané #0" = 0
+	"Yatabéri #0" = 0
+	"Yama #0" = 0
+	"Yasiboy #0" = 0
+	"Zakoi #0" = 0
+	"Zenku #0" = 0
+
+
+	"Halima #0" = -1
+	"Amita #0" = -1
+}
+

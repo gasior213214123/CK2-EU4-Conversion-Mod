@@ -1,0 +1,27 @@
+# Pskov
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = avar
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 1864
+1432.11.7 = {
+	monarch = {
+		name = "Dobrogost"
+		birth_date = 1407.10.28
+		dynasty = "Dzik"
+		adm = 4
+		dip = 0
+		mil = 2
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = intricate_web_weaver_personality
+}
+1444.11.11 = {
+	capital = 1864
+	add_treasury = 37
+	add_prestige = 481
+}

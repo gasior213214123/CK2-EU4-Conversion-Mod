@@ -1,0 +1,27 @@
+# Sijilmasa
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = berber
+religion = shiite
+clear_scripted_personalities = yes
+capital = 2460
+1422.11.28 = {
+	monarch = {
+		name = "Shamir"
+		birth_date = 1414.3.3
+		dynasty = "Alimid"
+		adm = 3
+		dip = 0
+		mil = 4
+	}
+	add_ruler_personality = scholar_personality
+	add_ruler_personality = careful_personality
+}
+1444.11.11 = {
+	capital = 2460
+	add_treasury = 49
+	add_prestige = 67
+}

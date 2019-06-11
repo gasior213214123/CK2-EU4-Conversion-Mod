@@ -1,0 +1,27 @@
+# Greater Poland
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = polish
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 2963
+1428.8.20 = {
+	monarch = {
+		name = "Sedzimir II"
+		birth_date = 1420.9.10
+		dynasty = "of Szczyrzyc"
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+	add_ruler_personality = craven_personality
+	add_ruler_personality = strict_personality
+}
+1444.11.11 = {
+	capital = 2963
+	add_treasury = 30
+	add_prestige = 153
+}

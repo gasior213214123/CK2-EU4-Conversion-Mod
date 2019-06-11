@@ -1,0 +1,40 @@
+# Abyssinia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = east_african
+primary_culture = amhara
+religion = coptic
+clear_scripted_personalities = yes
+capital = 1224
+1405.1.7 = {
+	monarch = {
+		name = "Afework II"
+		birth_date = 1383.6.17
+		dynasty = "Afeworkid"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = inspiring_leader_personality
+}
+1410.8.19 = {
+	heir = {
+		name = "Iskinder"
+		monarch_name = "Iskinder"
+		dynasty = "Afeworkid"
+		birth_date = 1410.8.19
+		death_date = 1490.8.19
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+	add_heir_personality = craven_personality
+}
+1444.11.11 = {
+	capital = 1224
+	add_treasury = -78
+	add_prestige = 500
+}

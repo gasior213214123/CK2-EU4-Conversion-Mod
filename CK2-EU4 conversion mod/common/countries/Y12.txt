@@ -1,0 +1,460 @@
+# Nobatia
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 162 133 85 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	economic_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+
+
+leader_names = {
+
+	"Sebastian" "Odilo" "Tawenza" "Gennadios" "Viviana" "Georgia" "Maximos" "Theochariste" "Anthemios" "Basillike" 
+	"Christophoros" "Antiochos" "Traianos" "Petronia" "Anthousa" "Leontios" "Akateiaji" "Gortyn" "Eusebia" "Xene" 
+	"Romylia" "Tinatini" "Theodotos" "Romane" "Aigidia" "Orestes" "Theophilos" "Helias" "Konstas" "Markia" 
+	"Athanasios" "Ioustina" "Eulalia" "Zoe" "Nikarete" "Sajida" "Theognosia" "Belisarios" "Matthaios" "Philaretos" 
+	"Eugenios" "Euphrosyne" "Kyriakos" "Kosmas" "Damianos" "Eupraxia" "Eudoxia" "Dorothea" "Aamina" "Theodosia" 
+	"Athanasia" "Anatolios" "Dionysia" "Staurakios" "Eunike" "Leontia" "Malik" "Suhava" "Eudoxios" "Pelagios" 
+	"Anastasia" "Alighiero" "Zenobios" "Gerasimos" "Neophytos" "Sibylla" "Simonis" "Kale" "Gabriel" "Agathe" 
+	"Ghida" "Sabas" "Prabhavati" "Martha" "Konstantinos" "Vijayapala" "Konstantia" "Doménico" "Iouliana" "Ratan-Singh" 
+	"Theoktistos" "Ignatios" "Anthimos" "Helene" "Dua" "Methodios" "Eugenia" "Eudokia" "H'edda" "Tislit" 
+	"Sergia" "Chrysogonos" "Helchen" "Reccared" "Ahthari" "Uta" "Appa" "Ansa" "Chlotsuintha" "Giseltrude" 
+	"Erelieva" "Theodorada" "Odoin" "Wilgefortis" "Rochus" "Theotpert" "Roberto" "Giuseppe" "Guido" "Alberto" 
+	"Aurelia" "Alessio" "Matasuntha" "Mastino" "Joscella" "Michele" "Ugolino" "Elisabetta" "Valerio" "Gaatha" 
+	"Attilio" "Nikephoros" "Rodolfo" "Giovanna" "Stefania" "Mariana" "Massimo" "Costanzo" "Albino" "Isnardo" 
+	"Laura" "Tiziano" "Martina" "Ado" "Ginevra" "Clotilde" "Lavinia" "Albina" "Innocentius" "Abelardo" 
+	"Cosma" "Bianca" "Adalgisa" "Torquato" "Enzio" "Lucinetta" "Augusta" "Cecco" "Flavia" "Lidia" 
+	"Ereleuva" "Marino" "Letizia" "Liutberga" "Beatrice" "Gilberto" "Patrizia" "Gabrino" "Amma" "Agalina" 
+	"Agostino" "Ferruccio" "Adelasia" "Battista" "Fausta" "Sofia" "Virginia" "Agostina" "Rizzardo" "Giacinta" 
+	"Comita" "Berta" "Ausonia" "Giulia" "Elena" "Marietta" "Rodelinda" "Melek" "Leonide" "Areagne" 
+	"Sico" "Caterina" "Loncho" "Antonella" "Ausilio" "Gaitelgrima" "Lucrezia" "Ioseph" "Delinda" "Cornelia" 
+	"Renata" "Lucia" "Gerperga" "Clara" "Edda" "Ascanio" "Arnifrid" "Arcibaldo" "Rotrude" "Tanebdatt" 
+	"Adelia" "Mariano" "Ioannikios" "H'emmu" "Menzu" "Ricciarda" "Akakios" "Tiberios" "Francesca" "Silya" 
+	"Lunja" "Parthena" "Euphemios" "Alexios" "Guntrud" "Amalia" "Lumsi" "Dora" "Kanimana" "Candida" 
+	"Tiziana" "Bassiano" "R'uza" "Timotheos" "Tiziri" "Z'effun" "Brunilde" "Barbara" "Chrysogone" "Tikinas" 
+	"Eusebios" "Ioanna" "Adelaida" "Prokopios" "Dionysios" "Guraya" "Isaias" "Halima" "Bosporios" "Raphail" 
+	"Gregorios" "Ittû" "Titrit" "Theocharistos" "Berenice" "Anna" "Himerios" "Iakobos" "Demetrios" "Zayar" 
+	"Tudert" "Tafsut" "Lwiza" "Bartholomaios" "Kahina" "Tayyurt" "Demetra" "Antipatra" "Konstantios" "Gabrielia" 
+	"Thekla" "Arsenios" "Melissa" "Theophanes" "Eustathia" "Eirenaios" "Mellal" "Monica" "Diogenes" "Gedduda" 
+	"Narses" "Silko" "Tokiltoeton" "Eirpanome" "Negus" "Nur" "Egaloskoura" "Jawdat" "Badr" "Abianos" 
+	"Yassir" "Ridwan" "Abdul-Azeem" "Gabra" "Aarôn" "Aberikos" "Abraam" "Añgelos" "Andreas" "Balô" 
+	"Birêl" "Chael" "Dauid" "Dimetheos" "Dioskoros" "Diônisios" "Eliezer" "Eionkouda" "Emmanouel" "Enôch" 
+	"Ephannê" "Epimachos" "Epiphanios" "Gabrielkouda" "Gabrielophorou" "Gennatios" "Geôrgios" "Hêlias" "Hoase" "Hoassi" 
+	"Hoasse" "Iacob" "Ieremias" "Iêsous" "Iêsousinkouda" "Iôannou" "Iôannês" "Iordanes" "Kalinikos" "Kollouthos" 
+	"Krisanthos" "Kuriakos" "Kurillos" "Lazaros" "Leon" "Makarios" "Mariankouda" "Marianos" "Marios" "Markos" 
+	"Marturophoros" "Mašanñal" "Maththias" "Mêlênkouda" "Mena" "Menankouda" "Merkourios" "Michaêl" "Michaêlkouda" "Mouses" 
+	"Orna" "Panigiros" "Papasinen" "Papasinkouda" "Patrikios" "Paulos" "Petros" "Petrou" "Philotheos" "Philemon" 
+	"Prochoros" "Raphael" "Raphaelkouda" "Samson" "Senouthios" "Sentiko" "Sergios" "Simeoni" "Soizuros" "Solomôn" 
+	"Sotinkouda" "Stephanos" "Stephanou" "Thadeosi" "Theodôros" "Theodosios" "Theodote" "Thoma" "Tophêna" "Tirsakouni" 
+	"Zacharias" "Zosima" }
+monarch_names = {
+	"Sebastian #0" = 1
+	"Odilo #0" = 1
+	"Tawenza #0" = -1
+	"Gennadios #0" = 1
+	"Viviana #0" = -1
+	"Georgia #0" = -1
+	"Maximos #0" = 1
+	"Theochariste #0" = -1
+	"Anthemios #0" = 1
+	"Basillike #0" = -1
+	"Christophoros #0" = 1
+	"Antiochos #0" = 1
+	"Traianos #0" = 1
+	"Petronia #0" = -1
+	"Anthousa #0" = -1
+	"Leontios #0" = 1
+	"Akateiaji #0" = 1
+	"Gortyn #1" = 33
+	"Eusebia #0" = -1
+	"Xene #0" = -1
+	"Romylia #0" = -1
+	"Tinatini #0" = -1
+	"Theodotos #0" = 1
+	"Romane #0" = -1
+	"Aigidia #0" = -1
+	"Orestes #1" = 21
+	"Theophilos #0" = 1
+	"Helias #0" = 1
+	"Konstas #0" = 1
+	"Markia #0" = -1
+	"Athanasios #0" = 1
+	"Ioustina #0" = -1
+	"Eulalia #0" = -1
+	"Zoe #0" = -1
+	"Nikarete #0" = -1
+	"Sajida #0" = -1
+	"Theognosia #0" = -1
+	"Belisarios #0" = 1
+	"Matthaios #0" = 1
+	"Philaretos #1" = 21
+	"Eugenios #0" = 1
+	"Euphrosyne #0" = -1
+	"Kyriakos #0" = 1
+	"Kosmas #0" = 1
+	"Damianos #0" = 1
+	"Eupraxia #0" = -1
+	"Eudoxia #0" = -1
+	"Dorothea #0" = -1
+	"Aamina #0" = -1
+	"Theodosia #0" = -1
+	"Athanasia #0" = -1
+	"Anatolios #0" = 1
+	"Dionysia #0" = -1
+	"Staurakios #0" = 1
+	"Eunike #0" = -1
+	"Leontia #0" = -1
+	"Malik #0" = 1
+	"Suhava #0" = -1
+	"Eudoxios #0" = 1
+	"Pelagios #0" = 1
+	"Anastasia #0" = -1
+	"Alighiero #0" = 1
+	"Zenobios #0" = 1
+	"Gerasimos #0" = 1
+	"Neophytos #0" = 1
+	"Sibylla #0" = -1
+	"Simonis #0" = -1
+	"Kale #0" = -1
+	"Gabriel #0" = 1
+	"Agathe #0" = -1
+	"Ghida #0" = -1
+	"Sabas #0" = 1
+	"Prabhavati #0" = -1
+	"Martha #0" = -1
+	"Konstantinos #0" = 1
+	"Vijayapala #0" = 1
+	"Konstantia #0" = -1
+	"Doménico #0" = 1
+	"Iouliana #0" = -1
+	"Ratan-Singh #0" = 1
+	"Theoktistos #0" = 1
+	"Ignatios #0" = 1
+	"Anthimos #0" = 1
+	"Helene #0" = -1
+	"Dua #0" = -1
+	"Methodios #0" = 1
+	"Eugenia #0" = -1
+	"Eudokia #0" = -1
+	"H'edda #0" = -1
+	"Tislit #0" = -1
+	"Sergia #0" = -1
+	"Chrysogonos #0" = 1
+	"Helchen #0" = -1
+	"Reccared #0" = 1
+	"Ahthari #0" = 1
+	"Uta #0" = -1
+	"Appa #0" = -1
+	"Ansa #0" = -1
+	"Chlotsuintha #0" = -1
+	"Giseltrude #0" = -1
+	"Erelieva #0" = -1
+	"Theodorada #0" = -1
+	"Odoin #0" = 1
+	"Wilgefortis #0" = -1
+	"Rochus #0" = 1
+	"Theotpert #0" = 1
+	"Roberto #0" = 1
+	"Giuseppe #0" = 1
+	"Guido #0" = 1
+	"Alberto #0" = 1
+	"Aurelia #0" = -1
+	"Alessio #0" = 1
+	"Matasuntha #0" = -1
+	"Mastino #0" = 1
+	"Joscella #0" = -1
+	"Michele #0" = 1
+	"Ugolino #0" = 1
+	"Elisabetta #0" = -1
+	"Valerio #0" = 1
+	"Gaatha #0" = -1
+	"Attilio #0" = 1
+	"Nikephoros #0" = 1
+	"Rodolfo #0" = 1
+	"Giovanna #0" = -1
+	"Stefania #0" = -1
+	"Mariana #0" = -1
+	"Massimo #0" = 1
+	"Costanzo #0" = 1
+	"Albino #0" = 1
+	"Isnardo #0" = 1
+	"Laura #0" = -1
+	"Tiziano #0" = 1
+	"Martina #0" = -1
+	"Ado #0" = 1
+	"Ginevra #0" = -1
+	"Clotilde #0" = -1
+	"Lavinia #0" = -1
+	"Albina #0" = -1
+	"Innocentius #0" = 1
+	"Abelardo #0" = 1
+	"Cosma #0" = 1
+	"Bianca #0" = -1
+	"Adalgisa #0" = -1
+	"Torquato #0" = 1
+	"Enzio #0" = 1
+	"Lucinetta #0" = -1
+	"Augusta #0" = -1
+	"Cecco #0" = 1
+	"Flavia #0" = -1
+	"Lidia #0" = -1
+	"Ereleuva #0" = -1
+	"Marino #0" = 1
+	"Letizia #0" = -1
+	"Liutberga #0" = -1
+	"Beatrice #0" = -1
+	"Gilberto #0" = 1
+	"Patrizia #0" = -1
+	"Gabrino #0" = 1
+	"Amma #0" = 1
+	"Agalina #0" = -1
+	"Agostino #0" = 1
+	"Ferruccio #0" = 1
+	"Adelasia #0" = -1
+	"Battista #0" = 1
+	"Fausta #0" = -1
+	"Sofia #0" = -1
+	"Virginia #0" = -1
+	"Agostina #0" = -1
+	"Rizzardo #0" = 1
+	"Giacinta #0" = -1
+	"Comita #0" = 1
+	"Berta #0" = -1
+	"Ausonia #0" = -1
+	"Giulia #0" = -1
+	"Elena #0" = -1
+	"Marietta #0" = -1
+	"Rodelinda #0" = -1
+	"Melek #0" = -1
+	"Leonide #0" = -1
+	"Areagne #0" = -1
+	"Sico #0" = 1
+	"Caterina #0" = -1
+	"Loncho #0" = 1
+	"Antonella #0" = -1
+	"Ausilio #0" = 1
+	"Gaitelgrima #0" = -1
+	"Lucrezia #0" = -1
+	"Ioseph #0" = 1
+	"Delinda #0" = -1
+	"Cornelia #0" = -1
+	"Renata #0" = -1
+	"Lucia #0" = -1
+	"Gerperga #0" = -1
+	"Clara #0" = -1
+	"Edda #0" = -1
+	"Ascanio #0" = 1
+	"Arnifrid #0" = 1
+	"Arcibaldo #0" = 1
+	"Rotrude #0" = -1
+	"Tanebdatt #0" = -1
+	"Adelia #0" = -1
+	"Mariano #0" = 1
+	"Ioannikios #0" = 1
+	"H'emmu #0" = 1
+	"Menzu #0" = 1
+	"Ricciarda #0" = -1
+	"Akakios #0" = 1
+	"Tiberios #0" = 1
+	"Francesca #0" = -1
+	"Silya #0" = -1
+	"Lunja #0" = -1
+	"Parthena #0" = -1
+	"Euphemios #0" = 1
+	"Alexios #0" = 1
+	"Guntrud #0" = -1
+	"Amalia #0" = -1
+	"Lumsi #0" = -1
+	"Dora #0" = -1
+	"Kanimana #0" = -1
+	"Candida #0" = -1
+	"Tiziana #0" = -1
+	"Bassiano #0" = 1
+	"R'uza #0" = -1
+	"Timotheos #0" = 1
+	"Tiziri #0" = -1
+	"Z'effun #0" = 1
+	"Brunilde #0" = -1
+	"Barbara #0" = -1
+	"Chrysogone #0" = -1
+	"Tikinas #0" = -1
+	"Eusebios #0" = 1
+	"Ioanna #0" = -1
+	"Adelaida #0" = -1
+	"Prokopios #0" = 1
+	"Dionysios #0" = 1
+	"Guraya #0" = -1
+	"Isaias #1" = 18
+	"Halima #0" = -1
+	"Bosporios #0" = 1
+	"Raphail #0" = 1
+	"Gregorios #0" = 1
+	"Ittû #1" = -22
+	"Titrit #0" = -1
+	"Theocharistos #0" = 1
+	"Berenice #0" = -1
+	"Anna #0" = -1
+	"Himerios #0" = 1
+	"Iakobos #0" = 1
+	"Demetrios #0" = 1
+	"Zayar #0" = 1
+	"Tudert #0" = -1
+	"Tafsut #0" = -1
+	"Lwiza #0" = -1
+	"Bartholomaios #0" = 1
+	"Kahina #0" = -1
+	"Tayyurt #0" = -1
+	"Demetra #0" = -1
+	"Antipatra #0" = -1
+	"Konstantios #0" = 1
+	"Gabrielia #0" = -1
+	"Thekla #0" = -1
+	"Arsenios #0" = 1
+	"Melissa #0" = -1
+	"Theophanes #0" = 1
+	"Eustathia #0" = -1
+	"Eirenaios #0" = 1
+	"Mellal #1" = 21
+	"Monica #0" = -1
+	"Diogenes #0" = 1
+	"Gedduda #0" = -1
+	"Narses #0" = 1
+	"Silko #1" = 0
+	"Tokiltoeton #1" = 0
+	"Eirpanome #1" = 0
+	"Negus #1" = 0
+	"Nur #1" = 0
+	"Egaloskoura #1" = -1
+	"Jawdat #1" = 0
+	"Badr #1" = 0
+	"Abianos #1" = 0
+	"Yassir #3" = 0
+	"Ridwan #1" = 0
+	"Abdul-Azeem #1" = 0
+	"Gabra #1" = 0
+	"Aarôn #0" = 0
+	"Aberikos #0" = 0
+	"Abraam #0" = 0
+	"Añgelos #0" = 0
+	"Andreas #0" = 0
+	"Balô #0" = 0
+	"Birêl #0" = 0
+	"Chael #0" = 0
+	"Dauid #0" = 0
+	"Dimetheos #0" = 0
+	"Dioskoros #0" = 0
+	"Diônisios #0" = 0
+	"Eliezer #0" = 0
+	"Eionkouda #0" = 0
+	"Emmanouel #0" = 0
+	"Enôch #0" = 0
+	"Ephannê #0" = 0
+	"Epimachos #0" = 0
+	"Epiphanios #0" = 0
+	"Gabrielkouda #0" = 0
+	"Gabrielophorou #0" = 0
+	"Gennatios #0" = 0
+	"Geôrgios #0" = 0
+	"Hêlias #0" = 0
+	"Hoase #0" = 0
+	"Hoassi #0" = 0
+	"Hoasse #0" = 0
+	"Iacob #0" = 0
+	"Ieremias #0" = 0
+	"Iêsous #0" = 0
+	"Iêsousinkouda #0" = 0
+	"Iôannou #0" = 0
+	"Iôannês #0" = 0
+	"Iordanes #0" = 0
+	"Kalinikos #0" = 0
+	"Kollouthos #0" = 0
+	"Krisanthos #0" = 0
+	"Kuriakos #0" = 0
+	"Kurillos #0" = 0
+	"Lazaros #0" = 0
+	"Leon #0" = 0
+	"Makarios #0" = 0
+	"Mariankouda #0" = 0
+	"Marianos #0" = 0
+	"Marios #0" = 0
+	"Markos #0" = 0
+	"Marturophoros #0" = 0
+	"Mašanñal #0" = 0
+	"Maththias #0" = 0
+	"Mêlênkouda #0" = 0
+	"Mena #0" = 0
+	"Menankouda #0" = 0
+	"Merkourios #0" = 0
+	"Michaêl #0" = 0
+	"Michaêlkouda #0" = 0
+	"Mouses #0" = 0
+	"Orna #0" = 0
+	"Panigiros #0" = 0
+	"Papasinen #0" = 0
+	"Papasinkouda #0" = 0
+	"Patrikios #0" = 0
+	"Paulos #0" = 0
+	"Petros #0" = 0
+	"Petrou #0" = 0
+	"Philotheos #0" = 0
+	"Philemon #0" = 0
+	"Prochoros #0" = 0
+	"Raphael #0" = 0
+	"Raphaelkouda #0" = 0
+	"Samson #0" = 0
+	"Senouthios #0" = 0
+	"Sentiko #0" = 0
+	"Sergios #0" = 0
+	"Simeoni #0" = 0
+	"Soizuros #0" = 0
+	"Solomôn #0" = 0
+	"Sotinkouda #0" = 0
+	"Stephanos #0" = 0
+	"Stephanou #0" = 0
+	"Thadeosi #0" = 0
+	"Theodôros #0" = 0
+	"Theodosios #0" = 0
+	"Theodote #0" = 0
+	"Thoma #0" = 0
+	"Tophêna #0" = 0
+	"Tirsakouni #0" = 0
+	"Zacharias #0" = 0
+	"Zosima #0" = 0
+}
+ship_names = {
+	Arif
+	Azmi
+	Dervish
+	Fuad
+	Haci
+	Haydar
+	Mulish
+	Nuri
+	Salih
+	Said
+	Sefveti
+	Shukri
+}
+

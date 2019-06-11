@@ -1,0 +1,221 @@
+# Aswan
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 41 188 120 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	economic_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+
+
+leader_names = {
+
+	"Bartholomaios" "Gregorios" "Antonia" "Theophylaktos" "Innokentios" "Theodora" "Maximos" "Ioannes" "Theodosios" "Eudokia" 
+	"Aikaterine" "Philippa" "Elaiodora" "Kyrillos" "Adriane" "Boethios" "Theodosia" "Sha'ban" "Tajaddin" "Akateiaji" 
+	"Hashim" "Karidenna" "Muh'end" "Nassib" "Philaretos" "Gortyn" "Antonios" "Anatolios" "Damianos" "Polykarpos" 
+	"Hippolytos" "Trepimirus" "Pantoleon" "Belisarios" "Aaron" "Abanoub" "Abderahman" "Abianos" "Abisalom" "Ablarion" 
+	"Abraam" "Agathon" "Agathonikos" "Agathos" "Ahmod" "Aiai" "Aha" "Akhom" "Amon" "Amakhte" 
+	"An" "Andronicus" "Androus" "Anthinos" "Apanoub" "Apahour" "Apamon" "Apas" "Aretee" "Arsenios" 
+	"Ashraf" "Athanasios" "Beet" "Bertouet" "Biktor" "Binyamin" "Bishoi" "Bolis" "Boutros" "Cosmas" 
+	"Danyal" "Da’oud" "Ennikeran" "Erhu" "Farag" "Gerges" "Ghabri" "Guirguis" "Habil" "Hanouf" 
+	"Hanri" "Hany" "Haroun" "Hesdy" "Ilyas" "Ishaaq" "Jerjer" "Jinti" "Jori" "Keloj" 
+	"Krystafer" "Lot" "Macari" "Marcos" "Mareten" "Matta" "Mei" "Mikail" "Mikhael" "Milad" 
+	"Mina" "Musa" "Nakat" "Nahdi" "Nishde" "Nai" "Naui" "Nishti" "Nofr" "Noub" 
+	"Ounouf" "Ourot" "Ouini" "Ounisht" "Pajro" "Pakat" "Pakhom" "Pamin" "Panous" "Papnouti" 
+	"Pashnona" "Pasnadi" "Patape" "Payom" "Philotheos" "Pijimi" "Pijoul" "Pikhit" "Pimen" "Pimoue" 
+	"Pimoui" "Pishai" "Pisha-eneh" "Pishoui" "Psote" "Rami" "Rashad" "Rashi" "Roufail" "Ruweis" 
+	"Shenouda" "Shenouti" "Shosi" "Sim'an" "Sok" "Tadros" "Taio" "Tawadros" "Touma" "Yakovos" 
+	"Yared" "Yoannis" "Yousab" "Zacharias" "Zaia" }
+monarch_names = {
+	"Bartholomaios #1" = 21
+	"Gregorios #1" = 18
+	"Antonia #0" = -1
+	"Theophylaktos #0" = 1
+	"Innokentios #0" = 1
+	"Theodora #0" = -1
+	"Maximos #0" = 1
+	"Ioannes #0" = 1
+	"Theodosios #0" = 1
+	"Eudokia #0" = -1
+	"Aikaterine #0" = -1
+	"Philippa #0" = -1
+	"Elaiodora #0" = -1
+	"Kyrillos #0" = 1
+	"Adriane #0" = -1
+	"Boethios #1" = 18
+	"Theodosia #0" = -1
+	"Sha'ban #2" = 0
+	"Tajaddin #1" = 0
+	"Akateiaji #1" = 0
+	"Hashim #3" = 0
+	"Karidenna #2" = 0
+	"Muh'end #2" = 0
+	"Nassib #1" = 0
+	"Philaretos #1" = 0
+	"Gortyn #1" = 0
+	"Antonios #1" = 0
+	"Anatolios #1" = 0
+	"Damianos #1" = 0
+	"Polykarpos #1" = 0
+	"Hippolytos #1" = 0
+	"Trepimirus #1" = 0
+	"Pantoleon #1" = 0
+	"Belisarios #1" = 0
+	"Aaron #0" = 0
+	"Abanoub #0" = 0
+	"Abderahman #0" = 0
+	"Abianos #0" = 0
+	"Abisalom #0" = 0
+	"Ablarion #0" = 0
+	"Abraam #0" = 0
+	"Agathon #0" = 0
+	"Agathonikos #0" = 0
+	"Agathos #0" = 0
+	"Ahmod #0" = 0
+	"Aiai #0" = 0
+	"Aha #0" = 0
+	"Akhom #0" = 0
+	"Amon #0" = 0
+	"Amakhte #0" = 0
+	"An #0" = 0
+	"Andronicus #0" = 0
+	"Androus #0" = 0
+	"Anthinos #0" = 0
+	"Apanoub #0" = 0
+	"Apahour #0" = 0
+	"Apamon #0" = 0
+	"Apas #0" = 0
+	"Aretee #0" = 0
+	"Arsenios #0" = 0
+	"Ashraf #0" = 0
+	"Athanasios #0" = 0
+	"Beet #0" = 0
+	"Bertouet #0" = 0
+	"Biktor #0" = 0
+	"Binyamin #0" = 0
+	"Bishoi #0" = 0
+	"Bolis #0" = 0
+	"Boutros #0" = 0
+	"Cosmas #0" = 0
+	"Danyal #0" = 0
+	"Da’oud #0" = 0
+	"Ennikeran #0" = 0
+	"Erhu #0" = 0
+	"Farag #0" = 0
+	"Gerges #0" = 0
+	"Ghabri #0" = 0
+	"Guirguis #0" = 0
+	"Habil #0" = 0
+	"Hanouf #0" = 0
+	"Hanri #0" = 0
+	"Hany #0" = 0
+	"Haroun #0" = 0
+	"Hesdy #0" = 0
+	"Ilyas #0" = 0
+	"Ishaaq #0" = 0
+	"Jerjer #0" = 0
+	"Jinti #0" = 0
+	"Jori #0" = 0
+	"Keloj #0" = 0
+	"Krystafer #0" = 0
+	"Lot #0" = 0
+	"Macari #0" = 0
+	"Marcos #0" = 0
+	"Mareten #0" = 0
+	"Matta #0" = 0
+	"Mei #0" = 0
+	"Mikail #0" = 0
+	"Mikhael #0" = 0
+	"Milad #0" = 0
+	"Mina #0" = 0
+	"Musa #0" = 0
+	"Nakat #0" = 0
+	"Nahdi #0" = 0
+	"Nishde #0" = 0
+	"Nai #0" = 0
+	"Naui #0" = 0
+	"Nishti #0" = 0
+	"Nofr #0" = 0
+	"Noub #0" = 0
+	"Ounouf #0" = 0
+	"Ourot #0" = 0
+	"Ouini #0" = 0
+	"Ounisht #0" = 0
+	"Pajro #0" = 0
+	"Pakat #0" = 0
+	"Pakhom #0" = 0
+	"Pamin #0" = 0
+	"Panous #0" = 0
+	"Papnouti #0" = 0
+	"Pashnona #0" = 0
+	"Pasnadi #0" = 0
+	"Patape #0" = 0
+	"Payom #0" = 0
+	"Philotheos #0" = 0
+	"Pijimi #0" = 0
+	"Pijoul #0" = 0
+	"Pikhit #0" = 0
+	"Pimen #0" = 0
+	"Pimoue #0" = 0
+	"Pimoui #0" = 0
+	"Pishai #0" = 0
+	"Pisha-eneh #0" = 0
+	"Pishoui #0" = 0
+	"Psote #0" = 0
+	"Rami #0" = 0
+	"Rashad #0" = 0
+	"Rashi #0" = 0
+	"Roufail #0" = 0
+	"Ruweis #0" = 0
+	"Shenouda #0" = 0
+	"Shenouti #0" = 0
+	"Shosi #0" = 0
+	"Sim'an #0" = 0
+	"Sok #0" = 0
+	"Tadros #0" = 0
+	"Taio #0" = 0
+	"Tawadros #0" = 0
+	"Touma #0" = 0
+	"Yakovos #0" = 0
+	"Yared #0" = 0
+	"Yoannis #0" = 0
+	"Yousab #0" = 0
+	"Zacharias #0" = 0
+	"Zaia #0" = 0
+}
+ship_names = {
+	Arif
+	Azmi
+	Dervish
+	Fuad
+	Haci
+	Haydar
+	Mulish
+	Nuri
+	Salih
+	Said
+	Sefveti
+	Shukri
+}
+

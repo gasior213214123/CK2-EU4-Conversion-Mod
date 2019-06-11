@@ -1,0 +1,26 @@
+# Epirus
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 144
+1434.5.13 = {
+	monarch = {
+		name = "Malik"
+		birth_date = 1427.4.10
+		dynasty = "Belissariotes"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = industrious_personality
+}
+1444.11.11 = {
+	capital = 144
+	add_treasury = 55
+	add_prestige = 68
+}

@@ -1,0 +1,26 @@
+# Cilicia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 327
+1440.11.25 = {
+	monarch = {
+		name = "Antiochos"
+		birth_date = 1438.6.18
+		dynasty = "Prospeios"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = babbling_buffoon_personality
+}
+1444.11.11 = {
+	capital = 327
+	add_treasury = 39
+	add_prestige = 508
+}

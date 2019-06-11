@@ -1,0 +1,26 @@
+# Suleymanid
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = suebi
+religion = manichean
+clear_scripted_personalities = yes
+capital = 231
+1434.12.7 = {
+	monarch = {
+		name = "Jibril"
+		birth_date = 1423.6.24
+		dynasty = "Suleymanid"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = craven_personality
+}
+1444.11.11 = {
+	capital = 231
+	add_treasury = 535
+	add_prestige = 166
+}

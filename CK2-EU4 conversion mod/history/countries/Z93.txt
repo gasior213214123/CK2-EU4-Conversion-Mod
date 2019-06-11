@@ -1,0 +1,27 @@
+# Galich
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = volhynian
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 261
+1401.11.17 = {
+	monarch = {
+		name = "Ruslan"
+		birth_date = 1395.5.21
+		dynasty = "Lubicz"
+		adm = 3
+		dip = 6
+		mil = 5
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = loose_lips_personality
+}
+1444.11.11 = {
+	capital = 261
+	add_treasury = 22
+	add_prestige = 260
+}

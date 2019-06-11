@@ -1,0 +1,6 @@
+scandinavian = {
+	norse = {
+		primary = DAN
+		dynasty_names = { "Sleggja" "Sælendingr" "Lade" "av Telemark" "Hjort" "av Hafrsfjord" "af Aarhus" "af Varde" "af Skagen" "af Dovre" "af Droitwich" "Hjort" "Skarfr" "af Hitterdals" }
+	}
+}

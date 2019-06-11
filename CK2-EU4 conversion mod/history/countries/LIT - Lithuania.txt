@@ -1,0 +1,27 @@
+# Lithuania
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = pommeranian
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 1841
+1432.4.1 = {
+	monarch = {
+		name = "Mscislaw III"
+		birth_date = 1417.5.4
+		dynasty = "Grzymala"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = silver_tongue_personality
+	add_ruler_personality = well_connected_personality
+}
+1444.11.11 = {
+	capital = 1841
+	add_treasury = 33
+	add_prestige = 219
+}

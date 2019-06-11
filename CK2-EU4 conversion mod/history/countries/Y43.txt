@@ -1,0 +1,27 @@
+# Murom
+government = republic
+add_government_reform = oligarchy_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = meshchera
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 307
+1430.3.15 = {
+	monarch = {
+		name = "Tihodrag"
+		birth_date = 1383.7.23
+		dynasty = "of  Orekhovo-Zuyevo"
+		adm = 3
+		dip = 0
+		mil = 3
+	}
+	add_ruler_personality = craven_personality
+	add_ruler_personality = conqueror_personality
+}
+1444.11.11 = {
+	capital = 307
+	add_treasury = 34
+	add_prestige = 93
+}

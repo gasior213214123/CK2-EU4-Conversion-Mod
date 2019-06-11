@@ -1,0 +1,26 @@
+# Courland
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = pommeranian
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 39
+1438.6.10 = {
+	monarch = {
+		name = "Wlodzimierz"
+		birth_date = 1426.1.22
+		dynasty = "Grzymala"
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = strict_personality
+}
+1444.11.11 = {
+	capital = 39
+	add_treasury = 60
+	add_prestige = 168
+}

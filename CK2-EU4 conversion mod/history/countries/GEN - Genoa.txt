@@ -1,0 +1,27 @@
+# Genoa
+government = republic
+add_government_reform = republic
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = italian
+religion = hellenic_pagan
+clear_scripted_personalities = yes
+capital = 101
+1419.8.9 = {
+	monarch = {
+		name = "Alcide"
+		birth_date = 1388.12.9
+		dynasty = "de Lacon Serra"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = bold_fighter_personality
+}
+1444.11.11 = {
+	capital = 101
+	add_treasury = 177
+	add_prestige = 395
+}

@@ -1,0 +1,231 @@
+# Syrmia
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 170 140 115 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	religious_ideas
+	quality_ideas
+}
+
+historical_units = {
+	eastern_medieval_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	ottoman_sekban
+	ottoman_reformed_spahi
+	ottoman_reformed_janissary
+	ottoman_toprakli_hit_and_run
+	ottoman_nizami_cedid
+	ottoman_toprakli_dragoon
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	ottoman_new_model
+	ottoman_lancer
+}
+
+army_names = {
+	"Legio I Herculia" "Legio II Rapax" "Legio III Liberatrix" "Legio IV Apollonaris" "Legio V Alaudae"
+	"Legio VI Victrix" "Legio VII Ferrata" "Legio VIII Augusta" "Legio IX Triumphalis" "Legio X Italica" 
+	"Legio XI Macedonica" "Legio XII Minervia" "Legio XIII Fulminata" "Legio XIV Fretensis" "Legio XV Primigenia"
+	"Legio XVI Claudia" "Legio XVII Galatia" "Legio XVIII Pannonia" "Legio XIX Traiana" "Legio XX Scythica"
+}
+
+fleet_names = {
+	"Classis Alexandrina" "Classis Seleucena" "Classis Carpathia" "Classis Venetum" "Classis Constantinopolis"
+	"Classis Roma" "Classis Adrianopolis" "Classis Atlanticum" "Classis Mediterraneus" "Classis Euxeinos Pontos"
+}
+
+leader_names = {
+
+	"Vallius" "Tuone" "Ksenia" "Aldona" "Waclaw" "Zofia" "Miroslava" "Wera" "Marcelina" "Salomea" 
+	"Wojslawa" "Stanislava" "Kornel" "Ryszard" "Bozydar" "Bogislaw" "Vasilisa" "Kamila" "Jadwiga" "Grazyna" 
+	"Leonardus" "Nichiforus" "Comes" "Rusco" "Blaxius" "Rade" "Giuco" "Nixa" "Gervasius" "Thome" 
+	"Rossa" "Descia" "Laurica" "Loncho" "Jelussa" "Jachussa" "Margerita" "Kera" "Deussa" "Lene" 
+	"Krzeslaw" "Give" "Marin" "Vita" "Lech" "Udalrich" "Bohumir" "Szymon" "Przybyslaw" "Jindrich" 
+	"Blazej" "Kenna" "Radomira" "Bozena" "Sobieslav" "Urszula" "Miloslaw" "Stanislaw" "Stefana" "Danuta" 
+	"Fedot" "Zdirad" "Havel" "Mlada" "Dobrawa" "Dragomira" "Nale" "Rycheza" "Dobrava" "Stanislawa" 
+	"Clime" "Borna" "Juliano" "Leontios" "Calenda" "Porphyrios" "Maximos" "Pamphilios" "Pasqualis" "Borzywoj" 
+	"Wladyslaw" "Swietopelk" "Philaretos" "Ioustinianos" "Trepimirus" "Leonidas" "Polykarpos" "Hippolytos" "Phokas" "Manuel" 
+	"Zacharias" "Konrad" "Adam" "Andrija" "Bartol" "Besar" "Bojan" "Boris" "Branimir" "Castimir" 
+	"Danail" "Dmitar" "Dobromir" "Dragan" "Dragomir" "Drzislav" "Dujam" "Duym" "Filip" "Gaspar" 
+	"Gheorghe" "Grigorii" "Hranislav" "Hrvoje" "Igor" "Ioan" "Ivan" "Ivanis" "Jitej" "Karlo" 
+	"Koloman" "Kresimir" "Ladislav" "Ljudevit" "Ljutomisl" "Lovro" "Matej" "Mihajlo" "Milman" "Mislav" 
+	"Mutimir" "Nikolitza" "Ognjen" "Petar" "Prohor" "Radomir" "Ratimir" "Sebeslav" "Seslav" "Slavich" 
+	"Stanislav" "Stjepan" "Sulvan" "Teodor" "Tomislav" "Tvrdoslav" "Tvrtko" "Ulfo" "Vid" "Vitomir" 
+	"Vlaicu" "Vukan" "Zvonimir" }
+monarch_names = {
+	"Vallius #0" = 1
+	"Tuone #0" = 1
+	"Ksenia #0" = -1
+	"Aldona #0" = -1
+	"Waclaw #0" = 1
+	"Zofia #0" = -1
+	"Miroslava #0" = -1
+	"Wera #0" = -1
+	"Marcelina #0" = -1
+	"Salomea #0" = -1
+	"Wojslawa #0" = -1
+	"Stanislava #0" = -1
+	"Kornel #0" = 1
+	"Ryszard #1" = 18
+	"Bozydar #0" = 1
+	"Bogislaw #0" = 1
+	"Vasilisa #0" = -1
+	"Kamila #0" = -1
+	"Jadwiga #0" = -1
+	"Grazyna #0" = -1
+	"Leonardus #0" = 1
+	"Nichiforus #0" = 1
+	"Comes #0" = 1
+	"Rusco #1" = 18
+	"Blaxius #1" = 21
+	"Rade #0" = -1
+	"Giuco #0" = 1
+	"Nixa #0" = -1
+	"Gervasius #0" = 1
+	"Thome #0" = -1
+	"Rossa #0" = -1
+	"Descia #0" = -1
+	"Laurica #0" = -1
+	"Loncho #0" = 1
+	"Jelussa #0" = -1
+	"Jachussa #0" = -1
+	"Margerita #0" = -1
+	"Kera #0" = -1
+	"Deussa #0" = -1
+	"Lene #0" = -1
+	"Krzeslaw #0" = 1
+	"Give #0" = 1
+	"Marin #0" = 1
+	"Vita #1" = 18
+	"Lech #2" = 30
+	"Udalrich #0" = 1
+	"Bohumir #0" = 1
+	"Szymon #0" = 1
+	"Przybyslaw #0" = 1
+	"Jindrich #0" = 1
+	"Blazej #0" = 1
+	"Kenna #0" = -1
+	"Radomira #0" = -1
+	"Bozena #0" = -1
+	"Sobieslav #0" = 1
+	"Urszula #0" = -1
+	"Miloslaw #0" = 1
+	"Stanislaw #0" = 1
+	"Stefana #0" = -1
+	"Danuta #0" = -1
+	"Fedot #0" = 1
+	"Zdirad #0" = 1
+	"Havel #0" = 1
+	"Mlada #0" = -1
+	"Dobrawa #0" = -1
+	"Dragomira #0" = -1
+	"Nale #1" = 18
+	"Rycheza #0" = -1
+	"Dobrava #0" = -1
+	"Stanislawa #0" = -1
+	"Clime #1" = 0
+	"Borna #1" = 0
+	"Juliano #1" = 0
+	"Leontios #1" = 0
+	"Calenda #3" = 0
+	"Porphyrios #1" = 0
+	"Maximos #1" = 0
+	"Pamphilios #1" = 0
+	"Pasqualis #1" = 0
+	"Borzywoj #1" = 0
+	"Wladyslaw #1" = 0
+	"Swietopelk #1" = 0
+	"Philaretos #1" = 0
+	"Ioustinianos #1" = 0
+	"Trepimirus #1" = 0
+	"Leonidas #1" = 0
+	"Polykarpos #1" = 0
+	"Hippolytos #1" = 0
+	"Phokas #1" = 0
+	"Manuel #1" = 0
+	"Zacharias #1" = 0
+	"Konrad #1" = 0
+	"Adam #0" = 0
+	"Andrija #0" = 0
+	"Bartol #0" = 0
+	"Besar #0" = 0
+	"Bojan #0" = 0
+	"Boris #0" = 0
+	"Branimir #0" = 0
+	"Castimir #0" = 0
+	"Danail #0" = 0
+	"Dmitar #0" = 0
+	"Dobromir #0" = 0
+	"Dragan #0" = 0
+	"Dragomir #0" = 0
+	"Drzislav #0" = 0
+	"Dujam #0" = 0
+	"Duym #0" = 0
+	"Filip #0" = 0
+	"Gaspar #0" = 0
+	"Gheorghe #0" = 0
+	"Grigorii #0" = 0
+	"Hranislav #0" = 0
+	"Hrvoje #0" = 0
+	"Igor #0" = 0
+	"Ioan #0" = 0
+	"Ivan #0" = 0
+	"Ivanis #0" = 0
+	"Jitej #0" = 0
+	"Karlo #0" = 0
+	"Koloman #0" = 0
+	"Kresimir #0" = 0
+	"Ladislav #0" = 0
+	"Ljudevit #0" = 0
+	"Ljutomisl #0" = 0
+	"Lovro #0" = 0
+	"Matej #0" = 0
+	"Mihajlo #0" = 0
+	"Milman #0" = 0
+	"Mislav #0" = 0
+	"Mutimir #0" = 0
+	"Nikolitza #0" = 0
+	"Ognjen #0" = 0
+	"Petar #0" = 0
+	"Prohor #0" = 0
+	"Radomir #0" = 0
+	"Ratimir #0" = 0
+	"Sebeslav #0" = 0
+	"Seslav #0" = 0
+	"Slavich #0" = 0
+	"Stanislav #0" = 0
+	"Stjepan #0" = 0
+	"Sulvan #0" = 0
+	"Teodor #0" = 0
+	"Tomislav #0" = 0
+	"Tvrdoslav #0" = 0
+	"Tvrtko #0" = 0
+	"Ulfo #0" = 0
+	"Vid #0" = 0
+	"Vitomir #0" = 0
+	"Vlaicu #0" = 0
+	"Vukan #0" = 0
+	"Zvonimir #0" = 0
+}
+ship_names = {
+	Cres
+	"Dugi Otok"
+	Goli
+	Krl
+	Pag Plavnik
+	Susak "Sveti Grgur"
+	Tijat
+	Unije
+	"Vele Srankane"
+	Zlarin Zmajan
+}
+

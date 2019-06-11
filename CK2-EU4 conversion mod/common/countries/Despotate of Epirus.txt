@@ -1,0 +1,149 @@
+# Epirus
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 150 40 60 }
+
+
+army_names = {
+	"Legio I Herculia" "Legio II Rapax" "Legio III Liberatrix" "Legio IV Apollonaris" "Legio V Alaudae"
+	"Legio VI Victrix" "Legio VII Ferrata" "Legio VIII Augusta" "Legio IX Triumphalis" "Legio X Italica" 
+	"Legio XI Macedonica" "Legio XII Minervia" "Legio XIII Fulminata" "Legio XIV Fretensis" "Legio XV Primigenia"
+	"Legio XVI Claudia" "Legio XVII Galatia" "Legio XVIII Pannonia" "Legio XIX Traiana" "Legio XX Scythica"
+}
+
+fleet_names = {
+	"Classis Alexandrina" "Classis Seleucena" "Classis Carpathia" "Classis Venetum" "Classis Constantinopolis"
+	"Classis Roma" "Classis Adrianopolis" "Classis Atlanticum" "Classis Mediterraneus" "Classis Euxeinos Pontos"
+}
+
+leader_names = {
+
+	"Kyrillos" "Philotheos" "Aikaterine" "Ioustina" "Zenon" "Apollonios" "Chrysogone" "Antonia" "Romylia" "Aigidia" 
+	"Basileios" "Juliano" "Rochus" "Philaretos" "Rafiq" "Damianos" "Herakleios" "Dawlat" "Polykarpos" "Hippolytos" 
+	"Anthemios" "Pantoleon" "Romanos" "Barid" "Anthimos" "Aldimir" "Asen" "Berbat" "Blaz" "Boleslav" 
+	"Borna" "Branimir" "Budimir" "Kosmin" "Danilo" "Djordje" "Dmitar" "Dobroslav" "Dragija" "Dragos" 
+	"Dragutin" "Gavrilo" "Godimir" "Goran" "Grgur" "Ilija" "Ivan" "Josif" "Josip" "Jovan" 
+	"Kasjan" "Konstantin" "Krsto" "Lazar" "Ljudevit" "Luka" "Marko" "Martin" "Matija" "Mihailo" 
+	"Mihovil" "Milorad" "Milutin" "Mircea" "Miroslav" "Mislav" "Nenad" "Nikodim" "Nikola" "Ninoslav" 
+	"Petar" "Porin" "Prvoslav" "Radoslav" "Rastko" "Ratomir" "Roman" "Serapion" "Sinisa" "Slavko" 
+	"Slobodan" "Stefan" "Teodosije" "Trajan" "Uros" "Visarion" "Vladimir" "Vladislav" "Vlastimir" "Vuk" 
+	"Vukan" "Vukasin" "Vukoman" "Zoran" "Zvonimir" }
+monarch_names = {
+	"Kyrillos #0" = 1
+	"Philotheos #1" = 21
+	"Aikaterine #0" = -1
+	"Ioustina #0" = -1
+	"Zenon #0" = 1
+	"Apollonios #0" = 1
+	"Chrysogone #0" = -1
+	"Antonia #0" = -1
+	"Romylia #0" = -1
+	"Aigidia #0" = -1
+	"Basileios #0" = 1
+	"Juliano #1" = 0
+	"Rochus #2" = 0
+	"Philaretos #1" = 0
+	"Rafiq #1" = 0
+	"Damianos #1" = 0
+	"Herakleios #1" = 0
+	"Dawlat #1" = 0
+	"Polykarpos #1" = 0
+	"Hippolytos #1" = 0
+	"Anthemios #1" = 0
+	"Pantoleon #1" = 0
+	"Romanos #1" = 0
+	"Barid #1" = 0
+	"Anthimos #1" = 0
+	"Aldimir #0" = 0
+	"Asen #0" = 0
+	"Berbat #0" = 0
+	"Blaz #0" = 0
+	"Boleslav #0" = 0
+	"Borna #0" = 0
+	"Branimir #0" = 0
+	"Budimir #0" = 0
+	"Kosmin #0" = 0
+	"Danilo #0" = 0
+	"Djordje #0" = 0
+	"Dmitar #0" = 0
+	"Dobroslav #0" = 0
+	"Dragija #0" = 0
+	"Dragos #0" = 0
+	"Dragutin #0" = 0
+	"Gavrilo #0" = 0
+	"Godimir #0" = 0
+	"Goran #0" = 0
+	"Grgur #0" = 0
+	"Ilija #0" = 0
+	"Ivan #0" = 0
+	"Josif #0" = 0
+	"Josip #0" = 0
+	"Jovan #0" = 0
+	"Kasjan #0" = 0
+	"Konstantin #0" = 0
+	"Krsto #0" = 0
+	"Lazar #0" = 0
+	"Ljudevit #0" = 0
+	"Luka #0" = 0
+	"Marko #0" = 0
+	"Martin #0" = 0
+	"Matija #0" = 0
+	"Mihailo #0" = 0
+	"Mihovil #0" = 0
+	"Milorad #0" = 0
+	"Milutin #0" = 0
+	"Mircea #0" = 0
+	"Miroslav #0" = 0
+	"Mislav #0" = 0
+	"Nenad #0" = 0
+	"Nikodim #0" = 0
+	"Nikola #0" = 0
+	"Ninoslav #0" = 0
+	"Petar #0" = 0
+	"Porin #0" = 0
+	"Prvoslav #0" = 0
+	"Radoslav #0" = 0
+	"Rastko #0" = 0
+	"Ratomir #0" = 0
+	"Roman #0" = 0
+	"Serapion #0" = 0
+	"Sinisa #0" = 0
+	"Slavko #0" = 0
+	"Slobodan #0" = 0
+	"Stefan #0" = 0
+	"Teodosije #0" = 0
+	"Trajan #0" = 0
+	"Uros #0" = 0
+	"Visarion #0" = 0
+	"Vladimir #0" = 0
+	"Vladislav #0" = 0
+	"Vlastimir #0" = 0
+	"Vuk #0" = 0
+	"Vukan #0" = 0
+	"Vukasin #0" = 0
+	"Vukoman #0" = 0
+	"Zoran #0" = 0
+	"Zvonimir #0" = 0
+}
+ship_names = {
+	Abundantia "Acca Larentia" Acis Aerecura Aequitas Aesculapius Aeternitas Aeon "Aius Locutius"
+	Alernus Angerona Angitia "Anna Perenna" Annona Antevorta Apollo Arimanius Aura Aurora Averruncus
+	Bacchus Bellona "Bona Dea" "Bonus Eventus" Bubona Caca Cacus Camenae Cardea Carmenta Carmentes
+	Carna Ceres Clementia Cloacina Concordia Consus Cupid Cura Cybele "Dea Dia" "Dea Tacita"
+	Decima Devera Diana "Diana Nemorensis" "Dius Fidius" Disciplina "Dis Pater" Egeria Empanda
+	Epona Falacer Fama Fascinus Fauna Faunus Faustitas Februus Febris Fecunditas Felicitas Ferentina
+	Feronia Fides Flora Fornax Fontus Fortuna Fulgora Furrina Genius Gratiae Hercules Hermaphroditus
+	Hilaritas Honos Hora Indiges Intercidona Inuus Invidia Isis Iris Janus Juno Jupiter Justitia
+	Juturna Juventas Lares Laverna Levana Letum Liber Libera Liberalitas Libertas Libitina Lua
+	Lucina Luna Lupercus Lympha "Mana Genita" Manes Mania Mantus Mars "Mater Matuta" Meditrina 
+	Mephitis Mellonia Mercury Minerva Mithras Molae Moneta Mors Morta Murcia "Mutunus Tutunus"
+	Naenia Nascio Necessitas Nemesis Neptune Nerio Neverita Nixi Nona Nox Opis Orcus Palatua
+	Pales Parcae Pax Penates Picumnus Picus Pietas Pilumnus Pluto Poena Pomona Porrima Portunes
+	Postverta Priapus Proserpina Providentia Pudicitia Querquetulanae Quirinus Quiritis Robigus
+	Roma Rumina Salacia Salus Sancus Saturn Securitas Silvanus "Sol Invictus" Somnus Soranus
+	Sors Spes Stata Mater Sterquilinus Suadela Summanus "Sulis Minerva" Tellurus Tempestas
+	"Terra Mater" Terminus Tiberinus Tibertus Tranquillitas Trivia Ubertas Unxia Uranus Vacuna
+	Vediovus Venilia Venti Venus Veritas Verminus Vertumnus Vesta "Vica Pota" Victoria Virbius
+	Virtus Volturnus Voluptas Vulcan
+}
+

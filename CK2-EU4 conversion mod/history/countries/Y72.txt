@@ -1,0 +1,27 @@
+# Vengi Chalukya
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = persian
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 2218
+1427.11.22 = {
+	monarch = {
+		name = "Cataiyavarman"
+		birth_date = 1408.3.21
+		dynasty = "Vengi Chalukya"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = secretive_personality
+}
+1444.11.11 = {
+	capital = 2218
+	add_treasury = 82
+	add_prestige = 214
+}

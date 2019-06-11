@@ -1,0 +1,27 @@
+# Saxony
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = hannoverian
+religion = catholic
+clear_scripted_personalities = yes
+capital = 53
+1419.2.19 = {
+	monarch = {
+		name = "Bernd"
+		birth_date = 1412.6.24
+		dynasty = "of Liubice"
+		adm = 2
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = charismatic_negotiator_personality
+}
+1444.11.11 = {
+	capital = 53
+	add_treasury = 63
+	add_prestige = 138
+}

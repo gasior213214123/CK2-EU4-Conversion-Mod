@@ -1,0 +1,27 @@
+# Skalvia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = pommeranian
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 40
+1402.8.15 = {
+	monarch = {
+		name = "Yelisey"
+		birth_date = 1377.8.10
+		dynasty = "Lubicz"
+		adm = 3
+		dip = 2
+		mil = 6
+	}
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = martial_educator_personality
+}
+1444.11.11 = {
+	capital = 40
+	add_treasury = 52
+	add_prestige = 361
+}

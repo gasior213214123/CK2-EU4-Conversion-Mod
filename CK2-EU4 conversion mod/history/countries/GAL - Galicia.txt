@@ -1,0 +1,26 @@
+# Galicia
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = bedouin_arabic
+religion = tengri_pagan_reformed
+clear_scripted_personalities = yes
+capital = 206
+1439.12.1 = {
+	monarch = {
+		name = "Aarif"
+		birth_date = 1419.9.15
+		dynasty = "de Maiorica"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+	add_ruler_personality = scholar_personality
+}
+1444.11.11 = {
+	capital = 206
+	add_treasury = 1998
+	add_prestige = 31
+}

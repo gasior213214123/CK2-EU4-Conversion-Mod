@@ -1,0 +1,38 @@
+# Kaikhusrawid
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = east_african
+primary_culture = turkish
+religion = sunni
+clear_scripted_personalities = yes
+capital = 1209
+1436.3.26 = {
+	monarch = {
+		name = "Çagri II"
+		birth_date = 1400.9.14
+		dynasty = "Kaikhusrawid"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+	add_ruler_personality = cruel_personality
+}
+1438.9.28 = {
+	heir = {
+		name = "Kaya"
+		monarch_name = "Kaya"
+		dynasty = "Kaikhusrawid"
+		birth_date = 1438.9.28
+		death_date = 1518.9.28
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+1444.11.11 = {
+	capital = 1209
+	add_treasury = 174
+	add_prestige = 72
+}

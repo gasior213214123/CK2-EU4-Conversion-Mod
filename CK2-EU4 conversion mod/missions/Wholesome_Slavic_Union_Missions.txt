@@ -1,0 +1,956 @@
+slav_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = Z82
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	slav_ruthenian_revival = {
+		icon = mission_colonial
+		required_missions = { }
+		provinces_to_highlight = {
+			region = ruthenia_region
+			NOT = {
+				development = 15
+				OR = {
+					has_building = counting_house
+					has_building = workshop
+				}
+			}
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = slav_restore_ruthenia_tooltip
+				num_of_owned_provinces_with = {
+					region = ruthenia_region
+					development = 15
+					OR = {
+						has_building = counting_house
+						has_building = workshop
+					}
+					value = 5
+				}
+			}
+		}
+		effect = {
+			custom_tooltip = slav_ruthenian_revival_tooltip
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						region = ruthenia_region
+					}
+					add_province_modifier = {
+						name = slav_ruthenia_restoration
+						duration = -1
+					}
+				}
+			}
+		}
+	}
+
+	slav_slavic_religion = {
+		position = 3
+		icon = mission_rein_in_the_velamas
+		required_missions = { slav_ruthenian_revival }
+		provinces_to_highlight = {
+			AND = {
+				owned_by = ROOT
+				NOT = {
+					religion = ROOT
+				}
+			}
+		}
+		trigger = {
+			religious_unity = 1	
+		}
+		effect = {
+			add_prestige = 30
+			add_country_modifier = {
+				name = "slav_slavic_church"
+				duration = 7300
+			}
+		}
+	}
+
+	slav_unify_culture = {
+		icon = mission_unite_the_princes
+		required_missions = { slav_slavic_religion }
+		provinces_to_highlight = {
+			AND = {
+				owned_by = ROOT
+				NOT = {
+					OR = {
+						culture_group = south_slavic
+						culture_group = east_slavic
+						culture_group = west_slavic
+					}
+				}
+			}
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = slav_unify_culture_tooltip
+				NOT = {
+					any_owned_province = {
+						NOT = {
+							OR = {
+								culture_group = south_slavic
+								culture_group = east_slavic
+								culture_group = west_slavic
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_country_modifier = {
+				name = "slav_unified_culture"
+				duration = -1
+			}
+		}
+	}
+
+	slav_azor_ahai = {
+		icon = mission_restore_kiev
+		required_missions = { slav_unify_culture }
+		provinces_to_highlight = {
+		}
+		trigger = {
+			if = {
+				limit = {
+					government = monarchy
+				}
+				MIL = 4
+				DIP = 4
+				ADM = 4
+				legitimacy_equivalent = 90
+			}
+		}
+		effect = {
+			add_mil_power = 50
+			add_country_modifier = {
+				name = "slav_slavic_ahai"
+				duration = -1
+			}
+		}
+	}
+
+}
+
+slav_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = Z82
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	slav_pax_slavonica = {
+		position = 1
+		icon = mission_conquer_moscow
+		required_missions = { }
+		provinces_to_highlight = {
+			if = {
+				limit = {
+					exists = RUS
+					RUS = {
+						is_subject = no
+					}
+				}
+				owned_by = RUS
+			}
+			else_if = { 
+				limit = {
+					exists = NOV
+					NOV = {
+						is_subject = no
+					}
+				}
+				owned_by = NOV
+			}
+			else = {
+				AND {
+					province_id = 295
+					NOT = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				AND = {
+					province_id = 310
+					NOT = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+			}
+		}
+		trigger = {
+			if = {
+				limit = {
+					exists = RUS
+				}
+			AND = {
+				OR = {
+					alliance_with = RUS
+					RUS = {
+						is_subject_of = ROOT
+					}
+				}
+				RUS ={
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}
+					}			
+				}
+			}
+			else_if = {
+				limit = {
+					exists = NOV
+				}
+			AND = {
+				OR = {
+					alliance_with = NOV
+					NOV = {
+						is_subject_of = ROOT
+					}
+				}
+				NOV ={
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}
+					}			
+				}
+			}
+			else = {
+				295 = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				310 = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			NOT = {
+				average_unrest = 2
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					AND = {
+						295 = {
+							owned_by = ROOT
+						}
+						310 = {
+							owned_by = ROOT
+						}
+					}
+				}
+				add_country_modifier = {
+					name = slav_pax_slav
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					exists = RUS
+				}
+				add_historical_friend = RUS
+				RUS = {
+					add_historical_friend = ROOT
+				}
+				add_country_modifier = {
+					name = slav_pax_slav
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					exists = NOV
+				}
+				add_historical_friend = NOV
+				NOV = {
+					add_historical_friend = ROOT
+				}
+				add_country_modifier = {
+					name = slav_pax_slav
+					duration = -1
+				}
+			}
+		}
+	}
+
+	slav_control_belarus = {
+		position = 2
+		icon = mission_consolidate_the_state
+		required_missions = { slav_control_dniepr }
+		provinces_to_highlight = {
+			area = pripyat_area
+			area = podlasie_area
+			area = minsk_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			AND = {
+				pripyat_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				podlasie_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				minsk_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		effect = {
+			samogitia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lithuania_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	slav_glebgorod = {
+		icon = mission_sovereign_principality
+		required_missions = { slav_control_belarus }
+		provinces_to_highlight = {
+			province_id = 4545
+		}
+		trigger = {
+			AND = {
+				capital_scope = {
+					province_id = 4545
+				}
+				4545 = {
+					development = 30
+					religion = ROOT
+					culture = ROOT
+				}
+			}
+		}
+		effect = {
+			4545 = {
+				change_province_name = "Glebgorod"
+				rename_capital = "Glebgorod"
+				center_of_trade = 1
+			}
+		}
+	}
+
+	slav_temples = {
+		icon = mission_eastern_european_city
+		required_missions = { slav_slavic_religion }
+		provinces_to_highlight = {
+			AND = {
+				owned_by = ROOT
+				NOT = {
+					has_building = cathedral
+				}
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				has_building = cathedral
+				value = 5
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_adm_power = 50
+			add_dip_power = 50
+			add_mil_power = 50
+		}
+	}
+
+}
+
+slav_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = Z82
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	slav_conquer_lithuania = {
+		position = 3
+		icon = mission_conquer_50_development
+		required_missions = { slav_control_belarus }
+		provinces_to_highlight = {
+			area = lithuania_area
+			area = samogitia_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			AND = {
+				lithuania_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				samogitia_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		effect = {
+			livonia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			curonia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			add_country_modifier = {
+				name = "slav_lithuanian_culture"
+				duration = 9125
+			}
+		}
+	}
+
+	slav_push_baltic = {
+		position = 7
+		icon = mission_teutonic_knights
+		required_missions = { slav_conquer_lithuania }
+		provinces_to_highlight = {
+			area = curonia_area
+			area = livonia_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			AND = {
+				curonia_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				livonia_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		effect = {
+			east_prussia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			add_country_modifier = {
+				name = "slav_baltic_reached"
+				duration = 9125
+			}
+			add_years_of_income = 0.5
+		}
+	}
+}
+
+slav_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = Z82
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	slav_control_dniepr = {
+		icon = mission_advance_to_the_dnieper
+		required_missions = { }
+		provinces_to_highlight = {
+			area = west_dniepr_area
+			area = east_dniepr_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			AND = {
+				west_dniepr_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				east_dniepr_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		effect = {
+			pripyat_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			minsk_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}	
+			podlasie_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			chernigov_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			sloboda_ukraine_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			volhynia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			podolia_volhynia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			red_ruthenia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	slav_eastern_ruthenia = {
+		icon = mission_cathedral_cities
+		required_missions = { slav_control_dniepr }
+		provinces_to_highlight = {
+			area = sloboda_ukraine_area
+			area = chernigov_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			AND = {
+				sloboda_ukraine_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				chernigov_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		effect = {
+			smolensk_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			white_ruthenia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}	
+		}
+	}
+
+	slav_eastern_defences = {
+		icon = mission_assemble_an_army
+		required_missions = { slav_eastern_ruthenia }
+		provinces_to_highlight = {
+			area = white_ruthenia_area
+			area = smolensk_area
+			NOT = {
+				AND = {
+					owned_by = ROOT
+					controlled_by = ROOT
+				}
+			}
+		}
+		trigger = {
+			AND = {
+				white_ruthenia_area = {
+					type = all
+					owned_by = ROOT
+					controlled_by = ROOT
+				}
+				smolensk_area = {
+					type = all
+					owned_by = ROOT
+					controlled_by = ROOT
+				}
+			}
+		}
+		effect = {
+			771 = {
+				add_building = fort_15th
+			}
+			297 = {
+				add_building = fort_15th
+			}
+		}
+	}
+
+	slav_hold_ruthenia = {
+		icon = mission_unite_home_region
+		required_missions = { slav_eastern_defences slav_conquer_lithuania slav_conquer_zaporozhia }
+		provinces_to_highlight = {
+			region = ruthenia_region
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			ruthenia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			poland_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			280 = {
+				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+	}
+
+	slav_north_poland = {
+		icon = mission_conquer_5_states
+		required_missions = { slav_hold_ruthenia }
+		provinces_to_highlight = {
+			area = malopolska_area
+			area = sandomierz_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			AND = {
+				malopolska_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				sandomierz_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		effect = {
+			west_prussia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	slav_invade_poland = {
+		icon = mission_partition_poland
+		required_missions = { slav_north_poland slav_south_poland }
+		provinces_to_highlight = {
+			region = poland_region
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			ruthenia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						accepted_culture = polish
+					}
+				}
+				add_accepted_culture = polish
+			}
+		}
+	}
+
+	slav_baltic_jewel = {
+		position = 8
+		icon = mission_rb_inland_india
+		required_missions = { slav_invade_poland slav_push_baltic }
+		provinces_to_highlight = {
+			area = west_prussia_area
+			area = east_prussia_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			AND = {
+				west_prussia_area = {
+					type = all
+					owned_by = ROOT
+					controlled_by = ROOT
+					religion = ROOT
+				}
+				east_prussia_area = {
+					type = all
+					owned_by = ROOT
+					controlled_by = ROOT
+					religion = ROOT
+				}
+				41 = {
+					culture = ROOT
+				}
+			}
+		}
+		effect = {
+			41 = {
+				change_province_name = "Korolevets"
+				rename_capital = "Korolevets"
+				move_capital_effect = yes
+				add_base_tax = 3
+				add_base_production = 3
+				add_base_manpower = 3
+				add_province_modifier = {
+					name = slav_baltic_jewel
+					duration = -1
+				}
+			}
+		
+		}
+	}
+
+}
+
+slav_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = Z82
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	slav_reclaim_volhynia = {
+		position = 2
+		icon = mission_conquer_romania
+		required_missions = { slav_control_dniepr }
+		provinces_to_highlight = {
+			area = red_ruthenia_area
+			area = podolia_volhynia_area
+			area = volhynia_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			AND = {
+				red_ruthenia_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				podolia_volhynia_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				volhynia_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		effect = {
+			zaporizhia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			yedisan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}	
+		}
+	}
+
+	slav_conquer_zaporozhia = {
+		icon = mission_break_the_tatar_yoke
+		required_missions = { slav_reclaim_volhynia }
+		provinces_to_highlight = {
+			area = yedisan_area
+			area = zaporizhia_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			AND = {
+				yedisan_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				zaporizhia_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+
+		}
+		effect = {
+			282 = {
+				center_of_trade = 1
+			}
+			283 = {
+				add_building = fort_15th
+			}
+		}
+	}
+
+	slav_south_poland = {
+		position = 5
+		icon = mission_conquer_5_states
+		required_missions = { slav_hold_ruthenia }
+		provinces_to_highlight = {
+			area = wielkopolska_area
+			area = central_poland_area
+			area = mazovia_area
+			area = kuyavia_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			AND = {
+				wielkopolska_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				central_poland_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				mazovia_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				kuyavia_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		effect = {
+			silesia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	slav_protect_silesia = {
+		position = 7
+		icon = mission_monarch_in_throne_room
+		required_missions = { slav_invade_poland }
+		provinces_to_highlight = {
+			area = silesia_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			silesia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						accepted_culture = schlesian
+					}
+				}
+				add_accepted_culture = schlesian
+			}
+		}
+	}
+
+}

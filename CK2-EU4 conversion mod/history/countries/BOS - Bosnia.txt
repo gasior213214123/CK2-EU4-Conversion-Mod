@@ -1,0 +1,27 @@
+# Bosnia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = serbian
+religion = hellenic_pagan
+clear_scripted_personalities = yes
+capital = 3002
+1423.6.4 = {
+	monarch = {
+		name = "Eugenios"
+		birth_date = 1423.6.2
+		dynasty = "Sicalia"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = kind_hearted_personality
+}
+1444.11.11 = {
+	capital = 3002
+	add_treasury = 767
+	add_prestige = 462
+}

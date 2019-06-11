@@ -1,0 +1,129 @@
+# Mahdi
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 138 243 51 }
+historical_idea_groups = {
+	religious_ideas
+	exploration_ideas
+	defensive_ideas
+	naval_ideas
+	economic_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	spanish_tercio
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Mahdi" "Zubayda" "Stembanos" "Zwina" "Bezz'i" "Tazdayt" "Kella" "Triya" "Tariwelt" "Constanza" 
+	"Abd-al-Rahman" "Yahya" "Hisham" "Akaday" "Aksil" "Abd-al-Karim" "Masmud" "Tahir" "Abdul-Haleem" "Najib" 
+	"Galind" "Abdul-Hazm" "Muslihiddin" "Isma'il" "Wannaqo" "Fath" "Yeften" "Ahamatu" "Adelfonso" "Agila" 
+	"Airmanagildo" "Alaricho" "Aloito" "Assur" "Athanagildo" "Berengario" "Diaco" "Fafila" "Friedenando" "Friednand" 
+	"Froila" "Garçi" "Gonçalo" "Gundemar" "Guttier" "Johan" "Liuva" "Liuvericho" "Lupo" "Mauregato" 
+	"Monnio" "Nunno" "Oliba" "Ordonno" "Pelagio" "Petro" "Ranimiro" "Rekkaredo" "Rodericho" "Sans" 
+	"Silo" "Suneario" "Suniefredo" "Theodoricho" "Veremondo" "Wifredo" "Wimarano" "Witiza" }
+monarch_names = {
+	"Mahdi #1" = 21
+	"Zubayda #0" = -1
+	"Stembanos #0" = 1
+	"Zwina #0" = -1
+	"Bezz'i #0" = 1
+	"Tazdayt #0" = -1
+	"Kella #0" = -1
+	"Triya #0" = -1
+	"Tariwelt #0" = -1
+	"Constanza #0" = -1
+	"Abd-al-Rahman #1" = 0
+	"Yahya #1" = 0
+	"Hisham #1" = 0
+	"Akaday #1" = 0
+	"Aksil #3" = 0
+	"Abd-al-Karim #2" = 0
+	"Masmud #1" = 0
+	"Tahir #3" = 0
+	"Abdul-Haleem #3" = 0
+	"Najib #2" = 0
+	"Galind #1" = 0
+	"Abdul-Hazm #1" = 0
+	"Muslihiddin #1" = 0
+	"Isma'il #1" = 0
+	"Wannaqo #1" = 0
+	"Fath #1" = 0
+	"Yeften #1" = 0
+	"Ahamatu #1" = 0
+	"Adelfonso #0" = 0
+	"Agila #0" = 0
+	"Airmanagildo #0" = 0
+	"Alaricho #0" = 0
+	"Aloito #0" = 0
+	"Assur #0" = 0
+	"Athanagildo #0" = 0
+	"Berengario #0" = 0
+	"Diaco #0" = 0
+	"Fafila #0" = 0
+	"Friedenando #0" = 0
+	"Friednand #0" = 0
+	"Froila #0" = 0
+	"Garçi #0" = 0
+	"Gonçalo #0" = 0
+	"Gundemar #0" = 0
+	"Guttier #0" = 0
+	"Johan #0" = 0
+	"Liuva #0" = 0
+	"Liuvericho #0" = 0
+	"Lupo #0" = 0
+	"Mauregato #0" = 0
+	"Monnio #0" = 0
+	"Nunno #0" = 0
+	"Oliba #0" = 0
+	"Ordonno #0" = 0
+	"Pelagio #0" = 0
+	"Petro #0" = 0
+	"Ranimiro #0" = 0
+	"Rekkaredo #0" = 0
+	"Rodericho #0" = 0
+	"Sans #0" = 0
+	"Silo #0" = 0
+	"Suneario #0" = 0
+	"Suniefredo #0" = 0
+	"Theodoricho #0" = 0
+	"Veremondo #0" = 0
+	"Wifredo #0" = 0
+	"Wimarano #0" = 0
+	"Witiza #0" = 0
+}
+ship_names = {
+	Andalucía Anunciación Argonauta Aurora Aventurero Bizarra Brillante Burlando
+	Cacafuego Caimán Castilla Catalina "Conde de Tolosa" Conquistador Constante "Cuervo Marino"
+	Dorada Dragón "El Retiro" Esmeralda Esperanza Fuerte Galicia Gavilán Gaviota Glorioso Griega
+	Hércules Hermiona Infante Intrépido Iris Jassón Juno Júpiter
+	"La Carlota" "La Cazadora" "La Tetis" León Luz Mercurio Neptuno
+	Pena Penélope Peregrina "Perla de España" Princesa "Príncipe de Asturias" Puercoespín
+	"Real Carlos" "Real Familia" "Real Felipe" "Real Jorge" "Rubí" "Saeta"
+	"San Andrés" "San Antonio" "San Carlos" "San Esteban" "San Felipe" "San Fernando" "San Francisco"
+	"San Gabriel" "San Gil" "San Isidoro" "San Isidro" "San Jerónimo" "San Joaquín" "San José" "San Juan" "San Juan Bautista"
+	"San Leandro" "San Luis" "San Marcos" "San Martín" "San Miguel" "San Pío"
+	"Santa Ana" "Santa Bárbara" "Santa Eulalia" "Santa Irene" "Santa Isabel" "Santa Justa"
+	"Santa Natalia" "Santa Rita" "Santa Rosa" "Santa Susana" "Santa Teresa"
+	Santiago "Santísima Trinidad" Sebastiana Soberano Susana Trinidad Triunfo Unicornio
+	Venganza Vichero Victoria Vigilante Volante Vulcano Zara
+}
+

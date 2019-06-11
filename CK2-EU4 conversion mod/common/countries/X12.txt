@@ -1,0 +1,95 @@
+# Chandramukhavarman
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 15 220 80 }
+
+
+
+
+leader_names = {
+
+	"Chandramukhavarman" "Vasumati" "Vijnayavati" "Tiray" "Jayapala" "Yajnavati" "Timgyadeva" "Kuladevi" "Gopala" "Gandharavati" 
+	"Dattadevi" "Gayatri" "Ratnavati" "Ganapativarman" "Brahmapala" "Ratnapala" "Bhaskarvarman" "Suvrata" "Bhairabendranarayan" "Susthitavarman" 
+	"Jira" "Pushyavarman" "Durlabha" "Nayanadevi" "Virabahu" "Vina" "Kumarapala" "Vanamalavarmadeva" "Yajiyavati" "Harshavarman" 
+	"Maharshi" "Bhattamahabahu" "Harshadeva" "Indrapala" "Ratnadhwajpala" "Dharmapala" "Narayanavarman" "Harjjaravarman" "Kalyanavarman" "Syamadevi" 
+	"Balavarman" "Bhogavati" "Prabhase" "Vijnanavati" "Tyagasimha" "Harshapala" "Jayamala" "Sthitavarman" "Ahiavadevi" "Salasthamba" 
+	"Devavati" "Purandelapala" "Fu" "Pralambha" "Supratisthitavarman" "Samudravarman" "Tai" "Vijaya" "Jyotirishwar" "Birapala" 
+	"Mahendravarman" "Vigrahastambha" "Bhutivarman" "Bhavashankari" "Shiv Singh" "Bhaskaravarman" "Vijayasthamba" "Palakastambha" "Kumarastambha" "Vajradeva" 
+	"Salambha" "Yesugei" "Magod" "Ummoka" }
+monarch_names = {
+	"Chandramukhavarman #1" = 27
+	"Vasumati #0" = -1
+	"Vijnayavati #0" = -1
+	"Tiray #0" = 1
+	"Jayapala #0" = 1
+	"Yajnavati #0" = -1
+	"Timgyadeva #0" = 1
+	"Kuladevi #0" = -1
+	"Gopala #1" = 30
+	"Gandharavati #0" = -1
+	"Dattadevi #0" = -1
+	"Gayatri #0" = -1
+	"Ratnavati #0" = -1
+	"Ganapativarman #1" = 30
+	"Brahmapala #0" = 1
+	"Ratnapala #0" = 1
+	"Bhaskarvarman #0" = 1
+	"Suvrata #0" = -1
+	"Bhairabendranarayan #0" = 1
+	"Susthitavarman #1" = 27
+	"Jira #0" = -1
+	"Pushyavarman #4" = 42
+	"Durlabha #0" = -1
+	"Nayanadevi #0" = -1
+	"Virabahu #0" = 1
+	"Vina #0" = -1
+	"Kumarapala #0" = 1
+	"Vanamalavarmadeva #0" = 1
+	"Yajiyavati #0" = -1
+	"Harshavarman #1" = 24
+	"Maharshi #0" = 1
+	"Bhattamahabahu #0" = 1
+	"Harshadeva #1" = 24
+	"Indrapala #1" = 24
+	"Ratnadhwajpala #0" = 1
+	"Dharmapala #0" = 1
+	"Narayanavarman #2" = 24
+	"Harjjaravarman #0" = 1
+	"Kalyanavarman #1" = 30
+	"Syamadevi #0" = -1
+	"Balavarman #4" = 42
+	"Bhogavati #0" = -1
+	"Prabhase #0" = 1
+	"Vijnanavati #0" = -1
+	"Tyagasimha #0" = 1
+	"Harshapala #3" = 27
+	"Jayamala #0" = 1
+	"Sthitavarman #1" = 21
+	"Ahiavadevi #0" = -1
+	"Salasthamba #1" = 24
+	"Devavati #0" = -1
+	"Purandelapala #0" = 1
+	"Fu #0" = -1
+	"Pralambha #3" = 42
+	"Supratisthitavarman #1" = 27
+	"Samudravarman #1" = 18
+	"Tai #0" = 1
+	"Vijaya #0" = 1
+	"Jyotirishwar #0" = 1
+	"Birapala #0" = 1
+	"Mahendravarman #1" = 18
+	"Vigrahastambha #0" = 1
+	"Bhutivarman #1" = 30
+	"Bhavashankari #0" = -1
+	"Shiv Singh #0" = 1
+	"Bhaskaravarman #1" = 0
+	"Vijayasthamba #1" = 0
+	"Palakastambha #1" = 0
+	"Kumarastambha #1" = 0
+	"Vajradeva #1" = 0
+	"Salambha #1" = 0
+	"Yesugei #1" = 0
+	"Magod #1" = 0
+	"Ummoka #0" = 0
+}
+

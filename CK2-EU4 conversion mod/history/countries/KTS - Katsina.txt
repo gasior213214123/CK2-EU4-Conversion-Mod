@@ -1,0 +1,39 @@
+# Katsina
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+mercantilism = 0.1
+technology_group = sub_saharan
+primary_culture = hausa
+religion = shamanism
+clear_scripted_personalities = yes
+capital = 1149
+1443.5.24 = {
+	monarch = {
+		name = "Zaytun"
+		birth_date = 1424.6.17
+		dynasty = "Gabas"
+		female = yes
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = loose_lips_personality
+	heir = {
+		name = "Shakira"
+		monarch_name = "Shakira"
+		dynasty = "Gabas"
+		birth_date = 1402.11.18
+		death_date = 1482.11.18
+		female = yes
+		adm = 2
+		dip = 5
+		mil = 4
+	}
+	add_heir_personality = drunkard_personality
+}
+1444.11.11 = {
+	capital = 1149
+	add_treasury = 153
+	add_prestige = 21
+}

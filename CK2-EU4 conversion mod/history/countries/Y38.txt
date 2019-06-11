@@ -1,0 +1,26 @@
+# Hum
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dalmatian
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 136
+1443.8.22 = {
+	monarch = {
+		name = "Georgios II"
+		birth_date = 1421.7.22
+		dynasty = "Tornikes"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = free_thinker_personality
+}
+1444.11.11 = {
+	capital = 136
+	add_treasury = 53
+	add_prestige = 116
+}

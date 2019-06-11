@@ -1,0 +1,27 @@
+# Blois
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = cosmopolitan_french
+religion = catholic
+clear_scripted_personalities = yes
+capital = 184
+1419.7.19 = {
+	monarch = {
+		name = "Jaspert"
+		birth_date = 1401.12.25
+		dynasty = "de Bessa"
+		adm = 3
+		dip = 6
+		mil = 2
+	}
+	add_ruler_personality = benevolent_personality
+	add_ruler_personality = fertile_personality
+}
+1444.11.11 = {
+	capital = 184
+	add_treasury = 220
+	add_prestige = 186
+}

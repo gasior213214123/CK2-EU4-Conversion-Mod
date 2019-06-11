@@ -1,0 +1,27 @@
+# Powys
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = welsh
+religion = catholic
+clear_scripted_personalities = yes
+capital = 4366
+1430.9.13 = {
+	monarch = {
+		name = "Olafr"
+		birth_date = 1410.10.24
+		dynasty = "Sleggja"
+		adm = 4
+		dip = 1
+		mil = 4
+	}
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = intricate_web_weaver_personality
+}
+1444.11.11 = {
+	capital = 4366
+	add_treasury = 17
+	add_prestige = 176
+}

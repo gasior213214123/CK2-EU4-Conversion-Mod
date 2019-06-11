@@ -1,0 +1,138 @@
+# Galich
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 224 112 130 }
+
+
+
+
+leader_names = {
+
+	"Oldrich" "Ulita" "Yelisey" "Premyslava" "Gremislava" "Vsevolod" "Zvenislava" "Ruslan" "Demid" "Terentiy" 
+	"Vladislav" "Olena" "Rodislav" "Putiata" "Pribislava" "Gleb" "Gorislava" "Malusha" "Dobronega" "Stanislav" 
+	"Yefrosinia" "Viacheslava" "Gradislava" "Olga" "Pereyaslava" "Sviatopolk" "Sofia" "Veleslava" "Trifon" "Sbyslava" 
+	"Igor" "Fevronia" "Vseslava" "Viacheslav" "Praskovya" "Sudislav" "Lev" "Prebrana" "Kenna" "Ewa" 
+	"Radomir" "Przemysl" "Pechna" "Casimir" "Gertruda" "Mateja" "Andela" "Szczesny" "Jacenty" "Radomil" 
+	"Rycheza" "Msciwoj" "Stefana" "Kornelia" "Lidia" "Jadwiga" "Dobromil" "Geira" "Fedot" "Rostislav" 
+	"Yaroslav" "Svetozar" "Vasilisa" "Predslava" "Halina" "Rogneda" "Vyshata" "Vseslav" "Yevstafiy" "Sviatoslav" 
+	"Mstislav" "Rogvolod" "Tatyana" "Boleslava" "Sviatoslava" "Ulyana" "Zabava" "Vladimir" "Volodar" "Praxida" 
+	"Yefimia" "Liudmila" "Yaropolk" "Dobrava" "Varvara" "Darya" "Iziaslav" "Verkhoslava" "Yaroslava" "Malfrida" 
+	"Rostislava" "Liubava" "Premysl" "Edmund" "Give me a better one!" "Maurice" "Svetimir" "Ötemis" "Kundaç" "Gostum" 
+	"Bughra" "Wlodzimierz" "Drosuk" "Radoslav" "Iliya" "Briachislav" "Dobrynia" "Mitrofan" "Nikita" "Voislav" 
+	"Vysheslav" "Yefimiy" "Yeremey" }
+monarch_names = {
+	"Oldrich #0" = 1
+	"Ulita #0" = -1
+	"Yelisey #0" = 1
+	"Premyslava #0" = -1
+	"Gremislava #0" = -1
+	"Vsevolod #2" = 21
+	"Zvenislava #0" = -1
+	"Ruslan #1" = 24
+	"Demid #0" = 1
+	"Terentiy #0" = 1
+	"Vladislav #0" = 1
+	"Olena #0" = -1
+	"Rodislav #0" = 1
+	"Putiata #0" = 1
+	"Pribislava #0" = -1
+	"Gleb #1" = 18
+	"Gorislava #0" = -1
+	"Malusha #0" = -1
+	"Dobronega #0" = -1
+	"Stanislav #2" = 27
+	"Yefrosinia #0" = -1
+	"Viacheslava #0" = -1
+	"Gradislava #0" = -1
+	"Olga #0" = -1
+	"Pereyaslava #0" = -1
+	"Sviatopolk #0" = 1
+	"Sofia #0" = -1
+	"Veleslava #0" = -1
+	"Trifon #0" = 1
+	"Sbyslava #0" = -1
+	"Igor #0" = 1
+	"Fevronia #0" = -1
+	"Vseslava #0" = -1
+	"Viacheslav #0" = 1
+	"Praskovya #0" = -1
+	"Sudislav #0" = 1
+	"Lev #3" = 36
+	"Prebrana #0" = -1
+	"Kenna #0" = -1
+	"Ewa #0" = -1
+	"Radomir #0" = 1
+	"Przemysl #0" = 1
+	"Pechna #0" = -1
+	"Casimir #0" = 1
+	"Gertruda #0" = -1
+	"Mateja #0" = -1
+	"Andela #0" = -1
+	"Szczesny #0" = 1
+	"Jacenty #0" = 1
+	"Radomil #0" = 1
+	"Rycheza #0" = -1
+	"Msciwoj #0" = 1
+	"Stefana #0" = -1
+	"Kornelia #0" = -1
+	"Lidia #0" = -1
+	"Jadwiga #0" = -1
+	"Dobromil #0" = 1
+	"Geira #0" = -1
+	"Fedot #0" = 1
+	"Rostislav #0" = 1
+	"Yaroslav #0" = 1
+	"Svetozar #0" = 1
+	"Vasilisa #0" = -1
+	"Predslava #0" = -1
+	"Halina #0" = -1
+	"Rogneda #0" = -1
+	"Vyshata #0" = 1
+	"Vseslav #0" = 1
+	"Yevstafiy #0" = 1
+	"Sviatoslav #0" = 1
+	"Mstislav #0" = 1
+	"Rogvolod #0" = 1
+	"Tatyana #0" = -1
+	"Boleslava #0" = -1
+	"Sviatoslava #0" = -1
+	"Ulyana #0" = -1
+	"Zabava #0" = -1
+	"Vladimir #0" = 1
+	"Volodar #1" = 18
+	"Praxida #0" = -1
+	"Yefimia #0" = -1
+	"Liudmila #0" = -1
+	"Yaropolk #0" = 1
+	"Dobrava #0" = -1
+	"Varvara #0" = -1
+	"Darya #0" = -1
+	"Iziaslav #0" = 1
+	"Verkhoslava #0" = -1
+	"Yaroslava #0" = -1
+	"Malfrida #0" = -1
+	"Rostislava #0" = -1
+	"Liubava #0" = -1
+	"Premysl #1" = 0
+	"Edmund #1" = 0
+	"Give me a better one! #1" = 0
+	"Maurice #1" = 0
+	"Svetimir #1" = 0
+	"Ötemis #1" = 0
+	"Kundaç #1" = 0
+	"Gostum #1" = 0
+	"Bughra #1" = 0
+	"Wlodzimierz #1" = 0
+	"Drosuk #1" = 0
+	"Radoslav #1" = 0
+	"Iliya #1" = 0
+	"Briachislav #0" = 0
+	"Dobrynia #0" = 0
+	"Mitrofan #0" = 0
+	"Nikita #0" = 0
+	"Voislav #0" = 0
+	"Vysheslav #0" = 0
+	"Yefimiy #0" = 0
+	"Yeremey #0" = 0
+}
+

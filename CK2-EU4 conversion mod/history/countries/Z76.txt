@@ -1,0 +1,39 @@
+# Almeria
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = visigothic
+religion = manichean
+clear_scripted_personalities = yes
+capital = 222
+1435.12.15 = {
+	monarch = {
+		name = "Habiba"
+		birth_date = 1403.8.16
+		dynasty = "Umayyad"
+		female = yes
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+	add_ruler_personality = naive_personality
+	heir = {
+		name = "Sheeva"
+		monarch_name = "Sheeva"
+		dynasty = "Umayyad"
+		birth_date = 1408.2.16
+		death_date = 1488.2.16
+		female = yes
+		adm = 3
+		dip = 0
+		mil = 1
+	}
+	add_heir_personality = conqueror_personality
+}
+1444.11.11 = {
+	capital = 222
+	add_treasury = 365
+	add_prestige = 481
+}

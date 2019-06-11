@@ -1,0 +1,277 @@
+# Umayyad
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 48 167 45 }
+historical_idea_groups = {
+	religious_ideas
+	exploration_ideas
+	defensive_ideas
+	naval_ideas
+	economic_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	spanish_tercio
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Umayyah" "Souzan" "Ubayd" "Fadil" "Talib" "Sheeva" "Mukhtar" "Shamir" "Nizam" "Niptasan" 
+	"Parween" "Jalil" "Qutaiba" "Yahya" "Shararah" "Halil" "Daniyah" "Samir" "Kisa" "Jaida" 
+	"Husam" "Ramadan" "Rafiqa" "Layla" "Reshawna" "Sa'daddin" "Hafiz" "Shokouh" "Nafisa" "Ifser" 
+	"Yakta" "Sami" "Aram" "Paymaneh" "Abdul-Qadir" "Qamara" "Taneen" "Shahzadah" "Shola" "Adila" 
+	"Abdul-Jaleel" "Isa" "Sajida" "Nasr" "Tanaz" "Theodora" "Jibril" "Menza" "Sahba" "Tasa'fut" 
+	"Habiba" "Kamala" "Saaman" "Paywand" "Idris" "Parand" "Musa" "Shogofa" "Sadiq" "Khaireddin" 
+	"Ixzi" "Akzer" "Simin" "Shahrbano" "Amsha" "Abdul-al-As" "Affan" "al-Hakim" "Abu-Sufyan" "Uthan" 
+	"Muawiyah" "Yazid" "Marwan" "Abu-al-Malik" "Abdul-Aziz" "al-Himar" "al-Walid" "Sulayman" "Umar" "Mu'awiyah" 
+	"Hisham" "Ibrahim" "Abd-al-Rahman" "Zaynab" "Semeah" "Abdul-Wahab" "Sholah" "al-Qasim" "Abdallah" "Taliba" 
+	"Sabba" "Najib" "Aarif" "Shujah" "Faghira" "Murad" "Uways" "Rasa" "Watt'as" "Sheeftah" 
+	"Bahir" "Yasmin" "Jahaira" "Yagana" "Azam" "Rashida" "Mansur" "Abdul-Gafur" "Asiya" "Iher" 
+	"Mirza" "Khalil" "Ighlaf" "Adal" "Fadl" "Burhanaddin" "Masinissa" "Qawurd" "Dasin" "Dalal" 
+	"Ugwistan" "Aisha" "Triya" "Faghissa" "Zayar" "Nyawela" "Zeyd" "Meq'wran" "Kella" "Mubarak" 
+	"Shaiban" "Aesha" "Yunes" "Gedduda" "Faruk" "Edza" "Malik" "Amira" "Salomon" "Medjan" 
+	"Lemta" "Ghalib" "Laweye" "Issam" "Samira" "Khanchla" "Elduara" "Afaghis" "Is'mail" "Lem'an" 
+	"Saghar" "Tazrurt" "Aaliyah" "Tacfin" "Muzaffaraddin" "Adilia" "Uzza" "Salah" "Zwina" "Shameem" 
+	"Alim" "Mahdi" "Tariwelt" "Bahiyya" "Hanifa" "Adiva" "Aghlab" "Amennay" "Tifan" "Tinzert" 
+	"Talalit" "Tadla" "Stembanos" "Zunagha" "Safiya" "Tureght" "Kamal" "Jabir" "Taklit" "Amma" 
+	"Ra'isa" "Hemu" "Fatima" "Setara" "Gwejda" "Bibya" "Zahida" "Abdul-Hakam" "Ghada" "Masmud" 
+	"Adfuns" "Tisent" "Muslihiddin" "Najiba" "Akin" "Kawsen" "Tament" "Zahra" "Adiba" "Ya'qub" 
+	"Youkhanna" "Yusuf" }
+monarch_names = {
+	"Umayyah #0" = 1
+	"Souzan #0" = -1
+	"Ubayd #0" = 1
+	"Fadil #1" = 45
+	"Talib #0" = 1
+	"Sheeva #0" = -1
+	"Mukhtar #0" = 1
+	"Shamir #0" = 1
+	"Nizam #0" = 1
+	"Niptasan #0" = 1
+	"Parween #0" = -1
+	"Jalil #0" = 1
+	"Qutaiba #0" = 1
+	"Yahya #0" = 1
+	"Shararah #0" = -1
+	"Halil #1" = 36
+	"Daniyah #0" = -1
+	"Samir #0" = 1
+	"Kisa #0" = -1
+	"Jaida #0" = -1
+	"Husam #0" = 1
+	"Ramadan #0" = 1
+	"Rafiqa #0" = -1
+	"Layla #0" = -1
+	"Reshawna #0" = -1
+	"Sa'daddin #0" = 1
+	"Hafiz #0" = 1
+	"Shokouh #0" = -1
+	"Nafisa #0" = -1
+	"Ifser #0" = 1
+	"Yakta #0" = -1
+	"Sami #1" = 24
+	"Aram #0" = 1
+	"Paymaneh #0" = -1
+	"Abdul-Qadir #0" = 1
+	"Qamara #0" = -1
+	"Taneen #0" = -1
+	"Shahzadah #0" = -1
+	"Shola #0" = -1
+	"Adila #0" = -1
+	"Abdul-Jaleel #1" = 30
+	"Isa #1" = 24
+	"Sajida #0" = -1
+	"Nasr #0" = 1
+	"Tanaz #0" = -1
+	"Theodora #0" = -1
+	"Jibril #0" = 1
+	"Menza #0" = -1
+	"Sahba #0" = -1
+	"Tasa'fut #0" = -1
+	"Habiba #0" = -1
+	"Kamala #0" = -1
+	"Saaman #0" = -1
+	"Paywand #0" = -1
+	"Idris #0" = 1
+	"Parand #0" = -1
+	"Musa #2" = 27
+	"Shogofa #0" = -1
+	"Sadiq #0" = 1
+	"Khaireddin #0" = 1
+	"Ixzi #0" = 1
+	"Akzer #0" = 1
+	"Simin #0" = -1
+	"Shahrbano #0" = -1
+	"Amsha #0" = -1
+	"Abdul-al-As #0" = 1
+	"Affan #0" = 1
+	"al-Hakim #0" = 1
+	"Abu-Sufyan #0" = 1
+	"Uthan #0" = 1
+	"Muawiyah #0" = 1
+	"Yazid #0" = 1
+	"Marwan #0" = 1
+	"Abu-al-Malik #0" = 1
+	"Abdul-Aziz #0" = 1
+	"al-Himar #0" = 1
+	"al-Walid #0" = 1
+	"Sulayman #0" = 1
+	"Umar #0" = 1
+	"Mu'awiyah #0" = 1
+	"Hisham #2" = 24
+	"Ibrahim #0" = 1
+	"Abd-al-Rahman #1" = 27
+	"Zaynab #1" = -31
+	"Semeah #0" = -1
+	"Abdul-Wahab #0" = 1
+	"Sholah #1" = -34
+	"al-Qasim #0" = 1
+	"Abdallah #0" = 1
+	"Taliba #0" = -1
+	"Sabba #0" = -1
+	"Najib #2" = 42
+	"Aarif #0" = 1
+	"Shujah #0" = 1
+	"Faghira #0" = -1
+	"Murad #0" = 1
+	"Uways #0" = 1
+	"Rasa #0" = -1
+	"Watt'as #0" = 1
+	"Sheeftah #0" = -1
+	"Bahir #0" = 1
+	"Yasmin #0" = -1
+	"Jahaira #0" = -1
+	"Yagana #0" = -1
+	"Azam #0" = 1
+	"Rashida #0" = -1
+	"Mansur #0" = 1
+	"Abdul-Gafur #0" = 1
+	"Asiya #0" = -1
+	"Iher #0" = 1
+	"Mirza #0" = 1
+	"Khalil #0" = 1
+	"Ighlaf #0" = 1
+	"Adal #0" = 1
+	"Fadl #0" = 1
+	"Burhanaddin #2" = 24
+	"Masinissa #0" = 1
+	"Qawurd #0" = 1
+	"Dasin #0" = -1
+	"Dalal #0" = -1
+	"Ugwistan #0" = 1
+	"Aisha #0" = -1
+	"Triya #0" = -1
+	"Faghissa #0" = -1
+	"Zayar #0" = 1
+	"Nyawela #0" = -1
+	"Zeyd #1" = 24
+	"Meq'wran #0" = 1
+	"Kella #0" = -1
+	"Mubarak #0" = 1
+	"Shaiban #0" = 1
+	"Aesha #0" = -1
+	"Yunes #0" = 1
+	"Gedduda #0" = -1
+	"Faruk #0" = 1
+	"Edza #0" = -1
+	"Malik #0" = 1
+	"Amira #0" = -1
+	"Salomon #0" = 1
+	"Medjan #0" = 1
+	"Lemta #0" = -1
+	"Ghalib #0" = 1
+	"Laweye #0" = 1
+	"Issam #0" = 1
+	"Samira #0" = -1
+	"Khanchla #0" = 1
+	"Elduara #0" = -1
+	"Afaghis #0" = 1
+	"Is'mail #0" = 1
+	"Lem'an #0" = -1
+	"Saghar #0" = -1
+	"Tazrurt #0" = -1
+	"Aaliyah #0" = -1
+	"Tacfin #0" = 1
+	"Muzaffaraddin #0" = 1
+	"Adilia #0" = -1
+	"Uzza #0" = 1
+	"Salah #0" = 1
+	"Zwina #0" = -1
+	"Shameem #1" = -28
+	"Alim #1" = 27
+	"Mahdi #0" = 1
+	"Tariwelt #0" = -1
+	"Bahiyya #0" = -1
+	"Hanifa #0" = -1
+	"Adiva #0" = -1
+	"Aghlab #0" = 1
+	"Amennay #0" = 1
+	"Tifan #0" = 1
+	"Tinzert #0" = -1
+	"Talalit #0" = -1
+	"Tadla #0" = -1
+	"Stembanos #0" = 1
+	"Zunagha #0" = -1
+	"Safiya #0" = -1
+	"Tureght #0" = -1
+	"Kamal #0" = 1
+	"Jabir #0" = 1
+	"Taklit #0" = -1
+	"Amma #0" = 1
+	"Ra'isa #0" = -1
+	"Hemu #0" = -1
+	"Fatima #0" = -1
+	"Setara #0" = -1
+	"Gwejda #0" = -1
+	"Bibya #0" = -1
+	"Zahida #0" = -1
+	"Abdul-Hakam #0" = 1
+	"Ghada #0" = -1
+	"Masmud #0" = 1
+	"Adfuns #0" = 1
+	"Tisent #0" = -1
+	"Muslihiddin #0" = 1
+	"Najiba #0" = -1
+	"Akin #0" = 1
+	"Kawsen #0" = 1
+	"Tament #0" = -1
+	"Zahra #0" = -1
+	"Adiba #0" = -1
+	"Ya'qub #0" = 0
+	"Youkhanna #0" = 0
+	"Yusuf #0" = 0
+}
+ship_names = {
+	Andalucía Anunciación Argonauta Aurora Aventurero Bizarra Brillante Burlando
+	Cacafuego Caimán Castilla Catalina "Conde de Tolosa" Conquistador Constante "Cuervo Marino"
+	Dorada Dragón "El Retiro" Esmeralda Esperanza Fuerte Galicia Gavilán Gaviota Glorioso Griega
+	Hércules Hermiona Infante Intrépido Iris Jassón Juno Júpiter
+	"La Carlota" "La Cazadora" "La Tetis" León Luz Mercurio Neptuno
+	Pena Penélope Peregrina "Perla de España" Princesa "Príncipe de Asturias" Puercoespín
+	"Real Carlos" "Real Familia" "Real Felipe" "Real Jorge" "Rubí" "Saeta"
+	"San Andrés" "San Antonio" "San Carlos" "San Esteban" "San Felipe" "San Fernando" "San Francisco"
+	"San Gabriel" "San Gil" "San Isidoro" "San Isidro" "San Jerónimo" "San Joaquín" "San José" "San Juan" "San Juan Bautista"
+	"San Leandro" "San Luis" "San Marcos" "San Martín" "San Miguel" "San Pío"
+	"Santa Ana" "Santa Bárbara" "Santa Eulalia" "Santa Irene" "Santa Isabel" "Santa Justa"
+	"Santa Natalia" "Santa Rita" "Santa Rosa" "Santa Susana" "Santa Teresa"
+	Santiago "Santísima Trinidad" Sebastiana Soberano Susana Trinidad Triunfo Unicornio
+	Venganza Vichero Victoria Vigilante Volante Vulcano Zara
+}
+

@@ -1,0 +1,28 @@
+# Francia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 3
+mercantilism = 0.1
+technology_group = western
+primary_culture = basque
+religion = catholic
+clear_scripted_personalities = yes
+capital = 174
+1416.9.15 = {
+	monarch = {
+		name = "Ximena"
+		birth_date = 1403.8.23
+		dynasty = "Carillian"
+		female = yes
+		adm = 2
+		dip = 6
+		mil = 3
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = benevolent_personality
+}
+1444.11.11 = {
+	capital = 174
+	add_treasury = 797
+	add_prestige = 1303
+}

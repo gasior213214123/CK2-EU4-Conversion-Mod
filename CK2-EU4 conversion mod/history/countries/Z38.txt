@@ -1,0 +1,28 @@
+# Franche Comté
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = cosmopolitan_french
+religion = hellenic_pagan
+clear_scripted_personalities = yes
+capital = 193
+1410.1.20 = {
+	monarch = {
+		name = "Blanche"
+		birth_date = 1409.10.6
+		dynasty = "Nibelunging"
+		female = yes
+		adm = 6
+		dip = 0
+		mil = 4
+	}
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = midas_touched_personality
+}
+1444.11.11 = {
+	capital = 193
+	add_treasury = 60
+	add_prestige = 487
+}

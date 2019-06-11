@@ -1,0 +1,213 @@
+# Hesse
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 160 160 120 }
+historical_idea_groups = {
+	trade_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Alessandro" "Tibaldo" "Livia" "Antonio" "Gaspare" "Clara" "Caracosa" "Filippo" "Lucinetta" "Ginevra" 
+	"Adalberta" "Gaetano" "Constanza" "Fausto" "Costante" "Candida" "Ottavio" "Malacresta" "Rodolfo" "Benedetta" 
+	"Marietta" "Agalina" "Lealdo" "Pepin" "Heimrich" "Heinrich" "Barbara" "Baldarich" "Godomar" "Vulvari" 
+	"Bernegildis" "Géraud" "Thierry" "Hinrik" "Giordano" "Anastasius" "Lucius" "Oberto" "Attilio" "Hadrianus" 
+	"Gabriele" "Giano" "Édouard" "Érrard" "Étienne" "Adalbert" "Adémar" "Adrien" "Aimery" "Alain" 
+	"Aldebert" "Aldéric" "Alphonse" "Amaury" "Amédée" "Ancel" "André" "Angelbert" "Antoine" "Archambaud" 
+	"Arnaud" "Arnault" "Arnoul" "Aubry" "Aymar" "Barthélémi" "Baudouin" "Benoît" "Bérenger" "Bernard" 
+	"Bertrand" "Bohemond" "Boson" "Bouchard" "Centule" "Charles" "Clotaire" "Ebbon" "Enguerrand" "Eudes" 
+	"Eustache" "Evrard" "Foulques" "François" "Frédéric" "Gargamel" "Gaucher" "Gaucelin" "Gauthier" "Geoffroy" 
+	"Gelduin" "Gilbert" "Gilles" "Godefroy" "Guichard" "Guiges" "Guilhem" "Guillaume" "Guy" "Hélie" 
+	"Hamelin" "Henri" "Herbert" "Hildebert" "Hugues" "Humbert" "Jacques" "Jaufré" "Jaspert" "Jean" 
+	"Josselin" "Jourdain" "Julien" "Léon" "Léonard" "Lothaire" "Louis" "Loup" "Manassès" "Mathieu" 
+	"Maurice" "Nicolas" "Ogier" "Onfroy" "Orson" "Othon" "Payen" "Philippe" "Pierre" "Raimbaut" 
+	"Raoul" "Raymond" "Raynaud" "Renaud" "Richard" "Robert" "Robin" "Roger" "Rorgon" "Rorgues" 
+	"Roubaud" "Savary" "Sigismond" "Simon" "Thibault" "Thiébaut" "Thomas" "Valeran" "Yves" }
+monarch_names = {
+	"Alessandro #0" = 1
+	"Tibaldo #0" = 1
+	"Livia #0" = -1
+	"Antonio #1" = 18
+	"Gaspare #1" = 21
+	"Clara #0" = -1
+	"Caracosa #0" = -1
+	"Filippo #0" = 1
+	"Lucinetta #0" = -1
+	"Ginevra #0" = -1
+	"Adalberta #0" = -1
+	"Gaetano #0" = 1
+	"Constanza #0" = -1
+	"Fausto #0" = 1
+	"Costante #0" = 1
+	"Candida #0" = -1
+	"Ottavio #1" = 18
+	"Malacresta #0" = 1
+	"Rodolfo #0" = 1
+	"Benedetta #0" = -1
+	"Marietta #0" = -1
+	"Agalina #0" = -1
+	"Lealdo #0" = 1
+	"Pepin #1" = 0
+	"Heimrich #1" = 0
+	"Heinrich #1" = 0
+	"Barbara #1" = -1
+	"Baldarich #1" = 0
+	"Godomar #2" = 0
+	"Vulvari #1" = 0
+	"Bernegildis #1" = -1
+	"Géraud #2" = 0
+	"Thierry #1" = 0
+	"Hinrik #1" = 0
+	"Giordano #1" = 0
+	"Anastasius #1" = 0
+	"Lucius #1" = 0
+	"Oberto #1" = 0
+	"Attilio #1" = 0
+	"Hadrianus #1" = 0
+	"Gabriele #1" = 0
+	"Giano #1" = 0
+	"Édouard #0" = 0
+	"Érrard #0" = 0
+	"Étienne #0" = 0
+	"Adalbert #0" = 0
+	"Adémar #0" = 0
+	"Adrien #0" = 0
+	"Aimery #0" = 0
+	"Alain #0" = 0
+	"Aldebert #0" = 0
+	"Aldéric #0" = 0
+	"Alphonse #0" = 0
+	"Amaury #0" = 0
+	"Amédée #0" = 0
+	"Ancel #0" = 0
+	"André #0" = 0
+	"Angelbert #0" = 0
+	"Antoine #0" = 0
+	"Archambaud #0" = 0
+	"Arnaud #0" = 0
+	"Arnault #0" = 0
+	"Arnoul #0" = 0
+	"Aubry #0" = 0
+	"Aymar #0" = 0
+	"Barthélémi #0" = 0
+	"Baudouin #0" = 0
+	"Benoît #0" = 0
+	"Bérenger #0" = 0
+	"Bernard #0" = 0
+	"Bertrand #0" = 0
+	"Bohemond #0" = 0
+	"Boson #0" = 0
+	"Bouchard #0" = 0
+	"Centule #0" = 0
+	"Charles #0" = 0
+	"Clotaire #0" = 0
+	"Ebbon #0" = 0
+	"Enguerrand #0" = 0
+	"Eudes #0" = 0
+	"Eustache #0" = 0
+	"Evrard #0" = 0
+	"Foulques #0" = 0
+	"François #0" = 0
+	"Frédéric #0" = 0
+	"Gargamel #0" = 0
+	"Gaucher #0" = 0
+	"Gaucelin #0" = 0
+	"Gauthier #0" = 0
+	"Geoffroy #0" = 0
+	"Gelduin #0" = 0
+	"Gilbert #0" = 0
+	"Gilles #0" = 0
+	"Godefroy #0" = 0
+	"Guichard #0" = 0
+	"Guiges #0" = 0
+	"Guilhem #0" = 0
+	"Guillaume #0" = 0
+	"Guy #0" = 0
+	"Hélie #0" = 0
+	"Hamelin #0" = 0
+	"Henri #0" = 0
+	"Herbert #0" = 0
+	"Hildebert #0" = 0
+	"Hugues #0" = 0
+	"Humbert #0" = 0
+	"Jacques #0" = 0
+	"Jaufré #0" = 0
+	"Jaspert #0" = 0
+	"Jean #0" = 0
+	"Josselin #0" = 0
+	"Jourdain #0" = 0
+	"Julien #0" = 0
+	"Léon #0" = 0
+	"Léonard #0" = 0
+	"Lothaire #0" = 0
+	"Louis #0" = 0
+	"Loup #0" = 0
+	"Manassès #0" = 0
+	"Mathieu #0" = 0
+	"Maurice #0" = 0
+	"Nicolas #0" = 0
+	"Ogier #0" = 0
+	"Onfroy #0" = 0
+	"Orson #0" = 0
+	"Othon #0" = 0
+	"Payen #0" = 0
+	"Philippe #0" = 0
+	"Pierre #0" = 0
+	"Raimbaut #0" = 0
+	"Raoul #0" = 0
+	"Raymond #0" = 0
+	"Raynaud #0" = 0
+	"Renaud #0" = 0
+	"Richard #0" = 0
+	"Robert #0" = 0
+	"Robin #0" = 0
+	"Roger #0" = 0
+	"Rorgon #0" = 0
+	"Rorgues #0" = 0
+	"Roubaud #0" = 0
+	"Savary #0" = 0
+	"Sigismond #0" = 0
+	"Simon #0" = 0
+	"Thibault #0" = 0
+	"Thiébaut #0" = 0
+	"Thomas #0" = 0
+	"Valeran #0" = 0
+	"Yves #0" = 0
+}
+ship_names = {
+	Ariadne Habicht Adler Albatross Amazone
+	Arcona Basilisk Beowulf Biene Wespe Wolf
+	Nautilus Natter Otter Pelikan Pfeil Meteor
+	Möwe Mücke Luchs König Kaiser Eber Drache
+	Falke Frauenlob Freya Fuchs Gazelle Geier
+	Greif Condor Cormoran Comet Wacht Tiger
+	Seeadler Jaguar Hyäne Blitz Bremse Brummer
+	Bussard Vulkan
+}
+

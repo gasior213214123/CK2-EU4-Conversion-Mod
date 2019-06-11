@@ -1,0 +1,26 @@
+# Vengi
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = bedouin_arabic
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 400
+1441.7.23 = {
+	monarch = {
+		name = "Sultanpal"
+		birth_date = 1419.7.23
+		dynasty = "Matyineni"
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+	add_ruler_personality = secretive_personality
+}
+1444.11.11 = {
+	capital = 400
+	add_treasury = 21
+	add_prestige = 535
+}

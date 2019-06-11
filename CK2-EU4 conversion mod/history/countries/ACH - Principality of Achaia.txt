@@ -1,0 +1,27 @@
+# Achaia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 1773
+1409.7.15 = {
+	monarch = {
+		name = "Antiochos"
+		birth_date = 1407.11.3
+		dynasty = "Sgouros"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = malevolent_personality
+}
+1444.11.11 = {
+	capital = 1773
+	add_treasury = 1188
+	add_prestige = 235
+}

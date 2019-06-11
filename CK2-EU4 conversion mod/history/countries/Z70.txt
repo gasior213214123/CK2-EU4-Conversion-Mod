@@ -1,0 +1,27 @@
+# Qashid
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = visigothic
+religion = manichean
+clear_scripted_personalities = yes
+capital = 230
+1428.11.14 = {
+	monarch = {
+		name = "Abdul-Hazm"
+		birth_date = 1404.10.8
+		dynasty = "Qashid"
+		adm = 1
+		dip = 0
+		mil = 3
+	}
+	add_ruler_personality = careful_personality
+	add_ruler_personality = cruel_personality
+}
+1444.11.11 = {
+	capital = 230
+	add_treasury = 1912
+	add_prestige = 99
+}

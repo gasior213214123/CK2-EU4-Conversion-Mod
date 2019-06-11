@@ -1,0 +1,27 @@
+# The Ecumenical Patriarchate
+government = theocracy
+add_government_reform = leading_clergy_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 151
+1422.7.14 = {
+	monarch = {
+		name = "Pavlos IV"
+		birth_date = 1389.2.9
+		dynasty = "of  Constantinople"
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = pious_personality
+	add_ruler_personality = calm_personality
+}
+1444.11.11 = {
+	capital = 151
+	add_treasury = 42
+	add_prestige = 150
+}

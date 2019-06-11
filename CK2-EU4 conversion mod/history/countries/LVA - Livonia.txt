@@ -1,0 +1,27 @@
+# Livonia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = pommeranian
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 38
+1430.5.5 = {
+	monarch = {
+		name = "Waclaw II"
+		birth_date = 1422.4.8
+		dynasty = "Grzymala"
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = tactical_genius_personality
+}
+1444.11.11 = {
+	capital = 38
+	add_treasury = 29
+	add_prestige = 165
+}

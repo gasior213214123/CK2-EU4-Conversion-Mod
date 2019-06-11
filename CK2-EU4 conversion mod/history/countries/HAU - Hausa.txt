@@ -1,0 +1,28 @@
+# Hausaland
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = sub_saharan
+primary_culture = hausa
+religion = shamanism
+clear_scripted_personalities = yes
+capital = 1155
+1431.6.9 = {
+	monarch = {
+		name = "Shadia"
+		birth_date = 1417.4.6
+		dynasty = "Gobirawa"
+		female = yes
+		adm = 1
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality = greedy_personality
+	add_ruler_personality = sinner_personality
+}
+1444.11.11 = {
+	capital = 1155
+	add_treasury = 9
+	add_prestige = 173
+}

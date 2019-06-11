@@ -1,0 +1,26 @@
+# Talakad Ganga
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = indian
+primary_culture = kannada
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 533
+1442.9.4 = {
+	monarch = {
+		name = "Konganivarman II"
+		birth_date = 1395.6.11
+		dynasty = "Talakad Ganga"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = expansionist_personality
+}
+1444.11.11 = {
+	capital = 533
+	add_treasury = 101
+	add_prestige = 273
+}

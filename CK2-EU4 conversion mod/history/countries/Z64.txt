@@ -1,0 +1,27 @@
+# València
+government = republic
+add_government_reform = republic
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = bedouin_arabic
+religion = shiite
+clear_scripted_personalities = yes
+capital = 220
+1421.10.2 = {
+	monarch = {
+		name = "Gaya"
+		birth_date = 1401.2.7
+		dynasty = "Fatimid"
+		adm = 2
+		dip = 4
+		mil = 1
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = tactical_genius_personality
+}
+1444.11.11 = {
+	capital = 220
+	add_treasury = 215
+	add_prestige = 581
+}

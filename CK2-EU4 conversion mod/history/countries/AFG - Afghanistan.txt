@@ -1,0 +1,26 @@
+# Kabulistan
+government = monarchy
+add_government_reform = elective_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = indian
+primary_culture = rajput
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 2086
+1439.9.3 = {
+	monarch = {
+		name = "Varakunavarman"
+		birth_date = 1420.5.19
+		dynasty = "Matyineni"
+		adm = 3
+		dip = 1
+		mil = 6
+	}
+	add_ruler_personality = bold_fighter_personality
+}
+1444.11.11 = {
+	capital = 2086
+	add_treasury = 14
+	add_prestige = 541
+}

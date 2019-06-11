@@ -1,0 +1,26 @@
+# Cairo
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = al_misr_arabic
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 361
+1442.3.21 = {
+	monarch = {
+		name = "Hippolytos II"
+		birth_date = 1431.2.21
+		dynasty = "of Helwan"
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+	add_ruler_personality = fierce_negotiator_personality
+}
+1444.11.11 = {
+	capital = 361
+	add_treasury = 260
+	add_prestige = 39
+}

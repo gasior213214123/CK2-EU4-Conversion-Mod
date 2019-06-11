@@ -1,0 +1,28 @@
+# Cumbria
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = anglo_saxon
+religion = catholic
+clear_scripted_personalities = yes
+capital = 247
+1432.6.11 = {
+	monarch = {
+		name = "Alberada"
+		birth_date = 1403.4.4
+		dynasty = "de Montjoy"
+		female = yes
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = strict_personality
+}
+1444.11.11 = {
+	capital = 247
+	add_treasury = 91
+	add_prestige = 222
+}

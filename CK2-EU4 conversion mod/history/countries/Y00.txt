@@ -1,0 +1,27 @@
+# Mengu-Timur
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 1
+mercantilism = 0.1
+technology_group = nomad_group
+primary_culture = mongol
+religion = catholic
+clear_scripted_personalities = yes
+capital = 1964
+1408.4.22 = {
+	monarch = {
+		name = "Jochi"
+		birth_date = 1391.4.1
+		dynasty = "Mengu-Timur"
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = inspiring_leader_personality
+}
+1444.11.11 = {
+	capital = 1964
+	add_treasury = 3
+	add_prestige = 494
+}

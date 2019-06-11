@@ -1,0 +1,26 @@
+# Massinissid
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = berber
+religion = shiite
+clear_scripted_personalities = yes
+capital = 338
+1440.7.9 = {
+	monarch = {
+		name = "Ibiza III"
+		birth_date = 1400.11.4
+		dynasty = "Massinissid"
+		adm = 1
+		dip = 0
+		mil = 4
+	}
+	add_ruler_personality = greedy_personality
+}
+1444.11.11 = {
+	capital = 338
+	add_treasury = 178
+	add_prestige = 60
+}

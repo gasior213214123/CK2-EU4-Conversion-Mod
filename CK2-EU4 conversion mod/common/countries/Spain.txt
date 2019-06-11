@@ -1,0 +1,179 @@
+# Hispania
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 233 200 20 }
+historical_idea_groups = {
+	religious_ideas
+	exploration_ideas
+	defensive_ideas
+	naval_ideas
+	economic_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	spanish_tercio
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Yençepi" "Gulay" "Ayasun" "Ayten" "Barghujin" "Tarmaç" "Yabghu" "Duua" "Bugha" "Vakrim" 
+	"Menggei" "Iltäbär" "Muslihiddin" "Këlnissa" "Khorijin" "Savtilek" "Çeçtilet" "Kera" "Samsam" "Töregene" 
+	"Borjigidai" "Çat" "Simsam" "Kundaçiq" "Gunes" "Yartilek" "Sarä" "Ötemis" "Akgul" "Bozçin" 
+	"Samur" "Mutlu" "Khatir" "Sarikel" "Kisa" "Savilay" "Ipek" "Karadakh" "Savkëlti" "Barjik" 
+	"Buri" "Usunbike" "Mala" "Çilen" "Peksen" "Ikalay" "Kätyarikka" "Ilik" "Naça" "Alp" 
+	"Çiçäk" "Baghatur" "Çorpan" "Mënümarót" "Patiyer" "Dayir" "Zeyd" "Abdul-Qadir" "Jibril" "Muzaffaraddin" 
+	"Alim" "Khaireddin" "Talib" "Fadil" "Shaiban" "Aarif" "Abdul-Gafur" "Abdul-Jaleel" "Abdul-Wahab" "Aghlab" 
+	"Akin" "Aram" "Azam" "Bahir" "Burhanaddin" "Fadl" "Faruk" "Ghalib" "Hafiz" "Halil" 
+	"Husam" "Ibrahim" "Idris" "Is'mail" "Isa" "Jabir" "Jalil" "Khalil" "Mahdi" "Mansur" 
+	"Mirza" "Mubarak" "Mukhtar" "Murad" "Musa" "Najib" "Nasr" "Nizam" "Qawurd" "Ramadan" 
+	"Sa'daddin" "Sadiq" "Sami" "Samir" "Shamir" "Shujah" "Sulayman" "Ubayd" "Uways" "Yahya" 
+	"Ya'qub" "Youkhanna" "Yusuf" }
+monarch_names = {
+	"Yençepi #1" = 27
+	"Gulay #0" = -1
+	"Ayasun #0" = -1
+	"Ayten #0" = -1
+	"Barghujin #0" = 1
+	"Tarmaç #0" = 1
+	"Yabghu #0" = 1
+	"Duua #0" = 1
+	"Bugha #0" = 1
+	"Vakrim #0" = 1
+	"Menggei #0" = 1
+	"Iltäbär #0" = 1
+	"Muslihiddin #1" = 18
+	"Këlnissa #0" = -1
+	"Khorijin #0" = -1
+	"Savtilek #0" = -1
+	"Çeçtilet #0" = -1
+	"Kera #0" = -1
+	"Samsam #0" = 1
+	"Töregene #0" = -1
+	"Borjigidai #0" = 1
+	"Çat #0" = 1
+	"Simsam #0" = 1
+	"Kundaçiq #0" = 1
+	"Gunes #0" = -1
+	"Yartilek #0" = -1
+	"Sarä #0" = -1
+	"Ötemis #0" = 1
+	"Akgul #0" = -1
+	"Bozçin #0" = -1
+	"Samur #0" = -1
+	"Mutlu #0" = -1
+	"Khatir #0" = 1
+	"Sarikel #0" = -1
+	"Kisa #0" = 1
+	"Savilay #0" = -1
+	"Ipek #0" = -1
+	"Karadakh #0" = 1
+	"Savkëlti #0" = -1
+	"Barjik #0" = 1
+	"Buri #0" = 1
+	"Usunbike #0" = -1
+	"Mala #0" = -1
+	"Çilen #0" = -1
+	"Peksen #0" = -1
+	"Ikalay #0" = -1
+	"Kätyarikka #0" = -1
+	"Ilik #0" = 1
+	"Naça #0" = -1
+	"Alp #0" = 1
+	"Çiçäk #0" = -1
+	"Baghatur #0" = 1
+	"Çorpan #0" = 1
+	"Mënümarót #0" = 1
+	"Patiyer #0" = -1
+	"Dayir #1" = 18
+	"Zeyd #1" = 0
+	"Abdul-Qadir #1" = 0
+	"Jibril #1" = 0
+	"Muzaffaraddin #1" = 0
+	"Alim #2" = 0
+	"Khaireddin #1" = 0
+	"Talib #1" = 0
+	"Fadil #1" = 0
+	"Shaiban #2" = 0
+	"Aarif #0" = 0
+	"Abdul-Gafur #0" = 0
+	"Abdul-Jaleel #0" = 0
+	"Abdul-Wahab #0" = 0
+	"Aghlab #0" = 0
+	"Akin #0" = 0
+	"Aram #0" = 0
+	"Azam #0" = 0
+	"Bahir #0" = 0
+	"Burhanaddin #0" = 0
+	"Fadl #0" = 0
+	"Faruk #0" = 0
+	"Ghalib #0" = 0
+	"Hafiz #0" = 0
+	"Halil #0" = 0
+	"Husam #0" = 0
+	"Ibrahim #0" = 0
+	"Idris #0" = 0
+	"Is'mail #0" = 0
+	"Isa #0" = 0
+	"Jabir #0" = 0
+	"Jalil #0" = 0
+	"Khalil #0" = 0
+	"Mahdi #0" = 0
+	"Mansur #0" = 0
+	"Mirza #0" = 0
+	"Mubarak #0" = 0
+	"Mukhtar #0" = 0
+	"Murad #0" = 0
+	"Musa #0" = 0
+	"Najib #0" = 0
+	"Nasr #0" = 0
+	"Nizam #0" = 0
+	"Qawurd #0" = 0
+	"Ramadan #0" = 0
+	"Sa'daddin #0" = 0
+	"Sadiq #0" = 0
+	"Sami #0" = 0
+	"Samir #0" = 0
+	"Shamir #0" = 0
+	"Shujah #0" = 0
+	"Sulayman #0" = 0
+	"Ubayd #0" = 0
+	"Uways #0" = 0
+	"Yahya #0" = 0
+	"Ya'qub #0" = 0
+	"Youkhanna #0" = 0
+	"Yusuf #0" = 0
+}
+ship_names = {
+	Andalucía Anunciación Argonauta Aurora Aventurero Bizarra Brillante Burlando
+	Cacafuego Caimán Castilla Catalina "Conde de Tolosa" Conquistador Constante "Cuervo Marino"
+	Dorada Dragón "El Retiro" Esmeralda Esperanza Fuerte Galicia Gavilán Gaviota Glorioso Griega
+	Hércules Hermiona Infante Intrépido Iris Jassón Juno Júpiter
+	"La Carlota" "La Cazadora" "La Tetis" León Luz Mercurio Neptuno
+	Pena Penélope Peregrina "Perla de España" Princesa "Príncipe de Asturias" Puercoespín
+	"Real Carlos" "Real Familia" "Real Felipe" "Real Jorge" "Rubí" "Saeta"
+	"San Andrés" "San Antonio" "San Carlos" "San Esteban" "San Felipe" "San Fernando" "San Francisco"
+	"San Gabriel" "San Gil" "San Isidoro" "San Isidro" "San Jerónimo" "San Joaquín" "San José" "San Juan" "San Juan Bautista"
+	"San Leandro" "San Luis" "San Marcos" "San Martín" "San Miguel" "San Pío"
+	"Santa Ana" "Santa Bárbara" "Santa Eulalia" "Santa Irene" "Santa Isabel" "Santa Justa"
+	"Santa Natalia" "Santa Rita" "Santa Rosa" "Santa Susana" "Santa Teresa"
+	Santiago "Santísima Trinidad" Sebastiana Soberano Susana Trinidad Triunfo Unicornio
+	Venganza Vichero Victoria Vigilante Volante Vulcano Zara
+}
+

@@ -1,0 +1,27 @@
+# Bujakhin
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 1
+mercantilism = 0.1
+technology_group = nomad_group
+primary_culture = mongol
+religion = tengri_pagan_reformed
+clear_scripted_personalities = yes
+capital = 2193
+1415.10.27 = {
+	monarch = {
+		name = "Usun II"
+		birth_date = 1397.9.24
+		dynasty = "Bujakhin"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = tactical_genius_personality
+}
+1444.11.11 = {
+	capital = 2193
+	add_treasury = 31
+	add_prestige = 258
+}

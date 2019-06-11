@@ -1,0 +1,26 @@
+# Vladimir
+government = republic
+add_government_reform = oligarchy_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = mordvin
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 306
+1440.9.4 = {
+	monarch = {
+		name = "Igor"
+		birth_date = 1403.1.12
+		dynasty = "Artamonovich"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = malevolent_personality
+}
+1444.11.11 = {
+	capital = 306
+	add_treasury = 15
+	add_prestige = 9
+}

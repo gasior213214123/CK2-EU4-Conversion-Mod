@@ -1,0 +1,26 @@
+# Tamilakam
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = bedouin_arabic
+religion = hinduism
+clear_scripted_personalities = yes
+capital = 393
+1442.6.1 = {
+	monarch = {
+		name = "Cayantavarman"
+		birth_date = 1409.10.19
+		dynasty = "Matyineni"
+		adm = 2
+		dip = 0
+		mil = 3
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+}
+1444.11.11 = {
+	capital = 393
+	add_treasury = 12
+	add_prestige = 540
+}

@@ -1,0 +1,27 @@
+# Armeniacon
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 2304
+1426.9.4 = {
+	monarch = {
+		name = "Paschalis III"
+		birth_date = 1426.7.21
+		dynasty = "Syraneres"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = craven_personality
+	add_ruler_personality = strict_personality
+}
+1444.11.11 = {
+	capital = 2304
+	add_treasury = 60
+	add_prestige = 155
+}

@@ -1,0 +1,26 @@
+# Esztergom
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = pommeranian
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 153
+1440.4.8 = {
+	monarch = {
+		name = "Kolman"
+		birth_date = 1427.2.26
+		dynasty = "Gniewosz"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = loose_lips_personality
+}
+1444.11.11 = {
+	capital = 153
+	add_treasury = 22
+	add_prestige = 32
+}

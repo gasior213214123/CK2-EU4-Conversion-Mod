@@ -1,0 +1,27 @@
+# Mesopotamia
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = armenian
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 2306
+1423.10.25 = {
+	monarch = {
+		name = "Christophoros"
+		birth_date = 1422.4.28
+		dynasty = "of Conversano"
+		adm = 4
+		dip = 0
+		mil = 1
+	}
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = conqueror_personality
+}
+1444.11.11 = {
+	capital = 2306
+	add_treasury = 31
+	add_prestige = 58
+}

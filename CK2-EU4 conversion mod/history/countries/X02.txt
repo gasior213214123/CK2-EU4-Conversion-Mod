@@ -1,0 +1,26 @@
+# Gorkha
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = chinese
+primary_culture = nepali
+religion = buddhism
+clear_scripted_personalities = yes
+capital = 2070
+1441.1.27 = {
+	monarch = {
+		name = "Messerschmitt"
+		birth_date = 1374.7.2
+		dynasty = "Cherpakovi"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+	add_ruler_personality = just_personality
+}
+1444.11.11 = {
+	capital = 2070
+	add_treasury = 73
+	add_prestige = 413
+}

@@ -1,0 +1,218 @@
+# Jylland
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 224 74 74 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	spy_ideas
+	naval_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	dutch_maurician
+	swedish_gallop
+	swedish_gustavian
+	swedish_caroline
+	swedish_arme_blanche
+	prussian_frederickian
+	prussian_uhlan
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Szymon" "Heilwig" "Beatrix" "Svetlana" "Alzbeta" "Kornel" "Margareta" "Wiltrud" "Irmgard" "Bia" 
+	"Drosuk" "Adelheid" "Berta" "Thetburga" "Liedwin" "Radoslav" "Matylda" "Kajetan" "Kamil" "Kamila" 
+	"Lidia" "Katarina" "Tadeusz" "Gawel" "Jutta" "Blazej" "Krystyna" "Jaromar" "Ewa" "Frederuna" 
+	"Bertha" "Immed" "Bozena" "Gisela" "Ludmila" "Boddic" "Imma" "Haraldr" "Hrörekr" "Þorolfr" 
+	"Þorsteinn" "Buðli" "Markus" "Bodil" "Astolfo" "Eirikr" "Suni" "Guðmundr" "Þorbjörn" "Skuli" 
+	"Þora" "Sturla" "Alfgeir" "Ingrid" "Adalgod" "Liawizo" "Wecta" "Erp" "Alfr" "Bersi" 
+	"Zygmunt" "Wratislaw" "Bohumir" "Havel" "Adriaen" "Albrecht" "Alwin" "Ambroos" "Antoon" "Arnold" 
+	"Arnulf" "Balderik" "Barend" "Barnaerd" "Bavo" "Bertold" "Boudewijn" "Claes" "Claeuwaert" "Daevit" 
+	"Damaes" "Diederick" "Dirk" "Douwe" "Eduard" "Egmund" "Ekbert" "Emmo" "Engelbrecht" "Filips" 
+	"Floris" "Folbert" "Frans" "Frederik" "Gerard" "Gerolt" "Gerulf" "Gerrit" "Gijsbrecht" "Giselbert" 
+	"Godfried" "Godschalk" "Gozewijn" "Guij" "Gwijde" "Hendrik" "Herman" "Hubert" "Hugo" "IJsbrand" 
+	"IJsbrecht" "Jacco" "Jan" "Karel" "Koenraad" "Kristof" "Lambert" "Lodewijk" "Ludewijn" "Lutbert" 
+	"Luthard" "Maertijn" "Marquart" "Niclaes" "Olivier" "Otto" "Otwin" "Onno" "Pieter" "Reinaerd" 
+	"Reinoud" "Reginar" "Robrecht" "Robert" "Rodulf" "Roelof" "Roland" "Rutger" "Sebastiaen" "Sicco" 
+	"Steven" "Steyn" "Theodolf" "Waelram" "Walter" "Wicher" "Willem" "Wolfard" }
+monarch_names = {
+	"Szymon #0" = 1
+	"Heilwig #0" = -1
+	"Beatrix #0" = -1
+	"Svetlana #0" = -1
+	"Alzbeta #0" = -1
+	"Kornel #1" = 21
+	"Margareta #0" = -1
+	"Wiltrud #0" = -1
+	"Irmgard #0" = -1
+	"Bia #0" = -1
+	"Drosuk #0" = 1
+	"Adelheid #0" = -1
+	"Berta #0" = -1
+	"Thetburga #0" = -1
+	"Liedwin #0" = -1
+	"Radoslav #2" = 21
+	"Matylda #0" = -1
+	"Kajetan #0" = 1
+	"Kamil #0" = 1
+	"Kamila #0" = -1
+	"Lidia #0" = -1
+	"Katarina #0" = -1
+	"Tadeusz #0" = 1
+	"Gawel #0" = 1
+	"Jutta #0" = -1
+	"Blazej #0" = 1
+	"Krystyna #0" = -1
+	"Jaromar #0" = 1
+	"Ewa #0" = -1
+	"Frederuna #0" = -1
+	"Bertha #0" = -1
+	"Immed #0" = 1
+	"Bozena #0" = -1
+	"Gisela #0" = -1
+	"Ludmila #0" = -1
+	"Boddic #1" = 18
+	"Imma #0" = -1
+	"Haraldr #1" = 0
+	"Hrörekr #1" = 0
+	"Þorolfr #1" = 0
+	"Þorsteinn #1" = 0
+	"Buðli #1" = 0
+	"Markus #1" = 0
+	"Bodil #1" = -1
+	"Astolfo #1" = 0
+	"Eirikr #1" = 0
+	"Suni #1" = 0
+	"Guðmundr #1" = 0
+	"Þorbjörn #1" = 0
+	"Skuli #1" = 0
+	"Þora #1" = -1
+	"Sturla #1" = 0
+	"Alfgeir #1" = 0
+	"Ingrid #1" = -1
+	"Adalgod #1" = 0
+	"Liawizo #1" = 0
+	"Wecta #1" = 0
+	"Erp #1" = 0
+	"Alfr #1" = 0
+	"Bersi #1" = 0
+	"Zygmunt #1" = 0
+	"Wratislaw #1" = 0
+	"Bohumir #1" = 0
+	"Havel #1" = 0
+	"Adriaen #0" = 0
+	"Albrecht #0" = 0
+	"Alwin #0" = 0
+	"Ambroos #0" = 0
+	"Antoon #0" = 0
+	"Arnold #0" = 0
+	"Arnulf #0" = 0
+	"Balderik #0" = 0
+	"Barend #0" = 0
+	"Barnaerd #0" = 0
+	"Bavo #0" = 0
+	"Bertold #0" = 0
+	"Boudewijn #0" = 0
+	"Claes #0" = 0
+	"Claeuwaert #0" = 0
+	"Daevit #0" = 0
+	"Damaes #0" = 0
+	"Diederick #0" = 0
+	"Dirk #0" = 0
+	"Douwe #0" = 0
+	"Eduard #0" = 0
+	"Egmund #0" = 0
+	"Ekbert #0" = 0
+	"Emmo #0" = 0
+	"Engelbrecht #0" = 0
+	"Filips #0" = 0
+	"Floris #0" = 0
+	"Folbert #0" = 0
+	"Frans #0" = 0
+	"Frederik #0" = 0
+	"Gerard #0" = 0
+	"Gerolt #0" = 0
+	"Gerulf #0" = 0
+	"Gerrit #0" = 0
+	"Gijsbrecht #0" = 0
+	"Giselbert #0" = 0
+	"Godfried #0" = 0
+	"Godschalk #0" = 0
+	"Gozewijn #0" = 0
+	"Guij #0" = 0
+	"Gwijde #0" = 0
+	"Hendrik #0" = 0
+	"Herman #0" = 0
+	"Hubert #0" = 0
+	"Hugo #0" = 0
+	"IJsbrand #0" = 0
+	"IJsbrecht #0" = 0
+	"Jacco #0" = 0
+	"Jan #0" = 0
+	"Karel #0" = 0
+	"Koenraad #0" = 0
+	"Kristof #0" = 0
+	"Lambert #0" = 0
+	"Lodewijk #0" = 0
+	"Ludewijn #0" = 0
+	"Lutbert #0" = 0
+	"Luthard #0" = 0
+	"Maertijn #0" = 0
+	"Marquart #0" = 0
+	"Niclaes #0" = 0
+	"Olivier #0" = 0
+	"Otto #0" = 0
+	"Otwin #0" = 0
+	"Onno #0" = 0
+	"Pieter #0" = 0
+	"Reinaerd #0" = 0
+	"Reinoud #0" = 0
+	"Reginar #0" = 0
+	"Robrecht #0" = 0
+	"Robert #0" = 0
+	"Rodulf #0" = 0
+	"Roelof #0" = 0
+	"Roland #0" = 0
+	"Rutger #0" = 0
+	"Sebastiaen #0" = 0
+	"Sicco #0" = 0
+	"Steven #0" = 0
+	"Steyn #0" = 0
+	"Theodolf #0" = 0
+	"Waelram #0" = 0
+	"Walter #0" = 0
+	"Wicher #0" = 0
+	"Willem #0" = 0
+	"Wolfard #0" = 0
+}
+ship_names = {
+	Achilles "Arche Noa" Arken Beskjermer "Byens Løffue" Caritas "Charlotte Amalie" 
+	Christiania Christiansand Christiansø "Christianus IV" "Christianus V" Churprindsen 
+	Concordia Cæsar Dannebroge David Delmenhorst Ditmarsken Draken "Dronning Louisa" 
+	Ebenetzer Elefanten Enighed "Engelske Fortuna" Enhiørningen Fides Flores 
+	"Flygende Hjorten" Fortuna "Fredericus III" "Fredericus IV" Fyen Gravenstein Griffe 
+	Gyldenløve Hannibal Havfru Havhest Havmand Hector Hercules "Hertug Olufs Pincke" 
+	Hiælperen Hjort Høyenhald Hummer "Hvide Ørn" Højenhald Island Jernvågen Jægermester 
+	Justitia "Kongens Jagt Krone" "Kronet Fisk" Lamprenen Leopard Lindorm Loss Lovisa 
+	"Løvendals Gallej" Makaløs Mars Merkurius Morian Najaden Nelleblad Neptunus 
+	"Norske Løve" Oldenborg Papegoye Patienta Pelican Phønix "Prinds Carl" 
+	"Prinds Christian" "Prinds Christian" "Prinds Wilhelm" Raae Samson Solen 
+	"Sophia Amalia" "Sophia Hedvig" "St. Erik" "St. Georg" "St. Oluf" Stormar Stralsund 
+	Svaerdfisk Svan "Svenske Jomfru" Søridder Tomler "To Løver" "Tre Løver" Trefoldighed 
+	Victoria Vindhunden Wenden Ørnen
+}
+

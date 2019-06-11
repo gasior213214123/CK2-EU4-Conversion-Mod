@@ -1,0 +1,26 @@
+# Denmark
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = hannoverian
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 12
+1443.3.2 = {
+	monarch = {
+		name = "Wlodek"
+		birth_date = 1394.9.26
+		dynasty = "z Obodrytow"
+		adm = 6
+		dip = 0
+		mil = 5
+	}
+	add_ruler_personality = bold_fighter_personality
+}
+1444.11.11 = {
+	capital = 12
+	add_treasury = 31
+	add_prestige = 467
+}

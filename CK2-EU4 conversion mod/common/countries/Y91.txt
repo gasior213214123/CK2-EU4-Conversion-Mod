@@ -1,0 +1,172 @@
+# Baqubahid
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 95 180 35 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+
+
+leader_names = {
+
+	"Ali" "Muzaffar" "Kinah" "Duha" "Khaterah" "Hakam" "Radhi" "Muzaffaraddin" "Nazy" "Adhid" 
+	"Nasraddin" "Jahan" "Is'mail" "Aziz" "Marwa" "Ibtisam" "Taimur" "Madiha" "Noushin" "Abdul-Lateef" 
+	"Mukhtar" "Gulnar" "Muaddam" "Abdul-Wahad" "Lala" "Ismat" "Akab" "Thana" "Wahid" "Rabiya" 
+	"Yahya" "Hussayn" "Aisha" "Nahal" "Gulnaz" "Mina" "Mahdokht" "Mehri" "Nuri" "Huma" 
+	"Neelab" "Rasul" "Zuhayra" "Amir" "Minoo" "Nazaneen" "Nastaran" "Sadiya" "Golbahar" "Hasti" 
+	"Aziza" "Karima" "Khatira" "Mas'ud" "Negar" "Imamaddin" "Mahsa" "Rajiya" "Yazid" "Asad" 
+	"Hafiz" "Burhanaddin" "Muslihiddin" "Hamdan" "Tawfiq" "Sa'ud" "Ala'i" "Hashmaddin" "Isa" "Aksonqor" 
+	"Tugrul" "Sharaf" "Abdul-Azeem" "Abdul-Hamid" "Abdul-Razzaq" "Abdullah" "Adil" "Ashraf" "Bashar" "Boutros" 
+	"Da'ud" "Faisal" "Fayiz" "Ghazi" "Ibrahim" "Jamil" "Kamran" "Khalid" "Khudayar" "Majid" 
+	"Muhammad" "Muhsin" "Murad" "Musa" "Nuraddin" "Salahaddin" "Seyfullah" "Sirhan" "Umaya" "Ya'qub" 
+	"Yasar" "Youkhanna" "Zahir" }
+monarch_names = {
+	"Ali #0" = 1
+	"Muzaffar #0" = 1
+	"Kinah #0" = -1
+	"Duha #0" = -1
+	"Khaterah #0" = -1
+	"Hakam #0" = 1
+	"Radhi #1" = 21
+	"Muzaffaraddin #1" = 18
+	"Nazy #0" = -1
+	"Adhid #0" = 1
+	"Nasraddin #0" = 1
+	"Jahan #1" = 33
+	"Is'mail #0" = 1
+	"Aziz #0" = 1
+	"Marwa #0" = -1
+	"Ibtisam #0" = -1
+	"Taimur #2" = 21
+	"Madiha #0" = -1
+	"Noushin #0" = -1
+	"Abdul-Lateef #0" = 1
+	"Mukhtar #1" = 27
+	"Gulnar #0" = -1
+	"Muaddam #0" = 1
+	"Abdul-Wahad #0" = 1
+	"Lala #0" = -1
+	"Ismat #0" = 1
+	"Akab #0" = 1
+	"Thana #0" = -1
+	"Wahid #0" = 1
+	"Rabiya #0" = -1
+	"Yahya #0" = 1
+	"Hussayn #0" = 1
+	"Aisha #0" = -1
+	"Nahal #0" = -1
+	"Gulnaz #0" = -1
+	"Mina #0" = -1
+	"Mahdokht #0" = -1
+	"Mehri #0" = -1
+	"Nuri #0" = 1
+	"Huma #0" = -1
+	"Neelab #0" = -1
+	"Rasul #0" = 1
+	"Zuhayra #0" = -1
+	"Amir #0" = 1
+	"Minoo #0" = -1
+	"Nazaneen #0" = -1
+	"Nastaran #0" = -1
+	"Sadiya #0" = -1
+	"Golbahar #0" = -1
+	"Hasti #0" = -1
+	"Aziza #0" = -1
+	"Karima #0" = -1
+	"Khatira #0" = -1
+	"Mas'ud #0" = 1
+	"Negar #0" = -1
+	"Imamaddin #2" = 18
+	"Mahsa #0" = -1
+	"Rajiya #0" = -1
+	"Yazid #1" = 0
+	"Asad #2" = 0
+	"Hafiz #1" = 0
+	"Burhanaddin #1" = 0
+	"Muslihiddin #1" = 0
+	"Hamdan #1" = 0
+	"Tawfiq #1" = 0
+	"Sa'ud #1" = 0
+	"Ala'i #2" = 0
+	"Hashmaddin #2" = 0
+	"Isa #2" = 0
+	"Aksonqor #1" = 0
+	"Tugrul #1" = 0
+	"Sharaf #1" = 0
+	"Abdul-Azeem #0" = 0
+	"Abdul-Hamid #0" = 0
+	"Abdul-Razzaq #0" = 0
+	"Abdullah #0" = 0
+	"Adil #0" = 0
+	"Ashraf #0" = 0
+	"Bashar #0" = 0
+	"Boutros #0" = 0
+	"Da'ud #0" = 0
+	"Faisal #0" = 0
+	"Fayiz #0" = 0
+	"Ghazi #0" = 0
+	"Ibrahim #0" = 0
+	"Jamil #0" = 0
+	"Kamran #0" = 0
+	"Khalid #0" = 0
+	"Khudayar #0" = 0
+	"Majid #0" = 0
+	"Muhammad #0" = 0
+	"Muhsin #0" = 0
+	"Murad #0" = 0
+	"Musa #0" = 0
+	"Nuraddin #0" = 0
+	"Salahaddin #0" = 0
+	"Seyfullah #0" = 0
+	"Sirhan #0" = 0
+	"Umaya #0" = 0
+	"Ya'qub #0" = 0
+	"Yasar #0" = 0
+	"Youkhanna #0" = 0
+	"Zahir #0" = 0
+}
+ship_names = {
+	Abathur "Adamn Kasia" "Aesma Daeva" Agas
+	Ahriman Ahura "Ahura Mazda" Ahurani Airyaman
+	"Aka Manah" Aladdin Allatum Amashaspan Ameratat
+	"Amesha Spentas" Anahita "Angra Mainyu" Anjuman
+	"Apam-natat" Apaosa Aredvi Arishtat Armaiti Arsaces
+	"Asha vahista" Asman "Asto Vidatu" "Astvat-Ereta"
+	Atar "Azi Dahaka" Baga Bahram Burijas Bushyasta Buyasta
+	Camros Daena Daevas Ahaka Dahhak Dena Dev Diwe Drug
+	Drvaspa Frashegird Fravashis Gandarewa "Gao-kerena"
+	Gayomard Gayomart "Geus-Tasan" "Geus-Urvan" Haoma
+	Haurvatat Humay Hvar Hvarekhshaeta Indar Indra Izha
+	Jamshid Jeh Karshipta Kavi Khara "Khshathra vairya"
+	Kundrav Mah Mahre Mahrianag Manu Manuchihir Mao 
+	Mashyane Mashye Menog Mithra Nairyosangha Nanghaithya
+	Neriosang Ormazd Peris Peshdadians Rapithwin Rashnu
+	Rustam Saurva Simurgh "Spenta Mainyu" Sraosa Srosh
+	Tawrich Thunaupa Tistrya Tushnamatay Vanant Vata
+	Verethragna "Vohu Manah" Vouruskasha Yam Yasht Yazata
+	Yezidi Yima Zal Zam "Zam-Armatay" Zarathustra Zarich
+	"Zend-Avesta" Zurvan
+}
+

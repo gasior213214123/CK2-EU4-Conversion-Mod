@@ -1,0 +1,28 @@
+# Benevento
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = italian
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 1933
+1429.7.1 = {
+	monarch = {
+		name = "Menia"
+		birth_date = 1411.2.27
+		dynasty = "Rodoaldingi"
+		female = yes
+		adm = 4
+		dip = 1
+		mil = 5
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = midas_touched_personality
+}
+1444.11.11 = {
+	capital = 1933
+	add_treasury = 49
+	add_prestige = 78
+}

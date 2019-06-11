@@ -1,0 +1,27 @@
+# Sakala
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = pommeranian
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 37
+1431.2.9 = {
+	monarch = {
+		name = "Wratislaw"
+		birth_date = 1412.1.2
+		dynasty = "Dzik"
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = conqueror_personality
+}
+1444.11.11 = {
+	capital = 37
+	add_treasury = 77
+	add_prestige = 463
+}
